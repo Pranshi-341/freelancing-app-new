@@ -6,23 +6,34 @@
       flex-direction: column;
       align-items: center;
    }
+   .home-search-icon{
+    height: 3em;
+    width: 3em;
+   }
 </style>
 @section('content')
-         <!-- <div class="row">
-            <div class="col-md-12 head-part">
-               <h3>Get a unique essay!</h3>
-               <p>Hire our professional writer to save time</p>
-               <form action="" method="get" style="display:flex;flex-direction:row; padding:6px;border:1px solid grey;background-color:white;width: 56%;">
-                  <input type="text" style="width: 68%;height:40px;border: none" placeholder="search your staf"/>
-                     <button style="border:1px solid blue;background:blue;color:white;">
-                        <span class="d-none-mobile">Hire Writer</span>
-                     </button>
-               </form>
-               <ul class="intro-v4__tip-list">
-                        <li class="intro-v4__tip">Easy Process</li>
-                        <li class="intro-v4__tip">24/7 on Demand</li>
-                        <li class="intro-v4__tip">Timesaver</li>
-               </ul>
-            </div>
-         </div> -->
+   <div style=" background-size:cover; background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp);">
+      @include('layouts.navbar')
+      <div class="col-md-12 mt-5 head-part text-white">
+         <h3>Welcome to Technical Writers</h3>
+         <p class="w-50 text-center">where our acclaimed client’s assignments and tasks are meticulously done We have a great deal to offer so please take your time to browse our website to discover more about us and what we offer</p>
+         <form class="mt-5 rounded d-flex shadow-md border w-75" action="" method="get">
+            <input class="p-2 border-0 h-40 w-100" type="text" style="" placeholder="Search..."/>
+            <!-- <div class="search-form-v2__buttons-wrap"> -->
+               <button class="w-25 btn btn-warning rounded-right">
+                 Hire Writer
+               </button>
+            <!-- </div> -->
+         </form>
+         <div class="mt-5 row d-flex w-50 justify-content-between">
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}"/> Easy Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}"/>24/7 on Demand</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}"/>Timesaver</div>
+         </div>
+      </div>
+   </div>
+   <div class="bg-light">
+      Gekki
+   </div>
+   
 @endsection
