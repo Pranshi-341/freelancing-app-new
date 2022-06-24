@@ -21,7 +21,5 @@
       </div>
    </div>
    <div class="bg-light">
-      
    </div>
-   
 @endsection
