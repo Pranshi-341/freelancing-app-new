@@ -85,28 +85,30 @@
 @endfor
 </div>
 <div class="row p-3" style="background-color: #fff ;">
-   <div class="col-md-12" style="border-bottom:4px solid #00cf8a">
-      <h2 class="text-center mt-2">
-         Features of Our Technical Writing Services
-      </h2>
+   <div class="col-md-12">
+      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+         <h2 class="text-center mt-3 p-3">
+            Features of Our Technical Writing Services
+         </h2>
+      </div>
    </div>
    <div class="col-md-12">
-      <div class="row">
+      <div class="row p-5">
          <div class="col-md-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
-               <div class="d-flex flex-column">
-                  <h5 class="text-primary">
+               <div class="d-flex flex-column w-75 p-3">
+                  <h5 class="text-primary w-75">
                      <strong>
                         <span class="text-dark">
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                           Originality 
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        To assure the originality of your assignment order, a thorough check-up on originality can be appended to your assignment order.
                      </span>
                   </p>
                </div>
@@ -116,7 +118,7 @@
             <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
          </div>
       </div>
-      <div class="row">
+      <div class="row p-5">
          <div class="col-md-6">
             <div class="d-flex justify-content-end align-items-center">
                <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
@@ -124,40 +126,40 @@
          </div>
          <div class="col-md-6">
             <div class="d-flex justify-content-start align-items-center h-100">
-               <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
-               <div class="d-flex flex-column">
-                  <h5 class="text-primary">
+               <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;2&nbsp;</div>
+               <div class="d-flex flex-column w-75 p-3">
+                  <h5 class="text-primary w-75">
                      <strong>
                         <span class="text-dark">
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                           Support is available 24/7
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        You can call us at any time and ask us to do your task; We are always more than delighted to assist you
                      </span>
                   </p>
                </div>
             </div>
          </div>
       </div>
-      <div class="row">
+      <div class="row p-5">
          <div class="col-md-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
-               <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
-               <div class="d-flex flex-column">
-                  <h5 class="text-primary">
+               <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;3&nbsp;</div>
+               <div class="d-flex flex-column w-75 p-3">
+                  <h5 class="text-primary w-75">
                      <strong>
                         <span class="text-dark">
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                           Anonymity
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        We value our customers' privacy thus we will never share the personal information that you provide to any third parties, including paper authors.
                      </span>
                   </p>
                </div>
@@ -167,7 +169,7 @@
             <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
          </div>
       </div>
-      <div class="row">
+      <div class="row p-5">
          <div class="col-md-6">
             <div class="d-flex justify-content-end align-items-center">
                <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
@@ -175,18 +177,18 @@
          </div>
          <div class="col-md-6">
             <div class="d-flex justify-content-start align-items-center h-100">
-               <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
-               <div class="d-flex flex-column">
-                  <h5 class="text-primary">
+               <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;4&nbsp;</div>
+               <div class="d-flex flex-column w-75 p-3">
+                  <h5 class="text-primary w-75">
                      <strong>
                         <span class="text-dark">
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                           Unlimited Revisions and Editing 
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        After payment, and successful completion of work, you can request reasonable revisions or changes from our team if you require them without additional payment.
                      </span>
                   </p>
                </div>
