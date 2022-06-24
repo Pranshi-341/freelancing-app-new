@@ -15,7 +15,7 @@
     </style>
 </head>
 
-<body class="body bg-dark">
+<body class="body container-fluid bg-dark">
     <!-- TODO remove from here latter -->
     <!-- <div style="background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp);"> -->
         <!-- <div class="row"> -->
