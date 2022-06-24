@@ -42,64 +42,158 @@
          What our customers say
       </h2>
    </div>
-   @for($i = 0; $i < 5; $i++) 
-      <div class="col-md-4" style="display:inline-block;">
-         <div class="card m-1 shadow border-0" style="white-space: normal;">
-            <div class="card-body">
-               <div class="row">
-                  <div class="col-md-4">
-                     <img class="img-fluid" src="{{ asset('icons/profile.png') }}" />
-                  </div>
-                  <div class="col-md-8">
-                     <h5 class="card-title">
-                        <strong>
-                           <span class="text-primary">
-                              <i class="fas fa-quote-left"></i>Review Heading
-                           </span>
-                        </strong>
-                     </h5>
-                     <p class="card-text">
-                        <span class="text-dark">
-                           lorem ipsum dolor sit amet consectetur adipisicing elit.
+   @for($i = 0; $i < 5; $i++) <div class="col-md-4" style="display:inline-block;">
+      <div class="card m-1 shadow border-0" style="white-space: normal;">
+         <div class="card-body">
+            <div class="row">
+               <div class="col-md-4">
+                  <img class="img-fluid" src="{{ asset('icons/profile.png') }}" />
+               </div>
+               <div class="col-md-8">
+                  <h5 class="card-title">
+                     <strong>
+                        <span class="text-primary">
+                           <i class="fas fa-quote-left"></i>Review Heading
                         </span>
-                     </p>
-                     <!-- add stars review -->
-                     <div class="d-flex w-2 justify-content-between">
-                        <div class="d-flex align-items-center">
-                           <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                           <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                           <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                           <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                           <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite-grey.png') }}" />
-                        </div>
-                        <div class="d-flex align-items-center">
-                           <span class="text-dark font-weight-bold">
-                              - John Doe
-                           </span>
-                        </div>
+                     </strong>
+                  </h5>
+                  <p class="card-text">
+                     <span class="text-dark">
+                        lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     </span>
+                  </p>
+                  <!-- add stars review -->
+                  <div class="d-flex w-2 justify-content-between">
+                     <div class="d-flex align-items-center">
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite-grey.png') }}" />
+                     </div>
+                     <div class="d-flex align-items-center">
+                        <span class="text-dark font-weight-bold">
+                           - John Doe
+                        </span>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-   @endfor
 </div>
-<div class="row p-3" style="background-color: #ccc ;">
-      <div class="col-md-12" style="border-bottom:4px solid #00cf8a">
-         <h2 class="text-center mt-2" >
-            Features of Our Technical Writing Services
-         </h2>
-      </div>
-      <div class="col-md-12">
-         <div class="row">
-            <div class="col-md-6">
-                  Hi
+@endfor
+</div>
+<div class="row p-3" style="background-color: #fff ;">
+   <div class="col-md-12" style="border-bottom:4px solid #00cf8a">
+      <h2 class="text-center mt-2">
+         Features of Our Technical Writing Services
+      </h2>
+   </div>
+   <div class="col-md-12">
+      <div class="row">
+         <div class="col-md-6">
+            <div class="d-flex justify-content-end
+                align-items-center h-100">
+               <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
+               <div class="d-flex flex-column">
+                  <h5 class="text-primary">
+                     <strong>
+                        <span class="text-dark">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </span>
+                     </strong>
+                  </h5>
+                  <p class="text-dark">
+                     <span class="text-dark">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     </span>
+                  </p>
+               </div>
             </div>
-            <div class="col-md-6">
-                  Bh
+         </div>
+         <div class="col-md-6">
+            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-6">
+            <div class="d-flex justify-content-end align-items-center">
+               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="d-flex justify-content-start align-items-center h-100">
+               <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
+               <div class="d-flex flex-column">
+                  <h5 class="text-primary">
+                     <strong>
+                        <span class="text-dark">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </span>
+                     </strong>
+                  </h5>
+                  <p class="text-dark">
+                     <span class="text-dark">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     </span>
+                  </p>
+               </div>
             </div>
          </div>
       </div>
+      <div class="row">
+         <div class="col-md-6">
+            <div class="d-flex justify-content-end
+                align-items-center h-100">
+               <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
+               <div class="d-flex flex-column">
+                  <h5 class="text-primary">
+                     <strong>
+                        <span class="text-dark">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </span>
+                     </strong>
+                  </h5>
+                  <p class="text-dark">
+                     <span class="text-dark">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     </span>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-6">
+            <div class="d-flex justify-content-end align-items-center">
+               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="d-flex justify-content-start align-items-center h-100">
+               <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
+               <div class="d-flex flex-column">
+                  <h5 class="text-primary">
+                     <strong>
+                        <span class="text-dark">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </span>
+                     </strong>
+                  </h5>
+                  <p class="text-dark">
+                     <span class="text-dark">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     </span>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </div>
 </div>
 @endsection
