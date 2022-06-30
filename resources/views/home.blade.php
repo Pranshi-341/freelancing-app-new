@@ -262,9 +262,8 @@
 
    </div>
    <div class="col-md-12">
-   <section class="pricing py-5">
-  <div class="container">
-    <div class="row">
+   <section class="pricing">
+    <div class="row py-5 px-2">
       <!-- Free Tier -->
       <div class="col-lg-4">
         <div class="card mb-5 mb-lg-0">
@@ -332,7 +331,6 @@
         </div>
       </div>
     </div>
-  </div>
 </section>
    </div>
 </div>
