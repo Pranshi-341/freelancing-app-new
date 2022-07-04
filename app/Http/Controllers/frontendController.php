@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 
 class frontendController extends Controller
 {
-    //
     function Technical(){
         $title = "Technical Help";
         $topline = "We will complete and explain complicated, technical, or specialized assignments to our customers including robotics, engineering, computer hardware and software, finance, and medical. ";
@@ -109,6 +108,103 @@ class frontendController extends Controller
         $bottomline = "contact with our team to get more information ! ";
         $backgroundImage = 'linear-gradient(225deg,#00cf8a,#0084d6)';
         return view('frontend.contactpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    }
+
+    // createv functions for writing help 
+    function Essay(){
+        $title = "Essay Help";
+        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your essay writing.";
+        $bottomline = "Make your order and get our assistance now! ";
+        $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
+        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    } 
+
+    function ResearchPaper(){
+        $title = "Research Paper Help";
+        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your research paper writing.";
+        $bottomline = "Make your order and get our assistance now! ";
+        $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
+        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    }
+
+    function Thesis() {
+        $title = "Thesis Help";
+        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your thesis writing.";
+        $bottomline = "Make your order and get our assistance now! ";
+        $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
+        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    }
+
+    function Assigment() {
+        $title = "Assignment Help";
+        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your assignment writing.";
+        $bottomline = "Make your order and get our assistance now! ";
+        $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
+        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    }
+
+    // function Dissertation() {
+    //     $title = "Dissertation Help";
+    //     $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your dissertation writing.";
+    //     $bottomline = "Make your order and get our assistance now! ";
+    //     $backgroundImage = 'https://';
+    //     return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    // }
+
+    function BookReport() {
+        $title = "Book Report Help";
+        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your book report writing.";
+        $bottomline = "Make your order and get our assistance now! ";
+        $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
+        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    }
+
+    function Speach(){
+        $title = "Speach Help";
+        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your speach writing.";
+        $bottomline = "Make your order and get our assistance now! ";
+        $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
+        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    }
+
+    function PersonalStatement() {
+        $title = "Personal Statement Help";
+        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your personal statement writing.";
+        $bottomline = "Make your order and get our assistance now! ";
+        $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
+        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    }
+
+    function LabReport() {
+        $title = "Lab Report Help";
+        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your lab report writing.";
+        $bottomline = "Make your order and get our assistance now! ";
+        $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
+        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    }
+
+    function Homework() {
+        $title = "Homework Help";
+        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your homework writing.";
+        $bottomline = "Make your order and get our assistance now! ";
+        $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
+        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    }
+
+    function CaseStudy() {
+        $title = "Case Study Help";
+        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your case study writing.";
+        $bottomline = "Make your order and get our assistance now! ";
+        $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
+        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    }
+
+    function LiteratureReview() {
+        $title = "Literature Review Help";
+        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your literature review writing.";
+        $bottomline = "Make your order and get our assistance now! ";
+        $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
+        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
 }

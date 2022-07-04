@@ -29,6 +29,21 @@ Route::get('/help/presentations',[frontendController::class,'Presentations']);
 Route::get('/help/computer-science',[frontendController::class,'ComputerScience']);
 Route::get('/help/accounting-economics-business',[frontendController::class,'AccountingEconomicsBusiness']);
 
+// add route for writing help
+Route::get('/help/essay',[frontendController::class,'Essay']);
+Route::get('/help/research-paper',[frontendController::class,'ResearchPaper']);
+Route::get('/help/thesis',[frontendController::class,'Thesis']);
+Route::get('/help/assigment',[frontendController::class,'Assigment']);
+Route::get('/help/book-report',[frontendController::class,'BookReport']);
+Route::get('/help/speach',[frontendController::class,'Speach']);
+Route::get('/help/personal-statement',[frontendController::class,'PersonalStatement']);
+Route::get('/help/lab-report',[frontendController::class,'LabReport']);
+Route::get('/help/homework',[frontendController::class,'Homework']);
+Route::get('/help/case-study',[frontendController::class,'CaseStudy']);
+Route::get('/help/literature-review',[frontendController::class,'LiteratureReview']);
+
+
+
 // add route for Team Members
 Route::get('/support-team',[frontendController::class,'SupportTeam']);
 Route::get('/professional-writers',[frontendController::class,'ProfessionalWriters']);

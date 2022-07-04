@@ -44,10 +44,10 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
+            <i class="fas fa-gem me-3"></i>Technical Writers
           </h6>
           <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            Technical Writters is a united states education technology site company based in San Fransisco, California which operates an online learning platform for students and tutors founded in 2009.
           </p>
         </div>
         <!-- Grid column -->
@@ -118,7 +118,7 @@
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
     © 2022 Copyright:
-    <a class="text-reset fw-bold" href="/">Company name</a>
+    <a class="text-reset fw-bold" href="/">Technical Writters</a>
   </div>
   <!-- Copyright -->
 </footer>

@@ -117,13 +117,13 @@
                   <h5 class="card-title">
                      <strong>
                         <span class="text-primary">
-                           <i class="fas fa-quote-left"></i>Review Heading
+                           <i class="fas fa-quote-left"></i>Awesome service
                         </span>
                      </strong>
                   </h5>
                   <p class="card-text">
                      <span class="text-dark">
-                        lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Love the response time. I was able to get my work done in less than a day.
                      </span>
                   </p>
                   <!-- add stars review -->
