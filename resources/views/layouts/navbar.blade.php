@@ -28,6 +28,17 @@
     padding: 1rem!important;
     border-radius: 15px;
   }
+  .head-part {
+      /* background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp); */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .home-search-icon {
+      height: 3em;
+      width: 3em;
+   }
 </style>
 
 <nav class="h5 shadow-lg navbar navbar-expand-lg navbar-dark font-weight-bold" style="background-color: rgba(0,136,210, 0.9);">
@@ -103,7 +114,9 @@
         </li>
       </ul>
       <!-- login button -->
-      <button class="btn btn-warning my-2 my-sm-0" type="submit">Login</button>
+      <!-- <button class="btn btn-warning my-2 my-sm-0" type="submit">Login</button> -->
+      <a class="btn btn-warning my-2 my-sm-0" type="submit" href="{{ route('login') }}" >Login</a>
+      <a class="btn btn-warning my-2 my-sm-0" type="submit" href="{{ route('register-user') }}" >Register</a>
     </div>
   </div>
 </nav>
