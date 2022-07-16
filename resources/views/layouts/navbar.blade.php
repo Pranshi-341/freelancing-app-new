@@ -115,8 +115,13 @@
       </ul>
       <!-- login button -->
       <!-- <button class="btn btn-warning my-2 my-sm-0" type="submit">Login</button> -->
+      @guest
       <a class="btn btn-warning my-2 my-sm-0" type="submit" href="{{ route('login') }}" >Login</a>
       <a class="btn btn-warning my-2 my-sm-0" type="submit" href="{{ route('register-user') }}" >Register</a>
+      @else
+      <a class="btn btn-warning my-2 my-sm-0" type="submit" href="/order-now" >Order Now</a>
+      <a class="btn btn-warning my-2 my-sm-0" type="submit" href="{{ route('signout') }}" >Signout</a>
+      @endguest
     </div>
   </div>
 </nav>

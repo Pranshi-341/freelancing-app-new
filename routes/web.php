@@ -21,6 +21,33 @@ Route::get('/', function () {
     return View('home');
 });
 
+Route::get('/admin-panel', function () {
+    return View('admin.layouts.home');
+});
+
+Route::get('/admin-panel/invoice', function () {
+    return View('admin.layouts.invoice');
+});
+
+Route::get('/admin-panel/team', function () {
+    return View('admin.layouts.team');
+});
+
+Route::get('/admin-panel/applications', function () {
+    return View('admin.layouts.applications');
+});
+
+Route::get('/admin-panel/jobs', function () {
+    return View('admin.layouts.jobs');
+});
+
+Route::get('/admin-panel/chat', function () {
+    return View('admin.layouts.chat');
+});
+
+
+
+
 //  add route for Services
 Route::get('/help/technical',[frontendController::class,'Technical']);
 Route::get('/help/mathematics',[frontendController::class,'Mathematics']);
@@ -46,6 +73,7 @@ Route::get('/help/literature-review',[frontendController::class,'LiteratureRevie
 
 
 
+
 // add route for Team Members
 Route::get('/support-team',[frontendController::class,'SupportTeam']);
 Route::get('/professional-writers',[frontendController::class,'ProfessionalWriters']);
@@ -54,6 +82,8 @@ Route::get('/licensed-researchers',[frontendController::class,'LicensedResearche
 
 // add route
 Route::get('/contactUs',[frontendController::class,'ContactUs']);
+ //add route order-now
+Route::get('/order-now',[frontendController::class,'OrderNow']);
 
 
 
