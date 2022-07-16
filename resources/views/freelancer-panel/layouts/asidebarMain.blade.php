@@ -27,31 +27,31 @@
             <!-- sidebar menu-->
             <ul class="sidebar-menu" data-widget="tree">
                 <li>
-                    <a href="/admin-panel">
+                    <a href="/freelancer-panel">
                         <i class="icon-Layout-4-blocks"><span class="path1"></span><span class="path2"></span></i>
                         <span>Dashboard</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/admin-panel/applications">
+                    <a href="/freelancer-panel/applications">
                         <i class="icon-File"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
                         <span>Applications</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/admin-panel/orders">
+                    <a href="/freelancer-panel/orders">
                         <i class="icon-Add-user"><span class="path1"></span><span class="path2"></span></i>
                         <span>Orders</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/admin-panel/chat">
+                    <a href="/freelancer-panel/chat">
                         <i class="icon-User"><span class="path1"></span><span class="path2"></span></i>
                         <span>Chat</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/admin-panel/commission">
+                    <a href="/freelancer-panel/commission">
                         <i class="icon-User"><span class="path1"></span><span class="path2"></span></i>
                         <span>Commission</span>
                     </a>

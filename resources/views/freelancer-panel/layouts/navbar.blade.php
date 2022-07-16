@@ -6,7 +6,7 @@
                 <i data-feather="menu"></i>
             </a>
             <!-- Logo -->
-            <a href="index.html" class="logo">
+            <a href="/" class="logo">
                 <!-- logo-->
                 <div class="logo-lg">
                     <span>Technical Writers</span>

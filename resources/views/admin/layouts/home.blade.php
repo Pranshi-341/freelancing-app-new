@@ -10,7 +10,7 @@
             <!-- Main content -->
             <section class="content">
                 <div class="row">
-                    <div class="col-xl-9 col-12">
+                    <div class="col-xl-12 col-12">
                         <div class="row">
                             <div class="col-lg-4 col-12">
                                 <div class="box">
@@ -162,7 +162,7 @@
                                     <div class="box-body">
                                         <div class="d-flex align-items-center mb-30">
                                             <div class="mr-15">
-                                                <img src="../images/avatar/avatar-1.png" class="avatar avatar-lg rounded100 bg-primary-light" alt="" />
+                                                <img src="{{asset('/admin/images/avatar/avatar-1.png')}}" class="avatar avatar-lg rounded100 bg-primary-light" alt="" />
                                             </div>
                                             <div class="d-flex flex-column flex-grow-1 font-weight-500">
                                                 <a href="#" class="text-dark hover-primary mb-1 font-size-16">Sophia Doe</a>
@@ -187,7 +187,7 @@
                                         </div>
                                         <div class="d-flex align-items-center mb-30">
                                             <div class="mr-15">
-                                                <img src="../images/avatar/avatar-10.png" class="avatar avatar-lg rounded100 bg-primary-light" alt="" />
+                                                <img src="{{asset('/admin/images/avatar/avatar-10.png')}}" class="avatar avatar-lg rounded100 bg-primary-light" alt="" />
                                             </div>
                                             <div class="d-flex flex-column flex-grow-1 font-weight-500">
                                                 <a href="#" class="text-dark hover-danger mb-1 font-size-16">Mason Clark</a>
@@ -212,7 +212,7 @@
                                         </div>
                                         <div class="d-flex align-items-center mb-30">
                                             <div class="mr-15">
-                                                <img src="../images/avatar/avatar-11.png" class="avatar avatar-lg rounded100 bg-primary-light" alt="" />
+                                                <img src="{{asset('/admin/images/avatar/avatar-11.png')}}" class="avatar avatar-lg rounded100 bg-primary-light" alt="" />
                                             </div>
                                             <div class="d-flex flex-column flex-grow-1 font-weight-500">
                                                 <a href="#" class="text-dark hover-success mb-1 font-size-16">Emily Paton</a>
@@ -237,7 +237,7 @@
                                         </div>
                                         <div class="d-flex align-items-center">
                                             <div class="mr-15">
-                                                <img src="../images/avatar/avatar-12.png" class="avatar avatar-lg rounded100 bg-primary-light" alt="" />
+                                                <img src="{{asset('/admin/images/avatar/avatar-12.png')}}" class="avatar avatar-lg rounded100 bg-primary-light" alt="" />
                                             </div>
                                             <div class="d-flex flex-column flex-grow-1 font-weight-500">
                                                 <a href="#" class="text-dark hover-info mb-1 font-size-16">Daniel Breth</a>
@@ -257,107 +257,6 @@
                                                         <span>Draft</span>
                                                         <span class="badge badge-pill badge-default">1</span>
                                                     </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-12">
-                        <div class="box">
-                            <div class="box-body">
-                                <div class="box no-shadow">
-                                    <div class="box-body px-0 pt-0">
-                                        <div id="calendar" class="dask evt-cal min-h-350"></div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h4 class="box-title mb-30">Scheduled Meeting</h4>
-                                    <div>
-                                        <div class="d-flex align-items-center mb-30 justify-content-between">
-                                            <div class="mr-15 text-center rounded15 box-shadowed h-50 w-50 d-table">
-                                                <p class="mt-5 mb-0 text-warning">Thu</p>
-                                                <p class="mb-0">8</p>
-                                            </div>
-                                            <div class="d-flex flex-column flex-grow-1 font-weight-500 min-w-p60">
-                                                <a href="#" class="text-dark hover-primary mb-1 font-size-16 overflow-hidden text-nowrap text-overflow">Interview</a>
-                                                <span class="font-size-10 text-fade"><i class="fa fa-clock-o"></i> 9:00am - 11:30am </span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <a class="px-10 pt-5" href="#" data-toggle="dropdown"><i class="ti-more-alt"></i></a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Delete</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex align-items-center mb-30 justify-content-between">
-                                            <div class="mr-15 text-center rounded15 box-shadowed h-50 w-50 d-table">
-                                                <p class="mt-5 mb-0 text-warning">Fri</p>
-                                                <p class="mb-0">10</p>
-                                            </div>
-                                            <div class="d-flex flex-column flex-grow-1 font-weight-500 min-w-p60">
-                                                <a href="#" class="text-dark hover-primary mb-1 font-size-16 overflow-hidden text-nowrap text-overflow">Organizational meeting</a>
-                                                <span class="font-size-10 text-fade"><i class="fa fa-clock-o"></i> 10:00am - 10:30am </span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <a class="px-10 pt-5" href="#" data-toggle="dropdown"><i class="ti-more-alt"></i></a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Delete</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex align-items-center mb-30 justify-content-between">
-                                            <div class="mr-15 text-center rounded15 box-shadowed h-50 w-50 d-table">
-                                                <p class="mt-5 mb-0 text-warning">Mon</p>
-                                                <p class="mb-0">17</p>
-                                            </div>
-                                            <div class="d-flex flex-column flex-grow-1 font-weight-500 min-w-p60">
-                                                <a href="#" class="text-dark hover-primary mb-1 font-size-16 overflow-hidden text-nowrap text-overflow">Meeting with the manager</a>
-                                                <span class="font-size-10 text-fade"><i class="fa fa-clock-o"></i> 9:00am - 11:30am </span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <a class="px-10 pt-5" href="#" data-toggle="dropdown"><i class="ti-more-alt"></i></a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Delete</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex align-items-center mb-30 justify-content-between">
-                                            <div class="mr-15 text-center rounded15 box-shadowed h-50 w-50 d-table">
-                                                <p class="mt-5 mb-0 text-warning">Set</p>
-                                                <p class="mb-0">18</p>
-                                            </div>
-                                            <div class="d-flex flex-column flex-grow-1 font-weight-500 min-w-p60">
-                                                <a href="#" class="text-dark hover-primary mb-1 font-size-16 overflow-hidden text-nowrap text-overflow">Interview</a>
-                                                <span class="font-size-10 text-fade"><i class="fa fa-clock-o"></i> 9:00am - 11:30am </span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <a class="px-10 pt-5" href="#" data-toggle="dropdown"><i class="ti-more-alt"></i></a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Delete</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex align-items-center mb-20 justify-content-between">
-                                            <div class="mr-15 text-center rounded15 box-shadowed h-50 w-50 d-table">
-                                                <p class="mt-5 mb-0 text-warning">Fri</p>
-                                                <p class="mb-0">22</p>
-                                            </div>
-                                            <div class="d-flex flex-column flex-grow-1 font-weight-500 min-w-p60">
-                                                <a href="#" class="text-dark hover-primary mb-1 font-size-16 overflow-hidden text-nowrap text-overflow">Organizational meeting</a>
-                                                <span class="font-size-10 text-fade"><i class="fa fa-clock-o"></i> 10:00am - 10:30am </span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <a class="px-10 pt-5" href="#" data-toggle="dropdown"><i class="ti-more-alt"></i></a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Delete</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -408,7 +307,7 @@
                         <div class="box box-inverse box-info">
                             <div class="box-body">
                                 <a class="avatar float-left mr-20" href="javascript:void(0)">
-                                    <img src="../images/avatar/5.jpg" alt="">
+                                    <img src="{{asset('/admin/images/avatar/5.jpg')}}" alt="">
                                 </a>
                                 <div>
                                     <small class="float-right">Today, 16:05</small>

@@ -25,24 +25,42 @@ Route::get('/admin-panel', function () {
     return View('admin.layouts.home');
 });
 
-Route::get('/admin-panel/invoice', function () {
+Route::get('/admin-panel/commission', function () {
     return View('admin.layouts.invoice');
-});
-
-Route::get('/admin-panel/team', function () {
-    return View('admin.layouts.team');
 });
 
 Route::get('/admin-panel/applications', function () {
     return View('admin.layouts.applications');
 });
 
-Route::get('/admin-panel/jobs', function () {
+Route::get('/admin-panel/orders', function () {
     return View('admin.layouts.jobs');
 });
 
 Route::get('/admin-panel/chat', function () {
     return View('admin.layouts.chat');
+});
+
+
+// add route for freelancer-panel
+Route::get('/freelancer-panel', function () {
+    return View('freelancer-panel.layouts.home');
+});
+
+Route::get('/freelancer-panel/commission', function () {
+    return View('freelancer-panel.layouts.invoice');
+});
+
+Route::get('/freelancer-panel/applications', function () {
+    return View('freelancer-panel.layouts.applications');
+});
+
+Route::get('/freelancer-panel/orders', function () {
+    return View('freelancer-panel.layouts.jobs');
+});
+
+Route::get('/freelancer-panel/chat', function () {
+    return View('freelancer-panel.layouts.chat');
 });
 
 
