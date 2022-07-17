@@ -1,8 +1,8 @@
-@extends('admin/layouts/app')
+@extends('freelancer-panel/layouts/app')
 @section('content')
 
 
-   @include('admin/layouts/asidebarMain')
+   @include('freelancer-panel/layouts/asidebarMain')
    <div class="content-wrapper">
 	  <div class="container-full">
 		<!-- Main content -->
@@ -12,7 +12,7 @@
 					<div class="box">
 						<div class="box-body">
 							<div class="table-responsive">
-							  <table id="example" class="table mb-0 w-p100">
+							  <table id="example1" class="table mb-0 w-p100">
 								<thead>
 									<tr>
 										<th>Srno</th>

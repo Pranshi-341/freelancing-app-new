@@ -63,6 +63,9 @@ Route::get('/freelancer-panel/chat', function () {
     return View('freelancer-panel.layouts.chat');
 });
 
+Route::get('/freelancer/jobs-details', function () {
+    return View('freelancer-panel.layouts.job-detail');
+});
 
 
 

@@ -1,4 +1,4 @@
-@extends('admin/layouts/app')
+@extends('freelancer-panel/layouts/app')
 @section('content')
 
 

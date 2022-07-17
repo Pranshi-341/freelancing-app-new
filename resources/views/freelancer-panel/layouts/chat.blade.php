@@ -1,8 +1,8 @@
-@extends('admin/layouts/app')
+@extends('freelancer-panel/layouts/app')
 @section('content')
 
 
-   @include('admin/layouts/asidebarMain')
+   @include('freelancer-panel/layouts/asidebarMain')
    <div class="content-wrapper">
 	  <div class="container-full">
 		<!-- Main content -->
