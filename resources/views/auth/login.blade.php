@@ -22,7 +22,7 @@
       </div>
    </div>
 </div>
-<main class="login-form">
+<main class="login-form p-5">
     <div class="cotainer">
         <div class="row justify-content-center">
             <div class="col-md-4">

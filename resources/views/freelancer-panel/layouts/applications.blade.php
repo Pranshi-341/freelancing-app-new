@@ -16,10 +16,9 @@
 								<thead>
 									<tr>
 										<th>Srno</th>
-										<th>Name</th>
-										<th>Applied Date</th>
-										<th>Type</th>
-										<th>Expertice</th>
+										<th>Client Name</th>
+										<th>Due Date</th>
+										<th>Topic</th>
 										<th>Status</th>
 									</tr>
 								</thead>
@@ -28,31 +27,27 @@
 										<td>001457</td>
 										<td>Johen Doe</td>
 										<td>14 Nov 2020</td>
-										<td>Full Time</td>
 										<td>Project Manager</td>
-										<td><span class="badge badge-secondary-light">Pending</span></td>
+										<td><span class="badge badge-secondary-light">Completed</span></td>
 									</tr>
                                     <tr>
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
-                                        <td><span class="badge badge-success-light">Schedule</span></td>
+                                        <td><span class="badge badge-success-light">In-progress</span></td>
                                     </tr>
                                     <tr>
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
+                                        <td><span class="badge badge-secondary-light">Completed</span></td>
                                     </tr>
                                     <tr>
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
                                         <td><span class="badge badge-warning-light">On Hold</span></td>
                                     </tr>
@@ -60,31 +55,27 @@
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
-                                        <td><span class="badge badge-success-light">Schedule</span></td>
+                                        <td><span class="badge badge-success-light">In-progress</span></td>
                                     </tr>
                                     <tr>
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
+                                        <td><span class="badge badge-secondary-light">Completed</span></td>
                                     </tr>
                                     <tr>
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
+                                        <td><span class="badge badge-secondary-light">Completed</span></td>
                                     </tr>
                                     <tr>
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
                                         <td><span class="badge badge-warning-light">On Hold</span></td>
                                     </tr>
@@ -92,7 +83,6 @@
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
                                         <td><span class="badge badge-warning-light">On Hold</span></td>
                                     </tr>
@@ -100,15 +90,13 @@
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
+                                        <td><span class="badge badge-secondary-light">Completed</span></td>
                                     </tr>
                                     <tr>
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
                                         <td><span class="badge badge-warning-light">On Hold</span></td>
                                     </tr>
@@ -116,33 +104,29 @@
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
-                                        <td><span class="badge badge-success-light">Schedule</span></td>
+                                        <td><span class="badge badge-success-light">In-progress</span></td>
                                     </tr>
                                     <tr>
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
+                                        <td><span class="badge badge-secondary-light">Completed</span></td>
                                     </tr>
                                     <tr>
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
+                                        <td><span class="badge badge-secondary-light">Completed</span></td>
                                     </tr>
                                     <tr>
                                         <td>001457</td>
                                         <td>Johen Doe</td>
                                         <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
                                         <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
+                                        <td><span class="badge badge-secondary-light">Completed</span></td>
                                     </tr>
 								</tbody>			  
 								

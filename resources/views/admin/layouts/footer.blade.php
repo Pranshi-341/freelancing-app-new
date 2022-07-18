@@ -5,12 +5,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="javascript:void(0)">FAQ</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Purchase Now</a>
-                </li>
             </ul>
         </div>
-        &copy; 2020 <a href="https://www.multipurposethemes.com/">Multipurpose Themes</a>. All Rights Reserved.
+        &copy; 2022 <a href="https://www.multipurposethemes.com/">Technical Writers</a>. All Rights Reserved.
     </footer>
 <!-- ./side demo panel -->
 <!-- <div class="sticky-toolbar">

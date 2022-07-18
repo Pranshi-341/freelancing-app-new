@@ -8,9 +8,6 @@
         <!-- Content Header (Page header) -->
         <div class="content-header">
             <div class="d-md-flex align-items-center justify-content-between">
-                <div>
-                    <a href="jobs-details.html" class="waves-effect waves-light btn active btn-outline btn-primary">Job</a>
-                </div>
                 <a href="#" class="waves-effect waves-light btn btn-danger mt-10 mt-md-0">Place a bid</a>
             </div>
         </div>
@@ -20,13 +17,13 @@
                 <div class="col-lg-8 col-12">
                     <div class="box">
                         <div class="box-body">
-                            <a href="#" class="mb-15 d-block"><i class="fa fa-angle-left"></i> Back to all jobs</a>
+                            <a href="/freelancer-panel" class="mb-15 d-block"><i class="fa fa-angle-left"></i> Back to all jobs</a>
                             <div class="d-md-flex justify-content-between align-items-center">
                                 <div>
                                     <h4 class="mb-0">Math Teacher</h4>
                                     <p class="text-fade">Teachnical writer</p>
                                 </div>
-                                <a href="#" class="waves-effect waves-light btn btn-outline btn-success mt-10 mt-md-0">Sponsor this job</a>
+                                <a class="waves-effect waves-light btn btn-outline btn-success mt-10 mt-md-0">Sponsor this job</a>
                             </div>
                             <hr>
                             <div class="row">

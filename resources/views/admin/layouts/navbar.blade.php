@@ -6,7 +6,7 @@
                 <i data-feather="menu"></i>
             </a>
             <!-- Logo -->
-            <a href="index.html" class="logo">
+            <a href="/" class="logo">
                 <!-- logo-->
                 <div class="logo-lg">
                     <span>Technical Writers</span>
@@ -36,12 +36,6 @@
                     <li class="btn-group nav-item d-lg-inline-flex d-none">
                         <a href="#" data-provide="fullscreen" class="waves-effect waves-light nav-link full-screen" title="Full Screen">
                             <i data-feather="maximize"></i>
-                        </a>
-                    </li>
-                    <!-- Control Sidebar Toggle Button -->
-                    <li class="btn-group nav-item d-inline-flex">
-                        <a href="#" data-toggle="control-sidebar" class="waves-effect waves-light nav-link full-screen" title="Setting">
-                            <i data-feather="settings"></i>
                         </a>
                     </li>
                     <!-- Notifications -->
@@ -104,9 +98,9 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="footer">
+                            <!-- <li class="footer">
                                 <a href="#">View all</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </li>
                     <!-- User Account-->
@@ -117,8 +111,6 @@
                         <ul class="dropdown-menu animated flipInX">
                             <li class="user-body">
                                 <a class="dropdown-item" href="#"><i class="ti-user text-muted mr-2"></i> Profile</a>
-                                <a class="dropdown-item" href="#"><i class="ti-wallet text-muted mr-2"></i> My Wallet</a>
-                                <a class="dropdown-item" href="#"><i class="ti-settings text-muted mr-2"></i> Settings</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#"><i class="ti-lock text-muted mr-2"></i> Logout</a>
                             </li>

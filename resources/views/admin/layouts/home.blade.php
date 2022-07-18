@@ -60,12 +60,12 @@
                             <div class="col-xxxl-8 col-xl-7 col-12">
                                 <div class="box">
                                     <div class="box-header">
-                                        <h4 class="box-title">Active Jobs</h4>
-                                        <ul class="box-controls pull-right d-md-flex d-none">
+                                        <h4 class="box-title">Active Freelancers</h4>
+                                        <!-- <ul class="box-controls pull-right d-md-flex d-none">
                                             <li class="dropdown">
                                                 <button class="btn btn-primary px-10 " data-toggle="dropdown" href="#">View List</button>
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </div>
                                     <div class="box-body">
                                         <div id="active_jobs"></div>
@@ -261,59 +261,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-12">
-                        <div class="box box-inverse bg-twitter">
-                            <div class="box-body">
-                                <h3 class="text-white mt-0">Vivamus condimentum erat non turpis placerat.</h3>
-                                <small>14 April, 2020 via web</small>
-                                <div class="mt-20">
-                                    <i class="fa fa-twitter font-size-26"></i>
-                                    <ul class="list-inline float-right mb-0">
-                                        <li class="list-inline-item">
-                                            <i class="fa fa-heart"></i> 845
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <i class="fa fa-thumbs-up"></i> 956
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-12">
-                        <div class="box box-inverse bg-facebook">
-                            <div class="box-body">
-                                <h3 class="text-white mt-0">Vivamus condimentum erat non turpis placerat.</h3>
-                                <small>14 April, 2020 via web</small>
-                                <div class="mt-20">
-                                    <i class="fa fa-facebook font-size-26"></i>
-                                    <ul class="list-inline float-right mb-0">
-                                        <li class="list-inline-item">
-                                            <i class="fa fa-thumbs-o-up"></i> 845
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <i class="fa fa-star"></i> 956
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-12">
-                        <div class="box box-inverse box-info">
-                            <div class="box-body">
-                                <a class="avatar float-left mr-20" href="javascript:void(0)">
-                                    <img src="{{asset('/admin/images/avatar/5.jpg')}}" alt="">
-                                </a>
-                                <div>
-                                    <small class="float-right">Today, 16:05</small>
-                                    <div class="font-size-18">Johen Doe</div>
-                                    <div class="font-size-14 mb-10">Designer</div>
-                                    <blockquote class="blockquote my-10 font-size-16 text-white mr-0">Vivamus condimentum erat non turpis placerat, at volutpat metus.</blockquote>
                                 </div>
                             </div>
                         </div>
