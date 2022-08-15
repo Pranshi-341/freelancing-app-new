@@ -52,6 +52,23 @@
                                 <span class="text-danger">{{ $errors->first('password') }}</span>
                                 @endif
                             </div>
+                            {{-- radio button for check register typr --}}
+                            <div class="form-group mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="registerType" id="exampleRadios1"
+                                        value="1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        User
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="registerType" id="exampleRadios2"
+                                        value="2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Writer
+                                    </label>
+                                </div>
+                            </div>
                             <div class="form-group mb-3">
                                 <div class="checkbox">
                                     <label><input type="checkbox" name="remember"> Remember Me</label>

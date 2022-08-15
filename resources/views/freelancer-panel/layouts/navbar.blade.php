@@ -106,7 +106,7 @@
                             <li class="user-body">
                                 <a class="dropdown-item" href="#"><i class="ti-user text-muted mr-2"></i> Profile</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#"><i class="ti-lock text-muted mr-2"></i> Logout</a>
+                                <a class="dropdown-item btn" type="" href="{{ route('signout') }}" ><i class="ti-lock text-muted mr-2"></i> Logout</a>
                             </li>
                         </ul>
                     </li>

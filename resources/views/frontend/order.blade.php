@@ -87,70 +87,98 @@
                 <div>
                     <!-- create form of writing with field of subject,topic,pages,deadline,Detailed Instructions and attach file -->
                     <div id="Writing" class="tabcontent">
-                        <form action="" method="POST" enctype="multipart/form-data">
+                        <form action="/publish/writterpost" method="POST" enctype="multipart/form-data">
                             @csrf
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="col-md-6">
+                            <div class="col-md-12 row">
+                                <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" class="form-control" id="writterSubject" name="writterSubject" placeholder="Subject">
+                                </div>
+                                </div>
+                                <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="topic">Topic</label>
+                                    <input type="text" class="form-control" id="writterTopic" name="writterTopic" placeholder="Topic">
+                                </div>
+                                </div>
+                                <div class="col-md-6 mt-3">
                                     <div class="form-group">
-                                        <label for="subject">Subject1</label>
-                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                                        <label for="pages">Pages</label>
+                                        <input type="text" class="form-control" id="writterPages" name="writterPages" placeholder="Pages">
                                     </div>
-                                    </div>
-                                    <div class="col-md-6">
+                                </div>
+                                <div class="col-md-6 mt-3">
                                     <div class="form-group">
-                                        <label for="topic">Topic</label>
-                                        <input type="text" class="form-control" id="topic" name="topic" placeholder="Topic">
+                                        <label for="deadline">Deadline</label>
+                                        <input type="date" class="form-control" id="writterDeadline" name="writterDeadline" placeholder="Deadline">
                                     </div>
+                                </div>
+                                <div class="col-md-6 mt-3">
+                                    <div class="form-group">
+                                        <label for="Budget">Budget</label>
+                                        <input type="text" class="form-control" id="writterBudget" name="writterBudget" placeholder="Budget">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mt-3">
+                                    <div class="form-group">
+                                        <label for="file">File</label>
+                                        <input type="file" class="form-control" id="writterFile" name="writterFile">
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label for="pages">Pages</label>
-                                <input type="text" class="form-control" id="pages" name="pages" placeholder="Pages">
-                            </div>
-                            <div class="form-group">
-                                <label for="deadline">Deadline</label>
-                                <input type="date" class="form-control" id="deadline" name="deadline" placeholder="Deadline">
-                            </div>
-                            <div class="form-group">
+                            <div class="form-group my-3">
                                 <label for="instructions">Instructions</label>
-                                <textarea class="form-control" id="instructions" name="instructions" rows="3"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="file">File</label>
-                                <input type="file" class="form-control" id="file" name="file">
+                                <textarea class="form-control" id="writterInstructions" name="writterInstructions" rows="3"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                     <!-- create form of editing with field of subject,topic,pages,deadline,Detailed Instructions and attach file -->
                     <div id="Editing" style="display: none;" class="tabcontent">
-                        <form action="" method="POST" enctype="multipart/form-data">
+                        <form action="/publish/editpost" method="POST" enctype="multipart/form-data">
                             @csrf
-                            <div class="form-group">
-                                <label for="subject">Subject</label>
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                            <div class="col-md-12 row">
+                                <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" class="form-control" id="editSubject" name="editSubject" placeholder="Subject">
+                                </div>
+                                </div>
+                                <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="topic">Topic</label>
+                                    <input type="text" class="form-control" id="editTopic" name="editTopic" placeholder="Topic">
+                                </div>
+                                </div>
+                                {{-- <div class="col-md-6 mt-3">
+                                    <div class="form-group">
+                                        <label for="pages">Pages</label>
+                                        <input type="text" class="form-control" id="editPages" name="editPages" placeholder="Pages">
+                                    </div>
+                                </div> --}}
+                                <div class="col-md-6 mt-3">
+                                    <div class="form-group">
+                                        <label for="deadline">Deadline</label>
+                                        <input type="date" class="form-control" id="editDeadline" name="editDeadline" placeholder="Deadline">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mt-3">
+                                    <div class="form-group">
+                                        <label for="Budget">Budget</label>
+                                        <input type="text" class="form-control" id="editBudget" name="editBudget" placeholder="Budget">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mt-3">
+                                    <div class="form-group">
+                                        <label for="file">File</label>
+                                        <input type="file" class="form-control" id="editFile" name="editFile">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="topic">Topic</label>
-                                <input type="text" class="form-control" id="topic" name="topic" placeholder="Topic">
-                            </div>
-                            <div class="form-group">
-                                <label for="pages">Pages</label>
-                                <input type="text" class="form-control" id="pages" name="pages" placeholder="Pages">
-                            </div>
-                            <div class="form-group">
-                                <label for="deadline">Deadline</label>
-                                <input type="date" class="form-control" id="deadline" name="deadline" placeholder="Deadline">
-                            </div>
-                            <div class="form-group">
+                            <div class="form-group my-3">
                                 <label for="instructions">Instructions</label>
-                                <textarea class="form-control" id="instructions" name="instructions" rows="3"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="file">File</label>
-                                <input type="file" class="form-control" id="file" name="file">
+                                <textarea class="form-control" id="editInstructions" name="editInstructions" rows="3"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
@@ -158,6 +186,8 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
         <script>
             function changeTab(evt, cityName) {
                 var i, tabcontent, tablinks;

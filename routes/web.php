@@ -5,6 +5,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\frontendController;
 // add controller CustomAuthController
 use App\Http\Controllers\CustomAuthController;
+// add controller ClientController
+use App\Http\Controllers\ClientController;
+// add controller AdminController
+// use App\Http\Controllers\AdminController;
+use App\Http\Controllers\FreeLancerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,9 +48,11 @@ Route::get('/admin-panel/chat', function () {
 
 
 // add route for freelancer-panel
-Route::get('/freelancer-panel', function () {
-    return View('freelancer-panel.layouts.home');
-});
+// Route::get('/freelancer-panel', function () {
+//     return View('freelancer-panel.layouts.home');
+// });
+
+Route::get('/freelancer-panel',[FreeLancerController::class,'index']);
 
 Route::get('/freelancer-panel/commission', function () {
     return View('freelancer-panel.layouts.invoice');
@@ -63,11 +70,11 @@ Route::get('/freelancer-panel/chat', function () {
     return View('freelancer-panel.layouts.chat');
 });
 
-Route::get('/freelancer/jobs-details', function () {
-    return View('freelancer-panel.layouts.job-detail');
-});
+// Route::get('/freelancer/jobs-details', function () {
+//     return View('freelancer-panel.layouts.job-detail');
+// });
 
-
+Route::get('/freelancer/jobs-details/{id}',[FreeLancerController::class,'jobdetail']);
 
 //  add route for Services
 Route::get('/help/technical',[frontendController::class,'Technical']);
@@ -106,9 +113,11 @@ Route::get('/contactUs',[frontendController::class,'ContactUs']);
  //add route order-now
 Route::get('/order-now',[frontendController::class,'OrderNow']);
 
+// add route for publish post
+Route::post('/publish/writterpost',[ClientController::class,'PublishWritterPost']);
+Route::post('/publish/editpost',[ClientController::class,'PublishEditPost']);
 
-
-
+Route::get('/posts',[ClientController::class,'Posts']);
 
 Route::get('dashboard', [CustomAuthController::class, 'dashboard']); 
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');

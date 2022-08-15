@@ -20,26 +20,30 @@
                             <a href="/freelancer-panel" class="mb-15 d-block"><i class="fa fa-angle-left"></i> Back to all jobs</a>
                             <div class="d-md-flex justify-content-between align-items-center">
                                 <div>
-                                    <h4 class="mb-0">Math Teacher</h4>
-                                    <p class="text-fade">Teachnical writer</p>
+                                    <h4 class="mb-0">{{ $post->subject }}</h4>
+                                    <p class="text-fade">{{ $post->topic }}</p>
                                 </div>
                                 <a class="waves-effect waves-light btn btn-outline btn-success mt-10 mt-md-0">Sponsor this job</a>
                             </div>
                             <hr>
                             <div class="row">
                                 <div class="col-12">
-                                    <h4>Candidates</h4>
+                                    <h4>Bids information</h4>
                                 </div>
                                 <div class="col-md-6 col-12">
                                     <div class="text-center b-1 p-30">
                                         <h6 class="mt-0">Placed Bids</h6>
-                                        <h1 class="mb-0">41</h1>
+                                        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+    Launch demo modal
+  </button>
+                                        <h1 class="mb-0">-</h1>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-12">
                                     <div class="text-center b-1 p-30">
                                         <h6 class="mt-0">Total Bids</h6>
-                                        <h1 class="mb-0">51</h1>
+                                        <h1 class="mb-0">-</h1>
                                     </div>
                                 </div>
                             </div>
@@ -47,13 +51,16 @@
                             <div class="row">
                                 <div class="col-12">
                                     <h4>Job Description</h4>
-                                    <ul>
-                                        <li>Solve 5 problems. </li>
-                                        <li>Knowledge about trignomatric. </li>
-                                    </ul>
-                                    <p>Expected close Date: 23/07/2022 </p>
-                                    <p>Job Types: Full-time</p>
-                                    <p>Budget: $61 </p>
+                                    {{ $post->instructions}}
+                                    
+                                    <p class="mt-10">Expected close Date: {{ $post->deadline }} </p>
+                                    <p>Budget: 
+                                        @if($post->budget == 0 || $post->budget == null)
+                                            <span class="text-success">Negotiable</span>
+                                        @else
+                                        {{ $post->budget }}
+                                        @endif
+                                    </p>
                                 </div>
                             </div>
                             <hr>
@@ -67,7 +74,7 @@
                             <div class="media-list media-list-hover media-list-divided">
                                 <a class="media media-single rounded-0" href="#">
                                     <span class="title mx-0">Name :- </span>
-                                    <span class="mx-0">Test</span>
+                                    <span class="mx-0">{{ $owner->name }}</span>
                                 </a>
                                 <a class="media media-single rounded-0" href="#">
                                     <span class="title mx-0">Total jobs :- </span>
@@ -76,9 +83,16 @@
                             </div>
                             <a href="#" class="waves-effect waves-light btn btn-block btn-outline btn-success my-15">Place a Bid</a>
                             <div>
-                                <p><strong>Placed bids on this job :</strong> 41</p>
-                                <p><strong>Status:</strong> <span class="badge badge-primary-light">Open</span></p>
-                                <p><strong>Closed:</strong> 23-07-2022</p>
+                                <p><strong>Placed bids on this job :</strong> -</p>
+                                <p><strong>Status:</strong> 
+                                    @if($post->status == 0)
+                                        <span class="badge badge-primary-light">Open</span></p>
+                                    @elseif($post->status == 1)
+                                        <span class="badge badge-success-light">Closed</span></p>
+                                    @elseif($post->status == 2)
+                                        <span class="badge badge-danger-light">Expired</span></p>
+                                    @endif
+                                <p><strong>Closed:</strong> {{ $post->deadline }}</p>
                             </div>
                         </div>
                     </div>
@@ -89,5 +103,26 @@
     </div>
 </div>
 </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 <!-- ./wrapper -->
 @endsection
