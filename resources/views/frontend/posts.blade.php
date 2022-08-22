@@ -36,10 +36,6 @@
                         <tbody>
                             @if(count($posts) > 0)
                             @foreach($posts as $post)
-                            <?php
-                                // print_r($post);
-                                // die();
-                            ?>
                             <tr>
                                 <td>{{$post['subject']}}</td>
                                 <td>{{$post['topic']}}</td>

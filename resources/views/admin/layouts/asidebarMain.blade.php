@@ -13,7 +13,7 @@
                 <ul class="list-inline profile-setting mt-20 mb-0 d-flex justify-content-between">
                     <li><a href="#" data-toggle="tooltip" data-placement="top" title="Search"><i data-feather="search"></i></a></li>
                     <li><a href="/admin-panel/chat" data-toggle="tooltip" data-placement="top" title="Chat"><i data-feather="message-square"></i></a></li>
-                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Logout"><i data-feather="log-out"></i></a></li>
+                    <li><a class="btn" data-toggle="tooltip" data-placement="top" title="Logout" href="{{ route('signout') }}" ><i data-feather="log-out"></i></a></li>
                 </ul>
             </div>
             <!-- sidebar menu-->

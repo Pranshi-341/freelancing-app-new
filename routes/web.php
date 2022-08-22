@@ -8,7 +8,7 @@ use App\Http\Controllers\CustomAuthController;
 // add controller ClientController
 use App\Http\Controllers\ClientController;
 // add controller AdminController
-// use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\FreeLancerController;
 
 /*
@@ -37,10 +37,11 @@ Route::get('/admin-panel/commission', function () {
 Route::get('/admin-panel/applications', function () {
     return View('admin.layouts.applications');
 });
+Route::get('/admin-panel/orders',[AdminController::class,'AllApplications']);
 
-Route::get('/admin-panel/orders', function () {
-    return View('admin.layouts.jobs');
-});
+// Route::get('/admin-panel/orders', function () {
+//     return View('admin.layouts.jobs');
+// });
 
 Route::get('/admin-panel/chat', function () {
     return View('admin.layouts.chat');

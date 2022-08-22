@@ -31,110 +31,48 @@
 									</tr>
 								</thead>
 								<tbody>
-									<tr>
-										<td>Test</td>
-										<td>testing</td>
-										<td>10</td>
-										<td>25/7/2022</td>
-										<td>not use examples</td>
-										<td class="bg-primary">Placed</td>
-									</tr>
-                                    <tr>
-                                        <td>Test</td>
-                                        <td>testing</td>
-                                        <td>10</td>
-                                        <td>25/7/2022</td>
-                                        <td>not use examples</td>
-                                        <td class="bg-warning">Waiting for bid</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Test</td>
-                                        <td>testing</td>
-                                        <td>10</td>
-                                        <td>25/7/2022</td>
-                                        <td>not use examples</td>
-                                        <td class="bg-info">Bid placed</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Test</td>
-                                        <td>testing</td>
-                                        <td>10</td>
-                                        <td>25/7/2022</td>
-                                        <td>not use examples</td>
-                                        <td class="bg-secondary">Work in progress</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Test</td>
-                                        <td>testing</td>
-                                        <td>10</td>
-                                        <td>25/7/2022</td>
-                                        <td>not use examples</td>
-                                        <td class="bg-success">Completed</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Test</td>
-                                        <td>testing</td>
-                                        <td>10</td>
-                                        <td>25/7/2022</td>
-                                        <td>not use examples</td>
-                                        <td class="bg-danger">Rejected</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Test</td>
-                                        <td>testing</td>
-                                        <td>10</td>
-                                        <td>25/7/2022</td>
-                                        <td>not use examples</td>
-                                        <td class="bg-success">Completed</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Test</td>
-                                        <td>testing</td>
-                                        <td>10</td>
-                                        <td>25/7/2022</td>
-                                        <td>not use examples</td>
-                                        <td class="bg-danger">Rejected</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Test</td>
-                                        <td>testing</td>
-                                        <td>10</td>
-                                        <td>25/7/2022</td>
-                                        <td>not use examples</td>
-                                        <td class="bg-success">Completed</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Test</td>
-                                        <td>testing</td>
-                                        <td>10</td>
-                                        <td>25/7/2022</td>
-                                        <td>not use examples</td>
-                                        <td class="bg-success">Completed</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Test</td>
-                                        <td>testing</td>
-                                        <td>10</td>
-                                        <td>25/7/2022</td>
-                                        <td>not use examples</td>
-                                        <td class="bg-primary">Placed</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Test</td>
-                                        <td>testing</td>
-                                        <td>10</td>
-                                        <td>25/7/2022</td>
-                                        <td>not use examples</td>
-                                        <td class="bg-success">Completed</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Test</td>
-                                        <td>testing</td>
-                                        <td>10</td>
-                                        <td>25/7/2022</td>
-                                        <td>not use examples</td>
-                                        <td class="bg-primary">Placed</td>
-                                    </tr>
+                                    @foreach($posts as $post)
+                                        <tr>
+                                            <td>{{$post['subject']}}</td>
+                                            <td>{{$post['topic']}}</td>
+                                            <td>{{$post['pages']}}</td>
+                                            <td>
+                                                @if($post['deadline'] == null)
+                                                    <span class="text-danger">N/A</span>
+                                                @else
+                                                    {{$post['deadline']}}
+                                                @endif
+                                            </td>
+                                            <td>
+                                                @if($post['instructions'] == null)
+                                                    <span class="text-danger">N/A</span>
+                                                @else
+                                                    {{$post['instructions']}}
+                                                @endif
+                                            </td>
+                                            <td>
+                                                @if(!$post['bidPost'])
+                                                    @if($post['status'] == 0)
+                                                        <span class="bg-primary">no bid yet</span>
+                                                    @endif
+                                                @else
+                                                @if($post['bidPost'][0]['status'] == 0)
+                                                    <span class="bg-primary">Waiting for Accepted</span>
+                                                @elseif($post['bidPost'][0]['status'] == 1)
+                                                    <span class="bg-success">accepted</span>
+                                                @elseif($post['bidPost'][0]['status'] == 2)
+                                                    <span class="bg-danger">rejected</span>
+                                                @elseif($post['bidPost'][0]['status'] == 3)
+                                                    <span class="bg-warning">in progress</span>
+                                                @elseif($post['bidPost'][0]['status'] == 4)
+                                                    <span class="bg-success">completed</span>
+                                                @elseif($post['bidPost'][0]['status'] == 5)
+                                                    <span class="bg-danger">cancelled</span>
+                                                @endif
+                                                @endif
+                                            </td>
+                                        </tr>
+                                  @endforeach
 								</tbody>
 							</table>
 						</div>
