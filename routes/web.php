@@ -53,14 +53,15 @@ Route::get('/admin-panel/chat', function () {
 // });
 
 Route::get('/freelancer-panel',[FreeLancerController::class,'index']);
+Route::get('/freelancer-panel/applications',[FreeLancerController::class,'AllApplications']);
 
 Route::get('/freelancer-panel/commission', function () {
     return View('freelancer-panel.layouts.invoice');
 });
 
-Route::get('/freelancer-panel/applications', function () {
-    return View('freelancer-panel.layouts.applications');
-});
+// Route::get('', function () {
+//     return View('freelancer-panel.layouts.applications');
+// });
 
 Route::get('/freelancer-panel/orders', function () {
     return View('freelancer-panel.layouts.jobs');
@@ -118,6 +119,11 @@ Route::post('/publish/writterpost',[ClientController::class,'PublishWritterPost'
 Route::post('/publish/editpost',[ClientController::class,'PublishEditPost']);
 
 Route::get('/posts',[ClientController::class,'Posts']);
+
+Route::post('/acceptorder',[ClientController::class,'Acceptorder']);
+
+// add route for addbid
+Route::post('/addbid',[FreeLancerController::class,'AddBid']);
 
 Route::get('dashboard', [CustomAuthController::class, 'dashboard']); 
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');

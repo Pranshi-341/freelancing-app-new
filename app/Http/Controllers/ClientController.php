@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use App\Models\Publishjobs;
+use App\Models\Tabletotalbids;
 use Hash;
 use Session;
 
@@ -86,7 +87,37 @@ class ClientController extends Controller
     function Posts()
     {
         $posts = Publishjobs::where('owner_id', Auth::user()->id)->get();
+
+        // $bidPost = Tabletotalbids::where('id', $post->id )->get();
+        foreach ($posts as $post) {
+            $bidPost = Tabletotalbids::where('job_id', $post->id)->get();
+            if($bidPost)
+            {
+                $post->bidPost = $bidPost;
+            }
+            else{
+                $post->bidPost = [];
+            }
+        }
+
+        // // covert data suiteable for foreach loop
+        $posts = json_decode(json_encode($posts), true);
+
+        // dd($posts);
         return view('frontend.posts', compact('posts'));
+    }
+
+    public function Acceptorder(Request $request)
+    {
+        // update tabletotalbids status to 1
+        $check = Tabletotalbids::where('id', $request->id)->update(['status' => 1]);
+        if ($check) {
+            Session::flash('success', 'Order has been accepted successfully');
+            return redirect()->back();
+        } else {
+            Session::flash('error', 'Something went wrong');
+            return redirect()->back();
+        }
     }
 
 }

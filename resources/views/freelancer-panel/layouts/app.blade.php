@@ -12,7 +12,6 @@
     <title>Joblly - Dashboard</title>
     
 	<!-- Vendors Style-->
-	<link rel="stylesheet" href="{{asset('/admin/css/vendors_css.css')}}">
     <link rel="stylesheet" href="{{asset('/admin/assets/vendor_components/bootstrap/dist/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{asset('/admin/assets/vendor_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css')}}">
     <link rel="stylesheet" href="{{asset('/admin/assets/vendor_components/bootstrap-daterangepicker/daterangepicker.css')}}">

@@ -8,7 +8,7 @@
         <!-- Content Header (Page header) -->
         <div class="content-header">
             <div class="d-md-flex align-items-center justify-content-between">
-                <a href="#" class="waves-effect waves-light btn btn-danger mt-10 mt-md-0">Place a bid</a>
+                <a href="#" data-toggle="modal" data-target="#exampleModalScrollable" class="waves-effect waves-light btn btn-danger mt-10 mt-md-0">Place a bid</a>
             </div>
         </div>
         <!-- Main content -->
@@ -33,10 +33,6 @@
                                 <div class="col-md-6 col-12">
                                     <div class="text-center b-1 p-30">
                                         <h6 class="mt-0">Placed Bids</h6>
-                                        <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
-    Launch demo modal
-  </button>
                                         <h1 class="mb-0">-</h1>
                                     </div>
                                 </div>
@@ -52,7 +48,6 @@
                                 <div class="col-12">
                                     <h4>Job Description</h4>
                                     {{ $post->instructions}}
-                                    
                                     <p class="mt-10">Expected close Date: {{ $post->deadline }} </p>
                                     <p>Budget: 
                                         @if($post->budget == 0 || $post->budget == null)
@@ -107,20 +102,31 @@
   <!-- Modal -->
   <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable" role="document">
-      <div class="modal-content">
+      <div class="modal-content" style="margin-top: 20%; overflow:scroll;">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalScrollableTitle">Your Proposal</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
+        <form action="/addbid" method="post">
         <div class="modal-body">
-          ...
+                @csrf
+                <input type="hidden" value="{{$post->id}}" name="job_id" >
+                <div class="form-group">
+                <label for="exampleFormControlTextarea1">Budget</label>
+                <input type="text" class="form-control" name="bid_amount" placeholder="Enter your budget">
+                </div>
+                <div class="form-group">
+                <label for="exampleFormControlTextarea1">What you understand about job</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="description"></textarea>
+                </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
         </div>
+        </form>
       </div>
     </div>
   </div>

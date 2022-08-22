@@ -23,111 +23,32 @@
 									</tr>
 								</thead>
 								<tbody>
-									<tr>
-										<td>001457</td>
-										<td>Johen Doe</td>
-										<td>14 Nov 2020</td>
-										<td>Project Manager</td>
-										<td><span class="badge badge-secondary-light">Completed</span></td>
-									</tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-success-light">In-progress</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Completed</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-warning-light">On Hold</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-success-light">In-progress</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Completed</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Completed</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-warning-light">On Hold</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-warning-light">On Hold</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Completed</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-warning-light">On Hold</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-success-light">In-progress</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Completed</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Completed</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Completed</span></td>
-                                    </tr>
+                                    @php
+                                        $srno = 1;
+                                    @endphp
+									@foreach($applications as $key => $application)
+                                    {{-- {{ $application }} --}}
+                                        <tr>
+                                            <td>#{{ $srno++ }}</td>
+                                            <td>{{ $application['owner']['name'] }}</td>
+                                            <td>{{ $application['job']['deadline'] }}</td>
+                                            <td>{{ $application['job']['topic'] }}</td>
+                                            <td>
+                                                @if($application['status'] == 0)
+                                                    <span class="text-warning">pending</span>
+                                                @elseif($application['status'] == 1)
+                                                    <span class="text-primary">accepted</span>
+                                                @elseif($application['status'] == 2)
+                                                    <span class="text-danger">rejected</span>
+                                                @elseif($application['status'] == 3)
+                                                    <span class="text-success">completed</span>
+                                                @elseif($application['status'] == 4)
+                                                    <span class="text-danger">cancelled</span>
+                                                @endif
+                                            </td>
+                                            {{-- <td><span class="badge badge-secondary-light">Completed</span></td> --}}
+                                        </tr>
+                                    @endforeach
 								</tbody>			  
 								
 							</table>

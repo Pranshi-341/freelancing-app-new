@@ -36,35 +36,60 @@
                         <tbody>
                             @if(count($posts) > 0)
                             @foreach($posts as $post)
+                            <?php
+                                // print_r($post);
+                                // die();
+                            ?>
                             <tr>
-                                <td>{{$post->subject}}</td>
-                                <td>{{$post->topic}}</td>
-                                <td>{{$post->deadline}}</td>
+                                <td>{{$post['subject']}}</td>
+                                <td>{{$post['topic']}}</td>
+                                <td>{{$post['deadline']}}</td>
                                 <td>
-                                    @if($post->instructions == null)
+                                    @if($post['instructions'] == null)
                                         <span class="text-danger">No Instructions</span>
                                     @else
-                                        {{$post->instructions}}
+                                        {{$post['instructions']}}
                                     @endif
                                 </td>
                                 <td>
-                                    @if($post->status == 0)
-                                        <span class="badge bg-warning badge-warning">no bid yet</span>
-                                    @elseif($post->status == 1)
-                                        <span class="badge badge-success">accepted</span>
-                                    @elseif($post->status == 2)
+                                    @if(!$post['bidPost'])
+                                        @if($post['status'] == 0)
+                                            <span class="badge bg-warning badge-warning">no bid yet</span>
+                                        @endif
+                                    @else
+                                    @if($post['bidPost'][0]['status'] == 0)
+                                        <span class="badge bg-warning badge-warning">Waiting for Accepted</span>
+                                    @elseif($post['bidPost'][0]['status'] == 1)
+                                        <span class="badge bg-success badge-success">accepted</span>
+                                    @elseif($post['bidPost'][0]['status'] == 2)
                                         <span class="badge badge-danger">rejected</span>
-                                    @elseif($post->status == 3)
+                                    @elseif($post['bidPost'][0]['status'] == 3)
                                         <span class="badge badge-warning">in progress</span>
-                                    @elseif($post->status == 4)
+                                    @elseif($post['bidPost'][0]['status'] == 4)
                                         <span class="badge badge-success">completed</span>
-                                    @elseif($post->status == 5)
+                                    @elseif($post['bidPost'][0]['status'] == 5)
                                         <span class="badge badge-danger">cancelled</span>
                                     @endif
+                                    @endif
                                 </td>
-                                <td>
-                                    {{-- Add delete action --}}
-                                    <a  class="btn btn-primary">Delete</a>
+                                <td style="display: flex;">
+                                    {{-- add button accept order --}}
+                                    @if(!$post['bidPost'])
+                                        @if($post['status'] == 0)
+                                            <button disabled class="btn btn-success btn-sm">Accept Order</button>
+                                        @endif
+                                    @else
+                                    @if($post['bidPost'][0]['status'] == 0)
+                                        <form action="/acceptorder" method="post" >
+                                            @csrf
+                                            <button type="submit" name="id" value="{{$post['bidPost'][0]['id']}}" class="btn btn-success btn-sm">Accept Order</button>
+                                        </form>
+                                    @else
+                                        <button disabled class="btn btn-success btn-sm">Order accepted</button>
+                                    @endif
+                                    @endif
+                                    {{-- add button view order --}}
+                                    <a  class="btn btn-primary btn-sm">Delete</a>
                                 </td>
                             </tr>
                             @endforeach
