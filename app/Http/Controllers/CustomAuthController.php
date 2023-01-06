@@ -5,6 +5,7 @@ use Hash;
 use Session;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
+use App\Models\freelancers_writers;
 class CustomAuthController extends Controller
 {
     public function index()
@@ -56,7 +57,17 @@ class CustomAuthController extends Controller
         ]);
            
         $data = $request->all();
-        $check = $this->create($data);
+        
+        if($data['registerType'] == 2){
+            $check = new freelancers_writers();
+            $check->name = $data['name'];
+            $check->email = $data['email'];
+            $check->password = Hash::make($data['password']);
+            $check->skills = $data['skills'];
+            $check->save();
+        }else {
+            $check = $this->create($data);
+        }
         $id = $check['id'];
         Auth::loginUsingId($id);
         
