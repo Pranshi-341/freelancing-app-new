@@ -15,7 +15,7 @@ class CustomAuthController extends Controller
     public function customLogin(Request $request)
     {
         $request->validate([
-            'email' => 'required',
+            'email' => 'required|email',
             'password' => 'required',
         ]);
    
@@ -57,6 +57,9 @@ class CustomAuthController extends Controller
            
         $data = $request->all();
         $check = $this->create($data);
+        $id = $check['id'];
+        Auth::loginUsingId($id);
+        
         if( $check['registerType'] == 1 ){
             return redirect("/")->withSuccess('You have signed-in');
         }
@@ -66,7 +69,6 @@ class CustomAuthController extends Controller
         else if( $check['registerType'] == 3 ){
             return redirect("/admin-panel")->withSuccess('You have signed-in');
         }
-        else{}
     }
 
     public function create(array $data)

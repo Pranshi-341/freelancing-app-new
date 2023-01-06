@@ -112,7 +112,7 @@ Route::get('/licensed-researchers',[frontendController::class,'LicensedResearche
 
 // add route
 Route::get('/contactUs',[frontendController::class,'ContactUs']);
-
+Route::get('/aboutUs',[frontendController::class,'aboutUs']);
  //add route order-now
 Route::get('/order-now',[frontendController::class,'OrderNow']);
 
