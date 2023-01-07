@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\FreeLancerController;
+use Illuminate\Database\Eloquent\Model;
+use DataTables;
 
 class frontendController extends Controller
 {
@@ -207,8 +211,12 @@ class frontendController extends Controller
         return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
-    function OrderNow() {
-        return view('frontend.order');
+    function OrderNow(Request $request) {
+      
+        //$writers = freelancers_writers::orderBy('id','desc')->get();
+        $writers = DB::table('freelancers_writers')->get();
+        
+        return view('frontend.order')->with('writers', $writers);
     }
 
 }

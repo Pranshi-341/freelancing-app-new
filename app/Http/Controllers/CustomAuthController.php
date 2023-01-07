@@ -65,9 +65,10 @@ class CustomAuthController extends Controller
             $check->password = Hash::make($data['password']);
             $check->skills = $data['skills'];
             $check->save();
-        }else {
-            $check = $this->create($data);
         }
+        
+        $check = $this->create($data);
+        
         $id = $check['id'];
         Auth::loginUsingId($id);
         
