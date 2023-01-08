@@ -31,6 +31,15 @@ class ClientController extends Controller
 
     function PublishWritterPost(Request $request)
     {
+        $request->validate([
+            'writterSubject' => 'required',
+            'writterTopic' => 'required',
+            'writterPages' => 'required',
+            'writterBudget' => 'required',
+            'writterDeadline' => 'required',
+            'writterInstructions' => 'required',
+        ]);
+
         $data['owner_id'] = Auth::user()->id;
         $data['status'] = '0';
         $data['subject'] = $request->writterSubject;
@@ -46,6 +55,8 @@ class ClientController extends Controller
             $file->move(public_path('uploads/files'), $fileName);
             $data['file'] = $fileName;
         }
+        // print_r($data);
+        // exit();
         $check = Publishjobs::create($data);
         if ($check) {
             Session::flash('success', 'Your post has been published successfully');
@@ -59,6 +70,15 @@ class ClientController extends Controller
 
     function PublishEditPost(Request $request)
     {
+        $request->validate([
+            'writterSubject' => 'required',
+            'writterTopic' => 'required',
+            'writterPages' => 'required',
+            'writterBudget' => 'required',
+            'writterDeadline' => 'required',
+            'writterInstructions' => 'required',
+        ]);
+
         $data['owner_id'] = Auth::user()->id;
         $data['status'] = '0';
         $data['subject'] = $request->editSubject;

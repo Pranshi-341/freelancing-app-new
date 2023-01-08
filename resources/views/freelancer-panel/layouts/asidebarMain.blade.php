@@ -7,7 +7,10 @@
                         <img src="{{asset('/admin/images/avatar/avatar-13.png')}}" class="avatar avatar-lg bg-primary-light rounded100" alt="User Image">
                     </div>
                     <div class="info">
-                        <a class="px-20" data-toggle="" href="#">Johen Doe</a>
+                    	<?php use Illuminate\Support\Facades\Auth;
+                    	$name = Auth::user()->name;
+                    	?>
+                        <a class="px-20" data-toggle="" href="#">{{ $name }}</a>
                         <!-- <div class="dropdown-menu">
                             <a class="dropdown-item" href="#"><i class="ti-user"></i> Profile</a>
                             <div class="dropdown-divider"></div>

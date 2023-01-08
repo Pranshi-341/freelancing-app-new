@@ -77,7 +77,7 @@
     </div>
     <div class="col-md-12 my-3">
         <div class="row">
-            <div class="col-md-2 offset-1">
+            <div class="col-md-2 offset-1" id="tab_panel">
                 <div class="tab d-flex flex-column">
                     <button class="tablinks" onclick="changeTab(event, 'Writing')">Writing</button>
                     <button class="tablinks mt-2" onclick="changeTab(event, 'Editing')">Editing</button>
@@ -87,43 +87,43 @@
                 <div>
                     <!-- create form of writing with field of subject,topic,pages,deadline,Detailed Instructions and attach file -->
                     <div id="Writing" class="tabcontent">
-                        <form action="/publish/writterpost" method="POST" enctype="multipart/form-data">
+                        <form id="submit" action="/publish/writterpost" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="col-md-12 row">
                                 <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="subject">Subject</label>
-                                    <input type="text" class="form-control" id="writterSubject" name="writterSubject" placeholder="Subject">
+                                    <input type="text" class="form-control" id="writterSubject" name="writterSubject" placeholder="Subject" required>
                                 </div>
                                 </div>
                                 <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="topic">Topic</label>
-                                    <input type="text" class="form-control" id="writterTopic" name="writterTopic" placeholder="Topic">
+                                    <input type="text" class="form-control" id="writterTopic" name="writterTopic" placeholder="Topic" required>
                                 </div>
                                 </div>
                                 <div class="col-md-6 mt-3">
                                     <div class="form-group">
                                         <label for="pages">Pages</label>
-                                        <input type="text" class="form-control" id="writterPages" name="writterPages" placeholder="Pages">
+                                        <input type="text" class="form-control" id="writterPages" name="writterPages" placeholder="Pages" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mt-3">
                                     <div class="form-group">
                                         <label for="deadline">Deadline</label>
-                                        <input type="date" class="form-control" id="writterDeadline" name="writterDeadline" placeholder="Deadline">
+                                        <input type="date" class="form-control" id="writterDeadline" name="writterDeadline" placeholder="Deadline" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mt-3">
                                     <div class="form-group">
                                         <label for="Budget">Budget</label>
-                                        <input type="text" class="form-control" id="writterBudget" name="writterBudget" placeholder="Budget">
+                                        <input type="text" class="form-control" id="writterBudget" name="writterBudget" placeholder="Budget" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mt-3">
                                     <div class="form-group">
                                         <label for="file">File</label>
-                                        <input type="file" class="form-control" id="writterFile" name="writterFile">
+                                        <input type="file" class="form-control" id="writterFile" name="writterFile" required>
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@
                                 <label for="instructions">Instructions</label>
                                 <textarea class="form-control" id="writterInstructions" name="writterInstructions" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary submit">Submit</button>
                         </form>
                     </div>
                     <!-- create form of editing with field of subject,topic,pages,deadline,Detailed Instructions and attach file -->
@@ -183,12 +183,50 @@
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
+
+                    <div style="display : none;" class="tabcontent HireWriter">
+                        <div class="col-12">
+				            <br>
+                            <table class="table table-hover data_table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Email ID</th>
+                                        <th>Skills</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach($writers as $writers)
+                                    <tr>
+                                        <td>{{ $writers->name }}</td>
+                                        <td>{{ $writers->email }}</td>
+                                        <td>{{ $writers->skills }}</td>
+                                        <td>
+                                        <a href="" class="btn btn-primary">Chat</a>
+                                        <a href="" class="btn btn-danger">Hire</a>
+                                        </td>
+                                    </tr>
+                                    @endforeach
+                                </tbody>
+
+                            </table>
+			            </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 </div>
         <script>
+            $('.submit').on('click', function(){
+               
+                $('.HireWriter').show();
+                $('#Writing').hide();
+                
+            });
+
             function changeTab(evt, cityName) {
                 var i, tabcontent, tablinks;
                 tabcontent = document.getElementsByClassName("tabcontent");
@@ -202,5 +240,6 @@
                 document.getElementById(cityName).style.display = "block";
                 evt.currentTarget.className += " active";
             }
+            
         </script>
         @endsection

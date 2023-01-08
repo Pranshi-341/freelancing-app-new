@@ -112,13 +112,12 @@ Route::get('/licensed-researchers',[frontendController::class,'LicensedResearche
 
 // add route
 Route::get('/contactUs',[frontendController::class,'ContactUs']);
-Route::get('/aboutUs',[frontendController::class,'AboutUs']);
-
+Route::get('/aboutUs',[frontendController::class,'aboutUs']);
  //add route order-now
-Route::get('/order-now',[frontendController::class,'OrderNow']);
+Route::get('/order-now',[frontendController::class,'OrderNow'])->name("order-now");
 
 // add route for publish post
-Route::post('/publish/writterpost',[ClientController::class,'PublishWritterPost']);
+Route::post('/publish/writterpost',[ClientController::class,'PublishWritterPost'])->name("writer_post");
 Route::post('/publish/editpost',[ClientController::class,'PublishEditPost']);
 
 Route::get('/posts',[ClientController::class,'Posts']);
