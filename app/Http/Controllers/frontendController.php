@@ -109,6 +109,13 @@ class frontendController extends Controller
         $backgroundImage = 'linear-gradient(225deg,#00cf8a,#0084d6)';
         return view('frontend.contactpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
+    function AboutUs(){
+        $title = "About Us";
+        $topline = "";
+        $bottomline = "Creating an environment where our services empower our clients to live better lives.";
+        $backgroundImage = 'linear-gradient(225deg,#00cf8a,#0084d6)';
+        return view('frontend.aboutpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    }
 
     // createv functions for writing help 
     function Essay(){

@@ -81,7 +81,7 @@
    <div class="col-md-12" style=" background-size:cover; background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp);">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h2>Welcome to Technical Writers</h2>
+         <h2>Welcome to Essay Sages</h2>
          <p class="w-50 text-center">where our acclaimed client’s assignments and tasks are meticulously done We have a great deal to offer so please take your time to browse our website to discover more about us and what we offer</p>
          <form class="mt-5 rounded d-flex shadow-md border w-75" action="" method="get">
             <input class="p-2 border-0 h-40 w-100" type="text" style="" placeholder="Search..." />
@@ -91,10 +91,10 @@
             </button>
             <!-- </div> -->
          </form>
-         <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />24/7 on Demand</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Timesaver</div>
+         <div class="mt-5 mb-5 row d-flex w-50 justify-content-between ">
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Professional Writing Expert</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Quick Service</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Free Edits</div>
          </div>
       </div>
    </div>
@@ -103,10 +103,11 @@
 <div class="row bg-light p-3" style="display:block; overflow-x: auto; white-space:nowrap;">
    <div class="col-md-12">
       <h2 class="text-center mt-2">
-         What our customers say
+      What Do Our Customers Think About Our Essay Writing Service?
       </h2>
+     
    </div>
-   @for($i = 0; $i < 5; $i++) <div class="col-md-4" style="display:inline-block;">
+   <div class="col-md-4" style="display:inline-block;">
       <div class="card m-1 shadow border-0" style="white-space: normal;">
          <div class="card-body">
             <div class="row">
@@ -117,13 +118,13 @@
                   <h5 class="card-title">
                      <strong>
                         <span class="text-primary">
-                           <i class="fas fa-quote-left"></i>Awesome service
+                           <i class="fas fa-quote-left"></i>
                         </span>
                      </strong>
                   </h5>
                   <p class="card-text">
                      <span class="text-dark">
-                        Love the response time. I was able to get my work done in less than a day.
+                     I am really very grateful that I came to know about <strong>Essay Sages Essay Writing Service</strong>. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
                      </span>
                   </p>
                   <!-- add stars review -->
@@ -146,13 +147,95 @@
          </div>
       </div>
 </div>
-@endfor
+<div class="col-md-4" style="display:inline-block;">
+      <div class="card m-1 shadow border-0" style="white-space: normal;">
+         <div class="card-body">
+            <div class="row">
+               <div class="col-md-4">
+                  <img class="img-fluid" src="{{ asset('icons/profile.png') }}" />
+               </div>
+               <div class="col-md-8">
+                  <h5 class="card-title">
+                     <strong>
+                        <span class="text-primary">
+                           <i class="fas fa-quote-left"></i>
+                        </span>
+                     </strong>
+                  </h5>
+                  <p class="card-text">
+                     <span class="text-dark">
+                     I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great <strong>Essay Writing Service</strong>.
+                     </span>
+                  </p>
+                  <!-- add stars review -->
+                  <div class="d-flex w-2 justify-content-between">
+                     <div class="d-flex align-items-center">
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite-grey.png') }}" />
+                     </div>
+                     <div class="d-flex align-items-center">
+                        <span class="text-dark font-weight-bold">
+                           - John Doe
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+</div>
+
+<div class="col-md-4" style="display:inline-block;">
+      <div class="card m-1 shadow border-0" style="white-space: normal;">
+         <div class="card-body">
+            <div class="row">
+               <div class="col-md-4">
+                  <img class="img-fluid" src="{{ asset('icons/profile.png') }}" />
+               </div>
+               <div class="col-md-8">
+                  <h5 class="card-title">
+                     <strong>
+                        <span class="text-primary">
+                           <i class="fas fa-quote-left"></i>
+                        </span>
+                     </strong>
+                  </h5>
+                  <p class="card-text">
+                     <span class="text-dark">
+                     The writing expert submitted the project very quickly. The quality he provided in my <strong>Literature Review </strong>Writing is just outstanding. I am really impressed. Thank you Essay Sages.
+                     </span>
+                  </p>
+                  <!-- add stars review -->
+                  <div class="d-flex w-2 justify-content-between">
+                     <div class="d-flex align-items-center">
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
+                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite-grey.png') }}" />
+                     </div>
+                     <div class="d-flex align-items-center">
+                        <span class="text-dark font-weight-bold">
+                           - John Doe
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+</div>
+
 </div>
 <div class="row p-3" style="background-color: #fff ;">
    <div class="col-md-12">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-            Features of Our Technical Writing Services
+         4 Steps Of Our Essay Writing Services
+
          </h2>
       </div>
    </div>
@@ -166,13 +249,14 @@
                   <h5 class="text-primary w-75">
                      <strong>
                         <span class="text-dark">
-                           Originality 
+                        1. Information Form
+
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                        To assure the originality of your assignment order, a thorough check-up on originality can be appended to your assignment order.
+                     Enter all the project-related details in the form for a better understanding of our Essay Writers.
                      </span>
                   </p>
                </div>
@@ -195,14 +279,13 @@
                   <h5 class="text-primary w-75">
                      <strong>
                         <span class="text-dark">
-                           Support is available 24/7
+                        2. Select the Writer
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                        You can call us at any time and ask us to do your task; We are always more than delighted to assist you
-                     </span>
+                     Go through the list of our professional writers and select the one that suits your expectations.                     </span>
                   </p>
                </div>
             </div>
@@ -217,13 +300,14 @@
                   <h5 class="text-primary w-75">
                      <strong>
                         <span class="text-dark">
-                           Anonymity
+                        3. Complete the Payment
+
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                        We value our customers' privacy thus we will never share the personal information that you provide to any third parties, including paper authors.
+                     Before depositing the amount, make sure you are satisfied with our Online Essay Writing Services and then proceed.
                      </span>
                   </p>
                </div>
@@ -246,13 +330,14 @@
                   <h5 class="text-primary w-75">
                      <strong>
                         <span class="text-dark">
-                           Unlimited Revisions and Editing 
+                        4. Revise and Release
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                        After payment, and successful completion of work, you can request reasonable revisions or changes from our team if you require them without additional payment.
+                     Read the paper carefully and then release the payment to the writer. If you want, you can also ask the writer to make any edits.
+
                      </span>
                   </p>
                </div>
@@ -261,77 +346,69 @@
       </div>
 
    </div>
-   <div class="col-md-12">
-   <section class="pricing">
-    <div class="row py-5 px-2">
-      <!-- Free Tier -->
-      <div class="col-lg-4">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
-            <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
-            <hr>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>A title page</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>A reference page</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>In-text citations</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>A Running head</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Page numbers</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Originality check</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Analytical</li>
-            </ul>
-            <div class="d-grid">
-              <a href="#" class="btn btn-primary text-uppercase">Button</a>
-            </div>
-          </div>
+   <div class="expertise-covers-v2">
+    <div class="expertise-covers-v2__inner">
+        <div class="expertise-covers-v2__types">
+            <h3 class="expertise-covers-v2__title">Types of essay</h3>
+            <ul class="expertise-covers-v2__list">
+                                    <li class="expertise-covers-v2__list-item">Narrative</li>
+                                    <li class="expertise-covers-v2__list-item">Definition</li>
+                                    <li class="expertise-covers-v2__list-item">Descriptive</li>
+                                    <li class="expertise-covers-v2__list-item">Cause and Effect</li>
+                                    <li class="expertise-covers-v2__list-item">Expository</li>
+                                    <li class="expertise-covers-v2__list-item">Analytical</li>
+                                    <li class="expertise-covers-v2__list-item">Persuasive</li>
+                                    <li class="expertise-covers-v2__list-item">Admission</li>
+                            </ul>
         </div>
-      </div>
-      <!-- Plus Tier -->
-      <div class="col-lg-4">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
-            <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
-            <hr>
-            <ul class="fa-ul">
-            <li><span class="fa-li"><i class="fas fa-check"></i></span>A title page</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>A reference page</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>In-text citations</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>A Running head</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Page numbers</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Originality check</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Analytical</li>
-            </ul>
-            <div class="d-grid">
-              <a href="#" class="btn btn-primary text-uppercase">Button</a>
+
+        <section class="expertise-covers-v2__card">
+            <div class="expertise-covers-v2__card-inner">
+                <h3 class="expertise-covers-v2__card-title"><b>Free</b> features</h3>
+                <ul class="expertise-covers-v2__card-list">
+                                            <li class="expertise-covers-v2__card-list-item">
+                            <span class="expertise-covers-v2__feature-name">A title page</span>
+                            <span class="expertise-covers-v2__feature-price">3.99$</span>
+                            <span class="expertise-covers-v2__feature-label">Free</span>
+                        </li>
+                                            <li class="expertise-covers-v2__card-list-item">
+                            <span class="expertise-covers-v2__feature-name">A reference page</span>
+                            <span class="expertise-covers-v2__feature-price">5.99$</span>
+                            <span class="expertise-covers-v2__feature-label">Free</span>
+                        </li>
+                                            <li class="expertise-covers-v2__card-list-item">
+                            <span class="expertise-covers-v2__feature-name">In-text citations</span>
+                            <span class="expertise-covers-v2__feature-price">4.49$</span>
+                            <span class="expertise-covers-v2__feature-label">Free</span>
+                        </li>
+                                            <li class="expertise-covers-v2__card-list-item">
+                            <span class="expertise-covers-v2__feature-name">A Running head</span>
+                            <span class="expertise-covers-v2__feature-price">3.99$</span>
+                            <span class="expertise-covers-v2__feature-label">Free</span>
+                        </li>
+                                            <li class="expertise-covers-v2__card-list-item">
+                            <span class="expertise-covers-v2__feature-name">Page numbers</span>
+                            <span class="expertise-covers-v2__feature-price">2.49$</span>
+                            <span class="expertise-covers-v2__feature-label">Free</span>
+                        </li>
+                                            <li class="expertise-covers-v2__card-list-item">
+                            <span class="expertise-covers-v2__feature-name">Originality check</span>
+                            <span class="expertise-covers-v2__feature-price">14.99$</span>
+                            <span class="expertise-covers-v2__feature-label">Free</span>
+                        </li>
+                                    </ul>
+                <p class="expertise-covers-v2__summary">Get all those features for <span class="expertise-covers-v2__summary-value">35.94$</span> <b>FREE</b></p>
+                <div class="expertise-covers-v2__btn">
+                    <a href="/order" class="btn btn_large btn_w_100 btn_primary-accent" onclick="gta('send','event','CTA','click','get_essay_help');">Order paper</a>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <!-- Pro Tier -->
-      <div class="col-lg-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
-            <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
-            <hr>
-            <ul class="fa-ul">
-            <li><span class="fa-li"><i class="fas fa-check"></i></span>A title page</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>A reference page</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>In-text citations</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>A Running head</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Page numbers</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Originality check</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Analytical</li>
-            </ul>
-            <div class="d-grid">
-              <a href="#" class="btn btn-primary text-uppercase">Button</a>
-            </div>
-          </div>
-        </div>
-      </div>
+        </section>
     </div>
-</section>
-   </div>
+</div>
+   
+           </div>
+        </div>
+    
+         </div>
 </div>
 @endsection
