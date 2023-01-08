@@ -105,13 +105,14 @@ Route::get('/help/literature-review',[frontendController::class,'LiteratureRevie
 
 
 // add route for Team Members
-Route::get('/support-team',[frontendController::class,'SupportTeam']);
+Route::get('/team',[frontendController::class,'Team']);
 Route::get('/professional-writers',[frontendController::class,'ProfessionalWriters']);
 Route::get('/competent-tutors',[frontendController::class,'CompetentTutors']);
 Route::get('/licensed-researchers',[frontendController::class,'LicensedResearchers']);
 
 // add route
 Route::get('/contactUs',[frontendController::class,'ContactUs']);
+Route::get('/aboutUs',[frontendController::class,'AboutUs']);
 
  //add route order-now
 Route::get('/order-now',[frontendController::class,'OrderNow']);

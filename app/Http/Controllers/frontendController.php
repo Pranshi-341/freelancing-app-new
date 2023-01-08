@@ -70,12 +70,13 @@ class frontendController extends Controller
         return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
-    function SupportTeam(){
-        $title = "Support Team";
-        $topline = "";
-        $bottomline = "Make your order and get our assistance now! ";
+    function Team(){
+        $title = " Essay Writers Teams Page";
+        $topline = "Hire Professional Essay Writers Online At Essay Sages";
+        $bottomline = "Get your academic papers done by expert Academic Essay Writers and save
+        Your time and efforts. No plagiarism, only high-quality content!";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
-        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        return view('frontend.teamspage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
     function ProfessionalWriters(){
@@ -109,12 +110,13 @@ class frontendController extends Controller
         $backgroundImage = 'linear-gradient(225deg,#00cf8a,#0084d6)';
         return view('frontend.contactpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
-    function AboutUs(){
+   
+function AboutUs(){
         $title = "About Us";
         $topline = "";
         $bottomline = "Creating an environment where our services empower our clients to live better lives.";
         $backgroundImage = 'linear-gradient(225deg,#00cf8a,#0084d6)';
-        return view('frontend.aboutpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        return view('frontend.aboutus',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
     // createv functions for writing help 

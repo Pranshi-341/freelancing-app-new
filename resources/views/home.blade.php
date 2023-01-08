@@ -100,134 +100,90 @@
    </div>
 </div>
 
-<div class="row bg-light p-3" style="display:block; overflow-x: auto; white-space:nowrap;">
-   <div class="col-md-12">
-      <h2 class="text-center mt-2">
-      What Do Our Customers Think About Our Essay Writing Service?
-      </h2>
-     
+
+
+<div class="row">
+   <div class="col-md-12 my-3">
+      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+         <h2 class="text-center mt-3 p-3">
+         What Do Our Customers Think About Our Essay Writing Service?
+         </h2>
+      </div>
    </div>
-   <div class="col-md-4" style="display:inline-block;">
-      <div class="card m-1 shadow border-0" style="white-space: normal;">
-         <div class="card-body">
-            <div class="row">
-               <div class="col-md-4">
-                  <img class="img-fluid" src="{{ asset('icons/profile.png') }}" />
-               </div>
-               <div class="col-md-8">
-                  <h5 class="card-title">
-                     <strong>
-                        <span class="text-primary">
-                           <i class="fas fa-quote-left"></i>
-                        </span>
-                     </strong>
-                  </h5>
-                  <p class="card-text">
-                     <span class="text-dark">
+   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
+            <div class="row d-flex justify-content-center">
+               <div class="col-lg-8">
+                  <h5 class="mb-3">Emma</h5>
+                  <p>Photographer</p>
+                  <p class="text-muted">
+                     <i class="fas fa-quote-left pe-2"></i>
                      I am really very grateful that I came to know about <strong>Essay Sages Essay Writing Service</strong>. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
-                     </span>
                   </p>
-                  <!-- add stars review -->
-                  <div class="d-flex w-2 justify-content-between">
-                     <div class="d-flex align-items-center">
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite-grey.png') }}" />
-                     </div>
-                     <div class="d-flex align-items-center">
-                        <span class="text-dark font-weight-bold">
-                           - John Doe
-                        </span>
-                     </div>
-                  </div>
                </div>
             </div>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+               <li><i class="fas fa-star fa-sm"></i></li>
+               <li><i class="fas fa-star fa-sm"></i></li>
+               <li><i class="fas fa-star fa-sm"></i></li>
+               <li><i class="fas fa-star fa-sm"></i></li>
+               <li><i class="far fa-star fa-sm"></i></li>
+            </ul>
          </div>
-      </div>
-</div>
-<div class="col-md-4" style="display:inline-block;">
-      <div class="card m-1 shadow border-0" style="white-space: normal;">
-         <div class="card-body">
-            <div class="row">
-               <div class="col-md-4">
-                  <img class="img-fluid" src="{{ asset('icons/profile.png') }}" />
-               </div>
-               <div class="col-md-8">
-                  <h5 class="card-title">
-                     <strong>
-                        <span class="text-primary">
-                           <i class="fas fa-quote-left"></i>
-                        </span>
-                     </strong>
-                  </h5>
-                  <p class="card-text">
-                     <span class="text-dark">
+         <div class="carousel-item">
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" style="width: 150px;" />
+            <div class="row d-flex justify-content-center">
+               <div class="col-lg-8">
+                  <h5 class="mb-3">Charlotte </h5>
+                  <p>Web Developer</p>
+                  <p class="text-muted">
+                     <i class="fas fa-quote-left pe-2"></i>
                      I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great <strong>Essay Writing Service</strong>.
-                     </span>
                   </p>
-                  <!-- add stars review -->
-                  <div class="d-flex w-2 justify-content-between">
-                     <div class="d-flex align-items-center">
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite-grey.png') }}" />
-                     </div>
-                     <div class="d-flex align-items-center">
-                        <span class="text-dark font-weight-bold">
-                           - John Doe
-                        </span>
-                     </div>
-                  </div>
                </div>
             </div>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+               <li><i class="fas fa-star fa-sm"></i></li>
+               <li><i class="fas fa-star fa-sm"></i></li>
+               <li><i class="fas fa-star fa-sm"></i></li>
+               <li><i class="fas fa-star fa-sm"></i></li>
+               <li><i class="far fa-star fa-sm"></i></li>
+            </ul>
+         </div>
+         <div class="carousel-item">
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
+            <div class="row d-flex justify-content-center">
+               <div class="col-lg-8">
+                  <h5 class="mb-3">Brian Bakes</h5>
+                  <p>UX Designer</p>
+                  <p class="text-muted">
+                     <i class="fas fa-quote-left pe-2"></i>
+                     The writing expert submitted the project very quickly. The quality he provided in my<b> Literature Review </b>Writing is just outstanding. I am really impressed. Thank you Essay Sages.
+                  </p>
+               </div>
+            </div>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+               <li><i class="fas fa-star fa-sm"></i></li>
+               <li><i class="fas fa-star fa-sm"></i></li>
+               <li><i class="fas fa-star fa-sm"></i></li>
+               <li><i class="fas fa-star fa-sm"></i></li>
+               <li><i class="far fa-star fa-sm"></i></li>
+            </ul>
          </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+      </button>
+   </div>
 </div>
 
-<div class="col-md-4" style="display:inline-block;">
-      <div class="card m-1 shadow border-0" style="white-space: normal;">
-         <div class="card-body">
-            <div class="row">
-               <div class="col-md-4">
-                  <img class="img-fluid" src="{{ asset('icons/profile.png') }}" />
-               </div>
-               <div class="col-md-8">
-                  <h5 class="card-title">
-                     <strong>
-                        <span class="text-primary">
-                           <i class="fas fa-quote-left"></i>
-                        </span>
-                     </strong>
-                  </h5>
-                  <p class="card-text">
-                     <span class="text-dark">
-                     The writing expert submitted the project very quickly. The quality he provided in my <strong>Literature Review </strong>Writing is just outstanding. I am really impressed. Thank you Essay Sages.
-                     </span>
-                  </p>
-                  <!-- add stars review -->
-                  <div class="d-flex w-2 justify-content-between">
-                     <div class="d-flex align-items-center">
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite.png') }}" />
-                        <img style="width:1.5em;" class="mr-1 img-fluid" src="{{ asset('icons/favourite-grey.png') }}" />
-                     </div>
-                     <div class="d-flex align-items-center">
-                        <span class="text-dark font-weight-bold">
-                           - John Doe
-                        </span>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-</div>
 
 </div>
 <div class="row p-3" style="background-color: #fff ;">
@@ -345,12 +301,29 @@
          </div>
       </div>
 
+<!-- Why choose us -->
+
+<div class="row p-5 ">
+   <div class="col-md-12 my-3">
+      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+         <h2 class="text-center mt-3 p-3">
+            Why choose us?
+         </h2>
+      </div>
    </div>
-   <div class="expertise-covers-v2">
-    <div class="expertise-covers-v2__inner">
-        <div class="expertise-covers-v2__types">
-            <h3 class="expertise-covers-v2__title">Types of essay</h3>
-            <ul class="expertise-covers-v2__list">
+   <div class="col-md-12">
+      <div class="row">
+        
+         <div class="col-md-4">
+            <div class="card shadow-md">
+               <div class="card-body">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <img class="card-img-top" src="{{ asset('icons/time.png') }}" alt="Card image cap" />
+                     </div>
+                     <div class="col-md-8">
+                        <h5 class="card-title">Types of essay</h5>
+                        <ul class="expertise-covers-v2__list">
                                     <li class="expertise-covers-v2__list-item">Narrative</li>
                                     <li class="expertise-covers-v2__list-item">Definition</li>
                                     <li class="expertise-covers-v2__list-item">Descriptive</li>
@@ -360,12 +333,21 @@
                                     <li class="expertise-covers-v2__list-item">Persuasive</li>
                                     <li class="expertise-covers-v2__list-item">Admission</li>
                             </ul>
-        </div>
-
-        <section class="expertise-covers-v2__card">
-            <div class="expertise-covers-v2__card-inner">
-                <h3 class="expertise-covers-v2__card-title"><b>Free</b> features</h3>
-                <ul class="expertise-covers-v2__card-list">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="card shadow-md">
+               <div class="card-body">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <img class="card-img-top" src="{{ asset('icons/quality.png') }}" alt="Card image cap" />
+                     </div>
+                     <div class="col-md-8">
+                        <h5 class="card-title"><b>Free</b> features</h5>
+                        <ul class="expertise-covers-v2__card-list">
                                             <li class="expertise-covers-v2__card-list-item">
                             <span class="expertise-covers-v2__feature-name">A title page</span>
                             <span class="expertise-covers-v2__feature-price">3.99$</span>
@@ -397,14 +379,19 @@
                             <span class="expertise-covers-v2__feature-label">Free</span>
                         </li>
                                     </ul>
-                <p class="expertise-covers-v2__summary">Get all those features for <span class="expertise-covers-v2__summary-value">35.94$</span> <b>FREE</b></p>
+                                    <p class="expertise-covers-v2__summary">Get all those features for <span class="expertise-covers-v2__summary-value">35.94$</span> <b>FREE</b></p>
                 <div class="expertise-covers-v2__btn">
                     <a href="/order" class="btn btn_large btn_w_100 btn_primary-accent" onclick="gta('send','event','CTA','click','get_essay_help');">Order paper</a>
                 </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </section>
-    </div>
+         </div>
+      </div>
+   </div>
 </div>
+<!-- whu choose us -->
    
            </div>
         </div>

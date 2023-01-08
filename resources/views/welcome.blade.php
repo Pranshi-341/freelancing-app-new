@@ -1,1 +1,0 @@
-<!-- TODO This file is no longer required. Delete it before production -->
