@@ -64,6 +64,7 @@ class CustomAuthController extends Controller
             $check->email = $data['email'];
             $check->password = Hash::make($data['password']);
             $check->skills = $data['skills'];
+            $check->price = $data['price'];
             $check->save();
         }
         

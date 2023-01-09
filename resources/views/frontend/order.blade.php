@@ -87,7 +87,7 @@
                 <div>
                     <!-- create form of writing with field of subject,topic,pages,deadline,Detailed Instructions and attach file -->
                     <div id="Writing" class="tabcontent">
-                        <form id="submit" action="/publish/writterpost" method="POST" enctype="multipart/form-data">
+                        <form id="publish_post" action="/publish/writterpost" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="col-md-12 row">
                                 <div class="col-md-6">
@@ -180,7 +180,7 @@
                                 <label for="instructions">Instructions</label>
                                 <textarea class="form-control" id="editInstructions" name="editInstructions" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary submit">Submit</button>
                         </form>
                     </div>
 
@@ -193,6 +193,7 @@
                                         <th>Name</th>
                                         <th>Email ID</th>
                                         <th>Skills</th>
+                                        <th>Price</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
@@ -202,9 +203,10 @@
                                         <td>{{ $writers->name }}</td>
                                         <td>{{ $writers->email }}</td>
                                         <td>{{ $writers->skills }}</td>
+                                        <td>{{ $writers->price }}</td>
                                         <td>
-                                        <a href="" class="btn btn-primary">Chat</a>
-                                        <a href="" class="btn btn-danger">Hire</a>
+                                        <button class="btn btn-primary">Chat</button>
+                                        <button class="btn btn-danger">Hire</button>
                                         </td>
                                     </tr>
                                     @endforeach
@@ -214,6 +216,11 @@
 			            </div>
                     </div>
 
+                    <div style="display : none;" class="tabcontent payment">
+                        <div id="paypal-button-container"></div>
+                        <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD&intent=capture&enable-funding=venmo" data-sdk-integration-source="integrationbuilder"></script>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -221,9 +228,29 @@
 </div>
         <script>
             $('.submit').on('click', function(){
-               
-                $('.HireWriter').show();
-                $('#Writing').hide();
+                event.preventDefault();
+
+                var form_data = $("#publish_post").serialize();
+                
+                var file = $("#writterFile")[0].files;
+                
+                var fd = new FormData();
+                fd.append('file',file[0]);
+                fd.append('form_data',form_data);
+
+                $.ajax({
+                    url: "{{ route('publish_post') }}",
+                    data: fd,
+                    type: "post",
+                    success: function(response){
+                        $('.HireWriter').show();
+                        $('#Writing').hide();
+                        
+                    },
+                    error: function(data){
+                        console.log(data);
+                    }
+                });
                 
             });
 
@@ -241,5 +268,53 @@
                 evt.currentTarget.className += " active";
             }
             
+            const paypalButtonsComponent = paypal.Buttons({
+              // optional styling for buttons
+              // https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/
+              style: {
+                color: "gold",
+                shape: "rect",
+                layout: "vertical"
+              },
+
+              // set up the transaction
+              createOrder: (data, actions) => {
+                  // pass in any options from the v2 orders create call:
+                  // https://developer.paypal.com/api/orders/v2/#orders-create-request-body
+                  const createOrderPayload = {
+                      purchase_units: [
+                          {
+                              amount: {
+                                  value: "12"
+                              }
+                          }
+                      ]
+                  };
+
+                  return actions.order.create(createOrderPayload);
+              },
+
+              // finalize the transaction
+              onApprove: (data, actions) => {
+                  const captureOrderHandler = (details) => {
+                      const payerName = details.payer.name.given_name;
+                      console.log('Transaction completed');
+                  };
+
+                  return actions.order.capture().then(captureOrderHandler);
+              },
+
+              // handle unrecoverable errors
+              onError: (err) => {
+                  console.error('An error prevented the buyer from checking out with PayPal');
+              }
+          });
+
+          paypalButtonsComponent
+              .render("#paypal-button-container")
+              .catch((err) => {
+                  console.error('PayPal Buttons failed to render');
+              });
+
         </script>
         @endsection

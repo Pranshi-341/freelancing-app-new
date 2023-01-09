@@ -117,7 +117,7 @@ Route::get('/aboutUs',[frontendController::class,'aboutUs']);
 Route::get('/order-now',[frontendController::class,'OrderNow'])->name("order-now");
 
 // add route for publish post
-Route::post('/publish/writterpost',[ClientController::class,'PublishWritterPost'])->name("writer_post");
+Route::post('/publish/writterpost',[ClientController::class,'PublishWritterPost'])->name("publish_post");
 Route::post('/publish/editpost',[ClientController::class,'PublishEditPost']);
 
 Route::get('/posts',[ClientController::class,'Posts']);
