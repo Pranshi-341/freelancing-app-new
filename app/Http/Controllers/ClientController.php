@@ -48,6 +48,7 @@ class ClientController extends Controller
         $data['budget'] = $request->writterBudget;
         $data['deadline'] = $request->writterDeadline;
         $data['instructions'] = $request->writterInstructions;
+        
         if ($request->hasFile('writterFile')) {
             $file = $request->file('writterFile');
             $fileName = $file->getClientOriginalName();
