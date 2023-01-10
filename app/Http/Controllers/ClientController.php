@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
+use Illuminate\Support\Facades\DB;
 use App\Models\Publishjobs;
 use App\Models\Tabletotalbids;
 use Hash;
@@ -60,8 +61,10 @@ class ClientController extends Controller
         // exit();
         $check = Publishjobs::create($data);
         if ($check) {
+            $writers = DB::table('freelancers_writers')->get();
+        
             Session::flash('success', 'Your post has been published successfully');
-            return redirect()->back();
+            return view('frontend.writer')->with('writers', $writers);
         } else {
             Session::flash('error', 'Something went wrong');
             return redirect()->back();
@@ -126,6 +129,11 @@ class ClientController extends Controller
 
         // dd($posts);
         return view('frontend.posts', compact('posts'));
+    }
+
+    public function payment(Request $request, $price){
+        
+        return view('frontend.payment')->with('price',$price);
     }
 
     public function Acceptorder(Request $request)

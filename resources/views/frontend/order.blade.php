@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('content')
+<head>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+</head>
 <style>
     .progress-bar {
         width: 33.3%;
@@ -42,6 +45,7 @@
 
 
 </style>
+@yield("wrip")
 <div class="row">
     <div class="col-md-12" style=" background-size:cover; background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp);">
         @include('layouts.navbar')
@@ -58,7 +62,7 @@
 </div>
 <div class="row">
     <div class="col-md-12 my-3">
-        <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+        <div class="w-50 mx-auto" >
             <h2 class="text-center mt-3 p-3">
                 Testimonials
             </h2>
@@ -184,75 +188,12 @@
                         </form>
                     </div>
 
-                    <div style="display : none;" class="tabcontent HireWriter">
-                        <div class="col-12">
-				            <br>
-                            <table class="table table-hover data_table">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Email ID</th>
-                                        <th>Skills</th>
-                                        <th>Price</th>
-                                        <th>Actions</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach($writers as $writers)
-                                    <tr>
-                                        <td>{{ $writers->name }}</td>
-                                        <td>{{ $writers->email }}</td>
-                                        <td>{{ $writers->skills }}</td>
-                                        <td>{{ $writers->price }}</td>
-                                        <td>
-                                        <button class="btn btn-primary">Chat</button>
-                                        <button class="btn btn-danger">Hire</button>
-                                        </td>
-                                    </tr>
-                                    @endforeach
-                                </tbody>
-
-                            </table>
-			            </div>
-                    </div>
-
-                    <div style="display : none;" class="tabcontent payment">
-                        <div id="paypal-button-container"></div>
-                        <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD&intent=capture&enable-funding=venmo" data-sdk-integration-source="integrationbuilder"></script>
-                    </div>
-
                 </div>
             </div>
         </div>
     </div>
 </div>
         <script>
-            $('.submit').on('click', function(){
-                event.preventDefault();
-
-                var form_data = $("#publish_post").serialize();
-                
-                var file = $("#writterFile")[0].files;
-                
-                var fd = new FormData();
-                fd.append('file',file[0]);
-                fd.append('form_data',form_data);
-
-                $.ajax({
-                    url: "{{ route('publish_post') }}",
-                    data: fd,
-                    type: "post",
-                    success: function(response){
-                        $('.HireWriter').show();
-                        $('#Writing').hide();
-                        
-                    },
-                    error: function(data){
-                        console.log(data);
-                    }
-                });
-                
-            });
 
             function changeTab(evt, cityName) {
                 var i, tabcontent, tablinks;
@@ -268,53 +209,5 @@
                 evt.currentTarget.className += " active";
             }
             
-            const paypalButtonsComponent = paypal.Buttons({
-              // optional styling for buttons
-              // https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/
-              style: {
-                color: "gold",
-                shape: "rect",
-                layout: "vertical"
-              },
-
-              // set up the transaction
-              createOrder: (data, actions) => {
-                  // pass in any options from the v2 orders create call:
-                  // https://developer.paypal.com/api/orders/v2/#orders-create-request-body
-                  const createOrderPayload = {
-                      purchase_units: [
-                          {
-                              amount: {
-                                  value: "12"
-                              }
-                          }
-                      ]
-                  };
-
-                  return actions.order.create(createOrderPayload);
-              },
-
-              // finalize the transaction
-              onApprove: (data, actions) => {
-                  const captureOrderHandler = (details) => {
-                      const payerName = details.payer.name.given_name;
-                      console.log('Transaction completed');
-                  };
-
-                  return actions.order.capture().then(captureOrderHandler);
-              },
-
-              // handle unrecoverable errors
-              onError: (err) => {
-                  console.error('An error prevented the buyer from checking out with PayPal');
-              }
-          });
-
-          paypalButtonsComponent
-              .render("#paypal-button-container")
-              .catch((err) => {
-                  console.error('PayPal Buttons failed to render');
-              });
-
         </script>
         @endsection
