@@ -41,8 +41,18 @@
       width: 3em;
    }
 </style>
-
-<nav class="h5 shadow-lg navbar navbar-expand-lg navbar-dark font-weight-bold" style="background-color: rgba(0,136,210, 0.9);">
+@push ('scripts')
+<script>
+   $(document).ready(function(){
+    $(".dropdown-double").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-men");
+        if(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("open");
+        }
+    });
+});     
+   </script>
+<nav class="h5 shadow-lg navbar navbar-expand-lg navbar-dark font-weight-bold">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Essay Sages</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

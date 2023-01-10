@@ -81,14 +81,7 @@
       <div class="col-md-12 mt-5 head-part text-white">
          <h3>{{$title}}</h3>
          <p class="w-50 text-center">{{$topline}}</p>
-         <form class="mt-5 rounded d-flex shadow-md border w-75" action="" method="get">
-            <input class="p-2 border-0 h-40 w-100" type="text" style="" placeholder="Search..." />
-            <!-- <div class="search-form-v2__buttons-wrap"> -->
-            <button class="w-25 btn btn-warning rounded-right">
-               Hire Writer
-            </button>
-            <!-- </div> -->
-         </form>
+        
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
             <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
