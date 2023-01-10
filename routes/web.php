@@ -110,6 +110,7 @@ Route::get('/professional-writers',[frontendController::class,'ProfessionalWrite
 Route::get('/competent-tutors',[frontendController::class,'CompetentTutors']);
 Route::get('/licensed-researchers',[frontendController::class,'LicensedResearchers']);
 
+
 // add route
 Route::get('/contactUs',[frontendController::class,'ContactUs']);
 Route::get('/aboutUs',[frontendController::class,'aboutUs']);
