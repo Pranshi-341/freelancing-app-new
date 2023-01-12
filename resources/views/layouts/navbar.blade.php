@@ -88,16 +88,17 @@
           </a>
           <div class="dropdown-double">
             <ul class="dropdown-men w-75 text-wrap text-break" aria-labelledby="navbarDropdown" style="list-style:none;">
-              <li><a class="dropdown-item" href="/help/essay">Essay writing</a></li>
-              <li><a class="dropdown-item" href="/help/research-paper">Homework Writing</a></li>
-              <li><a class="dropdown-item" href="/help/thesis">Dissertation writing</a></li>
-              <li><a class="dropdown-item" href="/help/dissertation">Thesis writing</a></li>
-              <li><a class="dropdown-item" href="/help/assigment">Literature Review Writing</a></li>
-              <li><a class="dropdown-item" href="/help/book-report">Mathematics help</a></li>
-              <li><a class="dropdown-item" href="/help/speach">Computer science-related assignments</a></li>
-              <li><a class="dropdown-item" href="/help/personal-statement">Physics helps</a></li>
-              <li><a class="dropdown-item" href="/help/lab-report">Accounting Economics and Business related assignments</a></li>
-              <li><a class="dropdown-item" href="/help/homework">Coursework Writing</a></li>
+              <li><a class="dropdown-item" href="/help/essaywrite">Essay writing</a></li>
+              <li><a class="dropdown-item" href="/help/homework">Homework Writing</a></li>
+              <li><a class="dropdown-item" href="/help/dissertation">Dissertation writing</a></li>
+              <li><a class="dropdown-item" href="/help/thesis">Thesis writing</a></li>
+              <li><a class="dropdown-item" href="/help/literature">Literature Review Writing</a></li>
+              <li><a class="dropdown-item" href="/help/maths">Mathematics help</a></li>
+              <li><a class="dropdown-item" href="/help/computer-science">Computer science-related assignments</a></li>
+              <li><a class="dropdown-item" href="/help/physics">Physics helps</a></li>
+              <li><a class="dropdown-item" href="/help/accounting">Accounting Economics and Business related assignments</a></li>
+              <li><a class="dropdown-item" href="/help/coursework">Coursework Writing</a></li>
+              <li><a class="dropdown-item" href="/help/book-report">Coursework Writing</a></li>
             </ul>
           </div>
         </li>

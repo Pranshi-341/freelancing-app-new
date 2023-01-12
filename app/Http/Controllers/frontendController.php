@@ -23,7 +23,7 @@ class frontendController extends Controller
         $topline = "Are you stuck with a mathematics question on an Exam or assignment? Our Experts and support team are here for your mathematics help 24/7.";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
-        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage]);
+        return view('frontend.maths',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage]);
     }
 
     function Physics(){
@@ -31,7 +31,7 @@ class frontendController extends Controller
         $topline = "Are you stuck with a physics problem or assignment? Our experienced experts are here for you 24/7 to provide you with the perfect solutions. ";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
-        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage]);
+        return view('frontend.physics',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage]);
     }
 
     function Dissertation(){
@@ -39,7 +39,7 @@ class frontendController extends Controller
         $topline = "Our competent professional and proofreaders will polish your rough work into a sparkling gem of a dissertation, making your dissertation impactful. ";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
-        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        return view('frontend.dissertation',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
     function Coursework(){
@@ -47,7 +47,7 @@ class frontendController extends Controller
         $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your coursework writing.";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
-        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        return view('frontend.coursework',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
     function Presentations(){
@@ -63,7 +63,7 @@ class frontendController extends Controller
         $topline = "Technical writers offer a team of highly trained specialists who offer the most economical computer science assistance through our site. Once you've made your order, our specialists will review it and submit your assignment within the time frame provided by our clients. ";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
-        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        return view('frontend.computer-science',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
     function AccountingEconomicsBusiness(){
@@ -71,7 +71,7 @@ class frontendController extends Controller
         $topline = "We will provide affordable and high-quality Accounting, economics, and Business-Related Assignments from our qualified experts. We will also provide additional tips linked to economics and accounting concepts to provide great value for your money. ";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
-        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        return view('frontend.accounting',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
     function Team(){
@@ -125,11 +125,11 @@ function AboutUs(){
 
     // createv functions for writing help 
     function Essay(){
-        $title = "Essay Help";
-        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your essay writing.";
+        $title = "Hey Essay Sages! Write My Essay For Me";
+        $topline = "Our Professional Essay Writing Experts Are 24*7 Available To Help You!";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
-        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        return view('frontend.essayWrite',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     } 
 
     function ResearchPaper(){
@@ -145,7 +145,7 @@ function AboutUs(){
         $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your thesis writing.";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
-        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        return view('frontend.thesis',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
     function Assigment() {
@@ -169,7 +169,7 @@ function AboutUs(){
         $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your book report writing.";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
-        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        return view('frontend.book-report',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
     function Speach(){
@@ -197,11 +197,11 @@ function AboutUs(){
     }
 
     function Homework() {
-        $title = "Homework Help";
-        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your homework writing.";
+        $title = "Homework Help At Essay Sages";
+        $topline = "Get Homework Help With Best Writing Experts";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
-        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        return view('frontend.homework',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
     function CaseStudy() {
@@ -217,7 +217,7 @@ function AboutUs(){
         $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your literature review writing.";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
-        return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        return view('frontend.literature',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
     function OrderNow(Request $request) {
