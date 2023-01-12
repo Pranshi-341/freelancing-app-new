@@ -29,6 +29,7 @@
                                 <th>topic</th>
                                 <th>deadline</th>
                                 <th>instructions</th>
+                                <th>Price To Paid</th>
                                 <th>status</th>
                                 <th>action</th>
                             </tr>
@@ -45,6 +46,13 @@
                                         <span class="text-danger">No Instructions</span>
                                     @else
                                         {{$post['instructions']}}
+                                    @endif
+                                </td>
+                                <td>
+                                    @if(!$post['bidPost'])
+                                        {{$post['budget']}}
+                                    @else
+                                        {{$post['bidPost'][0]['bid_amount']}}
                                     @endif
                                 </td>
                                 <td>
@@ -76,10 +84,8 @@
                                         @endif
                                     @else
                                     @if($post['bidPost'][0]['status'] == 0)
-                                        <form action="/acceptorder" method="post" >
-                                            @csrf
-                                            <button type="submit" name="id" value="{{$post['bidPost'][0]['id']}}" class="btn btn-success btn-sm">Accept Order</button>
-                                        </form>
+                                        <button type="button" data-toggle="modal" data-target="#payment_popup" id="popup" name="id" value="{{$post['bidPost'][0]['id']}}" class="btn btn-success btn-sm">Accept Order</button>
+                                        
                                     @else
                                         <button disabled class="btn btn-success btn-sm">Order accepted</button>
                                     @endif
@@ -103,6 +109,33 @@
     </div>
 </section>
     </div>
+
+<div class="modal" id="payment_popup" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centred" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="col-md-10">
+					<h5>Hire Writer</h5>
+				</div>
+				<div class="col-md-2">
+    				<button type="button" class="close" data-dismiss="modal" aria-label="close">
+    					<span aria-hidden="true">&times;</span>
+    				</button>
+				</div>
+			</div>
+			<form method="post" enctype="multipart/form-data" id="popup_block" action="">
+    			@csrf
+    			<div class="tabcontent payment">
+                    <div id="paypal-button-container"></div>
+                    <script src="https://www.paypal.com/sdk/js?client-id=AQnO8Od1kOAMF0n_sUDynKIGHy6E0a10oW7D5S8fu9Tv3QKlE01H8pzCfKF9DN5_Ijsi9PwJ6KNOWPYi&currency=USD&intent=capture&enable-funding=venmo" data-sdk-integration-source="integrationbuilder"></script>
+                </div>
+			</form>
+			
+		</div>
+	</div>
+</div>
+
+
   <!-- Vendor JS -->
 	<script src="{{asset('/admin/js/vendors.min.js')}}"></script>
 	<!-- Joblly App -->
@@ -110,4 +143,55 @@
     <script src="{{asset('/admin/js/pages/data-table.js')}}"></script>
     <script src="{{asset('/admin/js/pages/date-paginator.js')}}"></script>
     <script src="{{asset('/admin/assets/vendor_components/datatable/datatables.min.js')}}"></script>
+
+<script>
+        const paypalButtonsComponent = paypal.Buttons({
+              // optional styling for buttons
+              // https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/
+              style: {
+                color: "gold",
+                shape: "rect",
+                layout: "vertical"
+              },
+
+              // set up the transaction
+              createOrder: (data, actions) => {
+                  // pass in any options from the v2 orders create call:
+                  // https://developer.paypal.com/api/orders/v2/#orders-create-request-body
+                  const createOrderPayload = {
+                      purchase_units: [
+                          {
+                              amount: {
+                                  value: "11"
+                              }
+                          }
+                      ]
+                  };
+
+                  return actions.order.create(createOrderPayload);
+              },
+
+              // finalize the transaction
+              onApprove: (data, actions) => {
+                  const captureOrderHandler = (details) => {
+                      const payerName = details.payer.name.given_name;
+                      console.log('Transaction completed');
+                  };
+
+                  return actions.order.capture().then(captureOrderHandler);
+              },
+
+              // handle unrecoverable errors
+              onError: (err) => {
+                  console.error('An error prevented the buyer from checking out with PayPal');
+              }
+          });
+
+          paypalButtonsComponent
+              .render("#paypal-button-container")
+              .catch((err) => {
+                  console.error('PayPal Buttons failed to render');
+              });
+
+</script>
 @endsection

@@ -82,7 +82,7 @@
         <div class="row" style="margin-left: 20%;">
             <div class="tabcontent payment">
                 <div id="paypal-button-container"></div>
-                <script src="https://www.paypal.com/sdk/js?client-id=AeQUvQ7iql5_qXgRHfhiIQ9GB27PDrvn3mJmDFS_zbsarHnTILbSnNbaB11cs60vIt-I_Xhw1PBViYdw&currency=USD&intent=capture&enable-funding=venmo" data-sdk-integration-source="integrationbuilder"></script>
+                <script src="https://www.paypal.com/sdk/js?client-id=AQnO8Od1kOAMF0n_sUDynKIGHy6E0a10oW7D5S8fu9Tv3QKlE01H8pzCfKF9DN5_Ijsi9PwJ6KNOWPYi&currency=USD&intent=capture&enable-funding=venmo" data-sdk-integration-source="integrationbuilder"></script>
             </div>
         </div>
     </div>

@@ -64,19 +64,8 @@
     <div class="col-md-12 my-3">
         <div class="w-50 mx-auto" >
             <h2 class="text-center mt-3 p-3">
-                Testimonials
+                Publish Order
             </h2>
-            <div class="progress" style="height: 25px;">
-                <div class="progress-bar" style="background-color: green" role="progressbar" style="width:40%">
-                    1)Your Order
-                </div>
-                <div class="progress-bar" style="background-color: orange" role="progressbar" style="width:10%">
-                    2)Find Writer
-                </div>
-                <div class="progress-bar" style="background-color: danger" role="progressbar" style="width:20%">
-                    3)Make Payment
-                </div>
-            </div>
         </div>
     </div>
     <div class="col-md-12 my-3">

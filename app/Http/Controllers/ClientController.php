@@ -64,7 +64,7 @@ class ClientController extends Controller
             $writers = DB::table('freelancers_writers')->get();
         
             Session::flash('success', 'Your post has been published successfully');
-            return view('frontend.writer')->with('writers', $writers);
+            return $this->Posts();
         } else {
             Session::flash('error', 'Something went wrong');
             return redirect()->back();
@@ -126,6 +126,7 @@ class ClientController extends Controller
 
         // // covert data suiteable for foreach loop
         $posts = json_decode(json_encode($posts), true);
+        
 
         // dd($posts);
         return view('frontend.posts', compact('posts'));
