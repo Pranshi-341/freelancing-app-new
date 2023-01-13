@@ -1,13 +1,9 @@
 <style>
-  .dropdown-big .dropdown-men{
-    display: none;
-    overflow:hidden; 
-    height: 200px;
-  }
+  .dropdown-big .dropdown-men{display: none;}
   .dropdown-big:hover .dropdown-men {
         display: block;
         box-sizing: border-box;
-        overflow-y: scroll;
+        z-index: 1;
   }
 
   .dropdown-item:hover {
@@ -57,7 +53,7 @@
     });
 });     
    </script>
-<header class="page-header page-header_writer js_header__wrapper ">
+   <header class="page-header page-header_writer js_header__wrapper ">
 <nav class="h5 shadow-lg navbar navbar-expand-lg navbar-dark font-weight-bold">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Essay Sages</a>
@@ -88,7 +84,7 @@
             </ul>
           </div> 
         </li> -->
-        <li class="nav-item dropdown-big">
+        <div class="nav-item dropdown-big">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Writing Help
           </a>
@@ -104,10 +100,10 @@
               <li><a class="dropdown-item" href="/help/physics">Physics helps</a></li>
               <li><a class="dropdown-item" href="/help/accounting">Accounting Economics and Business related assignments</a></li>
               <li><a class="dropdown-item" href="/help/coursework">Coursework Writing</a></li>
-              <li><a class="dropdown-item" href="/help/book-report">Book-report Writing</a></li>
+              <li><a class="dropdown-item" href="/help/book-report">Coursework Writing</a></li>
             </ul>
           </div>
-        </li>
+        </div>
         <li class="nav-item dropdown-big">
           <a class="nav-link" href="/team">
           Team
