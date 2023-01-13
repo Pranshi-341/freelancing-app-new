@@ -104,7 +104,7 @@
               <li><a class="dropdown-item" href="/help/physics">Physics helps</a></li>
               <li><a class="dropdown-item" href="/help/accounting">Accounting Economics and Business related assignments</a></li>
               <li><a class="dropdown-item" href="/help/coursework">Coursework Writing</a></li>
-              <li><a class="dropdown-item" href="/help/book-report">Coursework Writing</a></li>
+              <li><a class="dropdown-item" href="/help/book-report">Book-report Writing</a></li>
             </ul>
           </div>
         </li>

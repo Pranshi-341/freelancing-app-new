@@ -19,25 +19,25 @@ class frontendController extends Controller
     }
 
     function Mathematics(){
-        $title = "Mathematics Help";
-        $topline = "Are you stuck with a mathematics question on an Exam or assignment? Our Experts and support team are here for your mathematics help 24/7.";
-        $bottomline = "Make your order and get our assistance now! ";
+        $title = "Do My Math Homework";
+        $topline = "Hey! Essay Sages, Help Me With My Math Homework ";
+        $bottomline = "Ask the Professionals At Essay Sages “Help Me With My Maths Homework”!        ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
         return view('frontend.maths',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage]);
     }
 
     function Physics(){
-        $title = "Physics Help";
-        $topline = "Are you stuck with a physics problem or assignment? Our experienced experts are here for you 24/7 to provide you with the perfect solutions. ";
-        $bottomline = "Make your order and get our assistance now! ";
+        $title = "Physics Homework Help        ";
+        $topline = "Excellent Physics Homework Help From Experts At Essay Sages!";
+        $bottomline = "Need Help With Physics Homework? Experts At Essay Sages Are Waiting For You!        ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
         return view('frontend.physics',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage]);
     }
 
     function Dissertation(){
-        $title = "Dissertation Help";
-        $topline = "Our competent professional and proofreaders will polish your rough work into a sparkling gem of a dissertation, making your dissertation impactful. ";
-        $bottomline = "Make your order and get our assistance now! ";
+        $title = "Dissertation Writing Service";
+        $topline = "Custom Dissertation Writing Service By Ph.D. Writers";
+        $bottomline = "Our Ph.D. writers will take care of your dissertations ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
         return view('frontend.dissertation',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
@@ -59,9 +59,9 @@ class frontendController extends Controller
     }
 
     function ComputerScience(){
-        $title = "Computer Science Help";
-        $topline = "Technical writers offer a team of highly trained specialists who offer the most economical computer science assistance through our site. Once you've made your order, our specialists will review it and submit your assignment within the time frame provided by our clients. ";
-        $bottomline = "Make your order and get our assistance now! ";
+        $title = " Computer Science Homework Help        ";
+        $topline = "Hey! Get Computer Science Homework Help From Essay Sages        ";
+        $bottomline = "Ask the Professionals At Essay Sages for Computer Science Assignment Help”!        ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
         return view('frontend.computer-science',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
@@ -141,9 +141,9 @@ function AboutUs(){
     }
 
     function Thesis() {
-        $title = "Thesis Help";
-        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your thesis writing.";
-        $bottomline = "Make your order and get our assistance now! ";
+        $title = "Professional Thesis Writers";
+        $topline = "Hire Professional Thesis Writers At Essay Sages";
+        $bottomline = "Ask our writers to “Write My Thesis”        ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
         return view('frontend.thesis',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
@@ -213,9 +213,9 @@ function AboutUs(){
     }
 
     function LiteratureReview() {
-        $title = "Literature Review Help";
-        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your literature review writing.";
-        $bottomline = "Make your order and get our assistance now! ";
+        $title = " Writing A Literature Review";
+        $topline = "Writing A Literature Review From Professional Writers At Essay Sages";
+        $bottomline = "Our Experts Are There To Help You With Your Literature Review Writing!        ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
         return view('frontend.literature',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
