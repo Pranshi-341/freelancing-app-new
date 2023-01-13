@@ -1,8 +1,13 @@
 <style>
-  .dropdown-big .dropdown-men{display: none;}
+  .dropdown-big .dropdown-men{
+    display: none;
+    overflow:hidden; 
+    height: 200px;
+  }
   .dropdown-big:hover .dropdown-men {
         display: block;
         box-sizing: border-box;
+        overflow-y: scroll;
   }
 
   .dropdown-item:hover {
@@ -52,6 +57,7 @@
     });
 });     
    </script>
+<header class="page-header page-header_writer js_header__wrapper ">
 <nav class="h5 shadow-lg navbar navbar-expand-lg navbar-dark font-weight-bold">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Essay Sages</a>
@@ -140,3 +146,4 @@
     </div>
   </div>
 </nav>
+</header>
