@@ -27,9 +27,9 @@ class frontendController extends Controller
     }
 
     function Physics(){
-        $title = "Physics Homework Help        ";
+        $title = "Physics Homework Help ";
         $topline = "Excellent Physics Homework Help From Experts At Essay Sages!";
-        $bottomline = "Need Help With Physics Homework? Experts At Essay Sages Are Waiting For You!        ";
+        $bottomline = "Need Help With Physics Homework? Experts At Essay Sages Are Waiting For You!";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
         return view('frontend.physics',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage]);
     }
@@ -43,9 +43,9 @@ class frontendController extends Controller
     }
 
     function Coursework(){
-        $title = "Coursework Help";
-        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your coursework writing.";
-        $bottomline = "Make your order and get our assistance now! ";
+        $title = "Coursework Writing Service";
+        $topline = "Custom Coursework Writing Service At Essay Sages!";
+        $bottomline = "Ask Our Team Of  Experts To Help You With Custom Coursework Writing Services! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
         return view('frontend.coursework',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }

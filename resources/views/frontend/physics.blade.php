@@ -79,7 +79,7 @@
     margin-bottom: .25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
-
+}
   .pricing .card:hover .btn {
     /* opacity: 1; */
   }
