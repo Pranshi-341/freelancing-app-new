@@ -165,9 +165,9 @@ function AboutUs(){
     // }
 
     function BookReport() {
-        $title = "Book Report Help";
-        $topline = "Our experts will perform more research and provide more detailed information and evidence on the subject of your book report writing.";
-        $bottomline = "Make your order and get our assistance now! ";
+        $title = "Custom Book Report Writing Service At Essay Sages!        ";
+        $bottomline = "Ask Our Team Of  Experts To Help You With Book Review Writing Service!";
+        $topline = " ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
         return view('frontend.book-report',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }

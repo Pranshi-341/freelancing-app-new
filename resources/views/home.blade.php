@@ -93,6 +93,25 @@
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
 ></script>
+<script type="text/javascript">
+
+txt6 = document.getElementById("text6");
+btn6 = document.getElementById("btn6");
+convert8 = document.getElementById("convert8");
+function toggle7() {
+
+  if(document.getElementById("text6").style.display == 'none') {
+    convert8.style.display = 'block';
+    btn6.innerHTML = '<i class="fas fa-minus"></i> Show Less';
+    txt6.style.display = 'table';
+
+  } else {
+    convert8.style.display = 'none';
+    btn6.innerHTML = '<i class="fas fa-plus"></i> Show More ';
+    txt6.style.display = 'none';
+  }
+}
+</script>
 
 @section('content')
 <div class="row">
@@ -418,6 +437,7 @@ your time to browse our website to discover more about us and what we offer.</p>
 </p>
       </div>
    </div>
+   <button class="btn-hover color-1" id='btn6' onclick='toggle7()' style="float:left;"> <i class="fas fa-plus"></i> Show More </button>
    <div class="col-md-12">
       <div class="row">
          <h3>It Is Easy To Get Writing Essay Online Service!</h3>
