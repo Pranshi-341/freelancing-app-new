@@ -3,6 +3,7 @@
   .dropdown-big:hover .dropdown-men {
         display: block;
         box-sizing: border-box;
+        z-index: 1;
   }
 
   .dropdown-item:hover {
