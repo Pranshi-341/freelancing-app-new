@@ -128,13 +128,30 @@ class ClientController extends Controller
         $posts = json_decode(json_encode($posts), true);
         
 
-        // dd($posts);
+         // dd($posts);
         return view('frontend.posts', compact('posts'));
     }
 
-    public function payment(Request $request, $price){
+    public function payment_save(Request $request)
+    {
+        $id = $request->id;
+        $user_id = Auth::user()->id;
+        $status = $request->status;
+        $amount = $request->purchase_units[0]['amount']['value'];
+        $name = $request->purchase_units[0]['shipping']['name']['full_name'];
+        $email = $request->payer['email_address'];
+        $create_time = $request->purchase_units[0]['payments']['captures'][0]['create_time'];
+        $update_time = $request->purchase_units[0]['payments']['captures'][0]['update_time'];
         
-        return view('frontend.payment')->with('price',$price);
+        if(!empty($id)){
+            $values = array('payment_id' => $id, 'user_id' => $user_id, 'name' => $name, 'email' => $email, 'status' => $status, 'amount' => $amount);
+            DB::table('payments')->insert($values);
+
+            $message = array('success' => '1', 'message' => 'Payment Done');
+            return response()->json($message);
+
+        }
+        
     }
 
     public function Acceptorder(Request $request)

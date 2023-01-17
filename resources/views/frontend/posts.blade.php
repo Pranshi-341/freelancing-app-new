@@ -1,5 +1,22 @@
 @extends('layouts.app')
 @section('content')
+<head>
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.js"></script>  
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css">
+	
+	<style type="text/css">
+	   .toast-success {
+            background-color: #51a351 !important;
+        }
+
+        .toast-error {
+            background-color: #bd362f !important;
+        }
+	</style>  
+
+</head>
     <link rel="stylesheet" href="{{asset('/admin/assets/vendor_components/datatable/datatables.min.css')}}">
 <div class="row">
     <div class="col-md-12" style=" background-size:cover; background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp);">
@@ -145,33 +162,29 @@
     <script src="{{asset('/admin/assets/vendor_components/datatable/datatables.min.js')}}"></script>
 
 <script>
-        const paypalButtonsComponent = paypal.Buttons({
+    $(".price_get").on('click', function(){
+        var price = $(this).closest('tr').find('.pay_price').text();
+        console.log(price);
+    
+        paypal.Buttons({
               // optional styling for buttons
               // https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/
-              style: {
-                color: "gold",
-                shape: "rect",
-                layout: "vertical"
-              },
-
+              
               // set up the transaction
-              createOrder: (data, actions) => {
+              createOrder: function(data, actions){
                   // pass in any options from the v2 orders create call:
                   // https://developer.paypal.com/api/orders/v2/#orders-create-request-body
-                  const createOrderPayload = {
+                  return actions.order.create({
                       purchase_units: [
                           {
                               amount: {
-                                currency_code : "USD",
                                 value: "0.1",
-                                
 
                               }
                           }
                       ]
-                  };
+                  });
 
-                  return actions.order.create(createOrderPayload);
               },
 
               // finalize the transaction
@@ -181,20 +194,28 @@
                       console.log('Transaction completed');
                   };
 
-                  return actions.order.capture().then(captureOrderHandler);
+                  return actions.order.capture().then(function(details){
+                    $.ajax({
+                        data: details,
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                        },
+                        url: 'payment_save',
+                        type: "POST",
+                        success: function(data){
+                            toastr.success(data.message);
+                        }
+
+                    })
+                  });
               },
 
               // handle unrecoverable errors
               onError: (err) => {
                   console.error('An error prevented the buyer from checking out with PayPal');
               }
-          });
+          }).render("#paypal-button-container");
 
-          paypalButtonsComponent
-              .render("#paypal-button-container")
-              .catch((err) => {
-                  console.error('PayPal Buttons failed to render');
-              });
-
+    });
 </script>
 @endsection
