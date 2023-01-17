@@ -48,12 +48,29 @@
                                         {{$post['instructions']}}
                                     @endif
                                 </td>
-                                <td>
+                                <td class="pay_price">
                                     @if(!$post['bidPost'])
                                         {{$post['budget']}}
                                     @else
                                         {{$post['bidPost'][0]['bid_amount']}}
                                     @endif
+                                </td>
+                                <td>
+                                    {{-- add button accept order --}}
+                                    @if(!$post['bidPost'])
+                                        @if($post['status'] == 0)
+                                            <button disabled class="btn btn-success btn-sm">Accept Order</button>
+                                        @endif
+                                    @else
+                                    @if($post['bidPost'][0]['status'] == 0)
+                                        <button type="button" data-toggle="modal" data-target="#payment_popup" id="popup" name="id" value="{{$post['bidPost'][0]['id']}}" class="btn btn-success btn-sm price_get">Accept Order</button>
+                                        
+                                    @else
+                                        <button disabled class="btn btn-success btn-sm">Order accepted</button>
+                                    @endif
+                                    @endif
+                                    {{-- add button view order --}}
+                                    <a  class="btn btn-primary btn-sm">Delete</a>
                                 </td>
                                 <td>
                                     @if(!$post['bidPost'])
@@ -75,23 +92,6 @@
                                         <span class="badge badge-danger">cancelled</span>
                                     @endif
                                     @endif
-                                </td>
-                                <td style="display: flex;">
-                                    {{-- add button accept order --}}
-                                    @if(!$post['bidPost'])
-                                        @if($post['status'] == 0)
-                                            <button disabled class="btn btn-success btn-sm">Accept Order</button>
-                                        @endif
-                                    @else
-                                    @if($post['bidPost'][0]['status'] == 0)
-                                        <button type="button" data-toggle="modal" data-target="#payment_popup" id="popup" name="id" value="{{$post['bidPost'][0]['id']}}" class="btn btn-success btn-sm">Accept Order</button>
-                                        
-                                    @else
-                                        <button disabled class="btn btn-success btn-sm">Order accepted</button>
-                                    @endif
-                                    @endif
-                                    {{-- add button view order --}}
-                                    <a  class="btn btn-primary btn-sm">Delete</a>
                                 </td>
                             </tr>
                             @endforeach
@@ -127,7 +127,7 @@
     			@csrf
     			<div class="tabcontent payment">
                     <div id="paypal-button-container"></div>
-                    <script src="https://www.paypal.com/sdk/js?client-id=AQnO8Od1kOAMF0n_sUDynKIGHy6E0a10oW7D5S8fu9Tv3QKlE01H8pzCfKF9DN5_Ijsi9PwJ6KNOWPYi&currency=USD&intent=capture&enable-funding=venmo" data-sdk-integration-source="integrationbuilder"></script>
+                    <script src="https://www.paypal.com/sdk/js?client-id=AeQUvQ7iql5_qXgRHfhiIQ9GB27PDrvn3mJmDFS_zbsarHnTILbSnNbaB11cs60vIt-I_Xhw1PBViYdw&currency=USD&intent=capture&enable-funding=venmo" data-sdk-integration-source="integrationbuilder"></script>
                 </div>
 			</form>
 			
@@ -162,7 +162,10 @@
                       purchase_units: [
                           {
                               amount: {
-                                  value: "11"
+                                currency_code : "USD",
+                                value: "0.1",
+                                
+
                               }
                           }
                       ]
