@@ -524,7 +524,7 @@ In any case, if you find the whole task inappropriate, which is impossible, you 
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
 ></script>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script src="{{ asset('js/app.js') }}" defer></script>
+
 
 <script>
 $('.moreless-button').click(function() {
