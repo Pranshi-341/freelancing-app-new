@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('content')
+<head>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+</head>
 <style>
     .progress-bar {
         width: 33.3%;
@@ -42,6 +45,7 @@
 
 
 </style>
+@yield("wrip")
 <div class="row">
     <div class="col-md-12" style=" background-size:cover; background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp);">
         @include('layouts.navbar')
@@ -58,21 +62,10 @@
 </div>
 <div class="row">
     <div class="col-md-12 my-3">
-        <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+        <div class="w-50 mx-auto" >
             <h2 class="text-center mt-3 p-3">
-                Testimonials
+                Publish Order
             </h2>
-            <div class="progress" style="height: 25px;">
-                <div class="progress-bar" style="background-color: green" role="progressbar" style="width:40%">
-                    1)Your Order
-                </div>
-                <div class="progress-bar" style="background-color: orange" role="progressbar" style="width:10%">
-                    2)Find Writer
-                </div>
-                <div class="progress-bar" style="background-color: danger" role="progressbar" style="width:20%">
-                    3)Make Payment
-                </div>
-            </div>
         </div>
     </div>
     <div class="col-md-12 my-3">
@@ -87,7 +80,7 @@
                 <div>
                     <!-- create form of writing with field of subject,topic,pages,deadline,Detailed Instructions and attach file -->
                     <div id="Writing" class="tabcontent">
-                        <form id="submit" action="/publish/writterpost" method="POST" enctype="multipart/form-data">
+                        <form id="publish_post" action="/publish/writterpost" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="col-md-12 row">
                                 <div class="col-md-6">
@@ -180,38 +173,8 @@
                                 <label for="instructions">Instructions</label>
                                 <textarea class="form-control" id="editInstructions" name="editInstructions" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary submit">Submit</button>
                         </form>
-                    </div>
-
-                    <div style="display : none;" class="tabcontent HireWriter">
-                        <div class="col-12">
-				            <br>
-                            <table class="table table-hover data_table">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Email ID</th>
-                                        <th>Skills</th>
-                                        <th>Actions</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach($writers as $writers)
-                                    <tr>
-                                        <td>{{ $writers->name }}</td>
-                                        <td>{{ $writers->email }}</td>
-                                        <td>{{ $writers->skills }}</td>
-                                        <td>
-                                        <a href="" class="btn btn-primary">Chat</a>
-                                        <a href="" class="btn btn-danger">Hire</a>
-                                        </td>
-                                    </tr>
-                                    @endforeach
-                                </tbody>
-
-                            </table>
-			            </div>
                     </div>
 
                 </div>
@@ -220,12 +183,6 @@
     </div>
 </div>
         <script>
-            $('.submit').on('click', function(){
-               
-                $('.HireWriter').show();
-                $('#Writing').hide();
-                
-            });
 
             function changeTab(evt, cityName) {
                 var i, tabcontent, tablinks;

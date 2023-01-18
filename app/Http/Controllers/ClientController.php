@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
+use Illuminate\Support\Facades\DB;
 use App\Models\Publishjobs;
 use App\Models\Tabletotalbids;
 use Hash;
@@ -48,6 +49,7 @@ class ClientController extends Controller
         $data['budget'] = $request->writterBudget;
         $data['deadline'] = $request->writterDeadline;
         $data['instructions'] = $request->writterInstructions;
+        
         if ($request->hasFile('writterFile')) {
             $file = $request->file('writterFile');
             $fileName = $file->getClientOriginalName();
@@ -59,8 +61,10 @@ class ClientController extends Controller
         // exit();
         $check = Publishjobs::create($data);
         if ($check) {
+            $writers = DB::table('freelancers_writers')->get();
+        
             Session::flash('success', 'Your post has been published successfully');
-            return redirect()->back();
+            return $this->Posts();
         } else {
             Session::flash('error', 'Something went wrong');
             return redirect()->back();
@@ -122,9 +126,32 @@ class ClientController extends Controller
 
         // // covert data suiteable for foreach loop
         $posts = json_decode(json_encode($posts), true);
+        
 
-        // dd($posts);
+         // dd($posts);
         return view('frontend.posts', compact('posts'));
+    }
+
+    public function payment_save(Request $request)
+    {
+        $id = $request->id;
+        $user_id = Auth::user()->id;
+        $status = $request->status;
+        $amount = $request->purchase_units[0]['amount']['value'];
+        $name = $request->purchase_units[0]['shipping']['name']['full_name'];
+        $email = $request->payer['email_address'];
+        $create_time = $request->purchase_units[0]['payments']['captures'][0]['create_time'];
+        $update_time = $request->purchase_units[0]['payments']['captures'][0]['update_time'];
+        
+        if(!empty($id)){
+            $values = array('payment_id' => $id, 'user_id' => $user_id, 'name' => $name, 'email' => $email, 'status' => $status, 'amount' => $amount);
+            DB::table('payments')->insert($values);
+
+            $message = array('success' => '1', 'message' => 'Payment Done');
+            return response()->json($message);
+
+        }
+        
     }
 
     public function Acceptorder(Request $request)

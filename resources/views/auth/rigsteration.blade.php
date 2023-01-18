@@ -66,6 +66,10 @@
                             <div class="form-group mb-3">
                             	<input type="text" class="form-control" name="skills" id="skills" placeholder="Skills" style="display:none;">
                             </div>
+
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" name="price" id="price" placeholder="Price" style="display:none;">                                
+                            </div>
                             
                             <div class="form-group mb-3">
                                 <div class="checkbox">
@@ -87,9 +91,11 @@
 	
 	$("#exampleRadios2").on('click', function(){
 		$('#skills').show();
+        $('#price').show();
 	});
 	$("#exampleRadios1").on('click', function(){
 		$('#skills').hide();
+        $('#price').hide();
 	});
 </script>
 

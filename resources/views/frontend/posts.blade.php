@@ -1,5 +1,22 @@
 @extends('layouts.app')
 @section('content')
+<head>
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.js"></script>  
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css">
+	
+	<style type="text/css">
+	   .toast-success {
+            background-color: #51a351 !important;
+        }
+
+        .toast-error {
+            background-color: #bd362f !important;
+        }
+	</style>  
+
+</head>
     <link rel="stylesheet" href="{{asset('/admin/assets/vendor_components/datatable/datatables.min.css')}}">
 <div class="row">
     <div class="col-md-12" style=" background-size:cover; background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp);">
@@ -29,6 +46,7 @@
                                 <th>topic</th>
                                 <th>deadline</th>
                                 <th>instructions</th>
+                                <th>Price To Paid</th>
                                 <th>status</th>
                                 <th>action</th>
                             </tr>
@@ -46,6 +64,30 @@
                                     @else
                                         {{$post['instructions']}}
                                     @endif
+                                </td>
+                                <td>
+                                    @if(!$post['bidPost'])
+                                        <input type="text" value="{{$post['budget']}}" class="pay_price">
+                                    @else
+                                        <input type="text" value="{{$post['bidPost'][0]['bid_amount']}}" class="pay_price">
+                                    @endif
+                                </td>
+                                <td>
+                                    {{-- add button accept order --}}
+                                    @if(!$post['bidPost'])
+                                        @if($post['status'] == 0)
+                                            <button disabled class="btn btn-success btn-sm">Accept Order</button>
+                                        @endif
+                                    @else
+                                    @if($post['bidPost'][0]['status'] == 0)
+                                        <button type="button" data-toggle="modal" data-target="#payment_popup" id="popup" name="id" value="{{$post['bidPost'][0]['id']}}" class="btn btn-success btn-sm price_get">Accept Order</button>
+                                        
+                                    @else
+                                        <button disabled class="btn btn-success btn-sm">Order accepted</button>
+                                    @endif
+                                    @endif
+                                    {{-- add button view order --}}
+                                    <a  class="btn btn-primary btn-sm">Delete</a>
                                 </td>
                                 <td>
                                     @if(!$post['bidPost'])
@@ -68,25 +110,6 @@
                                     @endif
                                     @endif
                                 </td>
-                                <td style="display: flex;">
-                                    {{-- add button accept order --}}
-                                    @if(!$post['bidPost'])
-                                        @if($post['status'] == 0)
-                                            <button disabled class="btn btn-success btn-sm">Accept Order</button>
-                                        @endif
-                                    @else
-                                    @if($post['bidPost'][0]['status'] == 0)
-                                        <form action="/acceptorder" method="post" >
-                                            @csrf
-                                            <button type="submit" name="id" value="{{$post['bidPost'][0]['id']}}" class="btn btn-success btn-sm">Accept Order</button>
-                                        </form>
-                                    @else
-                                        <button disabled class="btn btn-success btn-sm">Order accepted</button>
-                                    @endif
-                                    @endif
-                                    {{-- add button view order --}}
-                                    <a  class="btn btn-primary btn-sm">Delete</a>
-                                </td>
                             </tr>
                             @endforeach
                             @else
@@ -103,6 +126,33 @@
     </div>
 </section>
     </div>
+
+<div class="modal" id="payment_popup" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centred" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="col-md-10">
+					<h5>Hire Writer</h5>
+				</div>
+				<div class="col-md-2">
+    				<button type="button" class="close" data-dismiss="modal" aria-label="close">
+    					<span aria-hidden="true">&times;</span>
+    				</button>
+				</div>
+			</div>
+			<form method="post" enctype="multipart/form-data" id="popup_block" action="">
+    			@csrf
+    			<div class="tabcontent payment">
+                    <div id="paypal-button-container"></div>
+                    <script src="https://www.paypal.com/sdk/js?client-id=AeQUvQ7iql5_qXgRHfhiIQ9GB27PDrvn3mJmDFS_zbsarHnTILbSnNbaB11cs60vIt-I_Xhw1PBViYdw&currency=USD&intent=capture&enable-funding=venmo" data-sdk-integration-source="integrationbuilder"></script>
+                </div>
+			</form>
+			
+		</div>
+	</div>
+</div>
+
+
   <!-- Vendor JS -->
 	<script src="{{asset('/admin/js/vendors.min.js')}}"></script>
 	<!-- Joblly App -->
@@ -110,4 +160,69 @@
     <script src="{{asset('/admin/js/pages/data-table.js')}}"></script>
     <script src="{{asset('/admin/js/pages/date-paginator.js')}}"></script>
     <script src="{{asset('/admin/assets/vendor_components/datatable/datatables.min.js')}}"></script>
+
+<script>
+    $(document).ready(function(){
+
+        $(".pay_price").attr('disabled', 'disabled');
+        $(".price_get").on('click', function(){
+            var price = $(this).closest('tr').find('.pay_price').val();
+            //alert(price[77]+price[78]+price[79]+price[80]);
+            
+            /**var total_price = price.find(function (element) {
+                return element > 0
+            });**/
+
+            paypal.Buttons({
+                // optional styling for buttons
+                // https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/
+                
+                // set up the transaction
+                createOrder: function(data, actions){
+                    // pass in any options from the v2 orders create call:
+                    // https://developer.paypal.com/api/orders/v2/#orders-create-request-body
+                    return actions.order.create({
+                        purchase_units: [
+                            {
+                                amount: {
+                                    value : price
+                                }
+                            }
+                        ]
+                    });
+
+                },
+
+                // finalize the transaction
+                onApprove: (data, actions) => {
+                    const captureOrderHandler = (details) => {
+                        const payerName = details.payer.name.given_name;
+                        console.log('Transaction completed');
+                    };
+
+                    return actions.order.capture().then(function(details){
+                        $.ajax({
+                            data: details,
+                            headers: {
+                                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                            },
+                            url: 'payment_save',
+                            type: "POST",
+                            success: function(data){
+                                toastr.success(data.message);
+                            }
+
+                        })
+                    });
+                },
+
+                // handle unrecoverable errors
+                onError: (err) => {
+                    console.error('An error prevented the buyer from checking out with PayPal');
+                }
+            }).render("#paypal-button-container");
+
+        });
+    });
+</script>
 @endsection
