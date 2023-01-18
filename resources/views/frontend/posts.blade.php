@@ -65,11 +65,11 @@
                                         {{$post['instructions']}}
                                     @endif
                                 </td>
-                                <td class="pay_price">
+                                <td>
                                     @if(!$post['bidPost'])
-                                        {{$post['budget']}}
+                                        <input type="text" value="{{$post['budget']}}" class="pay_price">
                                     @else
-                                        {{$post['bidPost'][0]['bid_amount']}}
+                                        <input type="text" value="{{$post['bidPost'][0]['bid_amount']}}" class="pay_price">
                                     @endif
                                 </td>
                                 <td>
@@ -162,60 +162,67 @@
     <script src="{{asset('/admin/assets/vendor_components/datatable/datatables.min.js')}}"></script>
 
 <script>
-    $(".price_get").on('click', function(){
-        var price = $(this).closest('tr').find('.pay_price').text();
-        console.log(price);
-    
-        paypal.Buttons({
-              // optional styling for buttons
-              // https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/
-              
-              // set up the transaction
-              createOrder: function(data, actions){
-                  // pass in any options from the v2 orders create call:
-                  // https://developer.paypal.com/api/orders/v2/#orders-create-request-body
-                  return actions.order.create({
-                      purchase_units: [
-                          {
-                              amount: {
-                                value: "0.1",
+    $(document).ready(function(){
 
-                              }
-                          }
-                      ]
-                  });
+        $(".pay_price").attr('disabled', 'disabled');
+        $(".price_get").on('click', function(){
+            var price = $(this).closest('tr').find('.pay_price').val();
+            //alert(price[77]+price[78]+price[79]+price[80]);
+            
+            /**var total_price = price.find(function (element) {
+                return element > 0
+            });**/
 
-              },
+            paypal.Buttons({
+                // optional styling for buttons
+                // https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/
+                
+                // set up the transaction
+                createOrder: function(data, actions){
+                    // pass in any options from the v2 orders create call:
+                    // https://developer.paypal.com/api/orders/v2/#orders-create-request-body
+                    return actions.order.create({
+                        purchase_units: [
+                            {
+                                amount: {
+                                    value : price
+                                }
+                            }
+                        ]
+                    });
 
-              // finalize the transaction
-              onApprove: (data, actions) => {
-                  const captureOrderHandler = (details) => {
-                      const payerName = details.payer.name.given_name;
-                      console.log('Transaction completed');
-                  };
+                },
 
-                  return actions.order.capture().then(function(details){
-                    $.ajax({
-                        data: details,
-                        headers: {
-                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                        },
-                        url: 'payment_save',
-                        type: "POST",
-                        success: function(data){
-                            toastr.success(data.message);
-                        }
+                // finalize the transaction
+                onApprove: (data, actions) => {
+                    const captureOrderHandler = (details) => {
+                        const payerName = details.payer.name.given_name;
+                        console.log('Transaction completed');
+                    };
 
-                    })
-                  });
-              },
+                    return actions.order.capture().then(function(details){
+                        $.ajax({
+                            data: details,
+                            headers: {
+                                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                            },
+                            url: 'payment_save',
+                            type: "POST",
+                            success: function(data){
+                                toastr.success(data.message);
+                            }
 
-              // handle unrecoverable errors
-              onError: (err) => {
-                  console.error('An error prevented the buyer from checking out with PayPal');
-              }
-          }).render("#paypal-button-container");
+                        })
+                    });
+                },
 
+                // handle unrecoverable errors
+                onError: (err) => {
+                    console.error('An error prevented the buyer from checking out with PayPal');
+                }
+            }).render("#paypal-button-container");
+
+        });
     });
 </script>
 @endsection
