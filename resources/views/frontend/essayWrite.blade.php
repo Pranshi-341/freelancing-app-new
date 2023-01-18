@@ -79,7 +79,7 @@
     margin-bottom: .25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
-}
+}  
 
   .pricing .card:hover .btn {
     /* opacity: 1; */
@@ -129,7 +129,8 @@
 
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     I am really very grateful that I came to know about <strong>Essay Sages Essay Writing Service</strong>. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
+                     I am really very grateful that I found Essay Sages. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work.
+
                   </p>
                </div>
             </div>
@@ -149,7 +150,8 @@
                  
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great <strong>Essay Writing Service</strong>.
+                     I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great<strong> Essay Writing Service.</strong>
+
                   </p>
                </div>
             </div>
@@ -192,9 +194,15 @@
       </button>
    </div>
 </div>
-
-
 </div>
+<div class="row p-3" style="background-color: #fff ;">
+   <div class="col-md-12">
+      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+         <h2 class="text-center mt-3 p-3">
+         Meet Our Services Writing Expert
+         </h2>
+      </div>
+   </div>
 <div class="row p-3" style="background-color: #fff ;">
    <div class="col-md-12">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
@@ -221,7 +229,8 @@
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                     Enter all the project-related details in the form for a better understanding of our Essay Writers.
+                     Enter all the project-related details in the form for a better understanding of our <strong> Essay Writers.
+                     </strong>
                      </span>
                   </p>
                </div>
@@ -272,7 +281,8 @@
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                     Before depositing the amount, make sure you are satisfied with our Online Essay Writing Services and then proceed.
+                     Before depositing the amount, make sure you are satisfied with our <strong>Online Essay Writing Services
+                     </strong> and then proceed.
                      </span>
                   </p>
                </div>
@@ -316,7 +326,8 @@
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-            Why choose us?
+         Professional <strong> Essay Writing Services </strong> Essay Sages Provides
+
          </h2>
       </div>
    </div>
@@ -331,8 +342,8 @@
                         <img class="card-img-top" src="{{ asset('icons/time.png') }}" alt="Card image cap" />
                      </div>
                      <div class="col-md-8">
-                        <h5 class="card-title">Types of essay</h5>
-                        <ul class="expertise-covers-v2__list">
+                        <h3 class="card-title">Types of essay</h3>
+                        <ul class="">
                                     <li class="expertise-covers-v2__list-item">Narrative</li>
                                     <li class="expertise-covers-v2__list-item">Definition</li>
                                     <li class="expertise-covers-v2__list-item">Descriptive</li>
@@ -355,7 +366,7 @@
                         <img class="card-img-top" src="{{ asset('icons/quality.png') }}" alt="Card image cap" />
                      </div>
                      <div class="col-md-8">
-                        <h5 class="card-title"><b>Free</b> features</h5>
+                        <h3 class="card-title"><b>Free</b> features</h3>
                         <ul class="expertise-covers-v2__card-list">
                                             <li class="expertise-covers-v2__card-list-item">
                             <span class="expertise-covers-v2__feature-name">A title page</span>
