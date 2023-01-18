@@ -92,7 +92,7 @@
    <div class="col-md-12" style='background-size:cover; background-image: url({{$backgroundImage}})'>
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h3>{{$title}}</h3>
+         <h1>{{$title}}</h1>
      <p class="w-50 text-center">{{$topline}}</p>         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
@@ -113,7 +113,8 @@
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-         What Do Our Customers Think About Our Essay Writing Service?
+         What Do Our Customers Think About Our Homework Writing Service?
+
          </h2>
       </div>
    </div>
@@ -198,7 +199,7 @@
    <div class="col-md-12">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-         4 Steps Of Our Essay Writing Services
+         Get Your Homework Done In 4 Easy Steps
 
          </h2>
       </div>
@@ -315,7 +316,7 @@
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-            Why choose us?
+            Professional Writing Services Essay Sages Provides
          </h2>
       </div>
    </div>
@@ -406,14 +407,16 @@
          <h2 class="text-center mt-3 p-3">
          Professional Homework Help Writing Service
          </h2>
-         <p>Thinking of canceling your plans because of tons of assignment work? It is not easy to study when you have a lot of work to do. You can’t enjoy hanging out with friends, can’t go out to watch movies, or taking part in your extracurricular activities. Want to get rid of it? At Essay Sages, get Homework Help from top writers. They are experienced individuals who will complete the assignment work on your behalf and help you to get good grades.
+         <p>Thinking of canceling your plans because of tons of assignment work? It is not easy to study when you have a lot of work to do. You can’t enjoy hanging out with friends, can’t go out to watch movies, or taking part in your extracurricular activities. Want to get rid of it? At Essay Sages, get <strong>Homework Help</strong> from top writers. They are experienced individuals who will complete the assignment work on your behalf and help you to get good grades.
 Isn’t it a good way? You can now enjoy everything else you wanted without compromising on your homework. Ask our professionals for Homework Help Online and let them be your helping hands for all of your assignment work.
 They can handle any complex task. All of our Professional Paper Writers are experienced enough to provide you with quality work. Although we can also complete the task within 24 hours it would be better if you can allow us some free time to research the project.
 Essay Sages is helping students do assignments for many years. In these recent years, we are also working on our weaknesses and on a mission to make us better each day. We are not the one who compromises the quality in any manner. Visit our website and choose the best suitable writer for your homework task. We are 24*7 available to answer your queries. It is very easy to place an order. Don’t worry, your payment will be safe with us and it will only be credited to the writer once you will approve the submitted work.
+</div>
+</div>
 
 </p>
          <h2> Homework Help Online From Professional Paper Writers</h2>
-         <p>You will find a number of Homework Help services online but it is not an easy task to find the most reliable and trusted one like Essay Sages. Make sure you are hiring an online writing service who have professional writers and years of expertise. Plagiarized or poor-quality homework writing will be of no use. At Essay Sages, we guarantee to provide unique quality content. Check out the below-given benefits of hiring Paper Writers for your homework:
+         <p>You will find a number of <strong>Homework Help</strong> services online but it is not an easy task to find the most reliable and trusted one like Essay Sages. Make sure you are hiring an online writing service who have professional writers and years of expertise. Plagiarized or poor-quality homework writing will be of no use. At Essay Sages, we guarantee to provide unique quality content. Check out the below-given benefits of hiring Paper Writers for your homework:
 <ul>
 <li><h5>  24*7 Support</h5>
 The primary goal of Essay Sages is to provide the proper convenience and support to our customers. This is why we are 24*7 available to serve you.
@@ -427,7 +430,7 @@ The team of professional writers working with us has Masters and Ph.D. degrees. 
 When it comes to professionalism, one can’t compromise with on-time delivery. At Essay Sages, our paper writers will submit the task on or before time.
 </li>
 <li><h5>Variety of Professional Writers</h5>
-On our Website For Homework Help, you will find various writers with their experience, professionalism, and customer reviews. You will have the choice to choose the best one out of them.
+On our Website For <strong>Homework Help</strong>, you will find various writers with their experience, professionalism, and customer reviews. You will have the choice to choose the best one out of them.
 </li>
 <li><h5>  Unique Content</h5>Unlike any other online writing service, we aim to provide the best and most unique work to our customers. We want to build our relationship for the long term and for the same, we both have to provide the best.
 Our support team is available 24*7 to help you. If you have any queries, ask the experts today!
@@ -436,7 +439,7 @@ Our support team is available 24*7 to help you. If you have any queries, ask the
 </p>
 <h2>Ask Writing Experts For Your Homework Help
 </h2>
-         <p>A group of professional writers is the main competitive advantage of many Homework Help websites, but few do the job of complexity. Some Online Homework Help services may only do homework in certain disciplines. Our online writing services can help you complete assignments of any complexity which also includes high school and college assignments.
+         <p>A group of professional writers is the main competitive advantage of many <strong>Homework Help</strong> websites, but few do the job of complexity. Some Online Homework Help services may only do homework in certain disciplines. Our online writing services can help you complete assignments of any complexity which also includes high school and college assignments.
  Our professional writers will complete your work quickly without grammatical errors. They have expertise in the following:
 
         <ul>
@@ -461,7 +464,7 @@ Here is the list of papers our writers can help you with:
         <li>Dissertations</li>
  
         </ul>
-</p>We are committed to continued excellence and open to taking on challenges. Don’t think that we are limited to a few tasks only. Our experienced writers can help you with almost all kinds of paper writing services along with Homework Help.
+</p>We are committed to continued excellence and open to taking on challenges. Don’t think that we are limited to a few tasks only. Our experienced writers can help you with almost all kinds of paper writing services along with <strong>Homework Help</strong>.
 A Master’s degree is the least qualification we ask writers for before hiring at Essay Sages.
  </p>
         <h2>Boost Your Grades By Hiring Homework Help Writers At Essay Sages
@@ -469,24 +472,17 @@ A Master’s degree is the least qualification we ask writers for before hiring 
         <p>
         If you have made up your mind and are ready to take help with your homework, you just need to do the following:
         <ul>
-        <li>On our website, choose the paper writing service you are looking for, let’s say Homework Help.
+        <li>On our website, choose the paper writing service you are looking for, let’s say <strong>Homework Help</strong>.
  </li>
         <li>Now, click on “Order Now” and follow the on-screen instructions.
 </li>
         <li>Place the order and complete the deposit.</li>
 </ul>You will be asked to choose from our best writers. Based on your requirements, you can select the writers after checking their qualifications, experience, and other customer reviews. The payment you have deposited will be safe with us. Until you will not be satisfied with our work, we will not release the payment to the writer. After the work submission, if you think it needs some editing then our writers will also do that for you for free within 7 days of submission. In the worst case, if you don’t like the submitted work at all, which is impossible, we will also refund you within 7 days.
-If you want you can also take Homework Help from the internet but the quality and guarantee we will provide you will not be given by anyone else. Try Essay Sages today!
+If you want you can also take <strong>Homework Help</strong> from the internet but the quality and guarantee we will provide you will not be given by anyone else. Try Essay Sages today!
 
 
         </p>
        
-        
-      </div>
-   </div>
-   <div class="col-md-12">
-      <div class="row">
-      </div>
-        </div>
         </div>
 
 <!-- MDB -->

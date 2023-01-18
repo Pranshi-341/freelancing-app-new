@@ -93,7 +93,7 @@ me with my maths homework today!">
    <div class="col-md-12" style='background-size:cover; background-image: url({{$backgroundImage}})'>
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h3>{{$title}}</h3>
+         <h1>{{$title}}</h1>
      <p class="w-50 text-center">{{$topline}}</p>         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
@@ -421,7 +421,9 @@ At Essay Sages, you will find plenty of professionals who are around the clock a
 
 
 </p>
-         <h3>Why You Must Rely Upon Essay Sages For Math Homework Online?
+</div>
+</div>
+         <h3 class="text-center mt-3 p-3">Why You Must Rely Upon Essay Sages For Math Homework Online?
 </h3>
          <p>While doing the Math HW, we get sometimes puzzled between complicated calculations or numbers. Doesn’t matter how difficult the task is, you have to complete it to get good marks and to save yourself from punishment. At Essay Sages, you will get the solution for Math Homework problems.
 
@@ -453,7 +455,7 @@ you will not be completely satisfied.
 </li>
 </ul>
 </p>
-<h3>Math Homework Areas That Essay Sages Cover
+<h3 class="text-center mt-3 p-3">Math Homework Areas That Essay Sages Cover
 </h3>
          <p>For the best quality Math Homework, experts at Essay Sages are 24*7 available to help you.
 Have a look at the areas of the school or College Math Homework Help provided by our
@@ -547,7 +549,7 @@ wherever you go, Essay Sages is there to help!</p>
         </ul>
         
 </p>
-        <h3>Essay Sages, Can You Help Me With My Math Homework Now</h3>
+        <h3 class="text-center mt-3 p-3">Essay Sages, Can You Help Me With My Math Homework Now</h3>
 
 <p>Your submission date is tomorrow but you are on a trip and forget to do your Math Homework,
 what will you do in that case? Essay Sages is 24*7 available to handle any math project from
@@ -558,7 +560,7 @@ the math assignments for you. So, without any second thoughts, ask the experts t
 Homework For Me”.
 
  </p>
- <h3>Why Should I Seek Math Homework Help?</h3>
+ <h3 class="text-center mt-3 p-3">Why Should I Seek Math Homework Help?</h3>
  <p>You might have asked why you need an expert’s help to do math homework or assignment.
 Some students think that this is cheating or this will degrade their skills. The one who accepts
 that they need help, it&#39;s a sign of truth and strength. We want you to pause for a while and read
@@ -584,9 +586,7 @@ will help you to get good grades and enhance your knowledge.</p>
         </li>
        
         </ul>
-        </p>
-      </div>
-        </div>
+</p>
         </div>
 
 <!-- MDB -->

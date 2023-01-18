@@ -87,7 +87,7 @@
    <div class="col-md-12" style='background-size:cover; background-image: url({{$backgroundImage}})'>
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h3>{{$title}}</h3>
+         <h1>{{$title}}</h1>
          <p class="w-50 text-center">{{$topline}}</p>
         
          <p style="color: #ffc107;">{{$bottomline}}</p>

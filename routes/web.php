@@ -86,7 +86,7 @@ Route::get('/help/dissertation',[frontendController::class,'Dissertation']);
 Route::get('/help/coursework',[frontendController::class,'Coursework']);
 Route::get('/help/presentations',[frontendController::class,'Presentations']);
 Route::get('/help/computer-science',[frontendController::class,'ComputerScience']);
-Route::get('/help/accounting',[frontendController::class,'AccountingEconomicsBusiness']);
+Route::get('/help/history',[frontendController::class,'History']);
 
 // add route for writing help
 Route::get('/help/essaywrite',[frontendController::class,'Essay']);

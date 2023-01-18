@@ -81,7 +81,7 @@
    <div class="col-md-12" style='background-size:cover; background-image: url({{$backgroundImage}})'>
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h3>{{$title}}</h3>
+         <h1>{{$title}}</h1>
          <p class="w-50 text-center">{{$topline}}</p>
          
          <p style="color: #ffc107;">{{$bottomline}}</p>
@@ -260,7 +260,7 @@
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-            Why choose us?
+            Professional Writing Services Essay Sages Provides
          </h2>
       </div>
    </div>

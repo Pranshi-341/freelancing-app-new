@@ -68,10 +68,17 @@ class frontendController extends Controller
 
     function AccountingEconomicsBusiness(){
         $title = "Accounting, Economics and Business Help";
+        $topline = "Get Your History Assignment Help At Essay Sages!";
+        $bottomline = "Get Guaranteed Good Grades In Your History Assignment With Writing Service At Essay Sages!";
+        $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
+        return view('frontend.accounting',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+    }
+    function History(){
+        $title = "History Assignment Help";
         $topline = "We will provide affordable and high-quality Accounting, economics, and Business-Related Assignments from our qualified experts. We will also provide additional tips linked to economics and accounting concepts to provide great value for your money. ";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
-        return view('frontend.accounting',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        return view('frontend.history',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
 
     function Team(){

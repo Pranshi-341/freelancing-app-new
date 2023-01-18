@@ -98,7 +98,7 @@
               <li><a class="dropdown-item" href="/help/maths">Mathematics help</a></li>
               <li><a class="dropdown-item" href="/help/computer-science">Computer science-related assignments</a></li>
               <li><a class="dropdown-item" href="/help/physics">Physics helps</a></li>
-              <li><a class="dropdown-item" href="/help/accounting">Accounting Economics and Business related assignments</a></li>
+              <li><a class="dropdown-item" href="/help/history">History Assignment Help</a></li>
               <li><a class="dropdown-item" href="/help/coursework">Coursework Writing</a></li>
               <li><a class="dropdown-item" href="/help/book-report">Book-report Writing</a></li>
             </ul>
