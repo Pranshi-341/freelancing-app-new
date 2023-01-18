@@ -2,17 +2,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Essay Writing Service | online paper writing service.</title>
-    <meta name="description" content="Essay Sages is the best Essay Writing Service that offers high-quality content from professional & experienced writing experts.">
-    <script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
-></script>
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script src="{{ asset('js/app.js') }}" defer></script>
-
+    <title>Computer Science Homework Help | Computer Science Assignment Help</title>
+    <meta name="description" content="Get quality Computer Science Homework Help from our professional academic writers. On-Time Delivery, 100% unique content. Chat Now!">
+    
 
 </head>
+
 @extends('layouts.app')
 <style>
    .head-part {
@@ -26,7 +21,6 @@
       height: 3em;
       width: 3em;
    }
-
    section.pricing {
   background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
@@ -38,15 +32,6 @@
   transition: all 0.2s;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
-#section {
-    width: 500px;
-    height: 400px;
-    word-wrap: break-word;
-  }
-  
-  .moretext {
-    display: none;
-  }
 
 .pricing hr {
   margin: 1.5rem 0;
@@ -85,8 +70,6 @@
   opacity: 0.7;
   transition: all 0.2s;
 }
-   
-
 
 /* Hover Effects on Card */
 
@@ -96,41 +79,49 @@
     margin-bottom: .25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
+}
 
   .pricing .card:hover .btn {
-    opacity: 1;
+    /* opacity: 1; */
   }
-}
 </style>
 
 
 @section('content')
 <div class="row">
-   <div class="col-md-12" style=" background-size:cover; background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp);">
+   <div class="col-md-12" style='background-size:cover; background-image: url({{$backgroundImage}})'>
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h2>Welcome to Essay Sages</h2>
-         <p class="w-50 text-center">Where our acclaimed client’s assignments and tasks are
-meticulously done. Our competence is unmatched. Once you submit an order, You will receive
-high-quality, customized, and unique work done. We have a great deal to offer so please take
-your time to browse our website to discover more about us and what we offer.</p>
-         
-         <div class="mt-5 mb-5 row d-flex justify-content-between ">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Professional Writing Expert</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Quick Service</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Free Edits</div>
+         <h3>{{$title}}</h3>
+     <p class="w-50 text-center">{{$topline}}</p>         
+         <p style="color: #ffc107;">{{$bottomline}}</p>
+         <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" />Hassle-Free Order Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Qualified Writing Experts</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />On-Time Delivery</div>
+         </div>
+         <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" />24*7 Service Available</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" />Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" />Plagiarism-Free Content </div>
          </div>
       </div>
    </div>
 </div>
-
-
-
 <div class="row">
+<div class="col-md-12 my-3">
+      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+         <h2 class="text-center mt-3 p-3">
+         Meet Our Team Of Computer Science Homework Help
+
+         </h2>
+      </div>
+   </div>
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-         What Do Our Customers Think About Our Essay Writing Service?
+         What Do Our Customers Think About Computer Science Assignments Help Service?
+
          </h2>
       </div>
    </div>
@@ -215,7 +206,7 @@ your time to browse our website to discover more about us and what we offer.</p>
    <div class="col-md-12">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-         4 Steps Of Our Essay Writing Services
+         Get Your Computer Science Assignment Done In 4 Easy Steps
 
          </h2>
       </div>
@@ -332,7 +323,8 @@ your time to browse our website to discover more about us and what we offer.</p>
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-            Why choose us?
+         Professional Writing Services Essay Sages Provides
+
          </h2>
       </div>
    </div>
@@ -416,113 +408,153 @@ your time to browse our website to discover more about us and what we offer.</p>
       </div>
    </div>
 </div>
-<!-- whu choose us -->
-   <div class="row p-5 ">
+<!-- Our team members portfolio -->
+<div class="row p-5 ">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-         Professional Essay Writing Services | Essay Sages
-         </h2>
-         <p>
-         <b>Custom Essay Writing Service </b>is a safe and smart option for those who spend their nights writing long paragraphs just to impress the professors and learn no new things. Essay Sages won’t waste your crucial hours. Hire our <b>Professional Essay Writers</b> today and do something that values!
-</p>
-      </div>
-   </div>
-            
-   <div class="col-md-12 section moretext">
-      <div class="row">
-     
-         <h3>It Is Easy To Get Writing Essay Online Service!</h3>
-         <p>Get a free quote from our<b> Essay Writing Services </b>experts at Essay Sages and get an idea of ​​how much an article will cost before it starts. If you found the price satisfactory, accept the offer and watch your worries go away! Our team will ensure that you no longer have to wake up till 4 am. <b>Essay Sages</b> is known for providing the best writing, editing, and proofreading services available online.</p>
-         <h3> Why Do Customers Keep Choosing Essay Sages? </h3>
-         <p>We carefully select all of our writers to ensure that each one of them demonstrates the highest level of professionalism, skill, and dedication. Such an approach allows us to provide the highest quality articles to anyone who turns to us to Write My Essay. Our experienced team of professionals produces all types of documents, in all areas and at all levels of complexity. From simple one-page essays to in-depth and complex essays - <b>Essay Sages</b> has it covered. With our extensive experience, we create customized documents for the unique needs of each client. We are also ready to take on any educational challenge you can think of. When you come to us for help, you get the best Essay Writing service at the right time!</p>
-         <h3>Quick Work Delivery</h3>
-         <p>Our writing team knows that a student's life often involves juggling multiple tasks and pursuing multiple important goals at the same time. But what if you are always drained? Do you feel like it's impossible to keep up with your seemingly successful peers no matter how hard you try?
- We've been there - it's not your fault. The thing is that it almost always takes less time to manage all your tasks properly. It can put a lot of pressure on you, making it difficult for you to check all the boxes on your list. And, often, pushing yourself to achieve negative goals leads to even more problems, including fatigue and even depression.
- Our<b> Write Essay For Me</b> service is designed to help you avoid this. With us, every learner can entrust their work to professionals who will complete them on time and at the best quality. We empower you to save your efforts for important things without compromising your work. And even that's not all!
- We understand that you may be in a difficult situation when you do not have time to complete a return within a few days. The good news is that you can overcome this challenge with a copywriter. Even if you are in a hurry, we can deliver your book as quickly as possible without compromising on quality!</p>
-         <h3>Get Essay Help From Top Rated Writers</h3>
-         <p>
-         Whether it's a last-minute essay or an in-depth research project, you won't have to worry about it when Essay Sages is by your side. Our <b>Essay Writing Services</b> always come to sign, guaranteeing high professionalism. At Essay Sages, we use the best writers.
-Our experts have bachelor's degrees, master's degrees, and even doctorate degrees and each of them has at least a few years of experience writing articles in their field. Before allowing a new employee to work on my writing orders, we put them through a series of checks and tests to see if they are high enough to provide high-quality help to your book.
-We also ask them to study and follow our quality control system carefully to get the best results. What else allows us to achieve 100% satisfaction?
-Apart from selecting the best writers, we also employ experienced staff who will take care of their work.
-We believe that effective maintenance is the key to consistently high quality for everything we deliver. So when you pay for a trial with us, you always have a quality guarantee. To take advantage of all these benefits, you only need to apply for our<b> Essay Writing services</b> and choose your best specialist.
-Our service works 24/7, so you can come to us if needed. Once your order is placed and assigned to a selected professional, they will complete it following your instructions. Our experienced writers will tailor each article to your unique needs. But, once the order is ready, you can download and check it before you approve the bill.
-So, don't delay and get your professional help now!
-         </p>
-         <h3>A Professional Online Paper Writing Service You Can Afford</h3>
-         <p>No matter whether you need an essay, research paper, Casual Essay, Narrative Paper, or some other kind of assistance, with Essay Sages, you can easily afford it. On placing Online Essays Order with us, this is what you will get:
-<ul>
-   <li>Professional Custom Paper Writers to hire;</li>
-   <li>Professional assistance for all paper types;</li>
-   <li>24*7 support;</li>
-   <li>On-time delivery service;</li>
-   <li>Content modification until you consider your paper flawless;</li>
-</ul>
-We provide the best and most affordable prices to our customers for Writing Essays Service. The lowest per-page price is just $10. Apart from saving you time and effort, we are also giving generous discounts to save you money. You give us time to complete the project, we will give you a discount accordingly. What’s more, you require!
-Additionally, the more assignment pages you will order for our writer, the more cost-effective it will be.
-Hence, you can get good results while focusing on other necessary activities and save your efforts too. With Essay Sages, now anyone can afford to hire an expert from a Writing Essay Company.
-So, don’t think much and hire an expert today!
+         Computer Science Homework Help From Essay Sages
 
-         </p>
-         <h3>We Are The Best Essay Writing Company</h3>
-         <p>We are considered one of the best Essay writing Service companies that delivered high-quality essay writing work to customers at a given time.
-         When new customers hire our writers, the first thing they mention is plagiarism. They say it, again and again, to provide unique content and that’s what we do at Essay Sages.
-We have our top-notch writers, who will write the content from scratch based on the guidelines provided by you. There is zero chance that you will get copied content from us. Our writer first researches the topic and gathers relevant information. Then, following the best writing structure, they will start writing the content.
-All of our writing experts hold advanced degrees and have experience of more than 15 years. So, don’t be surprised when our existing users will praise the writers of Essay Sages.
+         </h2>
+         <p>Computer science is very exciting for some students and they do the assignment with all their hearts. But, you also can’t deny that computer science assignments are not that easy. Students have to put in their hours and sleepless nights to complete Computer Science Assignments. At Essay Sages, our professionals are 24*7 available to provide Computer Science Homework Help. We have been helping students with their homework, college assignment, and research paper for the last 15 years. If you are someone who is afraid of computer science-related assignments then Essay Sages is at your side. We have experts who are very reliable and experienced in the field of computer science. You no more need to be worried about your computer science homework anymore. Enjoy your holidays, weekends, or party with your friends, our writers will take care of your projects.
+
+
 </p>
-         <h3>How Can Hire an Expert Essay Writer Help You?</h3>
-         <p>There must be so much going on in your life like your studies, sports, or some other extracurricular activities. In this busy schedule, hiring a trusted assistant is not bad. You can take care of other important tasks as Essay Sages are there to help you with Essays Writing Help.
-When you will hire an experienced and professional Essay Writer For You, you can be more focused on other tasks. All you have to say is, “Help With My Essay” or else “Write My Annotated Bibliography For Me Free”. In the minimum possible time, your work will get done with the hands of professionals.
-To satisfy your request for “Write My Paper”, we have everything ready for you. No matter if you need help with Custom Writing, Dissertation Writing, Research Paper Writing, or Physics Help, we are ready to take the challenge.
-Hire an Essay Sages writing expert today!
+         <h3>Need Help With Computer Science Assignment? Hire Experts At Essay Sages!
+
+</h3>
+         <p>Today, students are involved in a number of extracurricular activities. Hence, it is sometimes difficult to manage all the assignments together. In order to overcome this hectic schedule, Essay Sages is providing Computer Science Homework Service. You can now focus on other necessary activities as our professionals will handle your task for you. All of our experts are experienced and educated in their respective fields. Your assignment is in good and safe hands. Check out the reasons why you must rely upon Essay Sages for Computer Science Homework Help:
+
+        <ul>
+        <li>
+        <h5>On-Time Delivery</h5>
+        <p>Are strict assignment deadlines giving you nightmares? Not anymore because you have the option of hiring the experts at Essay Sages. We are trusted online service providers in the whole market today. The dedicated and educated team of experts will start the work as soon as they receive the order. In the given time, you will get the assignment in your mail. We understand the importance of on-time delivery and that’s why on-time delivery is our top-most priority.</p>
+        </li>
+        <li>
+        <h5>Dedicated Scholars</h5>
+        <p>We have hired a team of dedicated scholars who will provide Homework Help for Computer Science on any difficult topic. They are experienced enough to provide you with flawless computer science assignments.</p>
+        </li>
+        <li>
+        <h5> Contact Us For Multiple Assignments</h5>
+        <p>Students are often allotted a number of assignments with the same submission date. We understand how stressful this could be when you have other things to do as well. At Essay Sages, our experts will meet all of your project requirements and submit the task before the due date.</p>
+        </li>
+        <li>
+        
+        </ul>
+        
 </p>
-         <h3>What If I'm Not Satisfied With Your Profesional Custom Essays?</h3>
-         <p>When it comes to Essay Sages, you will never be dissatisfied with our Online Writing Service. We have experts who are experienced in the respective field and submit the work after proper checking.
-Sometimes, complex projects come with a broad range of requirements and need some extra edits and this is completely okay. Our writing professionals will make edits and we are completely open to it.
-After submitting the final assignment, you have 7 days to check the draft and ask for corrections. You just need to contact the author of that particular task and explain your requirements. Until you will be completely satisfied, our expert Assignment Writer will be at your service!
-In any case, if you find the whole task inappropriate, which is impossible, you can ask for a refund within 7 days of submitting the task.
-</p>
-         <h3> What Are The Types Of Custom Writings Provided By Essay Sages?</h3>
-         <p>At Essay Sages, we offer a variety of services that includes Essay Writing, Books Reviews, Case-Studies, and Dissertation. Curious to know more about our services? You can consult with our customer support executives.</p>
-         <h3> How To Reach Out To Essay Writer Online Hassle-Free?</h3>
-         <p>Need someone professionals who can finish the pending assignment task for you? You can end your search with our expert essay writers. Simply, visit Essay Sages and say “Write My Paper” and your task will be completed in the given time frame.
-         Here is how you can avail of our Easy Essay Writing Service:
-         </p>
-         <h5>Create a Personal Account</h5>
-         <p>It is very easy to join Essay Sages. You just need to submit some of your information with us like your email id or phone number. Once verified, you are all set to enjoy our Essay Services Online.</p>
-         <h5>Tell Us Your Requirements</h5>
-         <p>If you have set up the account successfully, you can place the order right from the dashboard. It may take a few seconds to fill up the form. Submit the form and then tell us about your requirements.</p>
-         <h5>Writer Essay For Me</h5>
-         <p>You can then check out the database of all of our professionals and select the one that fits your requirement. Before hiring a writing expert, don’t forget to check their ratings, success rate, and customer feedback. You can also write “Paying Someone To Write Papers” to the customer support of Essay Sages and we will assign one of our experts to you.</p>
-         <h5>What’s Your Last Minute Requirement?</h5>
-         <p>Don’t need to be worried if you have forgotten to mention something necessary. Use our chat feature to contact our chosen writing expert and then pass on your requirements. Our expert will go through your comments and complete the task based on them.</p>
-         <h5>Keep in Touch With Our Professional Paper Writers</h5>
-         <p>If you are a bit worried about whether your project is going well or not, you can keep in touch with the expert through our chat feature. In this way, you can easily keep an eye on every stage of the project and ask for necessary changes.</p>
-         <h5> Professional Work Done</h5>
-         <p>Once the work is done, you will receive a notification in your mail. You can then download the final draft and go through it. Ensure that our writer has followed your instructions. If you are completely satisfied, you can complete the order and Pay For Essay Orders.</p>   
-         <h2>Are You a Professional Writer?</h2>
-         <p>We are always in search of an Essay Writing Service expert to join the team of Essay Sages.</p>   
-         <h5>Requirements to Become Essay Sages Member</h5>
-         <p>
-            <ul>
-               <li>Bachelor's degree from a reputed and trusted institution.</li>
-               <li>Excellent communication skills.</li>
-               <li>Proficiency.</li>
-            </ul>
-         </p> 
-         </p>                                                       
-      </div>
-    
-        </div>
-        <a class="moreless-button" href="">Read more</a>
-        </div>
-      
-           </div>
-        </div>
+        <h3>Got Computer Science Assignment, Ask Qualified Experts To Help You</h3>
+
+<p>Every time you request to get help with a computer assignment, it will be attended by an expert Computer Science Homework Helper. From a list of experts available, you can choose anyone based on their reviews or past experience. All of them are qualified and can handle any computer science project. Here are some of the qualities of our Computer Science Homework Help experts:
+    <ul>
+        <li>
+        <h5>Have a Degree In Computer Science</h5>
+        <p>As we have already mentioned, we don’t hire freshers in Essay Sages. We have different experts for different subject assignments. When you will ask for CS Homework Help, you will be assigned an expert. All of our professionals have Master's degrees, even some of them are Ph.D.</p>
+        </li>
+        <li>
+        <h5>Experience In Practical Field</h5>
+        <p>When it comes to writing assignments for computer science, experience matters a lot. All of our experts are not only educated but have years of experience in the field of computer science. There are zero chances of any error, and all you will get is good grades.</p>
+        </li>
+        <li>
+        <h5> Outstanding Academic Writing Skills.</h5>
+        <p>You might be a little afraid of getting Computer Science Assignment Help from online services. Let us tell you that the writers at Essay Sages have outstanding writing skills and experience. You will get the project done as per your requirements. We can promise complete work satisfaction.</p>
+        </li>
+        <li>
+        
+        </ul>
+
+ </p>
+ <h3>Need Help With The CS Homework Assignments? Come To Essay Sages!</h3>
+ <p>All the students who are pursuing their degrees in the field of computer science know the importance of assignment submission. Essay Sages understand that it is not an easy task to complete all subject assignments all along together. This is why we need a helping hand sometimes like Essay Sages. There is no use in submitting an assignment that will get you bad grades and red ink all over it. For such cases, wiring experts at Essay Sages are 24*7 available at your service. There is no one better than them who understands the academic requirements.
+
+ <ul>
+        <li>
+        <h5> We Provide Informative Assignment In A Customized Way</h5>
+        <p>When you will confirm your request for Assignment Computer Science help, our writers will make sure to provide you with high-quality customized solutions. We never compromise with your assignments at Essay Sages. This is why we provide 7 days of refund in case you will find the assignment inappropriate(which is next to impossible). Hence, for a trusted and experienced Computer Science Homework Helper, come to Essay Sages.</p>
+        </li>
+        <li>
+        <h5> Our Writers Follow Guidelines Properly</h5>
+        <p>Are you finding it a bit difficult to complete the assignment following your professor's guidelines? Do you need an expert professional Computer Science Assignment Helper? Come to Essay Sages and let our custom essay writers complete the assignment following the guidelines.</p>
+        </li>
+        <li>
+        <h5>Plagiarism Check & Proofreading Solutions With Essay Sages</h5>
+        <p>Submitting assignments without proofreading may create unexpected problems for you. We submit the assignment to you after proper proofreading at a minimal extra cost. You can also hire our writers to do the editing part only. You simply need to ask “Edit My Computer Science Assignment Help” and get outstanding results.</p>
+        </li>
        
-    
-         </div>
-</div>
+        </ul>
+        </p>
+        <h3> Get Computer Science Homework Help Assistance From Writers At Essay Sages</h3>
+ <p>Do you need some assistance with your Computer Science Assignments? Ask our experts to guide you throughout the computer science assignment and get outstanding grades. We will guide you step by step so that you can handle even the tough tasks easily. Check out the given steps to follow:
+ <ul><li>Students are guided to choose appropriate and relevant topics for Computer Science subjects.
+</li>
+ <li>Students are helped to understand the basics of computer science. This makes it easier to choose the right topics and research goals. </li>
+ <li>We guide students to understand the power and structure of computer science projects.
+</li>
+ <li>Experts will guide the students who find it difficult to format a paper.
+</li>
+ <li>Our experts guide you in the preparation of the reference list according to the topic.
+</li>
+ <li>Often, writing a conclusion seems like a difficult task for students. We help students understand the basics of writing a conclusion.
+</li>
+ </ul>
+ Our computer science experts write plagiarized free quality articles for students. To write a good computer science project, it is important to have a good knowledge of the concepts. We have a team of experienced writers with Ph.D. and master's degrees from renowned universities around the world. They are familiar with the subject, its components, applications, and uses. Our writers promise high-quality, unique, and unparalleled homework writing services. This will help the students excel in their grades. So stop dreading homework and take Computer Science Homework Help.
+</p>
+<h3> We Are Open To Help You With All Types Of Computer Science Assignments</h3>
+ <p>The Computer Science Homework Help provided by our professionals is popular among students all over the world. We have a team of authors who have been hired through a rigorous recruitment process. We ensure that students are always assisted with the best computer science services.
+Can't figure out how to start working on Computer Science Assignments? Ask for help with Computer Science Homework Solutions from us. We take care of all the writing problems. Our experts are always ready to help you with computer-related assignments. Below are popular and complicated computer information system topics that our experts have helped with.
+
+ <ul><li>Scientific computing assignment help.
+</li>
+ <li>Assignment help in database management systems (DBMS). </li>
+ <li>Assignment help in Programming languages.
+</li>
+ <li>Machine learning, data mining, and natural computation assignment help.
+</li>
+ <li>Distributed systems, operating systems, and networking assignment help.
+</li>
+ <li>Assignments help in computer architecture and engineering (ARC).
+</li>
+<li>Computer architecture assignment help.
+</li>
+<li>Model-driven engineering assignment help.
+</li>
+<li>Graphics and visualization assignment help.
+</li>
+<li>Assignment help in programming languages and implementation.
+</li>
+
+
+ </ul>
+ It’s just a common topic that students often ask for help with. Apart from all these, if you need help with any other computer science-related topic then feel free to ask us. You will get solutions for all of your academic problems at Essay Sages.
+
+</p>
+<h3>Essay Sages Provides Endless Features To Pursue Your Academic Goals.</h3>
+ <p>All the students who are pursuing their degrees in the field of computer science know the importance of assignment submission. Essay Sages understand that it is not an easy task to complete all subject assignments all along together. This is why we need a helping hand sometimes like Essay Sages. There is no use in submitting an assignment that will get you bad grades and red ink all over it. For such cases, wiring experts at Essay Sages are 24*7 available at your service. There is no one better than them who understands the academic requirements.
+
+ <ul>
+        <li>
+        <h5>  Unique & Quality Work Everytime</h5>
+        <p>If you have hired us to complete your computer assignment, there is a negative change in plagiarized content work. Before submitting the final draft, our experts will check the content properly and then submit it to you. We believe in client satisfaction and we never break their trust in any way.
+</p>
+        </li>
+        <li>
+        <h5> We Don’t Dig A Hole In Your Pocket</h5>
+        <p>We provide quality assignments in a pocket-friendly range and that’s the secret of our success. Essay Sages works for the students and we know they earn nothing at this stage. So, you don’t need to think twice before hiring our experts for Computer Assignment Help.</p>
+        </li>
+        <li>
+        <h5>24*7 Available</h5>
+        <p>Essay Sages is a genie for the students as we can fulfill any academic wish and available 24*7 for them. It doesn’t matter to us if you have any query in day or night, we are always ready for Computer Science Homework Help. The next time, if any of your assignment bother your sleep, ask our experts for help.</p>
+        </li>
+       
+        </ul>
+        </p>
+      </div>
+        </div>
+        </div>
+
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
+></script>
 @endsection

@@ -2,17 +2,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Essay Writing Service | online paper writing service.</title>
-    <meta name="description" content="Essay Sages is the best Essay Writing Service that offers high-quality content from professional & experienced writing experts.">
-    <script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
-></script>
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script src="{{ asset('js/app.js') }}" defer></script>
-
+    <title>Math Homework | Do My Math Homework | Homework Help</title>
+    <meta name="description" content="Get help with your Math Homework from experts at Essay Sages. Ask them to help
+me with my maths homework today!">
+    
 
 </head>
+
 @extends('layouts.app')
 <style>
    .head-part {
@@ -26,7 +22,6 @@
       height: 3em;
       width: 3em;
    }
-
    section.pricing {
   background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
@@ -38,15 +33,6 @@
   transition: all 0.2s;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
-#section {
-    width: 500px;
-    height: 400px;
-    word-wrap: break-word;
-  }
-  
-  .moretext {
-    display: none;
-  }
 
 .pricing hr {
   margin: 1.5rem 0;
@@ -85,8 +71,6 @@
   opacity: 0.7;
   transition: all 0.2s;
 }
-   
-
 
 /* Hover Effects on Card */
 
@@ -96,41 +80,48 @@
     margin-bottom: .25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
+}
 
   .pricing .card:hover .btn {
-    opacity: 1;
+    /* opacity: 1; */
   }
-}
 </style>
 
 
 @section('content')
 <div class="row">
-   <div class="col-md-12" style=" background-size:cover; background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp);">
+   <div class="col-md-12" style='background-size:cover; background-image: url({{$backgroundImage}})'>
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h2>Welcome to Essay Sages</h2>
-         <p class="w-50 text-center">Where our acclaimed client’s assignments and tasks are
-meticulously done. Our competence is unmatched. Once you submit an order, You will receive
-high-quality, customized, and unique work done. We have a great deal to offer so please take
-your time to browse our website to discover more about us and what we offer.</p>
-         
-         <div class="mt-5 mb-5 row d-flex justify-content-between ">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Professional Writing Expert</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Quick Service</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Free Edits</div>
+         <h3>{{$title}}</h3>
+     <p class="w-50 text-center">{{$topline}}</p>         
+         <p style="color: #ffc107;">{{$bottomline}}</p>
+         <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" />Hassle-Free Order Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Qualified Writing Experts</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />On-Time Delivery</div>
+         </div>
+         <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" />24*7 Service Available</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" />Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" />Plagiarism-Free Content </div>
          </div>
       </div>
    </div>
 </div>
-
-
-
 <div class="row">
+<div class="col-md-12 my-3">
+      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+         <h2 class="text-center mt-3 p-3">
+         Meet Our Team Of Math Homework Experts
+         </h2>
+      </div>
+   </div>
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-         What Do Our Customers Think About Our Essay Writing Service?
+         What Do Our Customers Think About Our Homework Math Help Service?
+
          </h2>
       </div>
    </div>
@@ -215,7 +206,7 @@ your time to browse our website to discover more about us and what we offer.</p>
    <div class="col-md-12">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-         4 Steps Of Our Essay Writing Services
+         Get Your Math Homework Done In 4 Easy Steps
 
          </h2>
       </div>
@@ -332,7 +323,8 @@ your time to browse our website to discover more about us and what we offer.</p>
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-            Why choose us?
+         Professional Writing Services Essay Sages Provides
+
          </h2>
       </div>
    </div>
@@ -416,113 +408,190 @@ your time to browse our website to discover more about us and what we offer.</p>
       </div>
    </div>
 </div>
-<!-- whu choose us -->
-   <div class="row p-5 ">
+<!-- Our team members portfolio -->
+<div class="row p-5 ">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-         Professional Essay Writing Services | Essay Sages
-         </h2>
-         <p>
-         <b>Custom Essay Writing Service </b>is a safe and smart option for those who spend their nights writing long paragraphs just to impress the professors and learn no new things. Essay Sages won’t waste your crucial hours. Hire our <b>Professional Essay Writers</b> today and do something that values!
-</p>
-      </div>
-   </div>
-            
-   <div class="col-md-12 section moretext">
-      <div class="row">
-     
-         <h3>It Is Easy To Get Writing Essay Online Service!</h3>
-         <p>Get a free quote from our<b> Essay Writing Services </b>experts at Essay Sages and get an idea of ​​how much an article will cost before it starts. If you found the price satisfactory, accept the offer and watch your worries go away! Our team will ensure that you no longer have to wake up till 4 am. <b>Essay Sages</b> is known for providing the best writing, editing, and proofreading services available online.</p>
-         <h3> Why Do Customers Keep Choosing Essay Sages? </h3>
-         <p>We carefully select all of our writers to ensure that each one of them demonstrates the highest level of professionalism, skill, and dedication. Such an approach allows us to provide the highest quality articles to anyone who turns to us to Write My Essay. Our experienced team of professionals produces all types of documents, in all areas and at all levels of complexity. From simple one-page essays to in-depth and complex essays - <b>Essay Sages</b> has it covered. With our extensive experience, we create customized documents for the unique needs of each client. We are also ready to take on any educational challenge you can think of. When you come to us for help, you get the best Essay Writing service at the right time!</p>
-         <h3>Quick Work Delivery</h3>
-         <p>Our writing team knows that a student's life often involves juggling multiple tasks and pursuing multiple important goals at the same time. But what if you are always drained? Do you feel like it's impossible to keep up with your seemingly successful peers no matter how hard you try?
- We've been there - it's not your fault. The thing is that it almost always takes less time to manage all your tasks properly. It can put a lot of pressure on you, making it difficult for you to check all the boxes on your list. And, often, pushing yourself to achieve negative goals leads to even more problems, including fatigue and even depression.
- Our<b> Write Essay For Me</b> service is designed to help you avoid this. With us, every learner can entrust their work to professionals who will complete them on time and at the best quality. We empower you to save your efforts for important things without compromising your work. And even that's not all!
- We understand that you may be in a difficult situation when you do not have time to complete a return within a few days. The good news is that you can overcome this challenge with a copywriter. Even if you are in a hurry, we can deliver your book as quickly as possible without compromising on quality!</p>
-         <h3>Get Essay Help From Top Rated Writers</h3>
-         <p>
-         Whether it's a last-minute essay or an in-depth research project, you won't have to worry about it when Essay Sages is by your side. Our <b>Essay Writing Services</b> always come to sign, guaranteeing high professionalism. At Essay Sages, we use the best writers.
-Our experts have bachelor's degrees, master's degrees, and even doctorate degrees and each of them has at least a few years of experience writing articles in their field. Before allowing a new employee to work on my writing orders, we put them through a series of checks and tests to see if they are high enough to provide high-quality help to your book.
-We also ask them to study and follow our quality control system carefully to get the best results. What else allows us to achieve 100% satisfaction?
-Apart from selecting the best writers, we also employ experienced staff who will take care of their work.
-We believe that effective maintenance is the key to consistently high quality for everything we deliver. So when you pay for a trial with us, you always have a quality guarantee. To take advantage of all these benefits, you only need to apply for our<b> Essay Writing services</b> and choose your best specialist.
-Our service works 24/7, so you can come to us if needed. Once your order is placed and assigned to a selected professional, they will complete it following your instructions. Our experienced writers will tailor each article to your unique needs. But, once the order is ready, you can download and check it before you approve the bill.
-So, don't delay and get your professional help now!
-         </p>
-         <h3>A Professional Online Paper Writing Service You Can Afford</h3>
-         <p>No matter whether you need an essay, research paper, Casual Essay, Narrative Paper, or some other kind of assistance, with Essay Sages, you can easily afford it. On placing Online Essays Order with us, this is what you will get:
-<ul>
-   <li>Professional Custom Paper Writers to hire;</li>
-   <li>Professional assistance for all paper types;</li>
-   <li>24*7 support;</li>
-   <li>On-time delivery service;</li>
-   <li>Content modification until you consider your paper flawless;</li>
-</ul>
-We provide the best and most affordable prices to our customers for Writing Essays Service. The lowest per-page price is just $10. Apart from saving you time and effort, we are also giving generous discounts to save you money. You give us time to complete the project, we will give you a discount accordingly. What’s more, you require!
-Additionally, the more assignment pages you will order for our writer, the more cost-effective it will be.
-Hence, you can get good results while focusing on other necessary activities and save your efforts too. With Essay Sages, now anyone can afford to hire an expert from a Writing Essay Company.
-So, don’t think much and hire an expert today!
+         Math Homework Help By Professionals At Essay Sages
 
-         </p>
-         <h3>We Are The Best Essay Writing Company</h3>
-         <p>We are considered one of the best Essay writing Service companies that delivered high-quality essay writing work to customers at a given time.
-         When new customers hire our writers, the first thing they mention is plagiarism. They say it, again and again, to provide unique content and that’s what we do at Essay Sages.
-We have our top-notch writers, who will write the content from scratch based on the guidelines provided by you. There is zero chance that you will get copied content from us. Our writer first researches the topic and gathers relevant information. Then, following the best writing structure, they will start writing the content.
-All of our writing experts hold advanced degrees and have experience of more than 15 years. So, don’t be surprised when our existing users will praise the writers of Essay Sages.
+         </h2>
+         <p>School is one of the most important parts of everyone’s life. We get to know all the important aspects of life along with knowledge. Some of us love to study science while others might be interested in art or biology. Of all subjects, math is the one that has the least votes in the race of favorite subjects, isn’t it? And sometimes, we wish to have someone for Math Homework help.
+At Essay Sages, you will find plenty of professionals who are around the clock available for you. Connect with the expert of your choice and say “Do My Math Homework”. You can now enjoy your holidays or take proper rest if you are not well. The math professionals at Essay Sages will handle even the most complicated task for you.
+
+
 </p>
-         <h3>How Can Hire an Expert Essay Writer Help You?</h3>
-         <p>There must be so much going on in your life like your studies, sports, or some other extracurricular activities. In this busy schedule, hiring a trusted assistant is not bad. You can take care of other important tasks as Essay Sages are there to help you with Essays Writing Help.
-When you will hire an experienced and professional Essay Writer For You, you can be more focused on other tasks. All you have to say is, “Help With My Essay” or else “Write My Annotated Bibliography For Me Free”. In the minimum possible time, your work will get done with the hands of professionals.
-To satisfy your request for “Write My Paper”, we have everything ready for you. No matter if you need help with Custom Writing, Dissertation Writing, Research Paper Writing, or Physics Help, we are ready to take the challenge.
-Hire an Essay Sages writing expert today!
+         <h3>Why You Must Rely Upon Essay Sages For Math Homework Online?
+</h3>
+         <p>While doing the Math HW, we get sometimes puzzled between complicated calculations or numbers. Doesn’t matter how difficult the task is, you have to complete it to get good marks and to save yourself from punishment. At Essay Sages, you will get the solution for Math Homework problems.
+
+
+<ul>
+<li>We can help you to assist the subjects such as geometry, algebra, trigonometry, calculus,
+etc. You can also ask professionals to help you with Computer science-related
+assignments, Physics helps, accounting Economics, and Business related assignments.
+You just need to log in to our website and say, “Do My Math Homework”.
+
+
+</li>
+<li>When you ask our professionals “Do My Math Homework For Me”, your assignment
+will be done within a given time frame. You can utilize that time to do more valuable
+work. You don’t need to hesitate to use our online platform, we are trusted and reliable. If
+you still have some questions in mind, ask our customer support executives to talk to you.
+</li>
+<li>All the students who have issues doing the calculations or are always in doubt while
+submitting the Math Homework, now you can confidently submit the assignment as our
+experts will double check the work before submitting it to you.
+</li>
+<li>The professionals at Essay Sages are always available to answer your questions.
+Anytime, you can ask about the work progress or any other project-related questions.
+Your satisfaction matters a lot to us.
+</li>
+<li>Are you screaming in your head, “I want to pay someone to do my math homework”?
+At Essay Sages, we will not charge you anything until you will not get the work done and
+you will not be completely satisfied.
+</li>
+</ul>
 </p>
-         <h3>What If I'm Not Satisfied With Your Profesional Custom Essays?</h3>
-         <p>When it comes to Essay Sages, you will never be dissatisfied with our Online Writing Service. We have experts who are experienced in the respective field and submit the work after proper checking.
-Sometimes, complex projects come with a broad range of requirements and need some extra edits and this is completely okay. Our writing professionals will make edits and we are completely open to it.
-After submitting the final assignment, you have 7 days to check the draft and ask for corrections. You just need to contact the author of that particular task and explain your requirements. Until you will be completely satisfied, our expert Assignment Writer will be at your service!
-In any case, if you find the whole task inappropriate, which is impossible, you can ask for a refund within 7 days of submitting the task.
+<h3>Math Homework Areas That Essay Sages Cover
+</h3>
+         <p>For the best quality Math Homework, experts at Essay Sages are 24*7 available to help you.
+Have a look at the areas of the school or College Math Homework Help provided by our
+professionals:
+
+        <ul>
+        <li>
+        <h5>Statistics</h5>
+        <p>Our professionals will provide you with a project that contains reliable information after a proper
+in-depth data analysis. Your math homework will be done by experts with specialization in
+statistics assignments and probability theory.</p>
+        </li>
+        <li>
+        <h5>Trigonometry</h5>
+        <p>Are you facing any trouble solving sinusoidal equations, models, inverse trigonometric functions, or other math
+problems? At Essay Sages, our Math Homework Doer will complete the task so that you can be involved in other
+important tasks.</p>
+        </li>
+        <li>
+        <h5>Geometry</h5>
+        <p>You don’t need to rack your brain anymore. Entrust your geometry problems with the experts at
+Essay Sages. Our math specialist will help you with any angle types, triangles, quadrilaterals,
+Pythagorean theorem, properties of shapes, geometric solids, etc.</p>
+        </li>
+        <li>
+        <h5>Algebraic Geometry Assignment</h5>
+        <p>Looking for someone to whom you can say, &quot;Do My Math HW For Me&quot;? We understand that
+sometimes you might get frustrated with multivariate polynomial algebraic techniques or some
+geometrical problem. At Essay Sages, select the expert for math help and get the task done.</p>
+        </li>
+        <li>
+        <h5>Pre-Algebra</h5>
+        <p>Visit Essay Sages and ask our experts “Do My Math Problem”. They will help you with
+fractions, linear equations, and any arithmetic problem that you think is complex for you.</p>
+        </li>
+        <li>
+        <h5>Algebra</h5>
+        <p>You can ask the experts at Essay Sages to &quot;Do My Algebra Homework&quot; of any difficulty level.
+The professionals will conduct an analysis and complete the project based on the number theory.
+Our team can handle any algebra subject field like modern, elementary, and abstract algebra.</p>
+        </li>
+        <li>
+        <h5>Linear Algebraic Homework</h5>
+        <p>For any type of linear algebra assignment, the experts at Essay Sages will be available at your
+service anytime. We can easily handle the tasks in Vectors and spaces; Matrix transformations;
+Coordinate bases, etc.</p>
+        </li>
+        <li>
+        <h5>Arithmetic</h5>
+        <p>We can write assignments for you with addition and subtraction, negative numbers, fractions,
+multiplication, and division. We also have experts who solve geometric problems.</p>
+        </li>
+        <li>
+        <h5>Pre-Calculus</h5>
+        <p>Get help with systems of 2 equations, matrix inverses and determinants, matrix multiplication,
+and logarithmic functions.</p>
+        </li>
+        <li>
+        <h5>Calculus</h5>
+        <p>The experts at Essay Sages will cover Fundamental integrals, General/Fundamental derivatives,
+and Curve Sketching. Ask &quot;pay someone to do math homework&quot; for professional math
+homework help and get results that will meet all your teacher&#39;s expectations.</p>
+        </li>
+        <li>
+        <h5>Binomial Theorem</h5>
+        <p>Experts give you examples of using binary numbers. Don&#39;t know what binomial is and its
+function according to the term? The experts at Essay Sages have the necessary knowledge of
+theorem statements to do your homework for high marks.</p>
+        </li>
+        <li>
+        <h5>Econometrics</h5>
+        <p>We help apply statistical methods effectively to economic data. Your teacher will definitely be
+impressed by your thorough research on economics.</p>
+        </li>
+        <li>
+        <h5>Differentiation</h5>
+        <p>We provide students with services of various equalities. Our professionals know what algebra
+tricks to use when solving homework, the purpose of which is to find a formula.</p>
+        </li>
+        <li>
+        <h5>Operational Analysis</h5>
+        <p>Experts can help you perform data analysis involving complex numbers. Use careful research to
+get great results!</p>
+        </li>
+        <li>
+        <h5>Parabola</h5>
+        <p>Let us know if you need help with any math project that might involve drawing parabolas
+because we're really good at it! Parabola graphing is not easy if you are not an expert. So
+wherever you go, Essay Sages is there to help!</p>
+        </li>
+        </ul>
+        
 </p>
-         <h3> What Are The Types Of Custom Writings Provided By Essay Sages?</h3>
-         <p>At Essay Sages, we offer a variety of services that includes Essay Writing, Books Reviews, Case-Studies, and Dissertation. Curious to know more about our services? You can consult with our customer support executives.</p>
-         <h3> How To Reach Out To Essay Writer Online Hassle-Free?</h3>
-         <p>Need someone professionals who can finish the pending assignment task for you? You can end your search with our expert essay writers. Simply, visit Essay Sages and say “Write My Paper” and your task will be completed in the given time frame.
-         Here is how you can avail of our Easy Essay Writing Service:
-         </p>
-         <h5>Create a Personal Account</h5>
-         <p>It is very easy to join Essay Sages. You just need to submit some of your information with us like your email id or phone number. Once verified, you are all set to enjoy our Essay Services Online.</p>
-         <h5>Tell Us Your Requirements</h5>
-         <p>If you have set up the account successfully, you can place the order right from the dashboard. It may take a few seconds to fill up the form. Submit the form and then tell us about your requirements.</p>
-         <h5>Writer Essay For Me</h5>
-         <p>You can then check out the database of all of our professionals and select the one that fits your requirement. Before hiring a writing expert, don’t forget to check their ratings, success rate, and customer feedback. You can also write “Paying Someone To Write Papers” to the customer support of Essay Sages and we will assign one of our experts to you.</p>
-         <h5>What’s Your Last Minute Requirement?</h5>
-         <p>Don’t need to be worried if you have forgotten to mention something necessary. Use our chat feature to contact our chosen writing expert and then pass on your requirements. Our expert will go through your comments and complete the task based on them.</p>
-         <h5>Keep in Touch With Our Professional Paper Writers</h5>
-         <p>If you are a bit worried about whether your project is going well or not, you can keep in touch with the expert through our chat feature. In this way, you can easily keep an eye on every stage of the project and ask for necessary changes.</p>
-         <h5> Professional Work Done</h5>
-         <p>Once the work is done, you will receive a notification in your mail. You can then download the final draft and go through it. Ensure that our writer has followed your instructions. If you are completely satisfied, you can complete the order and Pay For Essay Orders.</p>   
-         <h2>Are You a Professional Writer?</h2>
-         <p>We are always in search of an Essay Writing Service expert to join the team of Essay Sages.</p>   
-         <h5>Requirements to Become Essay Sages Member</h5>
-         <p>
-            <ul>
-               <li>Bachelor's degree from a reputed and trusted institution.</li>
-               <li>Excellent communication skills.</li>
-               <li>Proficiency.</li>
-            </ul>
-         </p> 
-         </p>                                                       
-      </div>
-    
-        </div>
-        <a class="moreless-button" href="">Read more</a>
-        </div>
-      
-           </div>
-        </div>
+        <h3>Essay Sages, Can You Help Me With My Math Homework Now</h3>
+
+<p>Your submission date is tomorrow but you are on a trip and forget to do your Math Homework,
+what will you do in that case? Essay Sages is 24*7 available to handle any math project from
+you.
+It doesn’t even matter to our professionals if the project is simple or complex, your work will be
+done on time and that’s what matters most to us. Let experienced and expert professionals handle
+the math assignments for you. So, without any second thoughts, ask the experts to “Do Math
+Homework For Me”.
+
+ </p>
+ <h3>Why Should I Seek Math Homework Help?</h3>
+ <p>You might have asked why you need an expert’s help to do math homework or assignment.
+Some students think that this is cheating or this will degrade their skills. The one who accepts
+that they need help, it&#39;s a sign of truth and strength. We want you to pause for a while and read
+the points mentioned below:
+ <ul>
+        <li>
+        <h5>You Have Some Emergency</h5>
+        <p>Emergencies could happen to anyone and anywhere. Suppose you are about to start doing the
+assignment work and get an emergency call. At that moment of time, you will forget about the
+homework and run to help them. Isn’t it? In this case, you can ask our experts for homework
+help.</p>
+        </li>
+        <li>
+        <h5>Your Concepts Are Not Clear</h5>
+        <p>What if your concepts are not clear for any reason but you have to submit the task? In this case,
+too, Essay Sages math experts are available to help you. You can also ask the experts to assist
+you to understand the concepts.</p>
+        </li>
+        <li>
+        <h5>Get Good Grades</h5>
+        <p>If you want our experts to help you to clear any concept, we are 24*7 available to help you. This
+will help you to get good grades and enhance your knowledge.</p>
+        </li>
        
-    
-         </div>
-</div>
+        </ul>
+        </p>
+      </div>
+        </div>
+        </div>
+
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
+></script>
 @endsection

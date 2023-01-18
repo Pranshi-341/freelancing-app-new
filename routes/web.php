@@ -80,16 +80,16 @@ Route::get('/freelancer/jobs-details/{id}',[FreeLancerController::class,'jobdeta
 
 //  add route for Services
 Route::get('/help/technical',[frontendController::class,'Technical']);
-Route::get('/help/mathematics',[frontendController::class,'Mathematics']);
+Route::get('/help/maths',[frontendController::class,'Mathematics']);
 Route::get('/help/physics',[frontendController::class,'Physics']);
 Route::get('/help/dissertation',[frontendController::class,'Dissertation']);
 Route::get('/help/coursework',[frontendController::class,'Coursework']);
 Route::get('/help/presentations',[frontendController::class,'Presentations']);
 Route::get('/help/computer-science',[frontendController::class,'ComputerScience']);
-Route::get('/help/accounting-economics-business',[frontendController::class,'AccountingEconomicsBusiness']);
+Route::get('/help/accounting',[frontendController::class,'AccountingEconomicsBusiness']);
 
 // add route for writing help
-Route::get('/help/essay',[frontendController::class,'Essay']);
+Route::get('/help/essaywrite',[frontendController::class,'Essay']);
 Route::get('/help/research-paper',[frontendController::class,'ResearchPaper']);
 Route::get('/help/thesis',[frontendController::class,'Thesis']);
 Route::get('/help/assigment',[frontendController::class,'Assigment']);
@@ -99,7 +99,7 @@ Route::get('/help/personal-statement',[frontendController::class,'PersonalStatem
 Route::get('/help/lab-report',[frontendController::class,'LabReport']);
 Route::get('/help/homework',[frontendController::class,'Homework']);
 Route::get('/help/case-study',[frontendController::class,'CaseStudy']);
-Route::get('/help/literature-review',[frontendController::class,'LiteratureReview']);
+Route::get('/help/literature',[frontendController::class,'LiteratureReview']);
 
 
 
@@ -109,6 +109,7 @@ Route::get('/team',[frontendController::class,'Team']);
 Route::get('/professional-writers',[frontendController::class,'ProfessionalWriters']);
 Route::get('/competent-tutors',[frontendController::class,'CompetentTutors']);
 Route::get('/licensed-researchers',[frontendController::class,'LicensedResearchers']);
+
 
 // add route
 Route::get('/contactUs',[frontendController::class,'ContactUs']);

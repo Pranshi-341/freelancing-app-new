@@ -42,8 +42,19 @@
       width: 3em;
    }
 </style>
-
-<nav class="h5 shadow-lg navbar navbar-expand-lg navbar-dark font-weight-bold" style="background-color: rgba(0,136,210, 0.9);">
+@push ('scripts')
+<script>
+   $(document).ready(function(){
+    $(".dropdown-double").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-men");
+        if(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("open");
+        }
+    });
+});     
+   </script>
+   <header class="page-header page-header_writer js_header__wrapper ">
+<nav class="h5 shadow-lg navbar navbar-expand-lg navbar-dark font-weight-bold">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Essay Sages</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,25 +84,26 @@
             </ul>
           </div> 
         </li> -->
-        <li class="nav-item dropdown-big">
+        <div class="nav-item dropdown-big">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Writing Help
           </a>
           <div class="dropdown-double">
             <ul class="dropdown-men w-75 text-wrap text-break" aria-labelledby="navbarDropdown" style="list-style:none;">
-              <li><a class="dropdown-item" href="/help/essay">Essay writing</a></li>
-              <li><a class="dropdown-item" href="/help/research-paper">Homework Writing</a></li>
-              <li><a class="dropdown-item" href="/help/thesis">Dissertation writing</a></li>
-              <li><a class="dropdown-item" href="/help/dissertation">Thesis writing</a></li>
-              <li><a class="dropdown-item" href="/help/assigment">Literature Review Writing</a></li>
-              <li><a class="dropdown-item" href="/help/book-report">Mathematics help</a></li>
-              <li><a class="dropdown-item" href="/help/speach">Computer science-related assignments</a></li>
-              <li><a class="dropdown-item" href="/help/personal-statement">Physics helps</a></li>
-              <li><a class="dropdown-item" href="/help/lab-report">Accounting Economics and Business related assignments</a></li>
-              <li><a class="dropdown-item" href="/help/homework">Coursework Writing</a></li>
+              <li><a class="dropdown-item" href="/help/essaywrite">Essay writing</a></li>
+              <li><a class="dropdown-item" href="/help/homework">Homework Writing</a></li>
+              <li><a class="dropdown-item" href="/help/dissertation">Dissertation writing</a></li>
+              <li><a class="dropdown-item" href="/help/thesis">Thesis writing</a></li>
+              <li><a class="dropdown-item" href="/help/literature">Literature Review Writing</a></li>
+              <li><a class="dropdown-item" href="/help/maths">Mathematics help</a></li>
+              <li><a class="dropdown-item" href="/help/computer-science">Computer science-related assignments</a></li>
+              <li><a class="dropdown-item" href="/help/physics">Physics helps</a></li>
+              <li><a class="dropdown-item" href="/help/accounting">Accounting Economics and Business related assignments</a></li>
+              <li><a class="dropdown-item" href="/help/coursework">Coursework Writing</a></li>
+              <li><a class="dropdown-item" href="/help/book-report">Book-report Writing</a></li>
             </ul>
           </div>
-        </li>
+        </div>
         <li class="nav-item dropdown-big">
           <a class="nav-link" href="/team">
           Team
@@ -130,3 +142,4 @@
     </div>
   </div>
 </nav>
+</header>
