@@ -4,13 +4,15 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Essay Writing Service | online paper writing service.</title>
     <meta name="description" content="Essay Sages is the best Essay Writing Service that offers high-quality content from professional & experienced writing experts.">
-    
+    <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
+></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="{{ asset('js/app.js') }}" defer></script>
+
 
 </head>
-
-
-
-
 @extends('layouts.app')
 <style>
    .head-part {
@@ -36,6 +38,15 @@
   transition: all 0.2s;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
+#section {
+    width: 500px;
+    height: 400px;
+    word-wrap: break-word;
+  }
+  
+  .moretext {
+    display: none;
+  }
 
 .pricing hr {
   margin: 1.5rem 0;
@@ -74,6 +85,8 @@
   opacity: 0.7;
   transition: all 0.2s;
 }
+   
+
 
 /* Hover Effects on Card */
 
@@ -89,29 +102,7 @@
   }
 }
 </style>
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
-></script>
-<script type="text/javascript">
 
-txt6 = document.getElementById("text6");
-btn6 = document.getElementById("btn6");
-convert8 = document.getElementById("convert8");
-function toggle7() {
-
-  if(document.getElementById("text6").style.display == 'none') {
-    convert8.style.display = 'block';
-    btn6.innerHTML = '<i class="fas fa-minus"></i> Show Less';
-    txt6.style.display = 'table';
-
-  } else {
-    convert8.style.display = 'none';
-    btn6.innerHTML = '<i class="fas fa-plus"></i> Show More ';
-    txt6.style.display = 'none';
-  }
-}
-</script>
 
 @section('content')
 <div class="row">
@@ -437,9 +428,10 @@ your time to browse our website to discover more about us and what we offer.</p>
 </p>
       </div>
    </div>
-   <button class="btn-hover color-1" id='btn6' onclick='toggle7()' style="float:left;"> <i class="fas fa-plus"></i> Show More </button>
-   <div class="col-md-12">
+            
+   <div class="col-md-12 section moretext">
       <div class="row">
+     
          <h3>It Is Easy To Get Writing Essay Online Service!</h3>
          <p>Get a free quote from our<b> Essay Writing Services </b>experts at Essay Sages and get an idea of ​​how much an article will cost before it starts. If you found the price satisfactory, accept the offer and watch your worries go away! Our team will ensure that you no longer have to wake up till 4 am. <b>Essay Sages</b> is known for providing the best writing, editing, and proofreading services available online.</p>
          <h3> Why Do Customers Keep Choosing Essay Sages? </h3>
@@ -519,12 +511,17 @@ In any case, if you find the whole task inappropriate, which is impossible, you 
                <li>Excellent communication skills.</li>
                <li>Proficiency.</li>
             </ul>
+         </p> 
          </p>                                                       
       </div>
+    
         </div>
+        <a class="moreless-button" href="">Read more</a>
         </div>
+      
            </div>
         </div>
+       
     
          </div>
 </div>
