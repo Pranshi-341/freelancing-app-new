@@ -425,6 +425,9 @@
          </div>
 </div>
 </p>
+   <div class="col-md-12  moretext section ">
+      <div class="row">
+
 <h3 class="text-center mt-3 p-3">
 Why You Should Trust Us From Book Report Writing Service?
  </h3>
@@ -461,6 +464,10 @@ How To Hire A Writer For Book Report Writing Service At Essay Sages?
 </p> 
 
         </div>
+        </div>
+ </div>
+
+        <a class="moreless-button" href="">Read more</a>
 
 <!-- MDB -->
 <script
