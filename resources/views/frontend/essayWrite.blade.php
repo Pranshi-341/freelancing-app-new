@@ -423,6 +423,9 @@ So, if you are tired of searching for the “<strong>Write My Essay</strong> Onl
 </p>
 </div>
 </div>
+
+   <div class="col-md-12  moretext section ">
+      <div class="row">
          <h3 class="text-center mt-3 p-3">Ask Essay Sages Writers For “<strong>Write My Essay</strong> For Me”</h3>
          <p>Our parents spend a lot of money in schools or colleges just to make us successful in our lives. They can bear anything but not our failure, isn’t it? We understand that there comes a time when a student has to go through several tough phases and get bad grades. The reason could be personal or there might be a family issue going on because of which you are not able to perform well. We can understand it but not your college. Hence, there is no bad to hire someone whom you can say “Help Me <strong>Write My Essay</strong>”.
 When you will search for the best Writing Service Online, you will get confused by a lot of options. Not all the service providers for writing essays are good for you. Hence, find reliable service providers like Essay Sages who have certified writers to provide you with high-quality content every time.
@@ -483,9 +486,10 @@ Stop asking "who can <strong>Write My Essay</strong>?" and join us for better ac
         </p>
         </div>
 
+        
+        </div>
+        <a class="moreless-button" href="">Read more</a>
+
 <!-- MDB -->
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
-></script>
+
 @endsection

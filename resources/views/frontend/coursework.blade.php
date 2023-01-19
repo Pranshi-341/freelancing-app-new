@@ -427,7 +427,11 @@ We understand how difficult it is to study all the subjects at the same time and
 
          </div>
 </div> 
-</p><p>Our job will include the improvement of your essays and papers and help you to get good grades. The academic experts at Essay Sages work round the clock so that you can sleep with peace of mind.
+</p>
+   <div class="col-md-12  moretext section ">
+      <div class="row">
+         
+<p>Our job will include the improvement of your essays and papers and help you to get good grades. The academic experts at Essay Sages work round the clock so that you can sleep with peace of mind.
 
 </p>
 <h3 class="text-center mt-3 p-3">
@@ -505,6 +509,10 @@ When you will hire the coursework services at Essay Sages, we can guarantee:
        
       
         </div>
+        </div>
+ </div>
+
+        <a class="moreless-button" href="">Read more</a>        
 
 <!-- MDB -->
 <script

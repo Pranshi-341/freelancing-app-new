@@ -103,15 +103,18 @@
    <div class="col-md-12" style=" background-size:cover; background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp);">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h2>Welcome to Essay Sages</h2>
-         <p class="w-50 text-center">Where our acclaimed client’s assignments and tasks are
-meticulously done. Our competence is unmatched. Once you submit an order, You will receive
-high-quality, customized, and unique work done. We have a great deal to offer so please take
-your time to browse our website to discover more about us and what we offer.</p>
          
-         <div class="mt-5 mb-5 row d-flex justify-content-between ">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Professional Writing Expert</div>
+            <h1 style="padding-bottom:35px; font-size: 50px;">Welcome To Essay Sages</h1>
+         
+         <p class="w-50 text-center">Where Our Acclaimed Client’s Assignments And Tasks Are
+Meticulously Done. Our Competence Is Unmatched. Once You Submit An Order, You Will Receive
+High-Quality, Customized, and Unique Work Done. We Have a Great Deal To Offer So Please Take
+Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
+         
+         <div class="col-md-8 mt-5 mb-5 row d-flex justify-content-between ">
+            
             <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Quick Service</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Professional Writing Expert</div>
             <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Free Edits</div>
          </div>
       </div>
@@ -510,7 +513,7 @@ In any case, if you find the whole task inappropriate, which is impossible, you 
       </div>
     
         </div>
-        <a class="moreless-button" href="">Read more</a>
+        <a class="text-center moreless-button" href="">Read more</a>
         </div>
       
            </div>
@@ -519,22 +522,5 @@ In any case, if you find the whole task inappropriate, which is impossible, you 
     
          </div>
 </div>
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
-></script>
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
-
-<script>
-$('.moreless-button').click(function() {
-    event.preventDefault();
-   $('.moretext').slideToggle();
-   if ($('.moreless-button').text() == "Read more") {
-     $(this).text("Read less")
-   } else {
-     $(this).text("Read more")
-   }
- });
- </script>
 @endsection

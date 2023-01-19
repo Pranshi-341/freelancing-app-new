@@ -423,6 +423,9 @@ So, if you ever wonder, "Where do I get quality history assignment help?”, get
 </p>
 </div>
 </div>
+   <div class="col-md-12  moretext section ">
+      <div class="row">
+         
 <h3 class="text-center mt-3 p-3">
 Quality Assignment of History Help Is Just A Click Away
          </h3>
@@ -487,6 +490,10 @@ So, hire writers at Essay Sages for History Assignment Help and enjoy good grade
 
        
         </div>
+        </div>
+ </div>
+
+        <a class="moreless-button" href="">Read more</a>        
 
 <!-- MDB -->
 <script

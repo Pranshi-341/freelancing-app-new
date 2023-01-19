@@ -423,10 +423,13 @@
 </strong>. At Essay Sages, our professionals are 24*7 available to provide Computer Science Homework Help. We have been helping students with their homework, college assignment, and research paper for the last 15 years. 
          </p>
          </div>
-</div><p>If you are someone who is afraid of computer science-related assignments then Essay Sages is at your side. We have experts who are very reliable and experienced in the field of computer science. You no more need to be worried about your computer science homework anymore. Enjoy your holidays, weekends, or party with your friends, our writers will take care of your projects.
+</div>
+<div class="col-md-12  moretext section ">
+      <div class="row">
+         <p>If you are someone who is afraid of computer science-related assignments then Essay Sages is at your side. We have experts who are very reliable and experienced in the field of computer science. You no more need to be worried about your computer science homework anymore. Enjoy your holidays, weekends, or party with your friends, our writers will take care of your projects.
 
 
-</p>
+         </p>
 
 
          <h3 class="text-center mt-3 p-3">Need Help With Computer Science Assignment? Hire Experts At Essay Sages!
@@ -562,10 +565,12 @@ Can't figure out how to start working on <strong>Computer Science Assignments
         </p>
      
         </div>
+        </div>
+
+        
+   </div>
+   <a class="moreless-button" href="">Read more</a>
 
 <!-- MDB -->
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
-></script>
+
 @endsection

@@ -21,12 +21,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
     
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script src="{{ asset('js/script.js') }}" defer></script>
+
 
     
 
     <!-- Styles -->
     <style>
+        #section {
+    width: 500px;
+    height: 400px;
+    word-wrap: break-word;
+  }
+  
+  .moretext {
+    display: none;
+  }
+
     </style>
 </head>
 
@@ -41,4 +51,22 @@
 
 </body>
 
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
+></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+<script>
+$('.moreless-button').click(function() {
+    event.preventDefault();
+   $('.moretext').slideToggle();
+   if ($('.moreless-button').text() == "Read more") {
+     $(this).text("Read less")
+   } else {
+     $(this).text("Read more")
+   }
+ });
+ </script>
 </html>

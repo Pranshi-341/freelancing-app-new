@@ -423,6 +423,9 @@ At Essay Sages, you will find plenty of professionals who are around the clock a
 </p>
 </div>
 </div>
+   <div class="col-md-12  moretext section ">
+      <div class="row">
+
          <h3 class="text-center mt-3 p-3">Why You Must Rely Upon Essay Sages For Math Homework Online?
 </h3>
          <p>While doing the Math HW, we get sometimes puzzled between complicated calculations or numbers. Doesn’t matter how difficult the task is, you have to complete it to get good marks and to save yourself from punishment. At Essay Sages, you will get the solution for Math Homework problems.
@@ -588,6 +591,11 @@ will help you to get good grades and enhance your knowledge.</p>
         </ul>
 </p>
         </div>
+        </div>
+
+        
+   </div>
+   <a class="moreless-button" href="">Read more</a>
 
 <!-- MDB -->
 <script

@@ -422,9 +422,12 @@
 The Internet is a great search opportunity when considering sources that provide important ideas and literature. A number of opinions on the web may be incorrect. Hence, students are not always advised to use articles on the Internet unless they are from reliable and relevant sources. Almost all universities require sources of information especially when it is about literature review.
 </div>
 </div>
-What happens when you don't have any documents to help you create a comprehensive literature review for your thesis? There are many students who spend hours researching for Literature Review Writing. But, only a few of them get good results in the end and the rest gets nothing?
-We understand that it is sometimes quite stressful but to get good grades, it is required to submit your literature review.
-At Essay Sages, we can provide you with the best list of sources that will Help <strong> Writing a Literature Review </strong>. Hence, you can now focus on other necessary aspects too. Focus on your exams, attend a family function or enjoy the trip hassle-free. Essay Sages is 24*7 available to help you.
+   <div class="col-md-12  moretext section ">
+      <div class="row">
+
+         What happens when you don't have any documents to help you create a comprehensive literature review for your thesis? There are many students who spend hours researching for Literature Review Writing. But, only a few of them get good results in the end and the rest gets nothing?
+         We understand that it is sometimes quite stressful but to get good grades, it is required to submit your literature review.
+         At Essay Sages, we can provide you with the best list of sources that will Help <strong> Writing a Literature Review </strong>. Hence, you can now focus on other necessary aspects too. Focus on your exams, attend a family function or enjoy the trip hassle-free. Essay Sages is 24*7 available to help you.
 
 </p>
          <h3 class="text-center mt-3 p-3">Why Should You Consider Essay Sages Review Writing Company?
@@ -504,6 +507,12 @@ You don’t need to be bothered about the ordering process at Essay Sages. Follo
 </p>
    
         </div>
+         </div>
+
+        
+   </div>
+   <a class="moreless-button" href="">Read more</a>
+
 
 <!-- MDB -->
 <script

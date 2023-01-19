@@ -415,13 +415,20 @@
          Need Physics Homework Help? Ask Experts At Essay Sages
 
          </h2>
-         <p>Unlike the old times, you no longer need to wake up for the whole night to complete a Physics assignment. Are you asking who will do that for you? At Essay Sages, we have physics experts who will handle the task for you. Our writers are enriched with years of academic experience and will help you to get good grades. Physics is an integral part of science and you can’t take that for granted. If you want to do the whole assignment yourself but need some expert guidance then we are also open to that. The experts will help you with Physics Assignment and they are 24*7 available to help you. Hire Essay Sages online for Physics Homework Help and get outstanding results:
+         <p>Unlike the old times, you no longer need to wake up for the whole night to complete a Physics assignment. Are you asking who will do that for you? At Essay Sages, we have physics experts who will handle the task for you. Our writers are enriched with years of academic experience and will help you to get good grades. Physics is an integral part of science and you can’t take that for granted.
 
 </p>
 </div>
 </div>
+
+<div class="col-md-12  moretext section ">
+      <div class="row">
+
+         <p>If you want to do the whole assignment yourself but need some expert guidance then we are also open to that. The experts will help you with Physics Assignment and they are 24*7 available to help you. Hire Essay Sages online for Physics Homework Help and get outstanding results:
+         </p>
+
         <ul>
-     
+   
         <h5 class="text-center mt-3 p-3"><li>100% Authenticity</h5>
         <p>Essay Sages is the maestro of the online academic writing industry today. We have been ruling the industry for the last 15 years and it is because of our honesty and integrity. You can trust us with your Physics Home Work. All you get is outstanding work on the given time. Every time when you need help with your physics assignment, our experts will provide you with authentic and fully researched Physics Problems Solutions.</p>
         </li>
@@ -436,6 +443,7 @@
         </li>
         
         </ul>
+   
         You can show us your trust and we will provide you with outstanding and quality Physics Homework Help. Get rid of your doubts about mechanics, heat, electromagnetism, etc, with experts at Essay Sages. There are no academic tasks that we can’t help you with!
 
         
@@ -516,10 +524,12 @@ All of our Physics experts are completely aware of concepts like techniques, law
         </p>
      
         </div>
+ </div>
+
+        <a class="moreless-button" href="">Read more</a>        
+   </div>
+   
 
 <!-- MDB -->
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
-></script>
+
 @endsection

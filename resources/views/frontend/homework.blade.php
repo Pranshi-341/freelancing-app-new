@@ -415,6 +415,9 @@ Essay Sages is helping students do assignments for many years. In these recent y
 </div>
 
 </p>
+   <div class="col-md-12  moretext section ">
+      <div class="row">
+
          <h2> Homework Help Online From Professional Paper Writers</h2>
          <p>You will find a number of <strong>Homework Help</strong> services online but it is not an easy task to find the most reliable and trusted one like Essay Sages. Make sure you are hiring an online writing service who have professional writers and years of expertise. Plagiarized or poor-quality homework writing will be of no use. At Essay Sages, we guarantee to provide unique quality content. Check out the below-given benefits of hiring Paper Writers for your homework:
 <ul>
@@ -484,10 +487,12 @@ If you want you can also take <strong>Homework Help</strong> from the internet b
         </p>
        
         </div>
+        </div>
+
+        
+        </div>
+        <a class="moreless-button" href="">Read more</a>
+
 
 <!-- MDB -->
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
-></script>
 @endsection
