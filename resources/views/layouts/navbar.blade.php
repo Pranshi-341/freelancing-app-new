@@ -56,7 +56,7 @@
    <header class="page-header page-header_writer js_header__wrapper ">
 <nav class="h5 shadow-lg navbar navbar-expand-lg navbar-dark font-weight-bold">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">Essay Sages</a>
+    <a class="navbar-brand" href="/" style="font-size: 25px;">Essay Sages</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

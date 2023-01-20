@@ -567,9 +567,9 @@ Can't figure out how to start working on <strong>Computer Science Assignments
         </div>
         </div>
 
-        
+        <a class="text-center moreless-button" href="">Read more</a>     
    </div>
-   <a class="moreless-button" href="">Read more</a>
+   
 
 <!-- MDB -->
 

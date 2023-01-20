@@ -91,10 +91,10 @@
    <div class="col-md-12" style='background-size:cover; background-image: url({{$backgroundImage}})'>
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h1>{{$title}}</h1>
+         <h1>Hey Essay Sages! Write My Essay For Me</h1>
          <p class="w-50 text-center">{{$topline}}</p>
          
-         <p style="color: #ffc107;">{{$bottomline}}</p>
+         <p style="color: #ffc107;">Make your order and get our assistance now!</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
             <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" />Hassle-Free Order Process</div>
             <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Qualified Writing Experts</div>
@@ -488,7 +488,7 @@ Stop asking "who can <strong>Write My Essay</strong>?" and join us for better ac
 
         
         </div>
-        <a class="moreless-button" href="">Read more</a>
+        <a class="text-center moreless-button" href="">Read more</a>
 
 <!-- MDB -->
 

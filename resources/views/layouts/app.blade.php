@@ -27,6 +27,23 @@
 
     <!-- Styles -->
     <style>
+      .cs
+      {
+      padding-top:75px;
+      }
+      .cs1 
+      {
+     padding-left:70px;
+      }
+
+      .pd_ul{
+        padding-bottom:20px;
+      }
+
+      .sz_ul{
+        font-size:20px;
+      }
+
         #section {
     width: 500px;
     height: 400px;

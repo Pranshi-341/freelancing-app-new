@@ -509,9 +509,9 @@ You don’t need to be bothered about the ordering process at Essay Sages. Follo
         </div>
          </div>
 
-        
+         <a class="text-center moreless-button" href="">Read more</a>     
    </div>
-   <a class="moreless-button" href="">Read more</a>
+   
 
 
 <!-- MDB -->

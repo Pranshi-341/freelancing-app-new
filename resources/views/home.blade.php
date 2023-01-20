@@ -100,7 +100,7 @@
 
 @section('content')
 <div class="row">
-   <div class="col-md-12" style=" background-size:cover; background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp);">
+   <div class="col-md-12" style=" background-size:cover; background-image: url({{ asset('images/ddedd.png') }});">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          
@@ -131,7 +131,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
          </h2>
       </div>
    </div>
-   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel">
+   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel" style="padding-top:75px;">
       <div class="carousel-inner">
          <div class="carousel-item active">
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
@@ -217,9 +217,9 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
          </h2>
       </div>
    </div>
-   <div class="col-md-12">
-      <div class="row p-5">
-         <div class="col-md-6">
+   <div class="col-md-12" style="padding-top: 75px;" >
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
@@ -227,7 +227,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                   <h5 class="text-primary w-75">
                      <strong>
                         <span class="text-dark">
-                        1. Information Form
+                        Information Form
 
                         </span>
                      </strong>
@@ -240,24 +240,24 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                </div>
             </div>
          </div>
-         <div class="col-md-6">
-            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         <div class="col-sm-6">
+            <img src="{{ asset('images/gvjvhjvj-removebg-preview.png') }}" class="img-fluid w-25" />
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+               <img src="{{ asset('images/jhvhvf-removebg-preview.png') }}" class="img-fluid w-25" />
             </div>
          </div>
-         <div class="col-md-6">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-start align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;2&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
                      <strong>
                         <span class="text-dark">
-                        2. Select the Writer
+                        Select the Writer
                         </span>
                      </strong>
                   </h5>
@@ -269,8 +269,8 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
             </div>
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;3&nbsp;</div>
@@ -278,7 +278,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                   <h5 class="text-primary w-75">
                      <strong>
                         <span class="text-dark">
-                        3. Complete the Payment
+                        Complete the Payment
 
                         </span>
                      </strong>
@@ -291,24 +291,24 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                </div>
             </div>
          </div>
-         <div class="col-md-6">
-            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         <div class="col-sm-6">
+            <img src="{{ asset('images/pngtree-payment-giving-money-png-image_5705200-removebg-preview.png') }}" class="img-fluid w-25" />
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+               <img src="{{ asset('images/754242-middle-removebg-preview.png') }}" class="img-fluid w-25"/>
             </div>
          </div>
-         <div class="col-md-6">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-start align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;4&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
                      <strong>
                         <span class="text-dark">
-                        4. Revise and Release
+                        Revise and Release
                         </span>
                      </strong>
                   </h5>
@@ -325,7 +325,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
 
 <!-- Why choose us -->
 
-<div class="row p-5 ">
+<div class="row">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
@@ -334,39 +334,40 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
       </div>
    </div>
    <div class="col-md-12">
-      <div class="row">
+      <div class="row cs  cs1">
         
          <div class="col-md-4">
-            <div class="card shadow-md">
+            
                <div class="card-body">
                   <div class="row">
-                     <div class="col-md-4">
-                        <img class="card-img-top" src="{{ asset('icons/time.png') }}" alt="Card image cap" />
-                     </div>
-                     <div class="col-md-8">
-                        <h5 class="card-title">Types of essay</h5>
-                        <ul class="expertise-covers-v2__list">
-                                    <li class="expertise-covers-v2__list-item">Narrative</li>
-                                    <li class="expertise-covers-v2__list-item">Definition</li>
-                                    <li class="expertise-covers-v2__list-item">Descriptive</li>
-                                    <li class="expertise-covers-v2__list-item">Cause and Effect</li>
-                                    <li class="expertise-covers-v2__list-item">Expository</li>
-                                    <li class="expertise-covers-v2__list-item">Analytical</li>
-                                    <li class="expertise-covers-v2__list-item">Persuasive</li>
-                                    <li class="expertise-covers-v2__list-item">Admission</li>
-                            </ul>
-                     </div>
+                     
+                        <h5 class="card-title pd_ul" style="text-align:center; font-size:32px;">Types of Essay</h5>
+                        <div class="col-md-6">
+                           <ul class="sz_ul">
+                                       <li class="pd_ul">Narrative</li>
+                                       <li class="pd_ul">Definition</li>
+                                       <li class="pd_ul">Descriptive</li>
+                                       <li class="pd_ul">Cause and Effect</li>
+                           </ul>
+                        </div>
+                        <div class="col-md-6">
+                           <ul class="sz_ul">
+                                       <li class="pd_ul">Expository</li>
+                                       <li class="pd_ul">Analytical</li>
+                                       <li class="pd_ul">Persuasive</li>
+                                       <li class="pd_ul">Admission</li>
+                           </ul>
+                        </div>
+                     
                   </div>
                </div>
-            </div>
+            
          </div>
          <div class="col-md-4">
             <div class="card shadow-md">
                <div class="card-body">
                   <div class="row">
-                     <div class="col-md-4">
-                        <img class="card-img-top" src="{{ asset('icons/quality.png') }}" alt="Card image cap" />
-                     </div>
+                     
                      <div class="col-md-8">
                         <h5 class="card-title"><b>Free</b> features</h5>
                         <ul class="expertise-covers-v2__card-list">
@@ -400,7 +401,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                             <span class="expertise-covers-v2__feature-price">14.99$</span>
                             <span class="expertise-covers-v2__feature-label">Free</span>
                         </li>
-                                    </ul>
+                        </ul>
                                     <p class="expertise-covers-v2__summary">Get all those features for <span class="expertise-covers-v2__summary-value">35.94$</span> <b>FREE</b></p>
                 <div class="expertise-covers-v2__btn">
                     <a href="/order" class="btn btn_large btn_w_100 btn_primary-accent" onclick="gta('send','event','CTA','click','get_essay_help');">Order paper</a>

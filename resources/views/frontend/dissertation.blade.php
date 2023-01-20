@@ -507,9 +507,9 @@ You should not miss your chance to get a flawless paper without any effort on yo
     </div>
     </div>
 
-        
+    <a class="text-center moreless-button" href="">Read more</a>     
    </div>
-   <a class="moreless-button" href="">Read more</a>
+   
 
 <!-- MDB -->
 
