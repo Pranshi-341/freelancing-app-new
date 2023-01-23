@@ -41,6 +41,33 @@
       height: 3em;
       width: 3em;
    }
+   #navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content{
+  padding-top: 60px;
+}
 </style>
 @push ('scripts')
 <script>
@@ -51,10 +78,24 @@
             dropdownMenu.parent().toggleClass("open");
         }
     });
-});     
+});    
+
+
+window.onscroll = function() {myFunction()};
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
    </script>
    <header class="page-header page-header_writer js_header__wrapper ">
-<nav class="h5 shadow-lg navbar navbar-expand-lg navbar-dark font-weight-bold">
+<nav class="h5 shadow-lg sticky navbar navbar-expand-lg navbar-dark font-weight-bold">
   <div class="container-fluid">
     <a class="navbar-brand" href="/" style="font-size: 25px;">Essay Sages</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
