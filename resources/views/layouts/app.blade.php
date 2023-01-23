@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <link href="{{ asset('css/style.css') }} "rel="stylesheet">
+    <link href="{{ asset('public/css/style.css') }} "rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
     <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet">
@@ -40,8 +40,29 @@
         padding-bottom:20px;
       }
 
+      .pd_feature {
+        padding-top: 20px;
+      }
+
+      .v2 {
+        width: 100%;
+        padding: 0 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .free {
+        float:right;
+      }
+
+      .expertise-covers-v2__btn {
+        width: 105px;
+        max-width: 100%;
+        margin-inline: auto;
+      }
+
       .sz_ul{
-        font-size:20px;
+        font-size:17px;
       }
 
         #section {
@@ -52,6 +73,35 @@
   
   .moretext {
     display: none;
+  }
+
+  .expertise-covers-v2__card-list-item {
+    align-items: center;
+   
+    position: relative;
+  }
+
+  .expertise-covers-v2__feature-price{
+    margin-left: auto;
+    font-weight: 700;
+    text-decoration: line-through;
+  }
+
+  .expertise-covers-v2__summary {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .expertise-covers-v2__feature-label {
+    margin-left : 10px;
+    font-weight: 700;
+    color: #0084d6;
+    text-transform: uppercase;
+  }
+
+  .expertise-covers-v2__card-inner {
+    padding-left: 35px;
+    padding-right: 35px;
   }
 
     </style>
