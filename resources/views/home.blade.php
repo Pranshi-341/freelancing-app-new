@@ -132,7 +132,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
       </div>
    </div>
 
-   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel" style="padding-top:75px;">
+   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel" >
       <div class="carousel-inner">
          <div class="carousel-item active">
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
@@ -143,7 +143,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
 
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     I am really very grateful that I came to know about <strong>Essay Sages Essay Writing Service</strong>. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
+                     I am really very grateful that I came to know about  Essay Sages Essay Writing Service</strong>. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
                   </p>
                </div>
             </div>
@@ -163,7 +163,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                  
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great <strong>Essay Writing Service</strong>.
+                     I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great  Essay Writing Service</strong>.
                   </p>
                </div>
             </div>
@@ -183,7 +183,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                  
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     The writing expert submitted the project very quickly. The quality he provided in my<b> Literature Review </b>Writing is just outstanding. I am really impressed. Thank you Essay Sages.
+                     The writing expert submitted the project very quickly. The quality he provided in my  Literature Review </b>Writing is just outstanding. I am really impressed. Thank you Essay Sages.
                   </p>
                </div>
             </div>
@@ -218,7 +218,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
          </h2>
       </div>
    </div>
-   <div class="col-md-12" style="padding-top: 75px;" >
+   <div class="col-md-12 cs" >
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end
@@ -226,7 +226,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
                         Information Form
 
@@ -242,13 +242,13 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/gvjvhjvj-removebg-preview.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/jhvhvf-removebg-preview.png') }}" class="img-fluid w-25" />
+               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
             </div>
          </div>
          <div class="col-sm-6">
@@ -256,7 +256,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;2&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
                         Select the Writer
                         </span>
@@ -277,7 +277,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;3&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
                         Complete the Payment
 
@@ -293,13 +293,13 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/pngtree-payment-giving-money-png-image_5705200-removebg-preview.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/754242-middle-removebg-preview.png') }}" class="img-fluid w-25"/>
+               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
             </div>
          </div>
          <div class="col-sm-6">
@@ -307,7 +307,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;4&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
                         Revise and Release
                         </span>
@@ -373,7 +373,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                   <div class="row">
                      
                      <div class="expertise-covers-v2__card-inner">
-                        <h4 class="card-title"><b>Free</b> Features</h4>
+                        <h4 class="card-title"> Free</b> Features</h4>
                         <ul class="expertise-covers-v2__card-list">
                                             <li class="expertise-covers-v2__card-list-item">
                             <span class="expertise-covers-v2__feature-name">A Title Page</span>
@@ -406,10 +406,10 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                             <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                         </ul>
-                                    <p class="expertise-covers-v2__summary">Get All Those Features For  <b>FREE</b></p>
-                <div class="expertise-covers-v2__btn">
-                    <a href="order-now" class="btn btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
-                </div>
+                                    <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
+                     <div class="expertise-covers-v2__btn">
+                        <a href="order-now" class="btn btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                     </div>
                      </div>
                   </div>
                </div>
@@ -419,14 +419,14 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
    </div>
 </div>
 <!-- whu choose us -->
-   <div class="row v2">
+<div class="row v2">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
          Professional Essay Writing Services | Essay Sages
          </h2>
          <p>
-         <b>Custom Essay Writing Service </b>is a safe and smart option for those who spend their nights writing long paragraphs just to impress the professors and learn no new things. Essay Sages won’t waste your crucial hours. Hire our <b>Professional Essay Writers</b> today and do something that values!
+         Custom Essay Writing Service is a safe and smart option for those who spend their nights writing long paragraphs just to impress the professors and learn no new things. Essay Sages won’t waste your crucial hours. Hire our  Professional Essay Writers</b> today and do something that values!
 </p>
       </div>
    </div>
@@ -435,21 +435,21 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
       <div class="row">
      
           <h3 class="text-center pd_feature">It Is Easy To Get Writing Essay Online Service!</h3>
-         <p class="pd_feature">Get a free quote from our<b> Essay Writing Services </b>experts at Essay Sages and get an idea of ​​how much an article will cost before it starts. If you found the price satisfactory, accept the offer and watch your worries go away! Our team will ensure that you no longer have to wake up till 4 am. <b>Essay Sages</b> is known for providing the best writing, editing, and proofreading services available online.</p>
+         <p class="pd_feature">Get a free quote from our  Essay Writing Services </b>experts at Essay Sages and get an idea of ​​how much an article will cost before it starts. If you found the price satisfactory, accept the offer and watch your worries go away! Our team will ensure that you no longer have to wake up till 4 am.  Essay Sages</b> is known for providing the best writing, editing, and proofreading services available online.</p>
           <h3 class="text-center pd_feature"> Why Do Customers Keep Choosing Essay Sages? </h3>
-         <p class="pd_feature">We carefully select all of our writers to ensure that each one of them demonstrates the highest level of professionalism, skill, and dedication. Such an approach allows us to provide the highest quality articles to anyone who turns to us to Write My Essay. Our experienced team of professionals produces all types of documents, in all areas and at all levels of complexity. From simple one-page essays to in-depth and complex essays - <b>Essay Sages</b> has it covered. With our extensive experience, we create customized documents for the unique needs of each client. We are also ready to take on any educational challenge you can think of. When you come to us for help, you get the best Essay Writing service at the right time!</p>
+         <p class="pd_feature">We carefully select all of our writers to ensure that each one of them demonstrates the highest level of professionalism, skill, and dedication. Such an approach allows us to provide the highest quality articles to anyone who turns to us to Write My Essay. Our experienced team of professionals produces all types of documents, in all areas and at all levels of complexity. From simple one-page essays to in-depth and complex essays -  Essay Sages</b> has it covered. With our extensive experience, we create customized documents for the unique needs of each client. We are also ready to take on any educational challenge you can think of. When you come to us for help, you get the best Essay Writing service at the right time!</p>
           <h3 class="text-center pd_feature">Quick Work Delivery</h3>
          <p class="pd_feature">Our writing team knows that a student's life often involves juggling multiple tasks and pursuing multiple important goals at the same time. But what if you are always drained? Do you feel like it's impossible to keep up with your seemingly successful peers no matter how hard you try?
  We've been there - it's not your fault. The thing is that it almost always takes less time to manage all your tasks properly. It can put a lot of pressure on you, making it difficult for you to check all the boxes on your list. And, often, pushing yourself to achieve negative goals leads to even more problems, including fatigue and even depression.
- Our<b> Write Essay For Me</b> service is designed to help you avoid this. With us, every learner can entrust their work to professionals who will complete them on time and at the best quality. We empower you to save your efforts for important things without compromising your work. And even that's not all!
+ Our  Write Essay For Me</b> service is designed to help you avoid this. With us, every learner can entrust their work to professionals who will complete them on time and at the best quality. We empower you to save your efforts for important things without compromising your work. And even that's not all!
  We understand that you may be in a difficult situation when you do not have time to complete a return within a few days. The good news is that you can overcome this challenge with a copywriter. Even if you are in a hurry, we can deliver your book as quickly as possible without compromising on quality!</p>
           <h3 class="text-center pd_feature">Get Essay Help From Top Rated Writers</h3>
          <p class="pd_feature">
-         Whether it's a last-minute essay or an in-depth research project, you won't have to worry about it when Essay Sages is by your side. Our <b>Essay Writing Services</b> always come to sign, guaranteeing high professionalism. At Essay Sages, we use the best writers.
+         Whether it's a last-minute essay or an in-depth research project, you won't have to worry about it when Essay Sages is by your side. Our  Essay Writing Services</b> always come to sign, guaranteeing high professionalism. At Essay Sages, we use the best writers.
 Our experts have bachelor's degrees, master's degrees, and even doctorate degrees and each of them has at least a few years of experience writing articles in their field. Before allowing a new employee to work on my writing orders, we put them through a series of checks and tests to see if they are high enough to provide high-quality help to your book.
 We also ask them to study and follow our quality control system carefully to get the best results. What else allows us to achieve 100% satisfaction?
 Apart from selecting the best writers, we also employ experienced staff who will take care of their work.
-We believe that effective maintenance is the key to consistently high quality for everything we deliver. So when you pay for a trial with us, you always have a quality guarantee. To take advantage of all these benefits, you only need to apply for our<b> Essay Writing services</b> and choose your best specialist.
+We believe that effective maintenance is the key to consistently high quality for everything we deliver. So when you pay for a trial with us, you always have a quality guarantee. To take advantage of all these benefits, you only need to apply for our  Essay Writing services</b> and choose your best specialist.
 Our service works 24/7, so you can come to us if needed. Once your order is placed and assigned to a selected professional, they will complete it following your instructions. Our experienced writers will tailor each article to your unique needs. But, once the order is ready, you can download and check it before you approve the bill.
 So, don't delay and get your professional help now!
          </p>

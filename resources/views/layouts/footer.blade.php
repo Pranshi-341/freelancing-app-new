@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-light" style="background-color: #002552!important; color:white;">
+<footer class="text-center text-lg-start bg-light" style="background-image: linear-gradient(to right, #bad9b0, #84aea4, #368483, #228384, #4e6f83); color:white;">
   <!-- Section: Social media -->
   <section
     class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
