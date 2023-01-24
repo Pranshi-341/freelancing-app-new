@@ -104,7 +104,7 @@
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          
-            <h1 style="padding-bottom:35px; font-size: 50px;">Welcome To Essay Sages</h1>
+            <h1 class="h1_tag_style">Welcome To Essay Sages</h1>
          
          <p class="w-50 text-center">Where Our Acclaimed Client’s Assignments And Tasks Are
 Meticulously Done. Our Competence Is Unmatched. Once You Submit An Order, You Will Receive
@@ -131,6 +131,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
          </h2>
       </div>
    </div>
+
    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel" style="padding-top:75px;">
       <div class="carousel-inner">
          <div class="carousel-item active">
