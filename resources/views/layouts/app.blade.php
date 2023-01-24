@@ -51,6 +51,15 @@
         margin-right: auto;
       }
 
+      .text_clr {
+        color:black;
+      }
+
+      .h1_tag_style {
+        padding-bottom:35px; 
+        font-size: 50px;
+      }
+
       .free {
         float:right;
       }

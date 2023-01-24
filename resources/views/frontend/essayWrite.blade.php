@@ -91,7 +91,7 @@
    <div class="col-md-12" style='background-size:cover; background-image: url({{$backgroundImage}})'>
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h1>Hey Essay Sages! Write My Essay For Me</h1>
+         <h1 class="h1_tag_style">Hey Essay Sages! Write My Essay For Me</h1>
          <p class="w-50 text-center">{{$topline}}</p>
          
          <p style="color: #ffc107;">Make your order and get our assistance now!</p>
@@ -117,7 +117,7 @@
          </h2>
       </div>
    </div>
-   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel">
+   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel" style="padding-top:75px;">
       <div class="carousel-inner">
          <div class="carousel-item active">
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
