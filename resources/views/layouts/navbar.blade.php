@@ -3,8 +3,7 @@
   .dropdown-big:hover .dropdown-men {
         display: block;
         box-sizing: border-box;
-        z-index: 1;
-  }
+        z-index:1000;  }
 
   .dropdown-item:hover {
     /* margin-left: 3px; */
@@ -21,6 +20,25 @@
     border-radius: 15px;
     display: flex;
   }
+  .overlay {
+      
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        background-color: rgb(0, 0, 0);
+         background-color: #228384;
+        transition: 0.5s;
+    }
+  
+    .overlay-content {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+       
+    }
   .less-padding{
     padding: 0px 0px 0px 0px;
     
@@ -44,6 +62,7 @@
    #navbar {
   overflow: hidden;
   background-color: #333;
+  
 }
 
 /* Navbar links */
@@ -59,14 +78,17 @@
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-  position: fixed;
   top: 0;
   width: 100%;
+  
+  position: fixed;
+  overflow:scroll:
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content{
   padding-top: 60px;
+  
 }
 </style>
 @push ('scripts')
@@ -94,9 +116,9 @@ window.onscroll = function() {myFunction()};
 }
 
    </script>
-   <header class="page-header page-header_writer js_header__wrapper ">
-<nav class="h5 shadow-lg sticky navbar navbar-expand-lg navbar-dark font-weight-bold">
-  <div class="container-fluid">
+   <header class="page-header page-header_writer js_header__wrapper  ">
+<nav class="h5 shadow-lg sticky navbar navbar-expand-lg navbar-dark overlay  font-weight-bold">
+  <div class="container-fluid overlay-content">
     <a class="navbar-brand" href="/" style="font-size: 25px;">Essay Sages</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
