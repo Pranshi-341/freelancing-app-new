@@ -28,7 +28,7 @@
         left: 0;
         top: 0;
         background-color: rgb(0, 0, 0);
-         background-color: #228384;
+         background-image: linear-gradient(to right, #bad9b0, #84aea4, #368483, #228384, #4e6f83);
         transition: 0.5s;
     }
   
