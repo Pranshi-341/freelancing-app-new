@@ -96,14 +96,14 @@
      <p class="w-50 text-center">{{$topline}}</p>         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" />Hassle-Free Order Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Qualified Writing Experts</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />On-Time Delivery</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Essay Writing Service"/>Hassle-Free Order Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Literature Review Writing"/>Qualified Writing Experts</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Online Essay Writing Services"/>On-Time Delivery</div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" />24*7 Service Available</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" />Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" />Plagiarism-Free Content </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Dissertation Writing"/>24*7 Service Available</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Dissertation Writing Service"/>Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Custom Dissertation Services"/>Plagiarism-Free Content </div>
          </div>
       </div>
    </div>
@@ -127,7 +127,7 @@
    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="Online Dissertation Writing Services" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Emma</h5>
@@ -135,7 +135,7 @@
 
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     I am really very grateful that I came to know about <strong>Essay Sages Essay Writing Service</strong>. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
+                     I am really very grateful that I came to know about Essay Sages Essay Writing Service. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
                   </p>
                </div>
             </div>
@@ -148,7 +148,7 @@
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="Professional Dissertation Writing Services" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Charlotte </h5>
@@ -168,7 +168,7 @@
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Custom Dissertation Writing" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Brian Bakes</h5>
@@ -234,13 +234,13 @@
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/information-form.png') }}" alt="Essay Writing Company" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
+               <img src="{{ asset('images/writer.png') }}" alt="Dissertation Writing Service" class="img-fluid w-25" />
             </div>
          </div>
          <div class="col-sm-6">
@@ -285,13 +285,13 @@
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/payment.png') }}" alt="Dissertation Help Service" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
+               <img src="{{ asset('images/revise-release.png') }}" alt="Dissertation Help Service" class="img-fluid w-25"/>
             </div>
          </div>
          <div class="col-sm-6">
@@ -409,24 +409,25 @@
    </div>
 </div>
 <!-- Our team members portfolio -->
-<div class="row p-5 ">
+<div class="row v2 ">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
          Best Dissertation Writing Service
 
          </h2>
-         <p>The ones who are getting a Ph.D. degree know its importance in their life. All students understand that applying for a Ph.D. program is not an easy decision at all. They quickly realize how difficult dissertation writing is when they make their first attempt. It takes years to study the subject, collect good material and organize the research paper. Unlike any other writing assignment, Dissertation Writing is one of the most difficult academic papers, and its grades can affect your future career!
-The submission date is near and you are still in the middle of your research paper. There are a lot of students who failed to submit the research work on time and look for Dissertation Writing Service.
-At Essay Sages, we provide online dissertation writing help services that will help you get good grades and save you from failure.
+         <p>The ones who are getting a Ph.D. degree know its importance in their life. All students understand that applying for a Ph.D. program is not an easy decision at all. They quickly realize how difficult dissertation writing is when they make their first attempt. It takes years to study the subject, collect good material and organize the research paper. 
+         </p>
 
 
-</p>
+
 </div>
 </div>
    <div class="col-md-12  moretext section ">
       <div class="row">
 
+         <p class="pd_feature">Unlike any other writing assignment, Dissertation Writing is one of the most difficult academic papers, and its grades can affect your future career! The submission date is near and you are still in the middle of your research paper. There are a lot of students who failed to submit the research work on time and look for Dissertation Writing Service.
+At Essay Sages, we provide online dissertation writing help services that will help you get good grades and save you from failure.</p>
          <h3 class="text-center pd_feature">Make An Order At Essay Sages Dissertation Writing Help Service
 </h3>
          <p class="pd_feature">Are you a bit nervous about using Custom Dissertation Services? Don’t worry, at Essay Sages, we have made it completely easy for you. In just a few steps, you will have your own paper writer who will help you in your research writing.
@@ -482,7 +483,7 @@ We provide a range of experienced Ph.D. thesis support writers
 On-time delivery has priority even if the due date is less than one day away
 </li>
         </ul>
-        This is only a glimpse of why you should choose Essay Sages. There are many other advantages that make Essay Sages the best Dissertation Paper Writing Service today. If you are looking to get the best Dissertation Help Service, we are 24*7 available to help you!
+        This is only a glimpse of why you should choose Essay Sages. There are many other advantages that make Essay Sages the best Dissertation <a href="https://en.wikipedia.org/wiki/Paper">Paper</a> Writing Service today. If you are looking to get the best Dissertation Help Service, we are 24*7 available to help you!
 </p>
         <h3 class="text-center pd_feature">15 Years Of Experience In Online Dissertation Writing</h3>
 

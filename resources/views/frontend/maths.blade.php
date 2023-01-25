@@ -97,14 +97,14 @@ me with my maths homework today!">
      <p class="w-50 text-center">{{$topline}}</p>         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" />Hassle-Free Order Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Qualified Writing Experts</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />On-Time Delivery</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Do Math Homework"/>Hassle-Free Order Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Essay Writing Service"/>Qualified Writing Experts</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Literature Review Writing"/>On-Time Delivery</div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" />24*7 Service Available</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" />Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" />Plagiarism-Free Content </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Essay Writers"/>24*7 Service Available</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="literature review writing"/>Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Math Homework"/>Plagiarism-Free Content </div>
          </div>
       </div>
    </div>
@@ -128,7 +128,7 @@ me with my maths homework today!">
    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="Do My Math Homework" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Emma</h5>
@@ -149,7 +149,7 @@ me with my maths homework today!">
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="Do My Math Homework For Me" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Charlotte </h5>
@@ -169,7 +169,7 @@ me with my maths homework today!">
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="pay someone to do my math homework" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Brian Bakes</h5>
@@ -235,13 +235,13 @@ me with my maths homework today!">
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/information-form.png') }}" alt="Math Homework" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
+               <img src="{{ asset('images/writer.png') }}" alt="College Math Homework Help" class="img-fluid w-25" />
             </div>
          </div>
          <div class="col-sm-6">
@@ -286,13 +286,13 @@ me with my maths homework today!">
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/payment.png') }}" alt="Math Homework Doer" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
+               <img src="{{ asset('images/revise-release.png') }}" alt="Do My Math Problem" class="img-fluid w-25"/>
             </div>
          </div>
          <div class="col-sm-6">
@@ -421,7 +421,7 @@ me with my maths homework today!">
 
          </h2>
          <p>School is one of the most important parts of everyone’s life. We get to know all the important aspects of life along with knowledge. Some of us love to study science while others might be interested in art or biology. Of all subjects, math is the one that has the least votes in the race of favorite subjects, isn’t it? And sometimes, we wish to have someone for Math Homework help.
-At Essay Sages, you will find plenty of professionals who are around the clock available for you. Connect with the expert of your choice and say “Do My Math Homework”. You can now enjoy your holidays or take proper rest if you are not well. The math professionals at Essay Sages will handle even the most complicated task for you.
+
 
 
 </p>
@@ -430,7 +430,8 @@ At Essay Sages, you will find plenty of professionals who are around the clock a
    <div class="col-md-12  moretext section ">
       <div class="row">
 
-         <h3 class="text-center pd_feature">Why You Must Rely Upon Essay Sages For Math Homework Online?
+      <p class="pd_feature">At Essay Sages, you will find plenty of professionals who are around the clock available for you. Connect with the expert of your choice and say “Do My Math Homework”. You can now enjoy your holidays or take proper rest if you are not well. The math professionals at Essay Sages will handle even the most complicated task for you.</p>   
+      <h3 class="text-center ">Why You Must Rely Upon Essay Sages For Math Homework Online?
 </h3>
          <p class="pd_feature">While doing the Math HW, we get sometimes puzzled between complicated calculations or numbers. Doesn’t matter how difficult the task is, you have to complete it to get good marks and to save yourself from punishment. At Essay Sages, you will get the solution for Math Homework problems.
 
@@ -500,7 +501,7 @@ fractions, linear equations, and any arithmetic problem that you think is comple
         </li>
         <li>
         <h5>Algebra</h5>
-        <p>You can ask the experts at Essay Sages to &quot;Do My Algebra Homework&quot; of any difficulty level.
+        <p>You can ask the experts at Essay Sages to &quot;Do My <a href="https://en.wikipedia.org/wiki/Algebra"> Algebra </a>Homework&quot; of any difficulty level.
 The professionals will conduct an analysis and complete the project based on the number theory.
 Our team can handle any algebra subject field like modern, elementary, and abstract algebra.</p>
         </li>

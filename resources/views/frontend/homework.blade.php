@@ -412,18 +412,19 @@
          Professional Homework Help Writing Service
          </h2>
          <p>Thinking of canceling your plans because of tons of assignment work? It is not easy to study when you have a lot of work to do. You can’t enjoy hanging out with friends, can’t go out to watch movies, or taking part in your extracurricular activities. Want to get rid of it? At Essay Sages, get  Homework Help</strong> from top writers. They are experienced individuals who will complete the assignment work on your behalf and help you to get good grades.
-Isn’t it a good way? You can now enjoy everything else you wanted without compromising on your homework. Ask our professionals for Homework Help Online and let them be your helping hands for all of your assignment work.
-They can handle any complex task. All of our Professional Paper Writers are experienced enough to provide you with quality work. Although we can also complete the task within 24 hours it would be better if you can allow us some free time to research the project.
-Essay Sages is helping students do assignments for many years. In these recent years, we are also working on our weaknesses and on a mission to make us better each day. We are not the one who compromises the quality in any manner. Visit our website and choose the best suitable writer for your homework task. We are 24*7 available to answer your queries. It is very easy to place an order. Don’t worry, your payment will be safe with us and it will only be credited to the writer once you will approve the submitted work.
+         </p>
 </div>
 </div>
 
-</p>
+
    <div class="col-md-12  moretext section ">
       <div class="row">
 
-         <h2 > Homework Help Online From Professional Paper Writers</h2>
-         <p class="pd_feature">You will find a number of  Homework Help</strong> services online but it is not an easy task to find the most reliable and trusted one like Essay Sages. Make sure you are hiring an online writing service who have professional writers and years of expertise. Plagiarized or poor-quality homework writing will be of no use. At Essay Sages, we guarantee to provide unique quality content. Check out the below-given benefits of hiring Paper Writers for your homework:
+      <p class="pd_feature">Isn’t it a good way? You can now enjoy everything else you wanted without compromising on your homework. Ask our professionals for Homework Help Online and let them be your helping hands for all of your assignment work.
+They can handle any complex task. All of our Professional Paper Writers are experienced enough to provide you with quality work. Although we can also complete the task within 24 hours it would be better if you can allow us some free time to research the project.
+</p><p>Essay Sages is helping students do assignments for many years. In these recent years, we are also working on our weaknesses and on a mission to make us better each day. We are not the one who compromises the quality in any manner. Visit our website and choose the best suitable writer for your homework task. We are 24*7 available to answer your queries. It is very easy to place an order. Don’t worry, your payment will be safe with us and it will only be credited to the writer once you will approve the submitted work.</p>   
+      <h2 > Homework Help Online From Professional Paper Writers</h2>
+         <p class="pd_feature">You will find a number of  Homework Help</strong> services online but it is not an easy task to find the most reliable and trusted one like Essay Sages. Make sure you are hiring an online writing service who have professional writers and years of expertise. Plagiarized or poor-quality homework writing will be of no use. At Essay Sages, we guarantee to provide unique quality content. Check out the below-given benefits of hiring <a href="https://en.wikipedia.org/wiki/Paper">Paper</a> Writers for your homework:
 <ul style="margin-left:20px;">
 <li><h5>  24*7 Support</h5>
 The primary goal of Essay Sages is to provide the proper convenience and support to our customers. This is why we are 24*7 available to serve you.

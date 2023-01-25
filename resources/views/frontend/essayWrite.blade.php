@@ -310,7 +310,7 @@
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                     Read the paper carefully and then release the payment to the writer. If you want, you can also ask the writer to make any edits.
+                     Read the <a href="https://en.wikipedia.org/wiki/Paper">paper</a> carefully and then release the payment to the writer. If you want, you can also ask the writer to make any edits.
 
                      </span>
                   </p>
@@ -419,14 +419,15 @@
          Essay Sages, Write My Essay For Me Online
          </h2>
          <p>It might have happened to you a lot of times when you find yourself stuck between your college work and some other personal plans. That struggle is real and very tough. But now, you are so lucky as you have someone to whom you can say, “ Write My Essay” for me. At Essay Sages, we are providing Essay Writing Services</strong> so that you can peacefully enjoy your family functions, a trip with your friends, or other necessary tasks.
-            It's a reminder for everyone who is struggling with essay writing that Essay Sages is there to provide you with Writing Services. Unlike any other Essay Writing Services, we have a team of professionals with academic backgrounds.
-            So, if you are tired of searching for the “Write My Essay Online” service, we are there for you 24*7. In a short time, you can place your order and choose from our best writers.
          </p>
+         
       </div>
    </div>
 
    <div class="col-md-12  moretext section ">
       <div class="row">
+         <p class="pd_feature">   It's a reminder for everyone who is struggling with essay writing that Essay Sages is there to provide you with Writing Services. Unlike any other Essay Writing Services, we have a team of professionals with academic backgrounds.
+            So, if you are tired of searching for the “Write My Essay Online” service, we are there for you 24*7. In a short time, you can place your order and choose from our best writers.</p>
          <h3 class="text-center pd_feature">Ask Essay Sages Writers For “ Write My Essay For Me”</h3>
          <p class="pd_feature">Our parents spend a lot of money in schools or colleges just to make us successful in our lives. They can bear anything but not our failure, isn’t it? We understand that there comes a time when a student has to go through several tough phases and get bad grades. The reason could be personal or there might be a family issue going on because of which you are not able to perform well. We can understand it but not your college. Hence, there is no bad to hire someone whom you can say “Help Me  Write My Essay”.
                When you will search for the best Writing Service Online, you will get confused by a lot of options. Not all the service providers for writing essays are good for you. Hence, find reliable service providers like Essay Sages who have certified writers to provide you with high-quality content every time.

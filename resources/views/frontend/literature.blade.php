@@ -96,14 +96,14 @@
      <p class="w-50 text-center">{{$topline}}</p>         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" />Hassle-Free Order Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Qualified Writing Experts</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />On-Time Delivery</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Writing a Literature Review"/>Hassle-Free Order Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Literature Review Writing"/>Qualified Writing Experts</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Help With Literature Review"/>On-Time Delivery</div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" />24*7 Service Available</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" />Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" />Plagiarism-Free Content </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Writing A Literature Review"/>24*7 Service Available</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Review Writing"/>Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Writing A Literature Review"/>Plagiarism-Free Content </div>
          </div>
       </div>
    </div>
@@ -129,7 +129,7 @@
    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="Literature Review Writer" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Emma</h5>
@@ -150,7 +150,7 @@
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="Writing Literature Review" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Charlotte </h5>
@@ -170,7 +170,7 @@
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Writing A Literature Review" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Brian Bakes</h5>
@@ -236,13 +236,13 @@
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/information-form.png') }}" alt="Writing a Literature Review" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
+               <img src="{{ asset('images/writer.png') }}" alt="Literature Review Writing" class="img-fluid w-25" />
             </div>
          </div>
          <div class="col-sm-6">
@@ -287,13 +287,13 @@
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/payment.png') }}" alt="literature review writing" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
+               <img src="{{ asset('images/revise-release.png') }}" alt="Essay Writers" class="img-fluid w-25"/>
             </div>
          </div>
          <div class="col-sm-6">
@@ -422,13 +422,14 @@
 
 
          </h2>
-         <p>One of the most important aspects that every student pays attention to when writing a higher education project is to gather the right information for   Writing a Literature Review </strong>. A literature review is designed to help readers understand the extent of information available about the thesis topic. Review the journal articles and books related to the thesis topic. Those journals will provide the opinions of academic experts on the topic.
-The Internet is a great search opportunity when considering sources that provide important ideas and literature. A number of opinions on the web may be incorrect. Hence, students are not always advised to use articles on the Internet unless they are from reliable and relevant sources. Almost all universities require sources of information especially when it is about literature review.
-</p>
+         <p>One of the most important aspects that every student pays attention to when writing a higher education project is to gather the right information for   Writing a Literature Review </strong>. A literature review is designed to help readers understand the extent of information available about the thesis topic. Review the journal articles and books related to the thesis topic. 
+         </p>
+
 </div>
 </div>
    <div class="col-md-12  moretext section ">
       <div class="row">
+         <p class="pd_feature">Those journals will provide the opinions of academic experts on the topic. The Internet is a great search opportunity when considering sources that provide important ideas and literature. A number of opinions on the web may be incorrect. Hence, students are not always advised to use articles on the Internet unless they are from reliable and relevant sources. Almost all universities require sources of information especially when it is about literature review.</p>
          <p class="pd_feature">
             What happens when you don't have any documents to help you create a comprehensive literature review for your thesis? There are many students who spend hours researching for Literature Review Writing. But, only a few of them get good results in the end and the rest gets nothing?
             We understand that it is sometimes quite stressful but to get good grades, it is required to submit your literature review.
@@ -438,7 +439,7 @@ The Internet is a great search opportunity when considering sources that provide
          <h3 class="text-center pd_feature">Why Should You Consider Essay Sages Review Writing Company?
 
 </h3>
-         <p classs="pd_feature">Writing A Literature Review is not that simple and we understand that! You may question why you should consider Essay Sages for Writing Literature Review and we have briefed the answer in the following points:
+         <p class="pd_feature">Writing A Literature Review is not that simple and we understand that! You may question why you should consider Essay Sages for Writing Literature Review and we have briefed the answer in the following points:
 
 
 <ul style="margin-left:20px;">
@@ -478,7 +479,7 @@ The Internet is a great search opportunity when considering sources that provide
 <h3 class="text-center pd_feature">Writing A Literature Review Online From Essay Sages Experts
 
 </h3>
-         <p class="pd_feature">Our top writers are a team of experts for   Writing a Literature Review </strong>. A strict selection process allows us to access the best writers and copywriters. We are looking for graduates with at least a master's degree and significant experience in writing advanced technical papers. We care about your success. By bringing together all the experts, we guarantee the quality and success of your Literature Review Writing. Those studying for a doctorate degree sometimes need help with paper writing work. For the same, our dedicated professional writers are available to help you. Isn't it an attractive opportunity to have someone online that you trust? Essay Sages is the name whom you can trust upon.
+         <p class="pd_feature">Our top writers are a team of experts for   Writing a Literature Review </strong>. A strict selection process allows us to access the best writers and copywriters. We are looking for graduates with at least a master's degree and significant experience in writing advanced technical papers. We care about your success. By bringing together all the experts, we guarantee the quality and success of your Literature Review Writing. Those studying for a doctorate degree sometimes need help with <a href="https://en.wikipedia.org/wiki/Paper">paper</a> writing work. For the same, our dedicated professional writers are available to help you. Isn't it an attractive opportunity to have someone online that you trust? Essay Sages is the name whom you can trust upon.
 </p>
 
 <h3 class="text-center pd_feature">Buy Literature Review Help To Get An A Grade </h3>

@@ -96,14 +96,14 @@
      <p class="w-50 text-center">{{$topline}}</p>
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" />Hassle-Free Order Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Qualified Writing Experts</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />On-Time Delivery</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Book Report Writing Service"/>Hassle-Free Order Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Book Report Writing Services"/>Qualified Writing Experts</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="book review writing service"/>On-Time Delivery</div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" />24*7 Service Available</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" />Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" />Plagiarism-Free Content </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Essay Writers"/>24*7 Service Available</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Book Report Writing Service"/>Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Book Report Writing Service"/>Plagiarism-Free Content </div>
          </div>
       </div>
    </div>
@@ -127,7 +127,7 @@
    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="Custom Book Report" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Emma</h5>
@@ -148,7 +148,7 @@
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="Book Report Writing Service" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Charlotte </h5>
@@ -169,7 +169,7 @@
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Assignment Writing Service" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Brian Bakes</h5>
@@ -236,13 +236,13 @@
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/information-form.png') }}" alt="Custom Book Report" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
+               <img src="{{ asset('images/writer.png') }}" alt="Review Writing Service" class="img-fluid w-25" />
             </div>
          </div>
          <div class="col-sm-6">
@@ -287,13 +287,13 @@
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/payment.png') }}" alt="Book Report Writing Service" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
+               <img src="{{ asset('images/revise-release.png') }}" alt="Assignment Writing Service" class="img-fluid w-25"/>
             </div>
          </div>
          <div class="col-sm-6">
@@ -424,14 +424,14 @@
          <p>Have you recently been assigned to write a book report but due to some reasons you can’t make it happen? Actually, it's a matter of interest and time availability. There are students who love to write reports but don’t have time. On the other hand, some students don’t have any interest in writing at all. In both cases, Essay Sages is providing  Book Report Writing Service </strong>to overcome both situations.
          </p>
         
-         The process to hire   Custom Book Report experts </strong>is quite simple at Essay Sages. Visit the website, choose the course and submit your requirements. You can also select your desired writer to complete your book report writing. No matter which report writer you choose, all of them have a skilled academic background.
-
+         
          </div>
 </div>
 </p>
    <div class="col-md-12  moretext section ">
       <div class="row">
-
+<p>The process to hire   Custom Book Report experts is quite simple at Essay Sages. Visit the website, choose the course and submit your requirements. You can also select your desired writer to complete your book report writing. No matter which report writer you choose, all of them have a skilled academic background.
+</p>
 <h3 class="text-center pd_feature">
 Why You Should Trust Us From Book Report Writing Service?
  </h3>
@@ -457,7 +457,7 @@ Why You Should Trust Us From Book Report Writing Service?
         <h3 class="text-center pd_feature">
         Essay Sages Only Hires Well- Experienced Book Report Writers
  </h3>
-         <p class="pd_feature">Hiring Custom Book Report writers at Essay Sages is one of the smartest decisions you have ever made. All of our writers are qualified and experienced in their designated fields. It simply means, they have a level of understanding of the task and deliver quality content. Hire one of our writers today for the best Book Review Writing Service.
+         <p class="pd_feature">Hiring Custom Book Report writers at Essay Sages is one of the smartest decisions you have ever made. All of our writers are qualified and experienced in their designated fields. It simply means, they have a level of understanding of the task and deliver quality content. Hire one of our writers today for the best <a href="https://en.wikipedia.org/wiki/Book">Book</a> Review Writing Service.
 If you have completed the book report writing but need someone to check and fix everything, feel free to connect with us. Our writers will check the whole report and make changes wherever required. You will receive error-free, quality report writing work. Don’t worry, we are affordable and available 24*7 to help you.
 
 </p> 

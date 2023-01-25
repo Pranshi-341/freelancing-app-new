@@ -96,14 +96,14 @@
      <p class="w-50 text-center">{{$topline}}</p>         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" />Hassle-Free Order Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Qualified Writing Experts</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />On-Time Delivery</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Computer Science Assignment Help"/>Hassle-Free Order Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Homework Help Computer Science"/>Qualified Writing Experts</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Essay Writing Service"/>On-Time Delivery</div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" />24*7 Service Available</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" />Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" />Plagiarism-Free Content </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Literature Review Writing"/>24*7 Service Available</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Essay Writers"/>Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="computer science assignment help"/>Plagiarism-Free Content </div>
          </div>
       </div>
    </div>
@@ -128,7 +128,7 @@
    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="Computer Science Assignments" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Emma</h5>
@@ -149,7 +149,7 @@
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="Computer Science Homework Help" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Charlotte </h5>
@@ -169,7 +169,7 @@
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Computer Science Homework Service" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Brian Bakes</h5>
@@ -235,13 +235,13 @@
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/information-form.png') }}" alt="Computer Science Homework Help" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
+               <img src="{{ asset('images/writer.png') }}" alt="Homework Help for Computer Science" class="img-fluid w-25" />
             </div>
          </div>
          <div class="col-sm-6">
@@ -286,13 +286,13 @@
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/payment.png') }}" alt="Computer Science Homework Helper" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
+               <img src="{{ asset('images/revise-release.png') }}" alt="CS Homework Help" class="img-fluid w-25"/>
             </div>
          </div>
          <div class="col-sm-6">
@@ -422,13 +422,13 @@
          </h2>
          <p>Computer science is very exciting for some students and they do the assignment with all their hearts. But, you also can’t deny that  Computer Science Assignments
 </strong> are not that easy. Students have to put in their hours and sleepless nights to complete  Computer Science Assignments
-</strong>. At Essay Sages, our professionals are 24*7 available to provide Computer Science Homework Help. We have been helping students with their homework, college assignment, and research paper for the last 15 years. 
+</strong>. At Essay Sages, our professionals are 24*7 available to provide Computer Science Homework Help. 
          </p>
          </div>
 </div>
 <div class="col-md-12  moretext section ">
       <div class="row">
-         <p class="pd_feature">If you are someone who is afraid of computer science-related assignments then Essay Sages is at your side. We have experts who are very reliable and experienced in the field of computer science. You no more need to be worried about your computer science homework anymore. Enjoy your holidays, weekends, or party with your friends, our writers will take care of your projects.
+         <p class="pd_feature">We have been helping students with their homework, college assignment, and research paper for the last 15 years. If you are someone who is afraid of computer science-related assignments then Essay Sages is at your side. We have experts who are very reliable and experienced in the field of computer science. You no more need to be worried about your computer science homework anymore. Enjoy your holidays, weekends, or party with your friends, our writers will take care of your projects.
 
 
          </p>
@@ -453,7 +453,6 @@
         <h5> Contact Us For Multiple Assignments</h5>
         <p>Students are often allotted a number of assignments with the same submission date. We understand how stressful this could be when you have other things to do as well. At Essay Sages, our experts will meet all of your project requirements and submit the task before the due date.</p>
         </li>
-        <li>
         
         </ul>
         
@@ -474,7 +473,6 @@
         <h5> Outstanding Academic Writing Skills.</h5>
         <p>You might be a little afraid of getting Computer Science Assignment Help from online services. Let us tell you that the writers at Essay Sages have outstanding writing skills and experience. You will get the project done as per your requirements. We can promise complete work satisfaction.</p>
         </li>
-        <li>
         
         </ul>
 
@@ -497,7 +495,7 @@
         </li>
        
         </ul>
-        </p>
+        
         <h3 class="text-center pd_feature"> Get Computer Science Homework Help Assistance From Writers At Essay Sages</h3>
  <p class="pd_feature">Do you need some assistance with your  Computer Science Assignments
 </strong>? Ask our experts to guide you throughout the computer science assignment and get outstanding grades. We will guide you step by step so that you can handle even the tough tasks easily. Check out the given steps to follow:
@@ -517,7 +515,7 @@
 </p>
 <h3 class="text-center pd_feature"> We Are Open To Help You With All Types Of Computer Science Assignments</h3>
  <p class="pd_feature">The Computer Science Homework Help provided by our professionals is popular among students all over the world. We have a team of authors who have been hired through a rigorous recruitment process. We ensure that students are always assisted with the best computer science services.
-Can't figure out how to start working on  Computer Science Assignments
+Can't figure out how to start working on  <a href="https://en.wikipedia.org/wiki/Computer_science" >Computer Science</a> Assignments
 </strong>? Ask for help with Computer Science Homework Solutions from us. We take care of all the writing problems. Our experts are always ready to help you with computer-related assignments. Below are popular and complicated computer information system topics that our experts have helped with.
 
  <ul style="margin-left:20px;"><li>Scientific computing assignment help.

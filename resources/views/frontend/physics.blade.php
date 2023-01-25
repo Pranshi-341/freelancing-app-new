@@ -95,14 +95,14 @@
      <p class="w-50 text-center">{{$topline}}</p>         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" />Hassle-Free Order Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Qualified Writing Experts</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />On-Time Delivery</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Help With Physics Homework"/>Hassle-Free Order Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Physics Homework Help"/>Qualified Writing Experts</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Literature Review Writing"/>On-Time Delivery</div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" />24*7 Service Available</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" />Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" />Plagiarism-Free Content </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Essay Writers"/>24*7 Service Available</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Physics Homework Help"/>Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Physics Assignment"/>Plagiarism-Free Content </div>
          </div>
       </div>
    </div>
@@ -126,7 +126,7 @@
    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="Physics Homework Help" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Emma</h5>
@@ -134,7 +134,7 @@
 
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     I am really very grateful that I came to know about <strong>Essay Sages Essay Writing Service</strong>. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
+                     I am really very grateful that I came to know about Essay Sages Essay Writing Service. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
                   </p>
                </div>
             </div>
@@ -147,7 +147,7 @@
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="Physics Homework Help" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Charlotte </h5>
@@ -168,7 +168,7 @@
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Physics Problems Solutions" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Brian Bakes</h5>
@@ -234,13 +234,13 @@
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/information-form.png') }}" alt="Physics Problem" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
+               <img src="{{ asset('images/writer.png') }}" alt="Physics Homework Help" class="img-fluid w-25" />
             </div>
          </div>
          <div class="col-sm-6">
@@ -285,13 +285,13 @@
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/payment.png') }}" alt="Physics Problem Solver" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
+               <img src="{{ asset('images/revise-release.png') }}" alt="Physics Homework Help" class="img-fluid w-25"/>
             </div>
          </div>
          <div class="col-sm-6">
@@ -428,27 +428,27 @@
 <div class="col-md-12  moretext section ">
       <div class="row">
 
-         <p>If you want to do the whole assignment yourself but need some expert guidance then we are also open to that. The experts will help you with Physics Assignment and they are 24*7 available to help you. Hire Essay Sages online for Physics Homework Help and get outstanding results:
+         <p class="pd_feature">If you want to do the whole assignment yourself but need some expert guidance then we are also open to that. The experts will help you with Physics Assignment and they are 24*7 available to help you. Hire Essay Sages online for Physics Homework Help and get outstanding results:
          </p>
 
         <ul >
    
-        <h5 class="text-center mt-3 p-3"><li>100% Authenticity</h5>
+        <h5 class="pd_feature"><li>100% Authenticity</h5>
         <p>Essay Sages is the maestro of the online academic writing industry today. We have been ruling the industry for the last 15 years and it is because of our honesty and integrity. You can trust us with your Physics Home Work. All you get is outstanding work on the given time. Every time when you need help with your physics assignment, our experts will provide you with authentic and fully researched Physics Problems Solutions.</p>
         </li>
       
-        <h5 class="text-center mt-3 p-3"><li> Quick Assistance & On-Time Delivery</h5>
+        <h5 class="pd_feature"><li> Quick Assistance & On-Time Delivery</h5>
         <p>We understand that you may need our assistance anytime and hence we are 24*7 available for you. Be it three days, two days, or even one-day delivery, our experts will help you with Physics Problem or assignments.
 </p>
         </li>
        
-        <h5 class="text-center mt-3 p-3"><li> Transparent Policies </h5>
+        <h5 class="pd_feature"><li> Transparent Policies </h5>
         <p>There would be nothing that we will hide from you in any way. You can read our privacy policies or ask our experts if you have any doubts about it. All of your personal information is saved with Essay Sages. We will never share any of your information with any third-party services in any way.</p>
         </li>
         
         </ul>
    
-        You can show us your trust and we will provide you with outstanding and quality Physics Homework Help. Get rid of your doubts about mechanics, heat, electromagnetism, etc, with experts at Essay Sages. There are no academic tasks that we can’t help you with!
+        <p>You can show us your trust and we will provide you with outstanding and quality Physics Homework Help. Get rid of your doubts about mechanics, heat, electromagnetism, etc, with experts at Essay Sages. There are no academic tasks that we can’t help you with!</p>
 
         
 </p>
@@ -472,7 +472,7 @@
 Once you will choose the Physics writer of your choice and send the requirements, they will:
 <ul style="margin-left:20px;"><li>Start conducting exhaustive research</li>
     <li>Carry out a comprehensive analysis</li></ul>
- <ul>
+ 
 
 All of our Physics experts are completely aware of concepts like techniques, laws, relationships, etc. Sit and relax as you are going to experience the best Physics Homework Help for:
     <ul style="margin-left:20px;"><li>Units, Vectors, and Measurements</li>
@@ -492,21 +492,21 @@ All of our Physics experts are completely aware of concepts like techniques, law
  
         <h3 class="text-center pd_feature">How Experts At Essay Sages Craft Physics Homework Solutions?</h3>
  <p class="pd_feature">Essay Sages works with the most prominent and outstanding academicians around the globe to deliver the best solutions to you. All of our Physics experts are either graduates or post-graduates. The whole team of Essay Sages works close-knit and follows a joint roadmap while working on your assignments:
- <ul style="margin-left:20px;"><li>Once the experts receive all of your requirements, they put their utmost focus on intricacies & nuances. They will start their research, rephrase the question and identify the concepts in order to Help On Physics Homework.
+ <ol style="margin-left:20px;"><li>Once the experts receive all of your requirements, they put their utmost focus on intricacies & nuances. They will start their research, rephrase the question and identify the concepts in order to Help On Physics Homework.
 </li>
  <li>Our experts will further investigate the physics problem and define the problem statement once the research is done. Other important aspects of this are drawing diagrams, establishing accurate relationships, and defining fundamental quantities & variables. </li>
- <li>At this stage, our Physics Solver turns concepts into math. They will find the equations that align completely with the laws, constraints of physics, and concepts. Once done, an outline for the physics solutions will be created.
+ <li>At this stage, our <a href="https://en.wikipedia.org/wiki/Physics"> Physics </a>Solver turns concepts into math. They will find the equations that align completely with the laws, constraints of physics, and concepts. Once done, an outline for the physics solutions will be created.
 </li>
  <li>This step will require all the math that is necessary to resolve the equations or relationships. For example, algebra, limit, number theory, functions & calculus. Employing applicable mathematical methods, our experts will complete the assignment or physics homework in a short time span.
 </li>
  <li>Once all the assigned tasks will be successfully completed, the experts will check the whole homework writing again. We don’t want you to face any kind of trouble while submitting the project work. Essay Sages is known for perfection and we will remain stick to that commitment.
 </li>
  
- </ul>
+ </ol>
 </p>
 <h3 class="text-center pd_feature"> What Benefits You To Take Help From Essay Sages For Physics Homework?</h3>
  <p class="pd_feature">You may find out a number of online writing services but there are one online Essay Sages. We are dedicated to perfection, quality, and on-time delivery. Here is why you should rely upon Essay Sages:
- <ul style="margin-left:20px;"><li>Scientific computing assignment help.
+ <ol style="margin-left:20px;"><li>Scientific computing assignment help.
 </li>
  <li> Flat offs </li>
  <li>Referral & membership programs
@@ -523,7 +523,7 @@ All of our Physics experts are completely aware of concepts like techniques, law
 </li>
 <li>Free onsite academic tools for Physics Homework Help
 </li>
- </ul>
+ </ol>
  
         </p>
      

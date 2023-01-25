@@ -99,14 +99,14 @@
      <p class="w-50 text-center">{{$topline}}</p>         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" />Hassle-Free Order Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Qualified Writing Experts</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />On-Time Delivery</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Coursework Writing Service"/>Hassle-Free Order Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Coursework Services"/>Qualified Writing Experts</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Literature Review Writing"/>On-Time Delivery</div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" />24*7 Service Available</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" />Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" />Plagiarism-Free Content </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Essay Writers"/>24*7 Service Available</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Custom Coursework Writing"/>Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Coursework Writing Service"/>Plagiarism-Free Content </div>
          </div>
       </div>
    </div>
@@ -131,7 +131,7 @@
    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="Custom Coursework Writing" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Emma</h5>
@@ -152,7 +152,7 @@
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="Custom Coursework Writing" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Charlotte </h5>
@@ -173,7 +173,7 @@
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Coursework Writing Service" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Brian Bakes</h5>
@@ -239,13 +239,13 @@
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/information-form.png') }}" alt="Coursework Writing Service" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
+               <img src="{{ asset('images/writer.png') }}" alt="Coursework Service" class="img-fluid w-25" />
             </div>
          </div>
          <div class="col-sm-6">
@@ -290,13 +290,13 @@
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/payment.png') }}" alt="Coursework Writing Service" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
+               <img src="{{ asset('images/revise-release.png') }}" alt="Custom Essay Papers Writing Services" class="img-fluid w-25"/>
             </div>
          </div>
          <div class="col-sm-6">
@@ -425,22 +425,22 @@
 
          </h2>
          <p>When it's time for exams, there are a lot of schools, colleges, or university students who start feeling overwhelmed. In order to avoid that pressure, we at Essay Sages are putting our best efforts to help you with Coursework Writing Service.
-We understand how difficult it is to study all the subjects at the same time and prepare assignments as well. At that point in time, it feels so pressurized. There will be nothing better than hiring a writing expert at Essay Sages who will handle all the Custom Coursework Writing for you.
-
-
+We understand how difficult it is to study all the subjects at the same time and prepare assignments as well. </p>
          </div>
 </div> 
-</p>
+
    <div class="col-md-12  moretext section ">
       <div class="row">
          
-<p class="pd_feature">Our job will include the improvement of your essays and papers and help you to get good grades. The academic experts at Essay Sages work round the clock so that you can sleep with peace of mind.
+<p class="pd_feature">At that point in time, it feels so pressurized. There will be nothing better than hiring a writing expert at Essay Sages who will handle all the Custom Coursework Writing for you.
+
+ Our job will include the improvement of your essays and papers and help you to get good grades. The academic experts at Essay Sages work round the clock so that you can sleep with peace of mind.
 
 </p>
 <h3 class="text-center pd_feature">
 Benefits Of Our Coursework Writing Help
          </h3>
-         <p class="pd_feature">You need outstanding communication skills and clarity to draft any academic paper. At Essay Sages, our team first researches and gathers every single piece of information required to mention in your coursework. You do not need to put your efforts into choosing the best writer as all of them are gems in their fields. We will be happy to take responsibility for your Custom Coursework Writing and provide you with outstanding results.
+         <p class="pd_feature">You need outstanding communication skills and clarity to draft any academic <a href="https://en.wikipedia.org/wiki/Paper">paper</a>. At Essay Sages, our team first researches and gathers every single piece of information required to mention in your coursework. You do not need to put your efforts into choosing the best writer as all of them are gems in their fields. We will be happy to take responsibility for your Custom Coursework Writing and provide you with outstanding results.
 Our academic writers are just not limited to writing services. They will scrutinize details, check the papers for plagiarism, and resolve all sorts of grammatical errors too. Our diligent process delivers the best writing results, boosts your confidence, and increases your grades. We will only receive the payment after you will be fully satisfied with our work.
 </p>
 
