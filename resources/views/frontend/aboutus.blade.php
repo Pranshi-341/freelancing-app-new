@@ -36,10 +36,10 @@ $('#show-less').click(function(){
 </script>
 @section('content')
 <div class="row">
-   <div class="col-md-12" style="background-size:cover; background-image: {{$backgroundImage}}">
+<div class="col-md-12" style="background-size:cover; background-image: url({{ asset('images/ddedd.png') }});">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h1>{{ $title }}</h1>
+         <h1 class="h1_tag_style">{{ $title }}</h1>
          <h2><p style="color: #ffc107; font-size:20px;">{{$bottomline}}</p></h2>
       </div>
    </div>

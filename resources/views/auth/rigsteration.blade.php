@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('content')
 <div class="row">
-   <div class="col-md-12" style=" background-size:cover; background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp);">
+<div class="col-md-12" style="background-size:cover; background-image: url({{ asset('images/ddedd.png') }});">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h2>Welcome to Technical Writers</h2>
+         <h2 class="h1_tag_style">Welcome to Technical Writers</h2>
          <p class="w-50 text-center">where our acclaimed client’s assignments and tasks are meticulously done We have a great deal to offer so please take your time to browse our website to discover more about us and what we offer</p>
          
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">

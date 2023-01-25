@@ -89,10 +89,10 @@
 
 @section('content')
 <div class="row">
-   <div class="col-md-12" style='background-size:cover; background-image: url({{$backgroundImage}})'>
+<div class="col-md-12" style="background-size:cover; background-image: url({{ asset('images/ddedd.png') }});">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h1>{{$title}}</h1>
+         <h1 class="h1_tag_style">{{$title}}</h1>
      <p class="w-50 text-center">{{$topline}}</p>         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
@@ -126,7 +126,7 @@
          </h2>
       </div>
    </div>
-   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel">
+   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
@@ -137,7 +137,7 @@
 
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     I am really very grateful that I came to know about <strong>Essay Sages Essay Writing Service</strong>. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
+                     I am really very grateful that I came to know about  Essay Sages Essay Writing Service</strong>. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
                   </p>
                </div>
             </div>
@@ -157,7 +157,7 @@
                  
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great <strong>Essay Writing Service</strong>.
+                     I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great  Essay Writing Service</strong>.
                   </p>
                </div>
             </div>
@@ -212,17 +212,17 @@
          </h2>
       </div>
    </div>
-   <div class="col-md-12">
-      <div class="row p-5">
-         <div class="col-md-6">
+   <div class="col-md-12 cs" >
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        1. Information Form
+                        Information Form
 
                         </span>
                      </strong>
@@ -235,24 +235,24 @@
                </div>
             </div>
          </div>
-         <div class="col-md-6">
-            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         <div class="col-sm-6">
+            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
             </div>
          </div>
-         <div class="col-md-6">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-start align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;2&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        2. Select the Writer
+                        Select the Writer
                         </span>
                      </strong>
                   </h5>
@@ -264,16 +264,16 @@
             </div>
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;3&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        3. Complete the Payment
+                        Complete the Payment
 
                         </span>
                      </strong>
@@ -286,24 +286,24 @@
                </div>
             </div>
          </div>
-         <div class="col-md-6">
-            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         <div class="col-sm-6">
+            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
             </div>
          </div>
-         <div class="col-md-6">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-start align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;4&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        4. Revise and Release
+                        Revise and Release
                         </span>
                      </strong>
                   </h5>
@@ -316,11 +316,11 @@
                </div>
             </div>
          </div>
-      </div>
+     </div>
 
 <!-- Why choose us -->
 
-<div class="row p-5 ">
+<div class="row ">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
@@ -330,77 +330,81 @@
       </div>
    </div>
    <div class="col-md-12">
-      <div class="row">
+      <div class="row cs  cs1">
         
-         <div class="col-md-4">
-            <div class="card shadow-md">
+         <div class="col-md-6">
+            
                <div class="card-body">
                   <div class="row">
-                     <div class="col-md-4">
-                        <img class="card-img-top" src="{{ asset('icons/time.png') }}" alt="Card image cap" />
-                     </div>
-                     <div class="col-md-8">
-                        <h5 class="card-title">Types of essay</h5>
-                        <ul class="expertise-covers-v2__list">
-                                    <li class="expertise-covers-v2__list-item">Narrative</li>
-                                    <li class="expertise-covers-v2__list-item">Definition</li>
-                                    <li class="expertise-covers-v2__list-item">Descriptive</li>
-                                    <li class="expertise-covers-v2__list-item">Cause and Effect</li>
-                                    <li class="expertise-covers-v2__list-item">Expository</li>
-                                    <li class="expertise-covers-v2__list-item">Analytical</li>
-                                    <li class="expertise-covers-v2__list-item">Persuasive</li>
-                                    <li class="expertise-covers-v2__list-item">Admission</li>
-                            </ul>
-                     </div>
+                     
+                        <h5 class="card-title pd_ul" style="text-align:center; font-size:32px;">Types of Essay</h5>
+                        <div class="col-md-6">
+                           <ul class="sz_ul">
+                                       <li class="pd_ul">Essay Writing</li>
+                                       <li class="pd_ul">Homework Writing</li>
+                                       <li class="pd_ul">Dissertation writing</li>
+                                       <li class="pd_ul">Thesis writing</li>
+                                       <li class="pd_ul">Accounting Economics and Business related assignments</li>
+                           </ul>
+                        </div>
+                        <div class="col-md-6">
+                           <ul class="sz_ul">
+                                       <li class="pd_ul">Mathematics help</li>
+                                       <li class="pd_ul">Computer science-related assignments</li>
+                                       <li class="pd_ul">Physics helps</li>
+                                       <li class="pd_ul">Literature Review Writing</li>
+                                       
+                                       <li class="pd_ul">Coursework Writing</li>
+                           </ul>
+                        </div>
+                     
                   </div>
                </div>
-            </div>
+            
          </div>
-         <div class="col-md-4">
+         <div class="col-md-4 pd_feature">
             <div class="card shadow-md">
                <div class="card-body">
                   <div class="row">
-                     <div class="col-md-4">
-                        <img class="card-img-top" src="{{ asset('icons/quality.png') }}" alt="Card image cap" />
-                     </div>
-                     <div class="col-md-8">
-                        <h5 class="card-title"><b>Free</b> features</h5>
+                     
+                     <div class="expertise-covers-v2__card-inner">
+                        <h4 class="card-title"> Free</b> Features</h4>
                         <ul class="expertise-covers-v2__card-list">
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A title page</span>
-                            <span class="expertise-covers-v2__feature-price">3.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">A Title Page</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A reference page</span>
-                            <span class="expertise-covers-v2__feature-price">5.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">References</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">In-text citations</span>
-                            <span class="expertise-covers-v2__feature-price">4.49$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Citations</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A Running head</span>
-                            <span class="expertise-covers-v2__feature-price">3.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">A Running Head</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">Page numbers</span>
-                            <span class="expertise-covers-v2__feature-price">2.49$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Page Numbers</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">Originality check</span>
-                            <span class="expertise-covers-v2__feature-price">14.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Plagiarism Check</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
-                                    </ul>
-                                    <p class="expertise-covers-v2__summary">Get all those features for <span class="expertise-covers-v2__summary-value">35.94$</span> <b>FREE</b></p>
-                <div class="expertise-covers-v2__btn">
-                    <a href="/order" class="btn btn_large btn_w_100 btn_primary-accent" onclick="gta('send','event','CTA','click','get_essay_help');">Order paper</a>
-                </div>
+                        </ul>
+                                    <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
+                     <div class="expertise-covers-v2__btn">
+                        <a href="order-now" class="btn btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                     </div>
                      </div>
                   </div>
                </div>
@@ -410,7 +414,7 @@
    </div>
 </div>
 <!-- Our team members portfolio -->
-<div class="row p-5 ">
+<div class="row v2">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
@@ -418,28 +422,29 @@
 
 
          </h2>
-         <p>One of the most important aspects that every student pays attention to when writing a higher education project is to gather the right information for <strong> Writing a Literature Review </strong>. A literature review is designed to help readers understand the extent of information available about the thesis topic. Review the journal articles and books related to the thesis topic. Those journals will provide the opinions of academic experts on the topic.
+         <p>One of the most important aspects that every student pays attention to when writing a higher education project is to gather the right information for   Writing a Literature Review </strong>. A literature review is designed to help readers understand the extent of information available about the thesis topic. Review the journal articles and books related to the thesis topic. Those journals will provide the opinions of academic experts on the topic.
 The Internet is a great search opportunity when considering sources that provide important ideas and literature. A number of opinions on the web may be incorrect. Hence, students are not always advised to use articles on the Internet unless they are from reliable and relevant sources. Almost all universities require sources of information especially when it is about literature review.
+</p>
 </div>
 </div>
    <div class="col-md-12  moretext section ">
       <div class="row">
+         <p class="pd_feature">
+            What happens when you don't have any documents to help you create a comprehensive literature review for your thesis? There are many students who spend hours researching for Literature Review Writing. But, only a few of them get good results in the end and the rest gets nothing?
+            We understand that it is sometimes quite stressful but to get good grades, it is required to submit your literature review.
+            At Essay Sages, we can provide you with the best list of sources that will Help   Writing a Literature Review </strong>. Hence, you can now focus on other necessary aspects too. Focus on your exams, attend a family function or enjoy the trip hassle-free. Essay Sages is 24*7 available to help you.
+         </p>
 
-         What happens when you don't have any documents to help you create a comprehensive literature review for your thesis? There are many students who spend hours researching for Literature Review Writing. But, only a few of them get good results in the end and the rest gets nothing?
-         We understand that it is sometimes quite stressful but to get good grades, it is required to submit your literature review.
-         At Essay Sages, we can provide you with the best list of sources that will Help <strong> Writing a Literature Review </strong>. Hence, you can now focus on other necessary aspects too. Focus on your exams, attend a family function or enjoy the trip hassle-free. Essay Sages is 24*7 available to help you.
-
-</p>
-         <h3 class="text-center mt-3 p-3">Why Should You Consider Essay Sages Review Writing Company?
+         <h3 class="text-center pd_feature">Why Should You Consider Essay Sages Review Writing Company?
 
 </h3>
-         <p>Writing A Literature Review is not that simple and we understand that! You may question why you should consider Essay Sages for Writing Literature Review and we have briefed the answer in the following points:
+         <p classs="pd_feature">Writing A Literature Review is not that simple and we understand that! You may question why you should consider Essay Sages for Writing Literature Review and we have briefed the answer in the following points:
 
 
-<ul>
+<ul style="margin-left:20px;">
 
 <li><h5>Select Your Writer</h5>
-<p>You know what exactly you want in your assignment and hence you must have all the rights to choose the right Literature Review Writer for you. We will share a list of writers from which you can choose the right one for <strong> Writing a Literature Review </strong>. Before hiring, you can check the reviews, educational background, and experience of the writer.
+<p>You know what exactly you want in your assignment and hence you must have all the rights to choose the right Literature Review Writer for you. We will share a list of writers from which you can choose the right one for   Writing a Literature Review </strong>. Before hiring, you can check the reviews, educational background, and experience of the writer.
 </p>
 </li>
 <li><h5> 100% Original Literature Review</h5>
@@ -470,18 +475,18 @@ The Internet is a great search opportunity when considering sources that provide
 </li>
 </ul>
 </p>
-<h3 class="text-center mt-3 p-3">Writing A Literature Review Online From Essay Sages Experts
+<h3 class="text-center pd_feature">Writing A Literature Review Online From Essay Sages Experts
 
 </h3>
-         <p>Our top writers are a team of experts for <strong> Writing a Literature Review </strong>. A strict selection process allows us to access the best writers and copywriters. We are looking for graduates with at least a master's degree and significant experience in writing advanced technical papers. We care about your success. By bringing together all the experts, we guarantee the quality and success of your Literature Review Writing. Those studying for a doctorate degree sometimes need help with paper writing work. For the same, our dedicated professional writers are available to help you. Isn't it an attractive opportunity to have someone online that you trust? Essay Sages is the name whom you can trust upon.
+         <p class="pd_feature">Our top writers are a team of experts for   Writing a Literature Review </strong>. A strict selection process allows us to access the best writers and copywriters. We are looking for graduates with at least a master's degree and significant experience in writing advanced technical papers. We care about your success. By bringing together all the experts, we guarantee the quality and success of your Literature Review Writing. Those studying for a doctorate degree sometimes need help with paper writing work. For the same, our dedicated professional writers are available to help you. Isn't it an attractive opportunity to have someone online that you trust? Essay Sages is the name whom you can trust upon.
 </p>
 
-<h3 class="text-center mt-3 p-3">Buy Literature Review Help To Get An A Grade </h3>
-<p>Are you still worried about where to get Help With Literature Review? Essay Sages is one of the best and most reliable platforms you can get help for your literature review writing. In short, you can trust us with all of your school, college, or higher degree assignments. We have a team of educated and experienced writers with us. They will complete the review writing so that you can submit the assignment on time.
+<h3 class="text-center pd_feature">Buy Literature Review Help To Get An A Grade </h3>
+<p class="pd_feature">Are you still worried about where to get Help With Literature Review? Essay Sages is one of the best and most reliable platforms you can get help for your literature review writing. In short, you can trust us with all of your school, college, or higher degree assignments. We have a team of educated and experienced writers with us. They will complete the review writing so that you can submit the assignment on time.
 You don’t need to be bothered about the ordering process at Essay Sages. Follow these below-given steps to order the project:
 
 
-        <ul>
+        <ul style="margin-left:20px;">
         <li>Use your email id to complete the registration process. This will help us to remember you better.
 
 </li>
@@ -502,14 +507,14 @@ You don’t need to be bothered about the ordering process at Essay Sages. Follo
 </li>
  
         </ul>
-        Now, you don’t need to be worried about <strong> Writing a Literature Review </strong>. At Essay Sages, you will be assigned, professional writers! Once the work is done, you will have a complete week to ask the writer to make any changes. Try Essay Sages!
+        Now, you don’t need to be worried about   Writing a Literature Review </strong>. At Essay Sages, you will be assigned, professional writers! Once the work is done, you will have a complete week to ask the writer to make any changes. Try Essay Sages!
 
 </p>
    
         </div>
          </div>
 
-         <a class="text-center moreless-button" href="">Read more</a>     
+         <a class="text-center moreless-button btn btn-primary expertise-covers-v2__btn" href="">Read more</a>     
    </div>
    
 

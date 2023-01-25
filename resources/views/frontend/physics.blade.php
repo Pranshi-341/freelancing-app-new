@@ -88,10 +88,10 @@
 
 @section('content')
 <div class="row">
-   <div class="col-md-12" style='background-size:cover; background-image: url({{$backgroundImage}})'>
+<div class="col-md-12" style="background-size:cover; background-image: url({{ asset('images/ddedd.png') }});">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h1>{{$title}}</h1>
+         <h1 class="h1_tag_style">{{$title}}</h1>
      <p class="w-50 text-center">{{$topline}}</p>         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
@@ -123,7 +123,7 @@
          </h2>
       </div>
    </div>
-   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel">
+   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
@@ -210,17 +210,17 @@
          </h2>
       </div>
    </div>
-   <div class="col-md-12">
-      <div class="row p-5">
-         <div class="col-md-6">
+   <div class="col-md-12 cs" >
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        1. Information Form
+                        Information Form
 
                         </span>
                      </strong>
@@ -233,24 +233,24 @@
                </div>
             </div>
          </div>
-         <div class="col-md-6">
-            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         <div class="col-sm-6">
+            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
             </div>
          </div>
-         <div class="col-md-6">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-start align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;2&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        2. Select the Writer
+                        Select the Writer
                         </span>
                      </strong>
                   </h5>
@@ -262,16 +262,16 @@
             </div>
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;3&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        3. Complete the Payment
+                        Complete the Payment
 
                         </span>
                      </strong>
@@ -284,24 +284,24 @@
                </div>
             </div>
          </div>
-         <div class="col-md-6">
-            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         <div class="col-sm-6">
+            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
             </div>
          </div>
-         <div class="col-md-6">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-start align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;4&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        4. Revise and Release
+                        Revise and Release
                         </span>
                      </strong>
                   </h5>
@@ -318,7 +318,7 @@
 
 <!-- Why choose us -->
 
-<div class="row p-5 ">
+<div class="row ">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
@@ -328,77 +328,81 @@
       </div>
    </div>
    <div class="col-md-12">
-      <div class="row">
+      <div class="row cs  cs1">
         
-         <div class="col-md-4">
-            <div class="card shadow-md">
+         <div class="col-md-6">
+            
                <div class="card-body">
                   <div class="row">
-                     <div class="col-md-4">
-                        <img class="card-img-top" src="{{ asset('icons/time.png') }}" alt="Card image cap" />
-                     </div>
-                     <div class="col-md-8">
-                        <h5 class="card-title">Types of essay</h5>
-                        <ul class="expertise-covers-v2__list">
-                                    <li class="expertise-covers-v2__list-item">Narrative</li>
-                                    <li class="expertise-covers-v2__list-item">Definition</li>
-                                    <li class="expertise-covers-v2__list-item">Descriptive</li>
-                                    <li class="expertise-covers-v2__list-item">Cause and Effect</li>
-                                    <li class="expertise-covers-v2__list-item">Expository</li>
-                                    <li class="expertise-covers-v2__list-item">Analytical</li>
-                                    <li class="expertise-covers-v2__list-item">Persuasive</li>
-                                    <li class="expertise-covers-v2__list-item">Admission</li>
-                            </ul>
-                     </div>
+                     
+                        <h5 class="card-title pd_ul" style="text-align:center; font-size:32px;">Types of Essay</h5>
+                        <div class="col-md-6">
+                           <ul class="sz_ul">
+                                       <li class="pd_ul">Essay Writing</li>
+                                       <li class="pd_ul">Homework Writing</li>
+                                       <li class="pd_ul">Dissertation writing</li>
+                                       <li class="pd_ul">Thesis writing</li>
+                                       <li class="pd_ul">Accounting Economics and Business related assignments</li>
+                           </ul>
+                        </div>
+                        <div class="col-md-6">
+                           <ul class="sz_ul">
+                                       <li class="pd_ul">Mathematics help</li>
+                                       <li class="pd_ul">Computer science-related assignments</li>
+                                       <li class="pd_ul">Physics helps</li>
+                                       <li class="pd_ul">Literature Review Writing</li>
+                                       
+                                       <li class="pd_ul">Coursework Writing</li>
+                           </ul>
+                        </div>
+                     
                   </div>
                </div>
-            </div>
+            
          </div>
-         <div class="col-md-4">
+         <div class="col-md-4 pd_feature">
             <div class="card shadow-md">
                <div class="card-body">
                   <div class="row">
-                     <div class="col-md-4">
-                        <img class="card-img-top" src="{{ asset('icons/quality.png') }}" alt="Card image cap" />
-                     </div>
-                     <div class="col-md-8">
-                        <h5 class="card-title"><b>Free</b> features</h5>
+                     
+                     <div class="expertise-covers-v2__card-inner">
+                        <h4 class="card-title"> Free</b> Features</h4>
                         <ul class="expertise-covers-v2__card-list">
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A title page</span>
-                            <span class="expertise-covers-v2__feature-price">3.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">A Title Page</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A reference page</span>
-                            <span class="expertise-covers-v2__feature-price">5.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">References</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">In-text citations</span>
-                            <span class="expertise-covers-v2__feature-price">4.49$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Citations</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A Running head</span>
-                            <span class="expertise-covers-v2__feature-price">3.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">A Running Head</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">Page numbers</span>
-                            <span class="expertise-covers-v2__feature-price">2.49$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Page Numbers</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">Originality check</span>
-                            <span class="expertise-covers-v2__feature-price">14.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Plagiarism Check</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
-                                    </ul>
-                                    <p class="expertise-covers-v2__summary">Get all those features for <span class="expertise-covers-v2__summary-value">35.94$</span> <b>FREE</b></p>
-                <div class="expertise-covers-v2__btn">
-                    <a href="/order" class="btn btn_large btn_w_100 btn_primary-accent" onclick="gta('send','event','CTA','click','get_essay_help');">Order paper</a>
-                </div>
+                        </ul>
+                                    <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
+                     <div class="expertise-covers-v2__btn">
+                        <a href="order-now" class="btn btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                     </div>
                      </div>
                   </div>
                </div>
@@ -408,7 +412,7 @@
    </div>
 </div>
 <!-- Our team members portfolio -->
-<div class="row p-5 ">
+<div class="row v2">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
@@ -427,7 +431,7 @@
          <p>If you want to do the whole assignment yourself but need some expert guidance then we are also open to that. The experts will help you with Physics Assignment and they are 24*7 available to help you. Hire Essay Sages online for Physics Homework Help and get outstanding results:
          </p>
 
-        <ul>
+        <ul >
    
         <h5 class="text-center mt-3 p-3"><li>100% Authenticity</h5>
         <p>Essay Sages is the maestro of the online academic writing industry today. We have been ruling the industry for the last 15 years and it is because of our honesty and integrity. You can trust us with your Physics Home Work. All you get is outstanding work on the given time. Every time when you need help with your physics assignment, our experts will provide you with authentic and fully researched Physics Problems Solutions.</p>
@@ -448,11 +452,11 @@
 
         
 </p>
-        <h3 class="text-center mt-3 p-3">Why Do You Need Help With Physics Homework Help?</h3>
+        <h3 class="text-center pd_feature">Why Do You Need Help With Physics Homework Help?</h3>
 
-<p>There are a lot of students who are looking for Physics Problem Solver online. We have noticed numerous reasons why students are seeking help with their physics homework, here are some of them:
+<p class="pd_feature">There are a lot of students who are looking for Physics Problem Solver online. We have noticed numerous reasons why students are seeking help with their physics homework, here are some of them:
 
-    <ul><li>Bad work ethics</li>
+    <ul style="margin-left:20px;"><li>Bad work ethics</li>
     <li>Narrow deadlines</li>
     <li>Inappropriate foundational skills</li>
     <li>Poor mathematical skills</li>
@@ -463,15 +467,15 @@
  </ul>
  It doesn’t matter to us why you need help with your Physics homework, Essay Sages is 24*7 available at your service. For any help, get in touch with our customer executives. Connect directly with our physics experts and start your first assignment with Essay Sages!
  </p>
- <h3 class="text-center mt-3 p-3">Why Should You Avail Online Physics Homework Help With Essay Sages?</h3>
- <p>The skilled and experienced Physics experts at Essay Sages work with the intent to provide acute assistance for everything.
+ <h3 class="text-center pd_feature">Why Should You Avail Online Physics Homework Help With Essay Sages?</h3>
+ <p class="pd_feature">The skilled and experienced Physics experts at Essay Sages work with the intent to provide acute assistance for everything.
 Once you will choose the Physics writer of your choice and send the requirements, they will:
-<ul><li>Start conducting exhaustive research</li>
+<ul style="margin-left:20px;"><li>Start conducting exhaustive research</li>
     <li>Carry out a comprehensive analysis</li></ul>
  <ul>
 
 All of our Physics experts are completely aware of concepts like techniques, laws, relationships, etc. Sit and relax as you are going to experience the best Physics Homework Help for:
-    <ul><li>Units, Vectors, and Measurements</li>
+    <ul style="margin-left:20px;"><li>Units, Vectors, and Measurements</li>
     <li>Mechanics: Statics, Kinematics & Kinetics</li>
     <li>Properties of Matter</li>
     <li>Dynamics</li>
@@ -486,9 +490,9 @@ All of our Physics experts are completely aware of concepts like techniques, law
  For any type of Physics assignment, you will get top-notch solutions at Essay Sages. Let’s move further and find out how our experts craft homework solutions.
  </p>
  
-        <h3 class="text-center mt-3 p-3">How Experts At Essay Sages Craft Physics Homework Solutions?</h3>
- <p>Essay Sages works with the most prominent and outstanding academicians around the globe to deliver the best solutions to you. All of our Physics experts are either graduates or post-graduates. The whole team of Essay Sages works close-knit and follows a joint roadmap while working on your assignments:
- <ul><li>Once the experts receive all of your requirements, they put their utmost focus on intricacies & nuances. They will start their research, rephrase the question and identify the concepts in order to Help On Physics Homework.
+        <h3 class="text-center pd_feature">How Experts At Essay Sages Craft Physics Homework Solutions?</h3>
+ <p class="pd_feature">Essay Sages works with the most prominent and outstanding academicians around the globe to deliver the best solutions to you. All of our Physics experts are either graduates or post-graduates. The whole team of Essay Sages works close-knit and follows a joint roadmap while working on your assignments:
+ <ul style="margin-left:20px;"><li>Once the experts receive all of your requirements, they put their utmost focus on intricacies & nuances. They will start their research, rephrase the question and identify the concepts in order to Help On Physics Homework.
 </li>
  <li>Our experts will further investigate the physics problem and define the problem statement once the research is done. Other important aspects of this are drawing diagrams, establishing accurate relationships, and defining fundamental quantities & variables. </li>
  <li>At this stage, our Physics Solver turns concepts into math. They will find the equations that align completely with the laws, constraints of physics, and concepts. Once done, an outline for the physics solutions will be created.
@@ -500,9 +504,9 @@ All of our Physics experts are completely aware of concepts like techniques, law
  
  </ul>
 </p>
-<h3 class="text-center mt-3 p-3"> What Benefits You To Take Help From Essay Sages For Physics Homework?</h3>
- <p>You may find out a number of online writing services but there are one online Essay Sages. We are dedicated to perfection, quality, and on-time delivery. Here is why you should rely upon Essay Sages:
- <ul><li>Scientific computing assignment help.
+<h3 class="text-center pd_feature"> What Benefits You To Take Help From Essay Sages For Physics Homework?</h3>
+ <p class="pd_feature">You may find out a number of online writing services but there are one online Essay Sages. We are dedicated to perfection, quality, and on-time delivery. Here is why you should rely upon Essay Sages:
+ <ul style="margin-left:20px;"><li>Scientific computing assignment help.
 </li>
  <li> Flat offs </li>
  <li>Referral & membership programs
@@ -526,7 +530,7 @@ All of our Physics experts are completely aware of concepts like techniques, law
         </div>
  </div>
 
-        <a class="text-center moreless-button" href="">Read more</a>        
+        <a class="text-center moreless-button btn btn-primary expertise-covers-v2__btn" href="">Read more</a>        
    </div>
    
 

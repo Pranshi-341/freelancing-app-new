@@ -89,10 +89,10 @@
 
 @section('content')
 <div class="row">
-   <div class="col-md-12" style='background-size:cover; background-image: url({{$backgroundImage}})'>
+<div class="col-md-12" style="background-size:cover; background-image: url({{ asset('images/ddedd.png') }});">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h1>{{$title}}</h1>
+         <h1 class="h1_tag_style">{{$title}}</h1>
      <p class="w-50 text-center">{{$topline}}</p>         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
@@ -124,7 +124,7 @@
          </h2>
       </div>
    </div>
-   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel">
+   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
@@ -210,17 +210,17 @@
          </h2>
       </div>
    </div>
-   <div class="col-md-12">
-      <div class="row p-5">
-         <div class="col-md-6">
+   <div class="col-md-12 cs" >
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        1. Information Form
+                        Information Form
 
                         </span>
                      </strong>
@@ -233,24 +233,24 @@
                </div>
             </div>
          </div>
-         <div class="col-md-6">
-            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         <div class="col-sm-6">
+            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
             </div>
          </div>
-         <div class="col-md-6">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-start align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;2&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        2. Select the Writer
+                        Select the Writer
                         </span>
                      </strong>
                   </h5>
@@ -262,47 +262,46 @@
             </div>
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;3&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        3. Complete the Payment
+                        Complete the Payment
 
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                     Before depositing the amount, make sure you are satisfied with the History Assignment Help and then proceed.
-
+                     Before depositing the amount, make sure you are satisfied with our Online Essay Writing Services and then proceed.
                      </span>
                   </p>
                </div>
             </div>
          </div>
-         <div class="col-md-6">
-            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         <div class="col-sm-6">
+            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
             </div>
          </div>
-         <div class="col-md-6">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-start align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;4&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        4. Revise and Release
+                        Revise and Release
                         </span>
                      </strong>
                   </h5>
@@ -319,7 +318,7 @@
 
 <!-- Why choose us -->
 
-<div class="row p-5 ">
+<div class="row ">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
@@ -329,77 +328,81 @@
       </div>
    </div>
    <div class="col-md-12">
-      <div class="row">
+      <div class="row cs  cs1">
         
-         <div class="col-md-4">
-            <div class="card shadow-md">
+         <div class="col-md-6">
+            
                <div class="card-body">
                   <div class="row">
-                     <div class="col-md-4">
-                        <img class="card-img-top" src="{{ asset('icons/time.png') }}" alt="Card image cap" />
-                     </div>
-                     <div class="col-md-8">
-                        <h5 class="card-title">Types of essay</h5>
-                        <ul class="expertise-covers-v2__list">
-                                    <li class="expertise-covers-v2__list-item">Narrative</li>
-                                    <li class="expertise-covers-v2__list-item">Definition</li>
-                                    <li class="expertise-covers-v2__list-item">Descriptive</li>
-                                    <li class="expertise-covers-v2__list-item">Cause and Effect</li>
-                                    <li class="expertise-covers-v2__list-item">Expository</li>
-                                    <li class="expertise-covers-v2__list-item">Analytical</li>
-                                    <li class="expertise-covers-v2__list-item">Persuasive</li>
-                                    <li class="expertise-covers-v2__list-item">Admission</li>
-                            </ul>
-                     </div>
+                     
+                        <h5 class="card-title pd_ul" style="text-align:center; font-size:32px;">Types of Essay</h5>
+                        <div class="col-md-6">
+                           <ul class="sz_ul">
+                                       <li class="pd_ul">Essay Writing</li>
+                                       <li class="pd_ul">Homework Writing</li>
+                                       <li class="pd_ul">Dissertation writing</li>
+                                       <li class="pd_ul">Thesis writing</li>
+                                       <li class="pd_ul">Accounting Economics and Business related assignments</li>
+                           </ul>
+                        </div>
+                        <div class="col-md-6">
+                           <ul class="sz_ul">
+                                       <li class="pd_ul">Mathematics help</li>
+                                       <li class="pd_ul">Computer science-related assignments</li>
+                                       <li class="pd_ul">Physics helps</li>
+                                       <li class="pd_ul">Literature Review Writing</li>
+                                       
+                                       <li class="pd_ul">Coursework Writing</li>
+                           </ul>
+                        </div>
+                     
                   </div>
                </div>
-            </div>
+            
          </div>
-         <div class="col-md-4">
+         <div class="col-md-4 pd_feature">
             <div class="card shadow-md">
                <div class="card-body">
                   <div class="row">
-                     <div class="col-md-4">
-                        <img class="card-img-top" src="{{ asset('icons/quality.png') }}" alt="Card image cap" />
-                     </div>
-                     <div class="col-md-8">
-                        <h5 class="card-title"><b>Free</b> features</h5>
+                     
+                     <div class="expertise-covers-v2__card-inner">
+                        <h4 class="card-title"> Free</b> Features</h4>
                         <ul class="expertise-covers-v2__card-list">
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A title page</span>
-                            <span class="expertise-covers-v2__feature-price">3.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">A Title Page</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A reference page</span>
-                            <span class="expertise-covers-v2__feature-price">5.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">References</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">In-text citations</span>
-                            <span class="expertise-covers-v2__feature-price">4.49$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Citations</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A Running head</span>
-                            <span class="expertise-covers-v2__feature-price">3.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">A Running Head</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">Page numbers</span>
-                            <span class="expertise-covers-v2__feature-price">2.49$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Page Numbers</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">Originality check</span>
-                            <span class="expertise-covers-v2__feature-price">14.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Plagiarism Check</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
-                                    </ul>
-                                    <p class="expertise-covers-v2__summary">Get all those features for <span class="expertise-covers-v2__summary-value">35.94$</span> <b>FREE</b></p>
-                <div class="expertise-covers-v2__btn">
-                    <a href="/order" class="btn btn_large btn_w_100 btn_primary-accent" onclick="gta('send','event','CTA','click','get_essay_help');">Order paper</a>
-                </div>
+                        </ul>
+                                    <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
+                     <div class="expertise-covers-v2__btn">
+                        <a href="order-now" class="btn btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                     </div>
                      </div>
                   </div>
                </div>
@@ -409,7 +412,7 @@
    </div>
 </div>
 <!-- Our team members portfolio -->
-<div class="row p-5 ">
+<div class="row v2">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
@@ -426,17 +429,17 @@ So, if you ever wonder, "Where do I get quality history assignment help?”, get
    <div class="col-md-12  moretext section ">
       <div class="row">
          
-<h3 class="text-center mt-3 p-3">
+<h3 class="text-center pd_feature">
 Quality Assignment of History Help Is Just A Click Away
          </h3>
-         <p>While writing a history assignment, one has to do a lot of research work. Hence, there might be a chance of error that will take you in the direction of bad grades. If you are not much interested to learn about World Wars or different ages like the stone age, the iron age, the fire age, etc then ask the writers at Essay Sages for History Assignment Help.
+         <p class="pd_feature">While writing a history assignment, one has to do a lot of research work. Hence, there might be a chance of error that will take you in the direction of bad grades. If you are not much interested to learn about World Wars or different ages like the stone age, the iron age, the fire age, etc then ask the writers at Essay Sages for History Assignment Help.
 All the quality History Assignment writers are just a call away!
 </p>
-<h3 class="text-center mt-3 p-3">
+<h3 class="text-center pd_feature">
   What Are The Types Of History Assignment We Cover At Essay Sages?  
  </h3>
-         <p>Unlike any other assignment writing, you need to spend a lot of time writing Assignment of History. While doing the history assignment, you need to do the below-given activities:
-         <ul>
+         <p class="pd_feature">Unlike any other assignment writing, you need to spend a lot of time writing Assignment of History. While doing the history assignment, you need to do the below-given activities:
+         <ul style="margin-left:20px;">
     <li>In-depth research on your topic</li>
     <li>In detail writing the history answers</li>
     <li>Proofreading all the answers to avoid mistakes</li>
@@ -445,7 +448,7 @@ All the quality History Assignment writers are just a call away!
  </ul>
  If you keep all the mentioned points in mind, you will get good grades in history. You can also rely upon the writers of Essay Sages for History Assignment Help. 
 Here we mentioned some common history assignment types covered by our writers:
-<ul>
+<ul style="margin-left:20px;">
     <li>History essays</li>
     <li>An essay or long-answer-type questions</li>
     <li>Research papers on history</li>
@@ -455,22 +458,22 @@ Here we mentioned some common history assignment types covered by our writers:
  Along with the types mentioned, if you have something you need help with, feel free to reach out to us anytime.
 
 </p> 
-<h3 class="text-center mt-3 p-3">
+<h3 class="text-center pd_feature">
 Why You Should Try Essay Sages For History Assignment?
  </h3>
-         <p>You can get the best grades and appreciation from your teachers or professors by getting History Assignment Help from us. Here are some benefits of choosing Essay Sages for assignment writing help in history subject:
-            <h4>Pocket-Friendly Rates</h4>
-        <p>Our quality satisfactory work and affordable rates are one of the main reasons why we are one of the top choices of students. If you will be lucky enough, you can avail great offers or other benefits.
+         <p class="pd_feature">You can get the best grades and appreciation from your teachers or professors by getting History Assignment Help from us. Here are some benefits of choosing Essay Sages for assignment writing help in history subject:
+            <h4 class="pd_feature">Pocket-Friendly Rates</h4>
+        <p class="pd_feature">Our quality satisfactory work and affordable rates are one of the main reasons why we are one of the top choices of students. If you will be lucky enough, you can avail great offers or other benefits.
         </p>
-        <h4> Revision Policy</h4>
-        <p>Our Essay Writers will submit the project on or before the deadline. In the next 7 days, you can ask our writers for as many revisions as you want. Although you won’t need it the writers will provide you with the best quality assignment writing but it’s for your satisfaction. You can also ask for a complete refund within 7 days of submitting the final draft.
+        <h4 class="pd_feature"> Revision Policy</h4>
+        <p class="pd_feature">Our Essay Writers will submit the project on or before the deadline. In the next 7 days, you can ask our writers for as many revisions as you want. Although you won’t need it the writers will provide you with the best quality assignment writing but it’s for your satisfaction. You can also ask for a complete refund within 7 days of submitting the final draft.
 </p> 
-<h3 class="text-center mt-3 p-3">
+<h3 class="text-center pd_feature">
 How Essay Sages Will Provide Help With Online History Assignments?
  </h3>
-         <p>At Essay Sages, we have a unique process of selecting the writers yourself. All the writers you will be suggested have some background in history and are experienced enough for History Assignment Help.
+         <p class="pd_feature">At Essay Sages, we have a unique process of selecting the writers yourself. All the writers you will be suggested have some background in history and are experienced enough for History Assignment Help.
 Hiring the History Assignment, you can expect the following:
-<ul>
+<ul style="margin-left:20px;">
     <li>Top-notch, on-point, and quality assignments</li>
     <li>Good grades guaranteed</li>
     <li>On-time assignment submission</li>
@@ -479,10 +482,10 @@ Hiring the History Assignment, you can expect the following:
  So, if you are feeling low because of your assignment on history, ask the writers at Essay Sages to help you!
 
          </p>
-         <h3 class="text-center mt-3 p-3">
+         <h3 class="text-center pd_feature">
          Can Anyone Help Me With My History Assignment Online?
  </h3>
-         <p>While writing the assignment on history, one has to spend hours researching topics. This will not only include your time but many times you will get confused between different sources. The one who doesn’t have any interstate in history assignment will definitely get frustrated easily.
+         <p class="pd_feature">While writing the assignment on history, one has to spend hours researching topics. This will not only include your time but many times you will get confused between different sources. The one who doesn’t have any interstate in history assignment will definitely get frustrated easily.
 At Essay Sages, our writers are available to do all the research work on your behalf. With their years of expertise and academic background, the history assignment will be completed on or before the due date.
 So, hire writers at Essay Sages for History Assignment Help and enjoy good grades.
 
@@ -491,7 +494,7 @@ So, hire writers at Essay Sages for History Assignment Help and enjoy good grade
        
         </div>
         </div>
-        <a class="text-center moreless-button" href="">Read more</a>        
+        <a class="text-center moreless-button btn btn-primary expertise-covers-v2__btn" href="">Read more</a>        
  </div>
 
         

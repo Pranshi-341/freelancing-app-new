@@ -89,10 +89,10 @@
 
 @section('content')
 <div class="row">
-   <div class="col-md-12" style='background-size:cover; background-image: url({{$backgroundImage}})'>
+<div class="col-md-12" style="background-size:cover; background-image: url({{ asset('images/ddedd.png') }});">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h1>{{$title}}</h1>
+         <h1 class="h1_tag_style">{{$title}}</h1>
      <p class="w-50 text-center">{{$topline}}</p>
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
@@ -124,7 +124,7 @@
          </h2>
       </div>
    </div>
-   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel">
+   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
@@ -212,17 +212,17 @@
          </h2>
       </div>
    </div>
-   <div class="col-md-12">
-      <div class="row p-5">
-         <div class="col-md-6">
+   <div class="col-md-12 cs" >
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        1. Information Form
+                        Information Form
 
                         </span>
                      </strong>
@@ -235,24 +235,24 @@
                </div>
             </div>
          </div>
-         <div class="col-md-6">
-            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         <div class="col-sm-6">
+            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
             </div>
          </div>
-         <div class="col-md-6">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-start align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;2&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        2. Select the Writer
+                        Select the Writer
                         </span>
                      </strong>
                   </h5>
@@ -264,52 +264,52 @@
             </div>
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;3&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        3. Complete the Payment
+                        Complete the Payment
 
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                     Before depositing the amount, make sure you are satisfied with the Book Report Writing Service and then proceed.
+                     Before depositing the amount, make sure you are satisfied with our Online Essay Writing Services and then proceed.
                      </span>
                   </p>
                </div>
             </div>
          </div>
-         <div class="col-md-6">
-            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         <div class="col-sm-6">
+            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
             </div>
          </div>
-         <div class="col-md-6">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-start align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;4&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        4. Revise and Release
+                        Revise and Release
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                     Read the paper carefully and then release the payment to the writer. You can also ask the writer to make edits if you want.
+                     Read the paper carefully and then release the payment to the writer. If you want, you can also ask the writer to make any edits.
 
                      </span>
                   </p>
@@ -320,7 +320,7 @@
 
 <!-- Why choose us -->
 
-<div class="row p-5 ">
+<div class="row ">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
@@ -330,77 +330,81 @@
       </div>
    </div>
    <div class="col-md-12">
-      <div class="row">
+      <div class="row cs  cs1">
         
-         <div class="col-md-4">
-            <div class="card shadow-md">
+         <div class="col-md-6">
+            
                <div class="card-body">
                   <div class="row">
-                     <div class="col-md-4">
-                        <img class="card-img-top" src="{{ asset('icons/time.png') }}" alt="Card image cap" />
-                     </div>
-                     <div class="col-md-8">
-                        <h5 class="card-title">Types of essay</h5>
-                        <ul class="expertise-covers-v2__list">
-                                    <li class="expertise-covers-v2__list-item">Narrative</li>
-                                    <li class="expertise-covers-v2__list-item">Definition</li>
-                                    <li class="expertise-covers-v2__list-item">Descriptive</li>
-                                    <li class="expertise-covers-v2__list-item">Cause and Effect</li>
-                                    <li class="expertise-covers-v2__list-item">Expository</li>
-                                    <li class="expertise-covers-v2__list-item">Analytical</li>
-                                    <li class="expertise-covers-v2__list-item">Persuasive</li>
-                                    <li class="expertise-covers-v2__list-item">Admission</li>
-                            </ul>
-                     </div>
+                     
+                        <h5 class="card-title pd_ul" style="text-align:center; font-size:32px;">Types of Essay</h5>
+                        <div class="col-md-6">
+                           <ul class="sz_ul">
+                                       <li class="pd_ul">Essay Writing</li>
+                                       <li class="pd_ul">Homework Writing</li>
+                                       <li class="pd_ul">Dissertation writing</li>
+                                       <li class="pd_ul">Thesis writing</li>
+                                       <li class="pd_ul">Accounting Economics and Business related assignments</li>
+                           </ul>
+                        </div>
+                        <div class="col-md-6">
+                           <ul class="sz_ul">
+                                       <li class="pd_ul">Mathematics help</li>
+                                       <li class="pd_ul">Computer science-related assignments</li>
+                                       <li class="pd_ul">Physics helps</li>
+                                       <li class="pd_ul">Literature Review Writing</li>
+                                       
+                                       <li class="pd_ul">Coursework Writing</li>
+                           </ul>
+                        </div>
+                     
                   </div>
                </div>
-            </div>
+            
          </div>
-         <div class="col-md-4">
+         <div class="col-md-4 pd_feature">
             <div class="card shadow-md">
                <div class="card-body">
                   <div class="row">
-                     <div class="col-md-4">
-                        <img class="card-img-top" src="{{ asset('icons/quality.png') }}" alt="Card image cap" />
-                     </div>
-                     <div class="col-md-8">
-                        <h5 class="card-title"><b>Free</b> features</h5>
+                     
+                     <div class="expertise-covers-v2__card-inner">
+                        <h4 class="card-title"> Free</b> Features</h4>
                         <ul class="expertise-covers-v2__card-list">
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A title page</span>
-                            <span class="expertise-covers-v2__feature-price">3.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">A Title Page</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A reference page</span>
-                            <span class="expertise-covers-v2__feature-price">5.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">References</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">In-text citations</span>
-                            <span class="expertise-covers-v2__feature-price">4.49$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Citations</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A Running head</span>
-                            <span class="expertise-covers-v2__feature-price">3.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">A Running Head</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">Page numbers</span>
-                            <span class="expertise-covers-v2__feature-price">2.49$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Page Numbers</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">Originality check</span>
-                            <span class="expertise-covers-v2__feature-price">14.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Plagiarism Check</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
-                                    </ul>
-                                    <p class="expertise-covers-v2__summary">Get all those features for <span class="expertise-covers-v2__summary-value">35.94$</span> <b>FREE</b></p>
-                <div class="expertise-covers-v2__btn">
-                    <a href="/order" class="btn btn_large btn_w_100 btn_primary-accent" onclick="gta('send','event','CTA','click','get_essay_help');">Order paper</a>
-                </div>
+                        </ul>
+                                    <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
+                     <div class="expertise-covers-v2__btn">
+                        <a href="order-now" class="btn btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                     </div>
                      </div>
                   </div>
                </div>
@@ -410,17 +414,17 @@
    </div>
 </div>
 <!-- Our team members portfolio -->
-<div class="row p-5 ">
+<div class="row v2">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
          Custom Book Report Writing Service From Essay Sages Expert
 
          </h2>
-         <p>Have you recently been assigned to write a book report but due to some reasons you can’t make it happen? Actually, it's a matter of interest and time availability. There are students who love to write reports but don’t have time. On the other hand, some students don’t have any interest in writing at all. In both cases, Essay Sages is providing <strong>Book Report Writing Service </strong>to overcome both situations.
+         <p>Have you recently been assigned to write a book report but due to some reasons you can’t make it happen? Actually, it's a matter of interest and time availability. There are students who love to write reports but don’t have time. On the other hand, some students don’t have any interest in writing at all. In both cases, Essay Sages is providing  Book Report Writing Service </strong>to overcome both situations.
          </p>
         
-         The process to hire <strong> Custom Book Report experts </strong>is quite simple at Essay Sages. Visit the website, choose the course and submit your requirements. You can also select your desired writer to complete your book report writing. No matter which report writer you choose, all of them have a skilled academic background.
+         The process to hire   Custom Book Report experts </strong>is quite simple at Essay Sages. Visit the website, choose the course and submit your requirements. You can also select your desired writer to complete your book report writing. No matter which report writer you choose, all of them have a skilled academic background.
 
          </div>
 </div>
@@ -428,44 +432,44 @@
    <div class="col-md-12  moretext section ">
       <div class="row">
 
-<h3 class="text-center mt-3 p-3">
+<h3 class="text-center pd_feature">
 Why You Should Trust Us From Book Report Writing Service?
  </h3>
-         <p>Why should you try Essay Sages for Book Report Writing? The task of submitting a college or school assignment is something that one can’t compromise with. These assignments might affect your academic grades. At Essay Sages, we believe in quality work. You will get a well-researched, proper order and unique content work each time you ask us to help you. Our services are built on five major elements:
+         <p class="pd_feature">Why should you try Essay Sages for Book Report Writing? The task of submitting a college or school assignment is something that one can’t compromise with. These assignments might affect your academic grades. At Essay Sages, we believe in quality work. You will get a well-researched, proper order and unique content work each time you ask us to help you. Our services are built on five major elements:
 
-            <h4>Top-Notch Quality</h4>
-        <p>With the writer's selection method, you can personally choose the book report writer to write the report for you. We provide the Book Report Writing Service that will provide you with complete solutions. Our writers will shape the book writing task based on your requirements.
+            <h4 class="pd_feature">Top-Notch Quality</h4>
+        <p class="pd_feature">With the writer's selection method, you can personally choose the book report writer to write the report for you. We provide the Book Report Writing Service that will provide you with complete solutions. Our writers will shape the book writing task based on your requirements.
         </p>
-        <h4>Full Confidentiality</h4>
-        <p>We understand that you might have a fear of privacy while using online writing services. At Essay Sages, we are completely responsible for the privacy of your personal information. We will not share your personal information with any third-party services in any manner. Each of your personal details will be safe with us.
-
-</p> 
-<h4> On-Time Delivery</h4>
-        <p>Using Essay Sages Assignment Writing Service means your project will be delivered to you on or before the deadline. We understand the importance of submitting assignments on delivery dates. You will receive your report writing at the time you mentioned while hiring our book report writers.
-        </p>
-        <h4> 100% Unique Content</h4>
-        <p>When we say, “the work has been completed successfully”, it means you can directly submit it to your school or college without cross-checking anything. At Essay Sages, we have provided software to our writers to check for plagiarism before the final submission. Along with quality content, you will get content that is completely unique.
+        <h4 class="pd_feature">Full Confidentiality</h4>
+        <p class="pd_feature">We understand that you might have a fear of privacy while using online writing services. At Essay Sages, we are completely responsible for the privacy of your personal information. We will not share your personal information with any third-party services in any manner. Each of your personal details will be safe with us.
 
 </p> 
-<h4>24*7 Support Services</h4>
-        <p>Essay Sages is available for their customers 24*7. If you ever feel like asking something, reach out to our customer executives. They will be happy to answer your queries. Connect with the executives today!
+<h4 class="pd_feature"> On-Time Delivery</h4>
+        <p class="pd_feature">Using Essay Sages Assignment Writing Service means your project will be delivered to you on or before the deadline. We understand the importance of submitting assignments on delivery dates. You will receive your report writing at the time you mentioned while hiring our book report writers.
         </p>
-        <h3 class="text-center mt-3 p-3">
+        <h4 class="pd_feature"> 100% Unique Content</h4>
+        <p class="pd_feature">When we say, “the work has been completed successfully”, it means you can directly submit it to your school or college without cross-checking anything. At Essay Sages, we have provided software to our writers to check for plagiarism before the final submission. Along with quality content, you will get content that is completely unique.
+
+</p> 
+<h4 class="pd_feature">24*7 Support Services</h4>
+        <p class="pd_feature">Essay Sages is available for their customers 24*7. If you ever feel like asking something, reach out to our customer executives. They will be happy to answer your queries. Connect with the executives today!
+        </p>
+        <h3 class="text-center pd_feature">
         Essay Sages Only Hires Well- Experienced Book Report Writers
  </h3>
-         <p>Hiring Custom Book Report writers at Essay Sages is one of the smartest decisions you have ever made. All of our writers are qualified and experienced in their designated fields. It simply means, they have a level of understanding of the task and deliver quality content. Hire one of our writers today for the best Book Review Writing Service.
+         <p class="pd_feature">Hiring Custom Book Report writers at Essay Sages is one of the smartest decisions you have ever made. All of our writers are qualified and experienced in their designated fields. It simply means, they have a level of understanding of the task and deliver quality content. Hire one of our writers today for the best Book Review Writing Service.
 If you have completed the book report writing but need someone to check and fix everything, feel free to connect with us. Our writers will check the whole report and make changes wherever required. You will receive error-free, quality report writing work. Don’t worry, we are affordable and available 24*7 to help you.
 
 </p> 
-<h3 class="text-center mt-3 p-3">
+<h3 class="text-center pd_feature">
 How To Hire A Writer For Book Report Writing Service At Essay Sages?
  </h3>
-         <p>The hiring process for book report writers at Essay Sages is as simple as posting your favorite pic on social media. You simply need to visit our official website and complete the form with the title of the book report along with the subject. Enter the deadline and choose the writer you want to hire for Book Report Writing Service. You can then sit relaxed and start focusing on other necessary things. In the given time, your task will be completed and you will get good grades.
+         <p class="pd_feature">The hiring process for book report writers at Essay Sages is as simple as posting your favorite pic on social media. You simply need to visit our official website and complete the form with the title of the book report along with the subject. Enter the deadline and choose the writer you want to hire for Book Report Writing Service. You can then sit relaxed and start focusing on other necessary things. In the given time, your task will be completed and you will get good grades.
 </p> 
 
         </div>
         </div>
-        <a class="text-center moreless-button" href="">Read more</a>
+        <a class="text-center moreless-button btn btn-primary expertise-covers-v2__btn" href="">Read more</a>
  </div>
 
         

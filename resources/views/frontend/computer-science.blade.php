@@ -89,10 +89,10 @@
 
 @section('content')
 <div class="row">
-   <div class="col-md-12" style='background-size:cover; background-image: url({{$backgroundImage}})'>
+<div class="col-md-12" style="background-size:cover; background-image: url({{ asset('images/ddedd.png') }});">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
-         <h1>{{$title}}</h1>
+         <h1 class="h1_tag_style">{{$title}}</h1>
      <p class="w-50 text-center">{{$topline}}</p>         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
@@ -112,7 +112,7 @@
 <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
-         Meet Our Team Of <strong>Computer Science Homework Help</strong>
+         Meet Our Team Of  Computer Science Homework Help</strong>
 
          </h2>
       </div>
@@ -125,7 +125,7 @@
          </h2>
       </div>
    </div>
-   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel">
+   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
@@ -136,7 +136,7 @@
 
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     I am really very grateful that I came to know about <strong>Essay Sages Essay Writing Service</strong>. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
+                     I am really very grateful that I came to know about  Essay Sages Essay Writing Service</strong>. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
                   </p>
                </div>
             </div>
@@ -156,7 +156,7 @@
                  
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great <strong>Essay Writing Service</strong>.
+                     I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great  Essay Writing Service</strong>.
                   </p>
                </div>
             </div>
@@ -211,17 +211,17 @@
          </h2>
       </div>
    </div>
-   <div class="col-md-12">
-      <div class="row p-5">
-         <div class="col-md-6">
+   <div class="col-md-12 cs" >
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        1. Information Form
+                        Information Form
 
                         </span>
                      </strong>
@@ -234,77 +234,75 @@
                </div>
             </div>
          </div>
-         <div class="col-md-6">
-            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         <div class="col-sm-6">
+            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
             </div>
          </div>
-         <div class="col-md-6">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-start align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;2&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        2. Select the Writer
+                        Select the Writer
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                     Go through the list of our professional writers and select the one that suits your expectations.
-                   </span>
+                     Go through the list of our professional writers and select the one that suits your expectations.                     </span>
                   </p>
                </div>
             </div>
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;3&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        3. Complete the Payment
+                        Complete the Payment
 
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                     Before depositing the amount, make sure you are satisfied with our computer science assignment help and then proceed.
-
+                     Before depositing the amount, make sure you are satisfied with our Online Essay Writing Services and then proceed.
                      </span>
                   </p>
                </div>
             </div>
          </div>
-         <div class="col-md-6">
-            <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+         <div class="col-sm-6">
+            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
          </div>
       </div>
-      <div class="row p-5">
-         <div class="col-md-6">
+      <div class="row">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/placeholder.jpg') }}" class="img-fluid w-50" />
+               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
             </div>
          </div>
-         <div class="col-md-6">
+         <div class="col-sm-6">
             <div class="d-flex justify-content-start align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;4&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
-                     <strong>
+                      
                         <span class="text-dark">
-                        4. Revise and Release
+                        Revise and Release
                         </span>
                      </strong>
                   </h5>
@@ -321,7 +319,7 @@
 
 <!-- Why choose us -->
 
-<div class="row p-5 ">
+<div class="row ">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
@@ -331,77 +329,81 @@
       </div>
    </div>
    <div class="col-md-12">
-      <div class="row">
+      <div class="row cs  cs1">
         
-         <div class="col-md-4">
-            <div class="card shadow-md">
+         <div class="col-md-6">
+            
                <div class="card-body">
                   <div class="row">
-                     <div class="col-md-4">
-                        <img class="card-img-top" src="{{ asset('icons/time.png') }}" alt="Card image cap" />
-                     </div>
-                     <div class="col-md-8">
-                        <h5 class="card-title">Types of essay</h5>
-                        <ul class="expertise-covers-v2__list">
-                                    <li class="expertise-covers-v2__list-item">Narrative</li>
-                                    <li class="expertise-covers-v2__list-item">Definition</li>
-                                    <li class="expertise-covers-v2__list-item">Descriptive</li>
-                                    <li class="expertise-covers-v2__list-item">Cause and Effect</li>
-                                    <li class="expertise-covers-v2__list-item">Expository</li>
-                                    <li class="expertise-covers-v2__list-item">Analytical</li>
-                                    <li class="expertise-covers-v2__list-item">Persuasive</li>
-                                    <li class="expertise-covers-v2__list-item">Admission</li>
-                            </ul>
-                     </div>
+                     
+                        <h5 class="card-title pd_ul" style="text-align:center; font-size:32px;">Types of Essay</h5>
+                        <div class="col-md-6">
+                           <ul class="sz_ul">
+                                       <li class="pd_ul">Essay Writing</li>
+                                       <li class="pd_ul">Homework Writing</li>
+                                       <li class="pd_ul">Dissertation writing</li>
+                                       <li class="pd_ul">Thesis writing</li>
+                                       <li class="pd_ul">Accounting Economics and Business related assignments</li>
+                           </ul>
+                        </div>
+                        <div class="col-md-6">
+                           <ul class="sz_ul">
+                                       <li class="pd_ul">Mathematics help</li>
+                                       <li class="pd_ul">Computer science-related assignments</li>
+                                       <li class="pd_ul">Physics helps</li>
+                                       <li class="pd_ul">Literature Review Writing</li>
+                                       
+                                       <li class="pd_ul">Coursework Writing</li>
+                           </ul>
+                        </div>
+                     
                   </div>
                </div>
-            </div>
+            
          </div>
-         <div class="col-md-4">
+         <div class="col-md-4 pd_feature">
             <div class="card shadow-md">
                <div class="card-body">
                   <div class="row">
-                     <div class="col-md-4">
-                        <img class="card-img-top" src="{{ asset('icons/quality.png') }}" alt="Card image cap" />
-                     </div>
-                     <div class="col-md-8">
-                        <h5 class="card-title"><b>Free</b> features</h5>
+                     
+                     <div class="expertise-covers-v2__card-inner">
+                        <h4 class="card-title"> Free</b> Features</h4>
                         <ul class="expertise-covers-v2__card-list">
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A title page</span>
-                            <span class="expertise-covers-v2__feature-price">3.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">A Title Page</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A reference page</span>
-                            <span class="expertise-covers-v2__feature-price">5.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">References</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">In-text citations</span>
-                            <span class="expertise-covers-v2__feature-price">4.49$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Citations</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">A Running head</span>
-                            <span class="expertise-covers-v2__feature-price">3.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">A Running Head</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">Page numbers</span>
-                            <span class="expertise-covers-v2__feature-price">2.49$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Page Numbers</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
                                             <li class="expertise-covers-v2__card-list-item">
-                            <span class="expertise-covers-v2__feature-name">Originality check</span>
-                            <span class="expertise-covers-v2__feature-price">14.99$</span>
-                            <span class="expertise-covers-v2__feature-label">Free</span>
+                            <span class="expertise-covers-v2__feature-name">Plagiarism Check</span>
+                            
+                            <span class="expertise-covers-v2__feature-label free">Free</span>
                         </li>
-                                    </ul>
-                                    <p class="expertise-covers-v2__summary">Get all those features for <span class="expertise-covers-v2__summary-value">35.94$</span> <b>FREE</b></p>
-                <div class="expertise-covers-v2__btn">
-                    <a href="/order" class="btn btn_large btn_w_100 btn_primary-accent" onclick="gta('send','event','CTA','click','get_essay_help');">Order paper</a>
-                </div>
+                        </ul>
+                                    <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
+                     <div class="expertise-covers-v2__btn">
+                        <a href="order-now" class="btn btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                     </div>
                      </div>
                   </div>
                </div>
@@ -411,40 +413,40 @@
    </div>
 </div>
 <!-- Our team members portfolio -->
-<div class="row p-5 ">
+<div class="row v2">
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
          Computer Science Homework Help From Essay Sages
 
          </h2>
-         <p>Computer science is very exciting for some students and they do the assignment with all their hearts. But, you also can’t deny that <strong>Computer Science Assignments
-</strong> are not that easy. Students have to put in their hours and sleepless nights to complete <strong>Computer Science Assignments
+         <p>Computer science is very exciting for some students and they do the assignment with all their hearts. But, you also can’t deny that  Computer Science Assignments
+</strong> are not that easy. Students have to put in their hours and sleepless nights to complete  Computer Science Assignments
 </strong>. At Essay Sages, our professionals are 24*7 available to provide Computer Science Homework Help. We have been helping students with their homework, college assignment, and research paper for the last 15 years. 
          </p>
          </div>
 </div>
 <div class="col-md-12  moretext section ">
       <div class="row">
-         <p>If you are someone who is afraid of computer science-related assignments then Essay Sages is at your side. We have experts who are very reliable and experienced in the field of computer science. You no more need to be worried about your computer science homework anymore. Enjoy your holidays, weekends, or party with your friends, our writers will take care of your projects.
+         <p class="pd_feature">If you are someone who is afraid of computer science-related assignments then Essay Sages is at your side. We have experts who are very reliable and experienced in the field of computer science. You no more need to be worried about your computer science homework anymore. Enjoy your holidays, weekends, or party with your friends, our writers will take care of your projects.
 
 
          </p>
 
 
-         <h3 class="text-center mt-3 p-3">Need Help With Computer Science Assignment? Hire Experts At Essay Sages!
+         <h3 class="text-center pd_feature">Need Help With Computer Science Assignment? Hire Experts At Essay Sages!
 
 </h3>
-         <p>Today, students are involved in a number of extracurricular activities. Hence, it is sometimes difficult to manage all the assignments together. In order to overcome this hectic schedule, Essay Sages is providing Computer Science Homework Service. You can now focus on other necessary activities as our professionals will handle your task for you. All of our experts are experienced and educated in their respective fields. Your assignment is in good and safe hands. Check out the reasons why you must rely upon Essay Sages for Computer Science Homework Help:
+         <p class="pd_feature">Today, students are involved in a number of extracurricular activities. Hence, it is sometimes difficult to manage all the assignments together. In order to overcome this hectic schedule, Essay Sages is providing Computer Science Homework Service. You can now focus on other necessary activities as our professionals will handle your task for you. All of our experts are experienced and educated in their respective fields. Your assignment is in good and safe hands. Check out the reasons why you must rely upon Essay Sages for Computer Science Homework Help:
 
-        <ul>
+        <ul style="margin-left:20px;">
         <li>
         <h5>On-Time Delivery</h5>
         <p>Are strict assignment deadlines giving you nightmares? Not anymore because you have the option of hiring the experts at Essay Sages. We are trusted online service providers in the whole market today. The dedicated and educated team of experts will start the work as soon as they receive the order. In the given time, you will get the assignment in your mail. We understand the importance of on-time delivery and that’s why on-time delivery is our top-most priority.</p>
         </li>
         <li>
         <h5>Dedicated Scholars</h5>
-        <p>We have hired a team of dedicated scholars who will provide Homework Help for Computer Science on any difficult topic. They are experienced enough to provide you with flawless <strong>Computer Science Assignments
+        <p>We have hired a team of dedicated scholars who will provide Homework Help for Computer Science on any difficult topic. They are experienced enough to provide you with flawless  Computer Science Assignments
 </strong>.</p>
         </li>
         <li>
@@ -456,10 +458,10 @@
         </ul>
         
 </p>
-        <h3 class="text-center mt-3 p-3">Got Computer Science Assignment, Ask Qualified Experts To Help You</h3>
+        <h3 class="text-center pd_feature">Got Computer Science Assignment, Ask Qualified Experts To Help You</h3>
 
-<p>Every time you request to get help with a computer assignment, it will be attended by an expert Computer Science Homework Helper. From a list of experts available, you can choose anyone based on their reviews or past experience. All of them are qualified and can handle any computer science project. Here are some of the qualities of our Computer Science Homework Help experts:
-    <ul>
+<p class="pd_feature">Every time you request to get help with a computer assignment, it will be attended by an expert Computer Science Homework Helper. From a list of experts available, you can choose anyone based on their reviews or past experience. All of them are qualified and can handle any computer science project. Here are some of the qualities of our Computer Science Homework Help experts:
+    <ul style="margin-left:20px;">
         <li>
         <h5>Have a Degree In Computer Science</h5>
         <p>As we have already mentioned, we don’t hire freshers in Essay Sages. We have different experts for different subject assignments. When you will ask for CS Homework Help, you will be assigned an expert. All of our professionals have Master's degrees, even some of them are Ph.D.</p>
@@ -477,10 +479,10 @@
         </ul>
 
  </p>
- <h3 class="text-center mt-3 p-3">Need Help With The CS Homework Assignments? Come To Essay Sages!</h3>
- <p>All the students who are pursuing their degrees in the field of computer science know the importance of assignment submission. Essay Sages understand that it is not an easy task to complete all subject assignments all along together. This is why we need a helping hand sometimes like Essay Sages. There is no use in submitting an assignment that will get you bad grades and red ink all over it. For such cases, wiring experts at Essay Sages are 24*7 available at your service. There is no one better than them who understands the academic requirements.
+ <h3 class="text-center pd_feature">Need Help With The CS Homework Assignments? Come To Essay Sages!</h3>
+ <p class="pd_feature">All the students who are pursuing their degrees in the field of computer science know the importance of assignment submission. Essay Sages understand that it is not an easy task to complete all subject assignments all along together. This is why we need a helping hand sometimes like Essay Sages. There is no use in submitting an assignment that will get you bad grades and red ink all over it. For such cases, wiring experts at Essay Sages are 24*7 available at your service. There is no one better than them who understands the academic requirements.
 
- <ul>
+ <ul style="margin-left:20px;">
         <li>
         <h5> We Provide Informative Assignment In A Customized Way</h5>
         <p>When you will confirm your request for Assignment Computer Science help, our writers will make sure to provide you with high-quality customized solutions. We never compromise with your assignments at Essay Sages. This is why we provide 7 days of refund in case you will find the assignment inappropriate(which is next to impossible). Hence, for a trusted and experienced Computer Science Homework Helper, come to Essay Sages.</p>
@@ -496,10 +498,10 @@
        
         </ul>
         </p>
-        <h3 class="text-center mt-3 p-3"> Get Computer Science Homework Help Assistance From Writers At Essay Sages</h3>
- <p>Do you need some assistance with your <strong>Computer Science Assignments
+        <h3 class="text-center pd_feature"> Get Computer Science Homework Help Assistance From Writers At Essay Sages</h3>
+ <p class="pd_feature">Do you need some assistance with your  Computer Science Assignments
 </strong>? Ask our experts to guide you throughout the computer science assignment and get outstanding grades. We will guide you step by step so that you can handle even the tough tasks easily. Check out the given steps to follow:
- <ul><li>Students are guided to choose appropriate and relevant topics for Computer Science subjects.
+ <ul style="margin-left:20px;"><li>Students are guided to choose appropriate and relevant topics for Computer Science subjects.
 </li>
  <li>Students are helped to understand the basics of computer science. This makes it easier to choose the right topics and research goals. </li>
  <li>We guide students to understand the power and structure of computer science projects.
@@ -513,12 +515,12 @@
  </ul>
  Our computer science experts write plagiarized free quality articles for students. To write a good computer science project, it is important to have a good knowledge of the concepts. We have a team of experienced writers with Ph.D. and master's degrees from renowned universities around the world. They are familiar with the subject, its components, applications, and uses. Our writers promise high-quality, unique, and unparalleled homework writing services. This will help the students excel in their grades. So stop dreading homework and take Computer Science Homework Help.
 </p>
-<h3 class="text-center mt-3 p-3"> We Are Open To Help You With All Types Of Computer Science Assignments</h3>
- <p>The Computer Science Homework Help provided by our professionals is popular among students all over the world. We have a team of authors who have been hired through a rigorous recruitment process. We ensure that students are always assisted with the best computer science services.
-Can't figure out how to start working on <strong>Computer Science Assignments
+<h3 class="text-center pd_feature"> We Are Open To Help You With All Types Of Computer Science Assignments</h3>
+ <p class="pd_feature">The Computer Science Homework Help provided by our professionals is popular among students all over the world. We have a team of authors who have been hired through a rigorous recruitment process. We ensure that students are always assisted with the best computer science services.
+Can't figure out how to start working on  Computer Science Assignments
 </strong>? Ask for help with Computer Science Homework Solutions from us. We take care of all the writing problems. Our experts are always ready to help you with computer-related assignments. Below are popular and complicated computer information system topics that our experts have helped with.
 
- <ul><li>Scientific computing assignment help.
+ <ul style="margin-left:20px;"><li>Scientific computing assignment help.
 </li>
  <li>Assignment help in database management systems (DBMS). </li>
  <li>Assignment help in Programming languages.
@@ -543,10 +545,10 @@ Can't figure out how to start working on <strong>Computer Science Assignments
  It’s just a common topic that students often ask for help with. Apart from all these, if you need help with any other computer science-related topic then feel free to ask us. You will get solutions for all of your academic problems at Essay Sages.
 
 </p>
-<h3 class="text-center mt-3 p-3">Essay Sages Provides Endless Features To Pursue Your Academic Goals.</h3>
- <p>All the students who are pursuing their degrees in the field of computer science know the importance of assignment submission. Essay Sages understand that it is not an easy task to complete all subject assignments all along together. This is why we need a helping hand sometimes like Essay Sages. There is no use in submitting an assignment that will get you bad grades and red ink all over it. For such cases, wiring experts at Essay Sages are 24*7 available at your service. There is no one better than them who understands the academic requirements.
+<h3 class="text-center pd_feature">Essay Sages Provides Endless Features To Pursue Your Academic Goals.</h3>
+ <p class="pd_feature">All the students who are pursuing their degrees in the field of computer science know the importance of assignment submission. Essay Sages understand that it is not an easy task to complete all subject assignments all along together. This is why we need a helping hand sometimes like Essay Sages. There is no use in submitting an assignment that will get you bad grades and red ink all over it. For such cases, wiring experts at Essay Sages are 24*7 available at your service. There is no one better than them who understands the academic requirements.
 
- <ul>
+ <ul style="margin-left:20px;">
         <li>
         <h5>  Unique & Quality Work Everytime</h5>
         <p>If you have hired us to complete your computer assignment, there is a negative change in plagiarized content work. Before submitting the final draft, our experts will check the content properly and then submit it to you. We believe in client satisfaction and we never break their trust in any way.
@@ -567,7 +569,7 @@ Can't figure out how to start working on <strong>Computer Science Assignments
         </div>
         </div>
 
-        <a class="text-center moreless-button" href="">Read more</a>     
+        <a class="text-center moreless-button btn btn-primary expertise-covers-v2__btn" href="">Read more</a>     
    </div>
    
 

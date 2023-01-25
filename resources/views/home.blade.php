@@ -113,9 +113,9 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
          
          <div class="col-md-8 mt-5 mb-5 row d-flex justify-content-between ">
             
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Quick Service</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Professional Writing Expert</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Free Edits</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Essay Writing Service"/>Quick Service</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Writing Essay Company"/> Professional Writing Expert</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Easy Essay Writing Service"/>Free Edits</div>
          </div>
       </div>
    </div>
@@ -135,7 +135,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel" >
       <div class="carousel-inner">
          <div class="carousel-item active">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="{{ asset('images/essay_writer_services.webp') }}" alt="Literature Review Writing" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Emma</h5>
@@ -156,7 +156,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="Literature Review Writing" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Charlotte </h5>
@@ -176,7 +176,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
             </ul>
          </div>
          <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Literature Review Writing" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
                   <h5 class="mb-3">Brian Bakes</h5>
@@ -242,13 +242,13 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/information-form.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/information-form.png') }}" alt="Online Essay Writing Services" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/writer.png') }}" class="img-fluid w-25" />
+               <img src="{{ asset('images/writer.png') }}" alt="Professional Essay Writers" class="img-fluid w-25" />
             </div>
          </div>
          <div class="col-sm-6">
@@ -293,13 +293,13 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
             </div>
          </div>
          <div class="col-sm-6">
-            <img src="{{ asset('images/payment.png') }}" class="img-fluid w-25" />
+            <img src="{{ asset('images/payment.png') }}" alt="Custom Essay Writing Service" class="img-fluid w-25" />
          </div>
       </div>
       <div class="row">
          <div class="col-sm-6">
             <div class="d-flex justify-content-end align-items-center">
-               <img src="{{ asset('images/revise-release.png') }}" class="img-fluid w-25"/>
+               <img src="{{ asset('images/revise-release.png') }}" alt="Thesis writing" class="img-fluid w-25"/>
             </div>
          </div>
          <div class="col-sm-6">
@@ -441,6 +441,8 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
           <h3 class="text-center pd_feature">Quick Work Delivery</h3>
          <p class="pd_feature">Our writing team knows that a student's life often involves juggling multiple tasks and pursuing multiple important goals at the same time. But what if you are always drained? Do you feel like it's impossible to keep up with your seemingly successful peers no matter how hard you try?
  We've been there - it's not your fault. The thing is that it almost always takes less time to manage all your tasks properly. It can put a lot of pressure on you, making it difficult for you to check all the boxes on your list. And, often, pushing yourself to achieve negative goals leads to even more problems, including fatigue and even depression.
+</p>
+<p>
  Our  Write Essay For Me</b> service is designed to help you avoid this. With us, every learner can entrust their work to professionals who will complete them on time and at the best quality. We empower you to save your efforts for important things without compromising your work. And even that's not all!
  We understand that you may be in a difficult situation when you do not have time to complete a return within a few days. The good news is that you can overcome this challenge with a copywriter. Even if you are in a hurry, we can deliver your book as quickly as possible without compromising on quality!</p>
           <h3 class="text-center pd_feature">Get Essay Help From Top Rated Writers</h3>
@@ -449,10 +451,12 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
 Our experts have bachelor's degrees, master's degrees, and even doctorate degrees and each of them has at least a few years of experience writing articles in their field. Before allowing a new employee to work on my writing orders, we put them through a series of checks and tests to see if they are high enough to provide high-quality help to your book.
 We also ask them to study and follow our quality control system carefully to get the best results. What else allows us to achieve 100% satisfaction?
 Apart from selecting the best writers, we also employ experienced staff who will take care of their work.
+</p>
+<p>
 We believe that effective maintenance is the key to consistently high quality for everything we deliver. So when you pay for a trial with us, you always have a quality guarantee. To take advantage of all these benefits, you only need to apply for our  Essay Writing services</b> and choose your best specialist.
 Our service works 24/7, so you can come to us if needed. Once your order is placed and assigned to a selected professional, they will complete it following your instructions. Our experienced writers will tailor each article to your unique needs. But, once the order is ready, you can download and check it before you approve the bill.
 So, don't delay and get your professional help now!
-         </p>
+</p>      
           <h3 class="text-center pd_feature">A Professional Online Paper Writing Service You Can Afford</h3>
          <p class="pd_feature">No matter whether you need an essay, research paper, Casual Essay, Narrative Paper, or some other kind of assistance, with Essay Sages, you can easily afford it. On placing Online Essays Order with us, this is what you will get:
                <ul style="margin-left:20px;">
