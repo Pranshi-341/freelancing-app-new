@@ -23,7 +23,8 @@ class frontendController extends Controller
         $topline = "Hey! Essay Sages, Help Me With My Math Homework ";
         $bottomline = "Ask the Professionals At Essay Sages “Help Me With My Maths Homework”!        ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
-        return view('frontend.maths',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage]);
+        $writers = DB::table('freelancers_writers')->get();
+        return view('frontend.maths',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage])->with('writers',$writers);
     }
 
     function Physics(){
@@ -31,7 +32,8 @@ class frontendController extends Controller
         $topline = "Excellent Physics Homework Help From Experts At Essay Sages!";
         $bottomline = "Need Help With Physics Homework? Experts At Essay Sages Are Waiting For You!";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
-        return view('frontend.physics',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage]);
+        $writers = DB::table('freelancers_writers')->get();
+        return view('frontend.physics',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage])->with('writers',$writers);
     }
 
     function Dissertation(){
@@ -39,7 +41,8 @@ class frontendController extends Controller
         $topline = "Custom Dissertation Writing Service By Ph.D. Writers";
         $bottomline = "Our Ph.D. writers will take care of your dissertations ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
-        return view('frontend.dissertation',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        $writers = DB::table('freelancers_writers')->get();
+        return view('frontend.dissertation',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ])->with('writers',$writers);
     }
 
     function Coursework(){
@@ -47,7 +50,8 @@ class frontendController extends Controller
         $topline = "Custom Coursework Writing Service At Essay Sages!";
         $bottomline = "Ask Our Team Of  Experts To Help You With Custom Coursework Writing Services! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
-        return view('frontend.coursework',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        $writers = DB::table('freelancers_writers')->get();
+        return view('frontend.coursework',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ])->with('writers',$writers);
     }
 
     function Presentations(){
@@ -63,7 +67,8 @@ class frontendController extends Controller
         $topline = "Hey! Get Computer Science Homework Help From Essay Sages        ";
         $bottomline = "Ask the Professionals At Essay Sages for Computer Science Assignment Help”!        ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
-        return view('frontend.computer-science',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        $writers = DB::table('freelancers_writers')->get();
+        return view('frontend.computer-science',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ])->with('writers',$writers);
     }
 
     function AccountingEconomicsBusiness(){
@@ -78,7 +83,8 @@ class frontendController extends Controller
         $topline = "We will provide affordable and high-quality Accounting, economics, and Business-Related Assignments from our qualified experts. We will also provide additional tips linked to economics and accounting concepts to provide great value for your money. ";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
-        return view('frontend.history',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        $writers = DB::table('freelancers_writers')->get();
+        return view('frontend.history',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ])->with('writers',$writers);
     }
 
     function Team(){
@@ -131,12 +137,13 @@ function AboutUs(){
     }
 
     // createv functions for writing help 
-    function Essay(){
+    function Essay(Request $request){
         $title = "Hey Essay Sages! Write My Essay For Me";
         $topline = "Our Professional Essay Writing Experts Are 24*7 Available To Help You!";
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
-        return view('frontend.essayWrite',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        $writers = DB::table('freelancers_writers')->get();
+        return view('frontend.essayWrite',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ])->with('writers',$writers);
     } 
 
     function ResearchPaper(){
@@ -152,7 +159,8 @@ function AboutUs(){
         $topline = "Hire Professional Thesis Writers At Essay Sages";
         $bottomline = "Ask our writers to “Write My Thesis”        ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
-        return view('frontend.thesis',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        $writers = DB::table('freelancers_writers')->get();
+        return view('frontend.thesis',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ])->with('writers',$writers);
     }
 
     function Assigment() {
@@ -176,7 +184,8 @@ function AboutUs(){
         $bottomline = "Ask Our Team Of  Experts To Help You With Book Review Writing Service!";
         $topline = " ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
-        return view('frontend.book-report',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        $writers = DB::table('freelancers_writers')->get();
+        return view('frontend.book-report',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ])->with('writers',$writers);
     }
 
     function Speach(){
@@ -224,7 +233,8 @@ function AboutUs(){
         $topline = "Writing A Literature Review From Professional Writers At Essay Sages";
         $bottomline = "Our Experts Are There To Help You With Your Literature Review Writing!        ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
-        return view('frontend.literature',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
+        $writers = DB::table('freelancers_writers')->get();
+        return view('frontend.literature',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ])->with('writers',$writers);
     }
 
     function OrderNow(Request $request) {
