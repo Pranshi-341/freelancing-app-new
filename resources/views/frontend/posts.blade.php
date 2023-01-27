@@ -22,7 +22,7 @@
 <div class="col-md-12" style="background-size:cover; background-image: url({{ asset('images/ddedd.png') }});">
         @include('layouts.navbar')
         <div class="col-md-12 mt-5 head-part text-white">
-            <h2 class="h1_tag_style">Welcome to Technical Writers</h2>
+            <h2 class="h1_tag_style">Welcome to Essay Sages</h2>
             <p class="w-50 text-center">where our acclaimed client’s assignments and tasks are meticulously done We have a great deal to offer so please take your time to browse our website to discover more about us and what we offer</p>
             <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
                 <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
@@ -167,12 +167,9 @@
         $(".pay_price").attr('disabled', 'disabled');
         $(".price_get").on('click', function(){
             var price = $(this).closest('tr').find('.pay_price').val();
-            //alert(price[77]+price[78]+price[79]+price[80]);
+            var order_id = $(".price_get").val();
             
-            /**var total_price = price.find(function (element) {
-                return element > 0
-            });**/
-
+            
             paypal.Buttons({
                 // optional styling for buttons
                 // https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/
@@ -201,6 +198,7 @@
                     };
 
                     return actions.order.capture().then(function(details){
+                        details.order_id = order_id;
                         $.ajax({
                             data: details,
                             headers: {
