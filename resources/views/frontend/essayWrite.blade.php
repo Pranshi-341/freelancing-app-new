@@ -195,15 +195,43 @@
 </div>
 </div>
 <div class="row" style="background-color: #fff ;">
-   <div class="col-md-12">
+   <div class="col-md-12" style="text-align: -webkit-center ;">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
          Meet Our Services Writing Expert
          </h2>
       </div>
-   </div>
+      
+         <div class="row">
+            
+            
+            @foreach($writers as $writers)
+            
+            <div class="col-md-4 cs" >
+                  <div class="card shadow-md">
+                     <div class="card-body">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" />
+                           </div>
+                           <div class="col-md-8">
+                              <h5 class="card-title">{{ $writers->name }}</h5>
+                              <p class="card-text">{{ $writers->skills }}</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+            </div>
+            
+            
+            @endforeach
+            
+            
+         </div>
+   </div>   
+</div>
 <div class="row " style="background-color: #fff ;">
-   <div class="col-md-12">
+   <div class="col-md-12 cs">
       <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
          <h2 class="text-center mt-3 p-3">
          4 Steps Of Our Essay Writing Services
