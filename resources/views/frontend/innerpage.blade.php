@@ -201,7 +201,7 @@
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Analytical</li>
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn btn-primary text-uppercase">Button</a>
+              <a href="#" class="btn-sm btn-primary text-uppercase">Button</a>
             </div>
           </div>
         </div>
@@ -223,7 +223,7 @@
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Analytical</li>
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn btn-primary text-uppercase">Button</a>
+              <a href="#" class="btn-sm btn-primary text-uppercase">Button</a>
             </div>
           </div>
         </div>
@@ -245,7 +245,7 @@
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Analytical</li>
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn btn-primary text-uppercase">Button</a>
+              <a href="#" class="btn-sm btn-primary text-uppercase">Button</a>
             </div>
           </div>
         </div>

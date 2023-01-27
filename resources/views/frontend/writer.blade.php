@@ -103,8 +103,8 @@
                                     <td>{{ $writers->skills }}</td>
                                     <td>{{ $writers->price }}</td>
                                     <td>
-                                    <a href="" class="btn btn-primary">Chat</a>
-                                    <a href="{{ route('payment', $writers->price) }}" class="btn btn-danger">Hire</a>
+                                    <a href="" class="btn-sm btn-primary">Chat</a>
+                                    <a href="{{ route('payment', $writers->price) }}" class="btn-sm btn-danger">Hire</a>
                                     </td>
                                 </tr>
                                 @endforeach

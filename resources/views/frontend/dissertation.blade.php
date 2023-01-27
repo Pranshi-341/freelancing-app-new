@@ -424,7 +424,7 @@
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                         <div class="expertise-covers-v2__btn">
-                           <a href="order-now" class="btn btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                           <a href="order-now" class="btn-sm btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
                         </div>
                      </div>
                   </div>
@@ -536,7 +536,7 @@ You should not miss your chance to get a flawless paper without any effort on yo
     </div>
     </div>
 
-    <a class="text-center moreless-button btn btn-primary expertise-covers-v2__btn" href="">Read more</a>     
+    <a class="text-center moreless-button btn-sm btn-primary expertise-covers-v2__btn" href="">Read more</a>     
    </div>
    
 
