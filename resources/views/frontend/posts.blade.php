@@ -167,12 +167,9 @@
         $(".pay_price").attr('disabled', 'disabled');
         $(".price_get").on('click', function(){
             var price = $(this).closest('tr').find('.pay_price').val();
-            //alert(price[77]+price[78]+price[79]+price[80]);
+            var order_id = $(".price_get").val();
             
-            /**var total_price = price.find(function (element) {
-                return element > 0
-            });**/
-
+            
             paypal.Buttons({
                 // optional styling for buttons
                 // https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/
@@ -201,6 +198,7 @@
                     };
 
                     return actions.order.capture().then(function(details){
+                        details.order_id = order_id;
                         $.ajax({
                             data: details,
                             headers: {

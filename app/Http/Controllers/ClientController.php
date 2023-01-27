@@ -142,14 +142,18 @@ class ClientController extends Controller
         $email = $request->payer['email_address'];
         $create_time = $request->purchase_units[0]['payments']['captures'][0]['create_time'];
         $update_time = $request->purchase_units[0]['payments']['captures'][0]['update_time'];
+        $order_id = $request->order_id;
         
-        if(!empty($id)){
-            $values = array('payment_id' => $id, 'user_id' => $user_id, 'name' => $name, 'email' => $email, 'status' => $status, 'amount' => $amount);
-            DB::table('payments')->insert($values);
+        if(!empty($order_id)){
+            if($status == "COMPLETED"){
+                $values = array('payment_id' => $id, 'user_id' => $user_id, 'name' => $name, 'email' => $email, 'status' => $status, 'amount' => $amount);
+                DB::table('payments')->insert($values);
+                DB::table('table_total_bids')->where('id',$order_id)->update(array('status' => '1'));
+                $message = array('success' => '1', 'message' => 'Payment Done');
+                return response()->json($message);
 
-            $message = array('success' => '1', 'message' => 'Payment Done');
-            return response()->json($message);
-
+            }
+            
         }
         
     }
