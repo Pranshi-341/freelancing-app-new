@@ -77,7 +77,7 @@
                                 </div>
                             </div>
                             <div class="d-grid mx-auto">
-                                <button type="submit" class="btn btn-dark btn-block">Sign up</button>
+                                <button type="submit" class="btn-sm btn-dark btn-block">Sign up</button>
                             </div>
                         </form>
                     </div>

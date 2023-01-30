@@ -394,7 +394,7 @@
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                 <div class="expertise-covers-v2__btn">
-                    <a href="order-now" class="btn btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                    <a href="order-now" class="btn-sm btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
                 </div>
                      </div>
                   </div>
@@ -494,7 +494,7 @@ If you want you can also take  Homework Help</strong> from the internet but the 
         </div>
         </div>
 
-        <a class="moreless-button text-center btn btn-primary expertise-covers-v2__btn" href="">Read more</a>
+        <a class="moreless-button text-center btn-sm btn-primary expertise-covers-v2__btn" href="">Read more</a>
         </div>
         
 

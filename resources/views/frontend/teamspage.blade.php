@@ -110,6 +110,32 @@
                   Your time and efforts. No plagiarism, only high-quality content!
                 </p>
       </div>
+      <div class="row">
+            
+            
+            @foreach($writers as $writers)
+            
+            <div class="col-md-4 cs" >
+                  <div class="card shadow-md">
+                     <div class="card-body">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" />
+                           </div>
+                           <div class="col-md-8">
+                              <h5 class="card-title">{{ $writers->name }}</h5>
+                              <p class="card-text">{{ $writers->skills }}</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+            </div>
+            
+            
+            @endforeach
+            
+            
+         </div>
    </div>
 </div>
 <div class="row p-5">

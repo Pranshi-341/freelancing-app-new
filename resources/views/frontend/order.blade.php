@@ -124,7 +124,7 @@
                                 <label for="instructions">Instructions</label>
                                 <textarea class="form-control" id="writterInstructions" name="writterInstructions" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary submit">Submit</button>
+                            <button type="submit" class="btn-sm btn-primary submit">Submit</button>
                         </form>
                     </div>
                     <!-- create form of editing with field of subject,topic,pages,deadline,Detailed Instructions and attach file -->
@@ -173,7 +173,7 @@
                                 <label for="instructions">Instructions</label>
                                 <textarea class="form-control" id="editInstructions" name="editInstructions" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary submit">Submit</button>
+                            <button type="submit" class="btn-sm btn-primary submit">Submit</button>
                         </form>
                     </div>
 

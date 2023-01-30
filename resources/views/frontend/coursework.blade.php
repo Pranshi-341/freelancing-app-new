@@ -118,6 +118,32 @@
          Meet Our Team Of Custom Coursework Writing Service
          </h2>
       </div>
+      <div class="row">
+            
+            
+            @foreach($writers as $writers)
+            
+            <div class="col-md-4 cs" >
+                  <div class="card shadow-md">
+                     <div class="card-body">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" />
+                           </div>
+                           <div class="col-md-8">
+                              <h5 class="card-title">{{ $writers->name }}</h5>
+                              <p class="card-text">{{ $writers->skills }}</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+            </div>
+            
+            
+            @endforeach
+            
+            
+         </div>
    </div>
    </div>
    <div class="col-md-12 my-3">
@@ -406,7 +432,7 @@
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                      <div class="expertise-covers-v2__btn">
-                        <a href="order-now" class="btn btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                        <a href="order-now" class="btn-sm btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
                      </div>
                      </div>
                   </div>
@@ -513,7 +539,7 @@ When you will hire the coursework services at Essay Sages, we can guarantee:
       
         </div>
         </div>
-        <a class="text-center moreless-button btn btn-primary expertise-covers-v2__btn" href="">Read more</a>        
+        <a class="text-center moreless-button btn-sm btn-primary expertise-covers-v2__btn" href="">Read more</a>        
  </div>
 
         

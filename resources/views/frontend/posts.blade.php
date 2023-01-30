@@ -76,18 +76,18 @@
                                     {{-- add button accept order --}}
                                     @if(!$post['bidPost'])
                                         @if($post['status'] == 0)
-                                            <button disabled class="btn btn-success btn-sm">Accept Order</button>
+                                            <button disabled class="btn-sm  btn-success btn-sm  ">Accept Order</button>
                                         @endif
                                     @else
                                     @if($post['bidPost'][0]['status'] == 0)
-                                        <button type="button" data-toggle="modal" data-target="#payment_popup" id="popup" name="id" value="{{$post['bidPost'][0]['id']}}" class="btn btn-success btn-sm price_get">Accept Order</button>
+                                        <button type="button" data-toggle="modal" data-target="#payment_popup" id="popup" name="id" value="{{$post['bidPost'][0]['id']}}" class="btn-success btn-sm   price_get">Accept Order</button>
                                         
                                     @else
-                                        <button disabled class="btn btn-success btn-sm">Order accepted</button>
+                                        <button disabled class="btn-sm  btn-success btn-sm ">Order accepted</button>
                                     @endif
                                     @endif
                                     {{-- add button view order --}}
-                                    <a  class="btn btn-primary btn-sm">Delete</a>
+                                    <a  class="btn-sm btn-primary btn-sm ">Delete</a>
                                 </td>
                                 <td>
                                     @if(!$post['bidPost'])
@@ -167,8 +167,7 @@
         $(".pay_price").attr('disabled', 'disabled');
         $(".price_get").on('click', function(){
             var price = $(this).closest('tr').find('.pay_price').val();
-            var order_id = $(".price_get").val();
-            
+            var order_id = $(".price_get").val();            
             
             paypal.Buttons({
                 // optional styling for buttons
