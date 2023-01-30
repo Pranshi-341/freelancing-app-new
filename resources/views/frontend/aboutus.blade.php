@@ -71,7 +71,7 @@ because every task gets a thorough check-up before being submitted…
 </div>
    
    </div>
-   <a class="text-center moreless-button" href="">Read more</a>
+   <a class="btn-sm btn-primary text-center moreless-button expertise-covers-v2__btn" href="">Read more</a>
 </div>
 
 

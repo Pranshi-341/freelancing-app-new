@@ -143,7 +143,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
 
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     I am really very grateful that I came to know about  Essay Sages Essay Writing Service</strong>. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
+                     I Am Really Very Grateful That I Came To Know About  Essay Sages Essay Writing Service</strong>. The Writers Are Amazing That I Can’t Even Define. They Made My Work So Easy And The Perfection Of My Writing Is Undefinable. Really Good Work. 
                   </p>
                </div>
             </div>
@@ -163,7 +163,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                  
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great  Essay Writing Service</strong>.
+                     I Had To Deliver The Task On An Urgent Basis And I Didn’t Expect Essay Sages To Do The Work So Quickly. They Submit The Task On Time And The Writing Is Really Appreciable. Great  Essay Writing Service</strong>.
                   </p>
                </div>
             </div>
@@ -183,7 +183,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                  
                   <p class="text-muted">
                      <i class="fas fa-quote-left pe-2"></i>
-                     The writing expert submitted the project very quickly. The quality he provided in my  Literature Review </b>Writing is just outstanding. I am really impressed. Thank you Essay Sages.
+                     The Writing Expert Submitted The Project Very Quickly. The Quality He Provided In My  Literature Review </b>Writing Is Just Outstanding. I Am Really Impressed. Thank You Essay Sages.
                   </p>
                </div>
             </div>
@@ -235,7 +235,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                     Enter all the project-related details in the form for a better understanding of our Essay Writers.
+                     Enter All The Project-Related Details In The Form For a Better Understanding Of Our Essay Writers.
                      </span>
                   </p>
                </div>
@@ -258,13 +258,13 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                   <h5 class="text-primary w-75">
                       
                         <span class="text-dark">
-                        Select the Writer
+                        Select The Writer
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                     Go through the list of our professional writers and select the one that suits your expectations.                     </span>
+                     Go Through The List Of Our Professional Writers And Select The One That Suits Your Expectations.                     </span>
                   </p>
                </div>
             </div>
@@ -286,7 +286,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                     Before depositing the amount, make sure you are satisfied with our Online Essay Writing Services and then proceed.
+                     Before Depositing The Amount, Make Sure You Are Satisfied With Our Online Essay Writing Services And Then Proceed.
                      </span>
                   </p>
                </div>
@@ -309,13 +309,13 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                   <h5 class="text-primary w-75">
                       
                         <span class="text-dark">
-                        Revise and Release
+                        Revise And Release
                         </span>
                      </strong>
                   </h5>
                   <p class="text-dark">
                      <span class="text-dark">
-                     Read the paper carefully and then release the payment to the writer. If you want, you can also ask the writer to make any edits.
+                     Read The Paper Carefully And Then Release The Payment To The Writer. If You Want, You Can Also Ask The Writer To Make Any Edits.
 
                      </span>
                   </p>
@@ -347,16 +347,16 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                            <ul class="sz_ul">
                                        <li class="pd_ul">Essay Writing</li>
                                        <li class="pd_ul">Homework Writing</li>
-                                       <li class="pd_ul">Dissertation writing</li>
-                                       <li class="pd_ul">Thesis writing</li>
-                                       <li class="pd_ul">Accounting Economics and Business related assignments</li>
+                                       <li class="pd_ul">Dissertation Writing</li>
+                                       <li class="pd_ul">Thesis Writing</li>
+                                       <li class="pd_ul">Accounting Economics And Business Related Assignments</li>
                            </ul>
                         </div>
                         <div class="col-md-6">
                            <ul class="sz_ul">
-                                       <li class="pd_ul">Mathematics help</li>
-                                       <li class="pd_ul">Computer science-related assignments</li>
-                                       <li class="pd_ul">Physics helps</li>
+                                       <li class="pd_ul">Mathematics Help</li>
+                                       <li class="pd_ul">Computer Science-Related Assignments</li>
+                                       <li class="pd_ul">Physics Helps</li>
                                        <li class="pd_ul">Literature Review Writing</li>
                                        
                                        <li class="pd_ul">Coursework Writing</li>

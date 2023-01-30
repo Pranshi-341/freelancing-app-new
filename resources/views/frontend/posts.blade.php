@@ -23,7 +23,7 @@
         @include('layouts.navbar')
         <div class="col-md-12 mt-5 head-part text-white">
             <h2 class="h1_tag_style">Welcome to Essay Sages</h2>
-            <p class="w-50 text-center">where our acclaimed client’s assignments and tasks are meticulously done We have a great deal to offer so please take your time to browse our website to discover more about us and what we offer</p>
+            <p class="w-50 text-center">Where Our Acclaimed Client’s Assignments And Ttasks Are Meticulously Done We Have a Great Deal To Offer So Please Take Your Time To Browse Our Website To Discover More About Us And What We Offer</p>
             <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
                 <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
                 <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />24/7 on Demand</div>
@@ -42,13 +42,13 @@
                       <table id="example1" class="table mb-0 w-p100">
                         <thead>
                             <tr>
-                                <th>subject</th>
-                                <th>topic</th>
-                                <th>deadline</th>
-                                <th>instructions</th>
+                                <th>Subject</th>
+                                <th>Topic</th>
+                                <th>Deadline</th>
+                                <th>Instructions</th>
                                 <th>Price To Paid</th>
-                                <th>status</th>
-                                <th>action</th>
+                                <th>Status</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -76,14 +76,14 @@
                                     {{-- add button accept order --}}
                                     @if(!$post['bidPost'])
                                         @if($post['status'] == 0)
-                                            <button disabled class="btn-sm  btn-success btn-sm  ">Accept Order</button>
+                                            <button disabled class="btn-sm  btn-success btn-sm " style="width:115px;">Accept Order</button>
                                         @endif
                                     @else
                                     @if($post['bidPost'][0]['status'] == 0)
-                                        <button type="button" data-toggle="modal" data-target="#payment_popup" id="popup" name="id" value="{{$post['bidPost'][0]['id']}}" class="btn-success btn-sm   price_get">Accept Order</button>
+                                        <button type="button" data-toggle="modal" data-target="#payment_popup" id="popup" name="id" value="{{$post['bidPost'][0]['id']}}" class="btn-success btn-sm price_get" style="width:115px;">Accept Order</button>
                                         
                                     @else
-                                        <button disabled class="btn-sm  btn-success btn-sm ">Order accepted</button>
+                                        <button disabled class="btn-sm  btn-success btn-sm " >Order Accepted</button>
                                     @endif
                                     @endif
                                     {{-- add button view order --}}
@@ -92,21 +92,21 @@
                                 <td>
                                     @if(!$post['bidPost'])
                                         @if($post['status'] == 0)
-                                            <span class="badge bg-warning badge-warning">no bid yet</span>
+                                            <span class="badge bg-warning badge-warning">No Bid Yet</span>
                                         @endif
                                     @else
                                     @if($post['bidPost'][0]['status'] == 0)
                                         <span class="badge bg-warning badge-warning">Waiting for Accepted</span>
                                     @elseif($post['bidPost'][0]['status'] == 1)
-                                        <span class="badge bg-success badge-success">accepted</span>
+                                        <span class="badge bg-success badge-success">Accepted</span>
                                     @elseif($post['bidPost'][0]['status'] == 2)
-                                        <span class="badge badge-danger">rejected</span>
+                                        <span class="badge badge-danger">Rejected</span>
                                     @elseif($post['bidPost'][0]['status'] == 3)
-                                        <span class="badge badge-warning">in progress</span>
+                                        <span class="badge badge-warning">In Progress</span>
                                     @elseif($post['bidPost'][0]['status'] == 4)
-                                        <span class="badge badge-success">completed</span>
+                                        <span class="badge badge-success">Completed</span>
                                     @elseif($post['bidPost'][0]['status'] == 5)
-                                        <span class="badge badge-danger">cancelled</span>
+                                        <span class="badge badge-danger">Cancelled</span>
                                     @endif
                                     @endif
                                 </td>

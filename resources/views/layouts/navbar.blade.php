@@ -36,7 +36,7 @@
         position: relative;
         z-index: 1;
         width: 100%;
-        text-align: center;
+        
        
     }
   .less-padding{
@@ -153,17 +153,17 @@ window.onscroll = function() {myFunction()};
           </a>
           <div class="dropdown-double">
             <ul class="dropdown-men w-75 text-wrap text-break" aria-labelledby="navbarDropdown" style="list-style:none;">
-              <li><a class="dropdown-item" href="/help/essaywrite">Essay writing</a></li>
+              <li><a class="dropdown-item" href="/help/essaywrite">Essay Writing</a></li>
               <li><a class="dropdown-item" href="/help/homework">Homework Writing</a></li>
-              <li><a class="dropdown-item" href="/help/dissertation">Dissertation writing</a></li>
-              <li><a class="dropdown-item" href="/help/thesis">Thesis writing</a></li>
+              <li><a class="dropdown-item" href="/help/dissertation">Dissertation Writing</a></li>
+              <li><a class="dropdown-item" href="/help/thesis">Thesis Writing</a></li>
               <li><a class="dropdown-item" href="/help/literature">Literature Review Writing</a></li>
-              <li><a class="dropdown-item" href="/help/maths">Mathematics help</a></li>
-              <li><a class="dropdown-item" href="/help/computer-science">Computer science-related assignments</a></li>
-              <li><a class="dropdown-item" href="/help/physics">Physics helps</a></li>
+              <li><a class="dropdown-item" href="/help/maths">Mathematics Help</a></li>
+              <li><a class="dropdown-item" href="/help/computer-science">Computer Science-Related Assignments</a></li>
+              <li><a class="dropdown-item" href="/help/physics">Physics Helps</a></li>
               <li><a class="dropdown-item" href="/help/history">History Assignment Help</a></li>
               <li><a class="dropdown-item" href="/help/coursework">Coursework Writing</a></li>
-              <li><a class="dropdown-item" href="/help/book-report">Book-report Writing</a></li>
+              <li><a class="dropdown-item" href="/help/book-report">Book-Report Writing</a></li>
             </ul>
           </div>
         </div>
@@ -195,7 +195,7 @@ window.onscroll = function() {myFunction()};
       @else
       {{-- check auth --}}
       @if(Auth::user()->registerType == 1)
-        <a class="btn-sm btn-warning my-2 " type="submit" href="/posts" >Your publish jobs</a>
+        <a class="btn-sm btn-warning my-2 " type="submit" href="/posts" >Your Publish Jobs</a>
         <a class="btn-sm btn-warning my-2 mx-2" type="submit" href="/order-now" >Order Now</a>
         <a class="btn-sm btn-warning my-2 my-sm-0" type="submit" href="{{ route('signout') }}" >Signout</a>
       @elseif(Auth::user()->registerType == 2)
