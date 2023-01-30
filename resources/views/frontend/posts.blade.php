@@ -83,7 +83,7 @@
                                         <button type="button" data-toggle="modal" data-target="#payment_popup" id="popup" name="id" value="{{$post['bidPost'][0]['id']}}" class="btn-success btn-sm   price_get">Accept Order</button>
                                         
                                     @else
-                                        <button disabled class="btn-sm  btn-success btn-sm ">Order accepted</button>
+                                        <button disabled class="btn btn-success btn-sm">Order accepted</button>
                                     @endif
                                     @endif
                                     {{-- add button view order --}}
@@ -98,7 +98,8 @@
                                     @if($post['bidPost'][0]['status'] == 0)
                                         <span class="badge bg-warning badge-warning">Waiting for Accepted</span>
                                     @elseif($post['bidPost'][0]['status'] == 1)
-                                        <span class="badge bg-success badge-success">accepted</span>
+                                        <!-- <span class="badge bg-success badge-success">accepted</span> -->
+                                        <button class="btn btn-success btn-sm">Chat</button>
                                     @elseif($post['bidPost'][0]['status'] == 2)
                                         <span class="badge badge-danger">rejected</span>
                                     @elseif($post['bidPost'][0]['status'] == 3)
