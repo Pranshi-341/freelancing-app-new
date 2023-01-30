@@ -98,7 +98,7 @@
                                     @if($post['bidPost'][0]['status'] == 0)
                                         <span class="badge bg-warning badge-warning">Waiting for Accepted</span>
                                     @elseif($post['bidPost'][0]['status'] == 1)
-                                        <span class="badge bg-success badge-success">Accepted</span>
+                                        <span class="badge bg-success badge-success">accepted</span>
                                     @elseif($post['bidPost'][0]['status'] == 2)
                                         <span class="badge badge-danger">Rejected</span>
                                     @elseif($post['bidPost'][0]['status'] == 3)

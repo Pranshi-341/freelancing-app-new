@@ -7,7 +7,7 @@
                 </li>
             </ul>
         </div>
-        &copy; 2022 <a href="https://www.multipurposethemes.com/">Technical Writers</a>. All Rights Reserved.
+        &copy; 2022 <a href="https://www.multipurposethemes.com/">Essay Sages</a>. All Rights Reserved.
     </footer>
 <!-- ./side demo panel -->
 <!-- <div class="sticky-toolbar">

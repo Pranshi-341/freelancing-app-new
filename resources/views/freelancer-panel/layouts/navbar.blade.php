@@ -9,7 +9,7 @@
             <a href="/" class="logo">
                 <!-- logo-->
                 <div class="logo-lg">
-                    <span>Technical Writers</span>
+                    <span>Essay Sages</span>
                     <!-- <span class="light-logo"><img src="{{asset('/admin/images/logo-dark-text.png')}}" alt="logo"></span> -->
                     <!-- <span class="dark-logo"><img src="{{asset('/admin/images/logo-light-text.png')}}" alt="logo"></span> -->
                 </div>
