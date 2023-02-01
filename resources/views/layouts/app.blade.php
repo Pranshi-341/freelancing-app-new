@@ -114,6 +114,10 @@
     padding-right: 35px;
   }
 
+  .ip_box {
+    width:inherit;
+  }
+
     </style>
 </head>
 

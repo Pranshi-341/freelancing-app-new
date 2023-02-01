@@ -218,6 +218,9 @@
                               <h5 class="card-title">{{ $writers->name }}</h5>
                               <p class="card-text">{{ $writers->skills }}</p>
                            </div>
+                              <p class="card-text" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
+                              <p class="card-text" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
+                           
                         </div>
                      </div>
                   </div>

@@ -190,8 +190,9 @@ window.onscroll = function() {myFunction()};
       <!-- login button -->
       <!-- <button class="btn-sm btn-warning my-2 my-sm-0" type="submit">Login</button> -->
       @guest
-      <a class="btn-sm btn-warning my-2 mx-2" type="submit" href="{{ route('login') }}" >Login</a>
-      <a class="btn-sm btn-warning my-2 my-sm-0" type="submit" href="{{ route('register-user') }}" >Register</a>
+      
+      <a class="btn-sm btn-warning my-2 mx-2" data-toggle="modal" data-target="#contact_modal" id="popup" href="{{ route('login') }}" >Login</a>
+      <a class="btn-sm btn-warning my-2 my-sm-0" data-toggle="modal" data-target="#register_modal" id="popup" href="{{ route('register-user') }}" >Register</a>
       @else
       {{-- check auth --}}
       @if(Auth::user()->registerType == 1)
@@ -205,4 +206,132 @@ window.onscroll = function() {myFunction()};
     </div>
   </div>
 </nav>
+<div class="modal" id="contact_modal" tabindex="-1" role="dialog" style="padding-top:70px;" aria-hidden="true">
+	<div class="modal-dialog modal-sm " role="document">
+		<div class="modal-content">
+			<div class="modal-header" style="background-image: linear-gradient(to right, #bad9b0, #84aea4, #368483, #228384, #4e6f83);">
+				<div class="col-md-12">
+					<h5 style="text-align:center; color:white;">Sign In</h5>
+				</div>
+				
+			</div>
+			<form method="post" enctype="multipart/form-data" id="popup_block" action="{{ route('login.custom') }}">
+      <input type="hidden" name="_token" value="{{ csrf_token() }}">
+          <div style="text-align: left;">
+            <div class="col-md-12" style="padding-top:10px; ">
+                <label for="email" style="display: flex; flex-direction: column;">Email</label>
+                <input type="text" placeholder="Email" id="email" class="ip_box" name="email" required
+                    autofocus>
+                @if ($errors->has('email'))
+                <span class="text-danger">{{ $errors->first('email') }}</span>
+                @endif
+            </div>
+            <div class="col-md-12" style="padding-top:10px;">
+                <label for="password" style="display: flex; flex-direction: column;">Password</label>
+                <input type="password" placeholder="Password" id="password" class="ip_box" name="password" required>
+                @if ($errors->has('password'))
+                <span class="text-danger">{{ $errors->first('password') }}</span>
+                @endif
+            </div>
+            <div class="col-md-12" style="padding-top:10px;">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="remember"> Remember Me
+                    </label>
+                </div>
+            
+                <button type="submit" class="btn-sm" style="background-image: linear-gradient(to right, #84aea4, #368483); color:white;">Sign In</button>
+            </div>
+          </div>
+			</form>
+			
+		</div>
+	</div>
+</div>
+<!-- Registration page -->
+<div class="modal" id="register_modal" tabindex="-1" role="dialog" style="padding-top:70px;" aria-hidden="true">
+	<div class="modal-dialog modal-sm" role="document">
+		<div class="modal-content">
+			<div class="modal-header" style="background-image: linear-gradient(to right, #bad9b0, #84aea4, #368483, #228384, #4e6f83);">
+				<div class="col-md-12">
+					<h5 style="text-align:center; color:white;">Sign Up</h5>
+				</div>
+				
+			</div>
+			<form method="post" enctype="multipart/form-data" id="popup_block" action="{{ route('register.custom') }}">
+    			@csrf
+          <div class="col-md-12" style="text-align:left;">
+            <div class="col-md-12" style="padding-top:10px;">
+                <label for="name" style="display: flex; flex-direction: column;">Name</label>
+                <input type="text" placeholder="Name" id="name" class="ip_box" name="name" required autofocus>
+                @if ($errors->has('name'))
+                <span class="text-danger">{{ $errors->first('name') }}</span>
+                @endif
+            </div>
+            <div class="col-md-12" style="padding-top:10px;">
+                <label for="email" style="display: flex; flex-direction: column;">Email</label>
+                <input type="text" placeholder="Email" id="email_address" class="ip_box" name="email" required autofocus>
+                @if ($errors->has('email'))
+                <span class="text-danger">{{ $errors->first('email') }}</span>
+                @endif
+            </div>
+            <div class="col-md-12" style="padding-top:10px;">
+                <label for="password" style="display: flex; flex-direction: column;">Password</label>
+                <input type="password" placeholder="Password" id="password" class="ip_box" name="password" required>
+                @if ($errors->has('password'))
+                <span class="text-danger">{{ $errors->first('password') }}</span>
+                @endif
+            </div>
+</div>
+            {{-- radio button for check register typr --}}
+            <div class="col-md-12" style="padding-top:10px; margin-left:15px;">
+                <div>
+                    <input type="radio" name="registerType" id="exampleRadios1"
+                        value="1" checked>
+                    <label for="exampleRadios1">
+                        User
+                    </label>
+                </div>
+                <div>
+                    <input type="radio" name="registerType" id="exampleRadios2"
+                        value="2">
+                    <label for="exampleRadios2">
+                        Writer
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-12" style="text-align:left;">
+            <div class="col-md-12">
+              <input type="text"  name="skills" id="skills" placeholder="Skills" style="display:none;">
+            </div>
+
+            <div class="col-md-12" style="padding-top:10px;">
+                <input type="text"  name="price" id="price" placeholder="Price" style="display:none;">                                
+            </div>
+            
+            <div class="col-md-12" style="padding-top:10px;">
+                <div class="checkbox">
+                    <label><input type="checkbox" name="remember"> Remember Me</label>
+                </div>
+            </div>
+            <div class="col-md-12" style="padding-top:10px;">
+                <button type="submit" class="btn-sm" style="background-image: linear-gradient(to right, #84aea4, #368483); color:white;">Sign up</button>
+            </div>
+          </div>
+			</form>
+			
+		</div>
+	</div>
+</div>
 </header>
+<script>
+	
+	$("#exampleRadios2").on('click', function(){
+		$('#skills').show();
+        $('#price').show();
+	});
+	$("#exampleRadios1").on('click', function(){
+		$('#skills').hide();
+        $('#price').hide();
+	});
+</script>
