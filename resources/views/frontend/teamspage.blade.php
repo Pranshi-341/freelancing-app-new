@@ -90,7 +90,7 @@
          <h1 class="h1_tag_style">{{$title}}</h1>
          <p class="w-50 text-center">{{$topline}}</p>
         
-         <p style="color: #ffc107;">{{$bottomline}}</p>
+         <p style="color: #2e2221;">{{$bottomline}}</p>
          <div class="col-md-8 mt-5 mb-5 row d-flex justify-content-between ">
             <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Quick Service</div>
             <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Professional Writing Expert</div>

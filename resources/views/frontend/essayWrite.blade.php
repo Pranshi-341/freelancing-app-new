@@ -94,7 +94,7 @@
          <h1 class="h1_tag_style">Hey Essay Sages! Write My Essay For Me</h1>
          <p class="w-50 text-center">{{$topline}}</p>
          
-         <p style="color: #ffc107;">Make your order and get our assistance now!</p>
+         <p style="color: #2e2221;">Make your order and get our assistance now!</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
             <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Academic Essay Writers"/>Hassle-Free Order Process</div>
             <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Hire Essay Writers"/>Qualified Writing Experts</div>

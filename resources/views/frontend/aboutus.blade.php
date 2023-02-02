@@ -40,7 +40,7 @@ $('#show-less').click(function(){
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          <h1 class="h1_tag_style">{{ $title }}</h1>
-         <h2><p style="color: #ffc107; font-size:20px;">{{$bottomline}}</p></h2>
+         <h2><p style="color: #2e2221; font-size:20px;">{{$bottomline}}</p></h2>
       </div>
    </div>
 </div>
