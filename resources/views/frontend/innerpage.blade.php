@@ -84,7 +84,7 @@
          <h1>{{$title}}</h1>
          <p class="w-50 text-center">{{$topline}}</p>
          
-         <p style="color: #ffc107;">{{$bottomline}}</p>
+         <p style="color: #2e2221;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
             <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
             <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />24/7 on Demand</div>

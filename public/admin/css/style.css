@@ -9907,7 +9907,8 @@ Width property
   max-width: 40px !important; }
 
 .w-50 {
-  width: 50px !important; }
+  width: 50px !important;
+  font: 16px Roboto,sans-serif !important; }
 
 .min-w-50 {
   min-width: 50px !important; }

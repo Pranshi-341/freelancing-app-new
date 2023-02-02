@@ -18,7 +18,7 @@
       <div class="col-md-12 mt-5 head-part text-white">
          <h2 class="h1_tag_style">{{$title}}</h2>
          <p class="w-50 text-center">{{$topline}}</p>
-         <p style="color: #ffc107;">{{$bottomline}}</p>
+         <p style="color: #2e2221;">{{$bottomline}}</p>
       </div>
    </div>
 </div>

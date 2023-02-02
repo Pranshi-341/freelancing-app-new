@@ -238,7 +238,7 @@ conn.onmessage = function(e){
 			{
 				if(data.data[count].status == 'Pending')
 				{
-					html += '<button type="button" name="send_request" class="btn btn-warning btn-sm float-end">Request Send</button>';
+					html += '<button type="button" name="send_request" class="btn btn-dark btn-sm float-end">Request Send</button>';
 				}
 				else
 				{
@@ -607,7 +607,7 @@ function make_chat_area(user_id, to_user_name)
 	<div id="chat_history"></div>
 	<div class="input-group mb-3">
 		<div id="message_area" class="form-control" contenteditable style="min-height:125px; border:1px solid #ccc; border-radius:5px;"></div>
-		<label class="btn btn-warning" style="line-height:125px;">
+		<label class="btn btn-dark" style="line-height:125px;">
 			<i class="fas fa-upload"></i> <input type="file" id="browse_image" onchange="upload_image()" hidden />
 		</label>
 		<button type="button" class="btn btn-success" id="send_button" onclick="send_chat_message()"><i class="fas fa-paper-plane"></i></button>

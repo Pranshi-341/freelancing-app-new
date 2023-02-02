@@ -59,9 +59,11 @@
       }
 
       .h1_tag_style {
-        padding-top: 30px;
-        padding-bottom:35px; 
-        font-size: 50px;
+        padding-top: 3rem;
+    padding-bottom: 2rem;
+    
+    font:3.25rem Roboto,sans-serif;
+    
       }
 
       .free {
