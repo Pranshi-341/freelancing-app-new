@@ -119,11 +119,11 @@ class frontendController extends Controller
         Your time and efforts. No plagiarism, only high-quality content!";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
         $writers = DB::table('freelancers_writers')->get();
-        foreach($writers as $writers){
-            $skills = json_decode($writers->skills);
-            $name[] = $writers->name;    
+        foreach($writers as $writer){
+            $skills = json_decode($writer->skills);
+            
         }
-        return view('frontend.teamspage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ]);
+        return view('frontend.teamspage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'skills' => $skills])->with('writers',$writers);
     }
 
     function ProfessionalWriters(){

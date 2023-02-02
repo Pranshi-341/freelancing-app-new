@@ -28,7 +28,7 @@
 										@if ($item->budget == null)
 											{{ 'Not Specified' }}
 										@else
-											{{ $item->budget }}
+											{{ $item->budget - ($item->budget * 0.25) }}
 										@endif
 									</h4>
 									<p>

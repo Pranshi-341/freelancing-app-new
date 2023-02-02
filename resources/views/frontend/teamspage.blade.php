@@ -90,7 +90,7 @@
          <h1 class="h1_tag_style">{{$title}}</h1>
          <p class="w-50 text-center">{{$topline}}</p>
         
-         <p style="color: #2e2221;">{{$bottomline}}</p>
+         <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="col-md-8 mt-5 mb-5 row d-flex justify-content-between ">
             <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Quick Service</div>
             <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Professional Writing Expert</div>
@@ -110,43 +110,47 @@
                   Your time and efforts. No plagiarism, only high-quality content!
                 </p>
       </div>
-      <div class="row">
-            
-            
-      @foreach($name as $name)
-            <div class="col-md-4 cs" >
-                  <div class="card shadow-md">
-                     <div class="card-body">
-                        <div class="row">
-                           <div class="col-md-4">
-                              <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" />
-                           </div>
-                           <div class="col-md-8">
-                              
-                                 <h5 class="card-title">{{ $name }}</h5>
-                                 
-                                 <div class="" style="font: 15px Roboto,sans-serif; display:flex;">
-                                 @foreach($skills as $skill)
-                                    <p class="card-text">{{ $skill }},</p>
+      <div class="row" style="width:90%; border:1px solid black; margin-left: 5%;">
+              <div class="box">
+                <div class="box-body">
+                  <div class="table-responsive">
+                    <table id="example1" class="table mb-0 w-p100">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Skills</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                            @foreach($writers as $writer)
+                                <tr>
+                                    <td>{{ $writer->name }}</td>
+                                    <td>
+                                    @foreach($skills as $skill)
+                                      {{ $skill }},
                                     @endforeach
-                              </div>
-                              
-                              
-                           </div>
-                              <p class="card-text" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
-                              <p class="card-text" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
-                           
-                        </div>
-                     </div>
-                  </div>
+                                    </td>
+                                    
+                                    <td>{{ $writer->price }}</td>
+                                    <td>
+                                      <a class="btn-sm btn-primary" href="order-now" style="background-color:#343a40;">Hire</a>
+                                    </td>
+                                    
+                                </tr>
+                                @endforeach
+                    </tbody>              
+                  </table>
+                  </div>              
+                </div>
+                <!-- /.box-body -->
+                </div>
             </div>
-            @endforeach
-            
-            
-         </div>
+      
    </div>
 </div>
-<div class="row p-5">
+<div class="row ">
    <div class="col-md-12 my-3">
       
          <h2 class="text-center pd_feature">

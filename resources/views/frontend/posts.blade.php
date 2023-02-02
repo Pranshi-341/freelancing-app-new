@@ -69,7 +69,8 @@
                                     @if(!$post['bidPost'])
                                         <input type="text" value="{{$post['budget']}}" class="pay_price">
                                     @else
-                                        <input type="text" value="{{$post['bidPost'][0]['bid_amount']}}" class="pay_price">
+                                    
+                                        <input type="text" value="{{ $post['bidPost'][0]['bid_amount'] + ($post['bidPost'][0]['bid_amount'] * 0.25) }}" class="pay_price">
                                     @endif
                                 </td>
                                 <td>
