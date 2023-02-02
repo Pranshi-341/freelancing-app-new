@@ -5,6 +5,7 @@ use Hash;
 use Session;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Response;
 use App\Models\freelancers_writers;
 class CustomAuthController extends Controller
 {
@@ -24,19 +25,28 @@ class CustomAuthController extends Controller
         if (Auth::attempt($credentials)) {
             if( Auth::user()->registerType == 1 )
             {
-                return redirect()->intended('dashboard')
-                ->withSuccess('Signed in');
+                $message = array('success' => '1', 'message' => 'Logged In');
+                return response()->json($message);
+                //return redirect()->intended('dashboard')
+                //->withSuccess('Signed in');
             }
             elseif( Auth::user()->registerType == 2 )
             {
-                return redirect()->intended('freelancer-panel')
-                ->withSuccess('Signed in');
+                $message = array('success' => '2', 'message' => 'Logged In');
+                return response()->json($message);
+                //return redirect()->intended('freelancer-panel')
+                //->withSuccess('Signed in');
             }
             elseif( Auth::user()->registerType == 3 )
             {
-                return redirect()->intended('admin-panel')
-                ->withSuccess('Signed in');
+                $message = array('success' => '3', 'message' => 'Logged In');
+                return response()->json($message);
+                //return redirect()->intended('admin-panel')
+                //->withSuccess('Signed in');
             }
+        }else{
+            $message = array("success" => '0', 'message' => 'Email Password Doesnt Match');
+            return response()->json($message);
         }
   
         return redirect("login")->withSuccess('Login details are not valid');
@@ -63,7 +73,7 @@ class CustomAuthController extends Controller
             $check->name = $data['name'];
             $check->email = $data['email'];
             $check->password = Hash::make($data['password']);
-            $check->skills = $data['skills'];
+            $check->skills = json_encode($data['skills']);
             $check->price = $data['price'];
             $check->save();
         }

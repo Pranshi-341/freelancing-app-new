@@ -215,16 +215,16 @@ window.onscroll = function() {myFunction()};
 				</div>
 				
 			</div>
-			<form method="post" enctype="multipart/form-data" id="popup_block" action="{{ route('login.custom') }}">
+			<form method="post" enctype="multipart/form-data" id="login_page" action="{{ route('login.custom') }}">
       <input type="hidden" name="_token" value="{{ csrf_token() }}">
           <div style="text-align: left;">
             <div class="col-md-12" style="padding-top:10px; ">
                 <label for="email" style="display: flex; flex-direction: column;">Email</label>
                 <input type="text" placeholder="Email" id="email" class="ip_box" name="email" required
                     autofocus>
-                @if ($errors->has('email'))
-                <span class="text-danger">{{ $errors->first('email') }}</span>
-                @endif
+                
+                <span id="error_div" class="text-danger">{{ $errors->first('email') }}</span>
+                
             </div>
             <div class="col-md-12" style="padding-top:10px;">
                 <label for="password" style="display: flex; flex-direction: column;">Password</label>
@@ -301,8 +301,20 @@ window.onscroll = function() {myFunction()};
                 </div>
             </div>
             <div class="col-md-12" style="text-align:left;">
-            <div class="col-md-12">
-              <input type="text"  name="skills" id="skills" placeholder="Skills" style="display:none;">
+            <div class="col-md-12" id="skills" style="display:none;">
+                <select class="multi_select" name="skills[]" multiple="multiple">
+                  <option value="English">English</option>
+                  <option value="Physics">Physics</option>
+                  <option value="Mathematics">Mathematics</option>
+                  <option value="Chemistry">Chemistry</option>
+                  <option value="Computer-Science">Computer-Science</option>
+                  <option value="History">History</option>
+                  <option value="Economics">Economics</option>
+                  <option value="Enviromental Issues">Enviromental Issues</option>
+                  <option value="Law And Legal Issues">Law And Legal Issues</option>
+                  <option value="Buissness and Entrepreneurship">Buissness and Entrepreneurship</option>
+                  <option value="Psychology">Psychology</option>
+                </select>
             </div>
 
             <div class="col-md-12" style="padding-top:10px;">
@@ -325,7 +337,15 @@ window.onscroll = function() {myFunction()};
 </div>
 </header>
 <script>
-	
+  $('.multi_select').select2({
+        dropdownAutoWidth: 'true',
+        maximumSelectionLength: 5,
+        multiple: true
+    });
+  
+	$(document).ready(function(){
+    
+
 	$("#exampleRadios2").on('click', function(){
 		$('#skills').show();
         $('#price').show();
@@ -334,4 +354,36 @@ window.onscroll = function() {myFunction()};
 		$('#skills').hide();
         $('#price').hide();
 	});
+});
+$('#login_page').submit(function(e) {
+  e.preventDefault();
+  let formData = new FormData(this);
+
+  $.ajax({
+    type: 'POST',
+    url: "{{ route('login.custom') }}",
+    data: formData,
+    processData: false,
+    contentType: false,
+    success: function (response) {
+      
+      if(response.success == 0) {
+        var error = response.message;
+        $("#error_div").html(error);  
+      } else if (response.success == 2) {
+        window.location.href = '/freelancer-panel';
+      } else if (response.success == 3) {
+        window.location.href = '/admin-panel';
+      } else {
+        window.location.href = '/';
+      }
+      //
+    },
+    error: function (error) {
+      let errors = error.responseJSON.message;
+      $("#error_div").html(errors);
+      
+    }
+  });
+});
 </script>

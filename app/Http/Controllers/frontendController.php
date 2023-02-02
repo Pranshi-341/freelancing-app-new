@@ -144,7 +144,12 @@ function AboutUs(){
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
         $writers = DB::table('freelancers_writers')->get();
-        return view('frontend.essayWrite',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ])->with('writers',$writers);
+        foreach($writers as $writers){
+            $skills = json_decode($writers->skills);
+            $name[] = $writers->name;    
+        }
+        
+        return view('frontend.essayWrite',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ]);
     } 
 
     function ResearchPaper(){
