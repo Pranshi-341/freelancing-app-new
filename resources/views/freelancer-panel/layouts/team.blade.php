@@ -33,7 +33,7 @@
 							<a href="#" class="btn btn-circle mb-5 btn-facebook"><i class="fa fa-facebook"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-instagram"><i class="fa fa-instagram"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="btn btn-circle mb-5 btn-warning"><i class="fa fa-envelope"></i></a>				
+							<a href="#" class="btn btn-circle mb-5 btn-dark"><i class="fa fa-envelope"></i></a>				
 						</div>
 					  <div class="text-center">
 						<h3 class="my-10"><a href="#">Tristan</a></h3>
@@ -57,7 +57,7 @@
 							<a href="#" class="btn btn-circle mb-5 btn-facebook"><i class="fa fa-facebook"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-instagram"><i class="fa fa-instagram"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="btn btn-circle mb-5 btn-warning"><i class="fa fa-envelope"></i></a>				
+							<a href="#" class="btn btn-circle mb-5 btn-dark"><i class="fa fa-envelope"></i></a>				
 						</div>
 						<h3 class="my-10"><a href="#">Sophia</a></h3>
 						<h6 class="user-info mt-0 mb-10 text-fade">Sales Manager</h6>
@@ -80,7 +80,7 @@
 							<a href="#" class="btn btn-circle mb-5 btn-facebook"><i class="fa fa-facebook"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-instagram"><i class="fa fa-instagram"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="btn btn-circle mb-5 btn-warning"><i class="fa fa-envelope"></i></a>				
+							<a href="#" class="btn btn-circle mb-5 btn-dark"><i class="fa fa-envelope"></i></a>				
 						</div>
 						<h3 class="my-10"><a href="#">Jacob</a></h3>
 						<h6 class="user-info mt-0 mb-10 text-fade">Operation Manager</h6>
@@ -102,7 +102,7 @@
 							<a href="#" class="btn btn-circle mb-5 btn-facebook"><i class="fa fa-facebook"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-instagram"><i class="fa fa-instagram"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="btn btn-circle mb-5 btn-warning"><i class="fa fa-envelope"></i></a>				
+							<a href="#" class="btn btn-circle mb-5 btn-dark"><i class="fa fa-envelope"></i></a>				
 						</div>
 						<h3 class="my-10"><a href="#">Isabella</a></h3>
 						<h6 class="user-info mt-0 mb-10 text-fade">Machine Instrument</h6>
@@ -125,7 +125,7 @@
 							<a href="#" class="btn btn-circle mb-5 btn-facebook"><i class="fa fa-facebook"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-instagram"><i class="fa fa-instagram"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="btn btn-circle mb-5 btn-warning"><i class="fa fa-envelope"></i></a>				
+							<a href="#" class="btn btn-circle mb-5 btn-dark"><i class="fa fa-envelope"></i></a>				
 						</div>
 						<h3 class="my-10"><a href="#">Emma</a></h3>
 						<h6 class="user-info mt-0 mb-10 text-fade">Advertising Intern</h6>
@@ -147,7 +147,7 @@
 							<a href="#" class="btn btn-circle mb-5 btn-facebook"><i class="fa fa-facebook"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-instagram"><i class="fa fa-instagram"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="btn btn-circle mb-5 btn-warning"><i class="fa fa-envelope"></i></a>				
+							<a href="#" class="btn btn-circle mb-5 btn-dark"><i class="fa fa-envelope"></i></a>				
 						</div>
 						<h3 class="my-10"><a href="#">William</a></h3>
 						<h6 class="user-info mt-0 mb-10 text-fade">Project Coordinator</h6>
@@ -169,7 +169,7 @@
 							<a href="#" class="btn btn-circle mb-5 btn-facebook"><i class="fa fa-facebook"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-instagram"><i class="fa fa-instagram"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="btn btn-circle mb-5 btn-warning"><i class="fa fa-envelope"></i></a>				
+							<a href="#" class="btn btn-circle mb-5 btn-dark"><i class="fa fa-envelope"></i></a>				
 						</div>
 						<h3 class="my-10"><a href="#">Tristan</a></h3>
 						<h6 class="user-info mt-0 mb-10 text-fade">Layout Expert</h6>
@@ -191,7 +191,7 @@
 							<a href="#" class="btn btn-circle mb-5 btn-facebook"><i class="fa fa-facebook"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-instagram"><i class="fa fa-instagram"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="btn btn-circle mb-5 btn-warning"><i class="fa fa-envelope"></i></a>				
+							<a href="#" class="btn btn-circle mb-5 btn-dark"><i class="fa fa-envelope"></i></a>				
 						</div>
 						<h3 class="my-10"><a href="#">Michael</a></h3>
 						<h6 class="user-info mt-0 mb-10 text-fade">Interior Architect</h6>
@@ -213,7 +213,7 @@
 							<a href="#" class="btn btn-circle mb-5 btn-facebook"><i class="fa fa-facebook"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-instagram"><i class="fa fa-instagram"></i></a>
 							<a href="#" class="btn btn-circle mb-5 btn-twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="btn btn-circle mb-5 btn-warning"><i class="fa fa-envelope"></i></a>				
+							<a href="#" class="btn btn-circle mb-5 btn-dark"><i class="fa fa-envelope"></i></a>				
 						</div>
 						<h3 class="my-10"><a href="#">Sophia</a></h3>
 						<h6 class="user-info mt-0 mb-10 text-fade">Fashion Consultant</h6>

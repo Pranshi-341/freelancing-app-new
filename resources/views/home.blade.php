@@ -102,6 +102,7 @@
 <div class="row">
    <div class="col-md-12" style=" background-size:cover; background-image: url({{ asset('images/ddedd.png') }});">
       @include('layouts.navbar')
+      <div class="col-md-12">
       <div class="col-md-12 mt-5 head-part text-white">
          
             <h1 class="h1_tag_style">Welcome To Essay Sages</h1>
@@ -525,6 +526,8 @@ In any case, if you find the whole task inappropriate, which is impossible, you 
         </div>
         <a class="text-center moreless-button btn-sm btn-primary expertise-covers-v2__btn" href="">Read more</a>
         </div>
+        </div>
+        
       
            </div>
         </div>

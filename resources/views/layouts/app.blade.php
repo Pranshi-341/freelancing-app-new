@@ -58,8 +58,8 @@
       .h1_tag_style {
         padding-top: 3rem;
     padding-bottom: 2rem;
-    font-size: 5rem;
-    font: Roboto,sans-serif;
+    
+    font:3.25rem Roboto,sans-serif;
     
       }
 
