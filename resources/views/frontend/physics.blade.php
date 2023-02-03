@@ -9,86 +9,11 @@
 </head>
 
 @extends('layouts.app')
-<style>
-   .head-part {
-      /* background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp); */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-
-   .home-search-icon {
-      height: 3em;
-      width: 3em;
-   }
-   section.pricing {
-  background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF);
-}
-
-.pricing .card {
-  border: none;
-  border-radius: 1rem;
-  transition: all 0.2s;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-}
-
-.pricing hr {
-  margin: 1.5rem 0;
-}
-
-.pricing .card-title {
-  margin: 0.5rem 0;
-  font-size: 0.9rem;
-  letter-spacing: .1rem;
-  font-weight: bold;
-}
-
-.pricing .card-price {
-  font-size: 3rem;
-  margin: 0;
-}
-
-.pricing .card-price .period {
-  font-size: 0.8rem;
-}
-
-.pricing ul li {
-  margin-bottom: 1rem;
-}
-
-.pricing .text-muted {
-  opacity: 0.7;
-}
-
-.pricing .btn {
-  font-size: 80%;
-  border-radius: 5rem;
-  letter-spacing: .1rem;
-  font-weight: bold;
-  padding: 1rem;
-  opacity: 0.7;
-  transition: all 0.2s;
-}
-
-/* Hover Effects on Card */
-
-@media (min-width: 992px) {
-  .pricing .card:hover {
-    margin-top: -.25rem;
-    margin-bottom: .25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-  }
-}
-  .pricing .card:hover .btn {
-    /* opacity: 1; */
-  }
-</style>
 
 
 @section('content')
 <div class="row">
-<div class="col-md-12" style="background-size:cover; background-image: url({{ asset('images/ddedd.png') }});">
+<div class="col-md-12 bg-image"  >
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          <h1 class="h1_tag_style">{{$title}}</h1>

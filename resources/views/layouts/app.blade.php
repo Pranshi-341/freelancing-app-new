@@ -84,7 +84,12 @@
   .moretext {
     display: none;
   }
-
+  .bg-image
+{
+   background-image: url({{ asset('images/essaywriting.png') }});
+  
+  
+}
   .expertise-covers-v2__card-list-item {
     align-items: center;
    
