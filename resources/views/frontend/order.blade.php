@@ -47,7 +47,7 @@
 </style>
 @yield("wrip")
 <div class="row">
-<div class="col-md-12" style="background-size:cover; background-image: url({{ asset('images/ddedd.png') }});">
+<div class="col-md-12 bg-image"  >
         @include('layouts.navbar')
         <div class="col-md-12 mt-5 head-part text-white">
             <h2 class="h1_tag_style">Welcome to Essay Sages</h2>
