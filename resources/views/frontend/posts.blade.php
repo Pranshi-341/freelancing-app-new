@@ -1,3 +1,13 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Jobs Available</title>
+    <meta name="description" content=" Publish Jobs at Essay Sages and hire writers after checking the best and discounted deals.">
+   
+
+</head>
+
 @extends('layouts.app')
 @section('content')
 <head>

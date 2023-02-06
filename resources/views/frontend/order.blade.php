@@ -1,3 +1,13 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> Order Now</title>
+    <meta name="description" content=" Order Now at Essay Sages for Writing & Editing services and get the best writers real quick!">
+   
+
+</head>
+
 @extends('layouts.app')
 @section('content')
 <head>
