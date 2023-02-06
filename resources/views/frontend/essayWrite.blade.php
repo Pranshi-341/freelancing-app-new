@@ -13,22 +13,24 @@
 
 @section('content')
 <div class="row">
-   <div class="col-md-12 bg-image">
+<div class="col-md-12 my-3">
+   <img class=" bg-image">
+
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          <h1 class="h1_tag_style">Hey Essay Sages! Write My Essay For Me</h1>
-         <p class="w-50 text-center">{{$topline}}</p>
+         <p class="w-50 font fw-bold  text-center">{{$topline}}</p>
          
-         <p style="color: #2e2221;">Make your order and get our assistance now!</p>
+         <p class="font" style="color: #ffc107;">Make your order and get our assistance now!</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Academic Essay Writers"/>Hassle-Free Order Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Hire Essay Writers"/>Qualified Writing Experts</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Professional Essay Writer"/>On-Time Delivery</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Academic Essay Writers"/>Hassle-Free Order Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Hire Essay Writers"/>Qualified Writing Experts</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Professional Essay Writer"/>On-Time Delivery</div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="est Writing Service"/>24*7 Service Available</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Pay Someone To Do Your Essay"/>Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Online Help With Essay Writing"/>Plagiarism-Free Content </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="est Writing Service"/>24*7 Service Available</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Pay Someone To Do Your Essay"/>Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Online Help With Essay Writing"/>Plagiarism-Free Content </div>
             
          </div>
       </div>
@@ -36,7 +38,7 @@
 </div>
 <div class="row">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          What Do Our Customers Think About Our Essay Writing Service?
          </h2>
@@ -48,10 +50,10 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="Essay Writers" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Emma</h5>
+                  <h5 class="mb-3 font">Emma</h5>
                  
 
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      I am really very grateful that I found Essay Sages. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work.
 
@@ -70,9 +72,9 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="Thesis Writing" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Charlotte </h5>
+                  <h5 class="mb-3 font">Charlotte </h5>
                  
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great  Essay Writing Service.</strong>
 
@@ -91,9 +93,9 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Physics Help" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Brian Bakes</h5>
+                  <h5 class="mb-3 font">Brian Bakes</h5>
                  
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      The writing expert submitted the project very quickly. The quality he provided in my<b> Literature Review </b>Writing is just outstanding. I am really impressed. Thank you Essay Sages.
                   </p>
@@ -121,7 +123,7 @@
 </div>
 <div class="row" style="background-color: #fff ;">
    <div class="col-md-12" style="text-align: -webkit-center ;">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          Meet Our Services Writing Expert
          </h2>
@@ -140,11 +142,11 @@
                               <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" />
                            </div>
                            <div class="col-md-8">
-                              <h5 class="card-title">{{ $writers->name }}</h5>
-                              <p class="card-text">{{ $writers->skills }}</p>
+                              <h5 class="card-title font">{{ $writers->name }}</h5>
+                              <p class="card-text font">{{ $writers->skills }}</p>
                            </div>
-                              <p class="card-text" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
-                              <p class="card-text" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
+                              <p class="card-text font" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
+                              <p class="card-text font" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
                            
                         </div>
                      </div>
@@ -160,7 +162,7 @@
 </div>
 <div class="row " style="background-color: #fff ;">
    <div class="col-md-12 cs">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          4 Steps Of Our Essay Writing Services
 
@@ -174,7 +176,7 @@
                 align-items-center h-100">
                <div class="border border-info p-3 rounded-circle" style="height: 3.5em ;">&nbsp;1&nbsp;</div>
                <div class="d-flex flex-column w-75 p-3">
-                  <h5 class="text-primary w-75">
+                  <h5 class="text-primary w-75 font">
                       
                         <span class="text-dark">
                         Information Form
@@ -182,7 +184,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Enter all the project-related details in the form for a better understanding of our   Essay Writers.
                      </strong>
@@ -212,7 +214,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Go through the list of our professional writers and select the one that suits your expectations.                     </span>
                   </p>
@@ -234,7 +236,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Before depositing the amount, make sure you are satisfied with our  Online Essay Writing Services
                      </strong> and then proceed.
@@ -264,7 +266,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Read the <a href="https://en.wikipedia.org/wiki/Paper">paper</a> carefully and then release the payment to the writer. If you want, you can also ask the writer to make any edits.
 
@@ -279,7 +281,7 @@
 
 <div class="row">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          Professional Essay Writing Services Essay Sages Provides
 
@@ -295,7 +297,7 @@
                   <div class="row">
                   <h5 class="card-title pd_ul" style="text-align:center; font-size:32px;">Types of Essay</h5>
                         <div class="col-md-6">
-                           <ul class="sz_ul">
+                           <ul class="sz_ul font">
                                        <li class="pd_ul">Essay Writing</li>
                                        <li class="pd_ul">Homework Writing</li>
                                        <li class="pd_ul">Dissertation writing</li>
@@ -304,7 +306,7 @@
                            </ul>
                         </div>
                         <div class="col-md-6">
-                           <ul class="sz_ul">
+                           <ul class="sz_ul font">
                                        <li class="pd_ul">Mathematics help</li>
                                        <li class="pd_ul">Computer science-related assignments</li>
                                        <li class="pd_ul">Physics helps</li>
@@ -322,7 +324,7 @@
                <div class="card-body">
                   <div class="row">
                      
-                  <div class="expertise-covers-v2__card-inner">
+                  <div class="expertise-covers-v2__card-inner font">
                         <h4 class="card-title"><b>Free</b> Features</h4>
                         <ul class="expertise-covers-v2__card-list">
                                             <li class="expertise-covers-v2__card-list-item">
@@ -368,19 +370,19 @@
    </div>
 </div>
 <!-- Our team members portfolio -->
-<div class="row v2 p-3">
-   <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+<div class="row v2 p-3" style="width:70%;">
+   <div class="col-md-12 my-3 ">
+      <div class=" mx-auto">
          <h2 class="text-center mt-3 p-3">
          Essay Sages, Write My Essay For Me Online
          </h2>
-         <p>It might have happened to you a lot of times when you find yourself stuck between your college work and some other personal plans. That struggle is real and very tough. But now, you are so lucky as you have someone to whom you can say, “ Write My Essay” for me. At Essay Sages, we are providing Essay Writing Services</strong> so that you can peacefully enjoy your family functions, a trip with your friends, or other necessary tasks.
+         <p class="font" >It might have happened to you a lot of times when you find yourself stuck between your college work and some other personal plans. That struggle is real and very tough. But now, you are so lucky as you have someone to whom you can say, “ Write My Essay” for me. At Essay Sages, we are providing Essay Writing Services</strong> so that you can peacefully enjoy your family functions, a trip with your friends, or other necessary tasks.
          </p>
          
       </div>
    </div>
 
-   <div class="col-md-12  moretext section ">
+   <div class="col-md-12 font w-50 moretext section ">
       <div class="row">
          <p class="pd_feature">   It's a reminder for everyone who is struggling with essay writing that Essay Sages is there to provide you with Writing Services. Unlike any other Essay Writing Services, we have a team of professionals with academic backgrounds.
             So, if you are tired of searching for the “Write My Essay Online” service, we are there for you 24*7. In a short time, you can place your order and choose from our best writers.</p>
@@ -446,7 +448,9 @@
 
         
    </div>
-        <a class="text-center moreless-button btn-sm btn-primary expertise-covers-v2__btn" href="">Read more</a>
+   <div class="text-center" style="padding-bottom:20px;">
+        <a class="text-center moreless-button btn-sm btn-warning expertise-covers-v2__btn">Read more</a>
+</div>
 </div>
 <!-- MDB -->
 

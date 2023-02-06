@@ -1,3 +1,13 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Jobs Available</title>
+    <meta name="description" content=" Publish Jobs at Essay Sages and hire writers after checking the best and discounted deals.">
+   
+
+</head>
+
 @extends('layouts.app')
 @section('content')
 <head>
@@ -18,16 +28,17 @@
 
 </head>
     <link rel="stylesheet" href="{{asset('/admin/assets/vendor_components/datatable/datatables.min.css')}}">
-<div class="row">
-<div class="col-md-12 bg-image"  >
+    <div class="row">
+   <div class="col-md-12 my-3">
+   <img class="bg-image">
         @include('layouts.navbar')
         <div class="col-md-12 mt-5 head-part text-white">
             <h2 class="h1_tag_style">Welcome to Essay Sages</h2>
             <p class="w-50 text-center">Where Our Acclaimed Client’s Assignments And Ttasks Are Meticulously Done We Have a Great Deal To Offer So Please Take Your Time To Browse Our Website To Discover More About Us And What We Offer</p>
             <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-                <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
-                <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />24/7 on Demand</div>
-                <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Timesaver</div>
+                <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
+                <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />24/7 on Demand</div>
+                <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Timesaver</div>
             </div>
         </div>
     </div>
@@ -87,7 +98,7 @@
                                     @endif
                                     @endif
                                     {{-- add button view order --}}
-                                    <a  class="btn-sm btn-primary btn-sm ">Delete</a>
+                                    <a  class="btn-sm btn-warningbtn-sm ">Delete</a>
                                 </td>
                                 <td>
                                     @if(!$post['bidPost'])

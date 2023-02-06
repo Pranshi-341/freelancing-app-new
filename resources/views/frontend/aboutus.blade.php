@@ -1,53 +1,37 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> About Us</title>
+    <meta name="description" content=" Visit Essay Sages! Meet our experts, hire, and provide them with the task. Also, join us and become our writer at Essay Sages.">
+   
+
+</head>
+
+
 @extends('layouts.app')
 <style>
-   .head-part {
-      /* background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp); */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-   .home-search-icon{
-    height: 3em;
-    width: 3em;
-   }
-   #show-more, #show-less { 
-  color: grey;
-}
-#show-more a, #show-less a{
-  cursor: pointer;
-  text-decoration:underline;
-  color: auto;
-}
+  .w-51{
+   margin-left:25%;
+   width:50%;
+   font: 16px Roboto,sans-serif; 
+  }
 </style>
-<script>
-   $('#show-more-content').hide();
-
-$('#show-more').click(function(){
-   $('#show-more-content').show(300);
-   $('#show-less').show();
-   $('#show-more').hide();
-});
-
-$('#show-less').click(function(){
-   $('#show-more-content').hide(150);
-   $('#show-more').show();
-   $(this).hide();
-});
-</script>
 @section('content')
 <div class="row">
-<div class="col-md-12 bg-image"  >
+<div class="col-md-12 my-3">
+<img class="bg-image">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          <h1 class="h1_tag_style">{{ $title }}</h1>
-         <h2><p style="color: #2e2221; font-size:20px;">{{$bottomline}}</p></h2>
+         <h2> <p class="font fw-bold"style="color: #ffc107;">{{$bottomline}}</p></h2>
       </div>
-   </div>
-</div>
+      </div>
+
 
 <div class="row">
    <div class="col-sm-12 p-5">
-   <div class="content">
+   <div class="content w-51">
       <p>
   Essay Sages is a United States education technology site company based in San Francisco,
 California which operates as an online learning platform for students and tutors founded in 2009.
@@ -71,7 +55,10 @@ because every task gets a thorough check-up before being submitted…
 </div>
    
    </div>
-   <a class="btn-sm btn-primary text-center moreless-button expertise-covers-v2__btn" href="">Read more</a>
+   <div class="text-center" style="padding-bottom:20px;">
+   <a class="btn-sm btn-warning text-center moreless-button expertise-covers-v2__btn">Read more</a>
+</div>
+</div>
 </div>
 
 

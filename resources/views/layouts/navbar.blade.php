@@ -191,8 +191,9 @@ window.onscroll = function() {myFunction()};
       <!-- <button class="btn-sm btn-dark my-2 my-sm-0" type="submit">Login</button> -->
       @guest
       
-      <a class="btn-sm btn-dark my-2 mx-2" data-toggle="modal" data-target="#contact_modal" id="popup" href="{{ route('login') }}" >Login</a>
-      <a class="btn-sm btn-dark my-2 my-sm-0" data-toggle="modal" data-target="#register_modal" id="popup" href="{{ route('register-user') }}" >Register</a>
+      <button  class="btn-sm btn-warning fw-bold my-2 mx-2 " data-toggle="modal" data-target="#contact_modal" id="popup" href="{{ route('login') }}" >Login</button>
+      <button  class="btn-sm btn-warning fw-bold my-2 mx-2 " data-toggle="modal" data-target="#register_modal" id="popup" href="{{ route('register-user') }}" >Register</button>
+      
       @else
       {{-- check auth --}}
       @if(Auth::user()->registerType == 1)
@@ -206,16 +207,17 @@ window.onscroll = function() {myFunction()};
     </div>
   </div>
 </nav>
-<div class="modal" id="contact_modal" tabindex="-1" role="dialog" style="padding-top:70px;" aria-hidden="true">
+<div class="modal font" id="contact_modal" tabindex="-1" role="dialog" style="padding-top:70px;" aria-hidden="true">
 	<div class="modal-dialog modal-sm " role="document">
 		<div class="modal-content">
-			<div class="modal-header" style="background-image: linear-gradient(to right, #bad9b0, #84aea4, #368483, #228384, #4e6f83);">
-				<div class="col-md-12">
+			<div class="modal-header" style=" background-color: rgb(0, 0, 0);
+         background-image: linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+				<div class="col-md-12 font">
 					<h5 style="text-align:center; color:white;">Sign In</h5>
 				</div>
 				
 			</div>
-			<form method="post" enctype="multipart/form-data" id="popup_block" action="{{ route('login.custom') }}">
+			<form method="post" class="font" enctype="multipart/form-data" id="popup_block" action="{{ route('login.custom') }}">
       <input type="hidden" name="_token" value="{{ csrf_token() }}">
           <div style="text-align: left;">
             <div class="col-md-12" style="padding-top:10px; ">
@@ -240,7 +242,7 @@ window.onscroll = function() {myFunction()};
                     </label>
                 </div>
             
-                <button type="submit" class="btn-sm" style="background-image: linear-gradient(to right, #84aea4, #368483); color:white;">Sign In</button>
+                <button type="submit" class="btn-sm btn-warning" style="color:black;">Sign In</button>
             </div>
           </div>
 			</form>
@@ -252,8 +254,9 @@ window.onscroll = function() {myFunction()};
 <div class="modal" id="register_modal" tabindex="-1" role="dialog" style="padding-top:70px;" aria-hidden="true">
 	<div class="modal-dialog modal-sm" role="document">
 		<div class="modal-content">
-			<div class="modal-header" style="background-image: linear-gradient(to right, #bad9b0, #84aea4, #368483, #228384, #4e6f83);">
-				<div class="col-md-12">
+			<div class="modal-header" style=" background-color: rgb(0, 0, 0);
+         background-image: linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+				<div class="col-md-12 font">
 					<h5 style="text-align:center; color:white;">Sign Up</h5>
 				</div>
 				
@@ -315,7 +318,7 @@ window.onscroll = function() {myFunction()};
                 </div>
             </div>
             <div class="col-md-12" style="padding-top:10px;">
-                <button type="submit" class="btn-sm" style="background-image: linear-gradient(to right, #84aea4, #368483); color:white;">Sign up</button>
+                <button type="submit" class="btn-sm btn-warning" style=" color:black;">Sign up</button>
             </div>
           </div>
 			</form>

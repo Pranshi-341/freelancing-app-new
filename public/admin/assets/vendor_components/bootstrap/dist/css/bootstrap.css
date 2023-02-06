@@ -9007,6 +9007,7 @@ button.bg-dark:focus {
   text-align: right !important; }
 
 .text-center {
+  font: 1.15rem Roboto,sans-serif;
   text-align: center !important; }
 
 @media (min-width: 576px) {
