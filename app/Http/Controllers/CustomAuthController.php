@@ -7,6 +7,9 @@ use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Response;
 use App\Models\freelancers_writers;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\WelcomeMail;
+
 class CustomAuthController extends Controller
 {
     public function index()
@@ -77,7 +80,12 @@ class CustomAuthController extends Controller
             $check->price = $data['price'];
             $check->save();
         }
-        
+        $send_mail = $data['email'];
+       
+        $rere = "Test";
+
+        $rere1=  Mail::to($send_mail)->send(new WelcomeMail($rere));
+       
         $check = $this->create($data);
         
         $id = $check['id'];
