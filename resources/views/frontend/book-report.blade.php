@@ -13,12 +13,13 @@
 
 @section('content')
 <div class="row">
-<div class="col-md-12 bg-image"  >
+   <div class="col-md-12 my-3">
+   <img class="bg-image">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          <h1 class="h1_tag_style">{{$title}}</h1>
-     <p class="w-50 text-center">{{$topline}}</p>
-         <p style="color: #ffc107;">{{$bottomline}}</p>
+     <p class="w-50 font fw-bold text-center">{{$topline}}</p>
+         <p class="font fw-bold" style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
             <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Book Report Writing Service"/>Hassle-Free Order Process</div>
             <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Book Report Writing Services"/>Qualified Writing Experts</div>
@@ -353,7 +354,7 @@
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                      <div class="expertise-covers-v2__btn">
-                        <a href="order-now" class="btn-sm btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                        <a href="order-now" class="btn-sm btn-warning" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
                      </div>
                      </div>
                   </div>
@@ -364,14 +365,14 @@
    </div>
 </div>
 <!-- Our team members portfolio -->
-<div class="row v2">
+<div class="row v2"  style="width:70%;">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class="mx-auto">
          <h2 class="text-center mt-3 p-3">
          Custom Book Report Writing Service From Essay Sages Expert
 
          </h2>
-         <p>Have you recently been assigned to write a book report but due to some reasons you can’t make it happen? Actually, it's a matter of interest and time availability. There are students who love to write reports but don’t have time. On the other hand, some students don’t have any interest in writing at all. In both cases, Essay Sages is providing  Book Report Writing Service </strong>to overcome both situations.
+         <p class="font">Have you recently been assigned to write a book report but due to some reasons you can’t make it happen? Actually, it's a matter of interest and time availability. There are students who love to write reports but don’t have time. On the other hand, some students don’t have any interest in writing at all. In both cases, Essay Sages is providing  Book Report Writing Service </strong>to overcome both situations.
          </p>
         
          
@@ -419,7 +420,9 @@ How To Hire A Writer For Book Report Writing Service At Essay Sages?
 
         </div>
         </div>
-        <a class="text-center moreless-button btn-sm btn-warningexpertise-covers-v2__btn" href="">Read more</a>
+        <div class="text-center" style="padding-bottom:20px;">
+        <a class="text-center moreless-button btn-sm btn-warning expertise-covers-v2__btn" href="">Read more</a>
+ </div>
  </div>
 
         

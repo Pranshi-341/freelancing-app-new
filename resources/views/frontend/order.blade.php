@@ -47,11 +47,12 @@
 </style>
 @yield("wrip")
 <div class="row">
-<div class="col-md-12 bg-image"  >
+   <div class="col-md-12 my-3">
+   <img class="bg-image">
         @include('layouts.navbar')
         <div class="col-md-12 mt-5 head-part text-white">
             <h2 class="h1_tag_style">Welcome to Essay Sages</h2>
-            <p class="w-50 text-center">where our acclaimed client’s assignments and tasks are meticulously done We have a great deal to offer so please take your time to browse our website to discover more about us and what we offer</p>
+            <p class="w-50 fw-bold font text-center">where our acclaimed client’s assignments and tasks are meticulously done We have a great deal to offer so please take your time to browse our website to discover more about us and what we offer</p>
             <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
                 <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
                 <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />24/7 on Demand</div>
@@ -62,14 +63,14 @@
 </div>
 <div class="row">
     <div class="col-md-12 my-3">
-        <div class="w-50 mx-auto" >
-            <h2 class="text-center mt-3 p-3">
+        <div class="w-50 font mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);" >
+            <h2 class="text-center fw-bold mt-3 p-3">
                 Publish Order
             </h2>
         </div>
     </div>
-    <div class="col-md-12 my-3">
-        <div class="row">
+    <div class="col-md-12  my-3">
+        <div class="row font">
             <div class="col-md-2 offset-1" id="tab_panel">
                 <div class="tab d-flex flex-column">
                     <button class="tablinks" onclick="changeTab(event, 'Writing')">Writing</button>
@@ -79,7 +80,7 @@
             <div class="col-md-8">
                 <div>
                     <!-- create form of writing with field of subject,topic,pages,deadline,Detailed Instructions and attach file -->
-                    <div id="Writing" class="tabcontent">
+                    <div id="Writing" class="tabcontent font">
                         <form id="publish_post" action="/publish/writterpost" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="col-md-12 row">
@@ -173,7 +174,7 @@
                                 <label for="instructions">Instructions</label>
                                 <textarea class="form-control" id="editInstructions" name="editInstructions" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn-sm btn-warningsubmit">Submit</button>
+                            <button type="submit" class="btn-sm btn-warning submit">Submit</button>
                         </form>
                     </div>
 

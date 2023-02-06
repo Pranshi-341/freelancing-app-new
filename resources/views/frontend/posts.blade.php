@@ -18,8 +18,9 @@
 
 </head>
     <link rel="stylesheet" href="{{asset('/admin/assets/vendor_components/datatable/datatables.min.css')}}">
-<div class="row">
-<div class="col-md-12 bg-image"  >
+    <div class="row">
+   <div class="col-md-12 my-3">
+   <img class="bg-image">
         @include('layouts.navbar')
         <div class="col-md-12 mt-5 head-part text-white">
             <h2 class="h1_tag_style">Welcome to Essay Sages</h2>

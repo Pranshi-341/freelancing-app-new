@@ -84,13 +84,14 @@
 </style>
 @section('content')
 <div class="row">
-<div class="col-md-12 bg-image"  >
+   <div class="col-md-12 my-3">
+   <img class="bg-image">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          <h1 class="h1_tag_style">{{$title}}</h1>
-         <p class="w-50 text-center">{{$topline}}</p>
+         <p class="w-50 font fw-bold text-center">{{$topline}}</p>
         
-         <p style="color: #ffc107;">{{$bottomline}}</p>
+         <p  class="font fw-bold " style="color: #ffc107;">{{$bottomline}}</p>
          <div class="col-md-8 mt-5 mb-5 row d-flex justify-content-between ">
             <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Quick Service</div>
             <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Professional Writing Expert</div>
@@ -106,7 +107,7 @@
       <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center pd_feature">
          Hire Professional Essay Writers Online At Essay Sages
-         </h2> <p class="pd_feature">Get your academic papers done by expert Academic Essay Writers and save
+         </h2> <p class="pd_feature font">Get your academic papers done by expert Academic Essay Writers and save
                   Your time and efforts. No plagiarism, only high-quality content!
                 </p>
       </div>
@@ -123,8 +124,8 @@
                               <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" />
                            </div>
                            <div class="col-md-8">
-                              <h5 class="card-title">{{ $writers->name }}</h5>
-                              <p class="card-text">{{ $writers->skills }}</p>
+                              <h5 class="card-title font">{{ $writers->name }}</h5>
+                              <p class="card-text font">{{ $writers->skills }}</p>
                            </div>
                         </div>
                      </div>
@@ -138,12 +139,13 @@
          </div>
    </div>
 </div>
+<div class="row v2"  style="width:50%;">
 <div class="row p-5">
-   <div class="col-md-12 my-3">
+   <div class="col-md-12 font my-3">
       
          <h2 class="text-center pd_feature">
          Hire Essay Writers
-         </h2> <p class="pd_feature">Nobody can understand the struggle of students when they have to complete multiple assignments at the same time. Also, you can’t compromise the quality too. If you do so, you have to face bad grades and that could lead to mental stress. This is where Essay Sages come into the picture.
+         </h2> <p class="pd_feature font">Nobody can understand the struggle of students when they have to complete multiple assignments at the same time. Also, you can’t compromise the quality too. If you do so, you have to face bad grades and that could lead to mental stress. This is where Essay Sages come into the picture.
                   If you have tired of writing papers and there is so much work to handle, Hire Essay Writers online. Such an Essay Paper Writing Service will save you time and effort. So, you can utilize that time for other required activities or assignments.
                 </p><p>The hiring process is hassle-free and in a few minutes, you will have your Professional Essay Writer who will handle your assignments. You no longer need to think before studying your favorite subjects, going out with your friends, or spending time in activities you love the most.
                   Also, the writer at Essay Sages will provide you with quality work that will impress your professors and help you get good grades. Hence, when someone talks about the Best Writing Service, you know the name.
@@ -153,7 +155,7 @@
       
          <h2 class="text-center pd_feature">
          Essay Writers For Hire
-         </h2> <p class="pd_feature">If you are frustrated with so much assignment work and looking to Pay Someone To Do Your Essay, don’t look further other than Essay Sages. You no longer need to bribe your cousins or ask your professors to extend the submission date as our Essay Writing Service is available to be your helping hands.
+         </h2> <p class="pd_feature font">If you are frustrated with so much assignment work and looking to Pay Someone To Do Your Essay, don’t look further other than Essay Sages. You no longer need to bribe your cousins or ask your professors to extend the submission date as our Essay Writing Service is available to be your helping hands.
                   All the professionals that will work for you have years of experience. No matter if it is a high school, college, or university paper, you will get quality work every time and that's what Essay Sages is all about.
                   Asking why there is a need to hire an expert writer. 
                 </p><p>You might be thinking of getting this work done by anyone else, for example, your brother or sister. Isn’t it? Wait for a while and think, are they really that capable of understanding your assignment properly? Do they really complete the task with complete professionalism?
@@ -161,7 +163,7 @@
                   No matter what the reason is, sometimes it becomes necessary to get Online Help With Essay Writing. Now, you know whom you should ask.
                 </p>
           <h3 class="pd_feature">How Essay Writers Will Help You?</h3>
-         <p class="pd_feature">The writing experts working at Essay Sages can help you with various tasks related to your academics. No matter if you need help with Thesis Writing, Physics Help, Custom Essay Writing Service, Homework Writing, Dissertation Writing, Mathematics Help, or Literature Review Writing, our writers are there to help you.
+         <p class="pd_feature font">The writing experts working at Essay Sages can help you with various tasks related to your academics. No matter if you need help with Thesis Writing, Physics Help, Custom Essay Writing Service, Homework Writing, Dissertation Writing, Mathematics Help, or Literature Review Writing, our writers are there to help you.
               So, now you can sit calmly and confidently as you know that there are Essay Writers who will complete the task for you.
               Here are some main reasons why you can rely upon our Professional Essay Service:
           <ul>
@@ -181,7 +183,7 @@
           Essay Sages is known to deliver high-quality Custom Essays and we are proud of it!
           </p>
          <h3 class="pd_feature">Who Are Essay Writers?</h3>
-         <p class="pd_feature">It may happen with a lot of people, they decide to hire Essay Writers who are either not professionals or freelancers. Those writers will not take the job task seriously and submit poor quality work or sometimes don’t meet the deadlines.
+         <p class="pd_feature font">It may happen with a lot of people, they decide to hire Essay Writers who are either not professionals or freelancers. Those writers will not take the job task seriously and submit poor quality work or sometimes don’t meet the deadlines.
               This will not only impact your grades but it is a complete waste of money and your time. Hence, one should know who they are hiring.
           </p><p>We have a number of experienced writers available to work for you. No matter whichever Online Paper Writer you choose, all of them are professionals.
               Based on your work requirements, our system will show you a list of the writers. Based on your preferences, you can proceed to work with them.
@@ -192,7 +194,7 @@
               So, when it comes to academic grades, one can never compromise with writing papers. Hence, you must check each detail of the writer before asking them to “Write My Essay”.
           </p>
         <h3 class="pd_feature">Hire Essay Writers For Any Topics or Subject You Need</h3>
-         <p class="pd_feature">Our writers are 24*7 available at your service. Whatever your subject or assignment is about, our Essay Writers will get the job done in the given time.
+         <p class="pd_feature font">Our writers are 24*7 available at your service. Whatever your subject or assignment is about, our Essay Writers will get the job done in the given time.
               After you select the writer of your choice, you have to send your complete requirement for the project. Our writer will do their research work and start the work immediately. In between, if they need to ask anything or you want to make updates, you can connect with each other. In this way, you will get to know that your work is in the right hands.
               We have a huge team of writing experts with different academic backgrounds. 
           </p><p>Some of them are graduates while others have PHDs. Some have work experience in technology companies, while others are business professionals. The diversity of writers means that the project can work in any genre.
@@ -205,6 +207,7 @@
          
       
    </div>
+</div>
 </div>
   
 <!-- MDB -->

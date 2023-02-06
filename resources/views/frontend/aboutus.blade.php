@@ -24,7 +24,7 @@
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          <h1 class="h1_tag_style">{{ $title }}</h1>
-         <h2><p style="color: white;font: 16px Roboto,sans-serif; font-size:20px;">{{$bottomline}}</p></h2>
+         <h2> <p class="font fw-bold"style="color: #ffc107;">{{$bottomline}}</p></h2>
       </div>
       </div>
 

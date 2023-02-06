@@ -181,7 +181,7 @@
          
             <h1 class="h1_tag_style">Welcome To Essay Sages</h1>
          
-         <p class="w-50 font text-center">Where Our Acclaimed Client’s Assignments And Tasks Are
+         <p class="w-50 font fw-bold  text-center">Where Our Acclaimed Client’s Assignments And Tasks Are
 Meticulously Done. Our Competence Is Unmatched. Once You Submit An Order, You Will Receive
 High-Quality, Customized, and Unique Work Done. We Have a Great Deal To Offer So Please Take
 Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
@@ -189,6 +189,11 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
             <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon font" src="{{ asset('icons/24-hours.png') }}" alt="Essay Writing Service"/>Quick Service</div>
             <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon " src="{{ asset('icons/convenient.png') }}" alt="Writing Essay Company"/> Professional Writing Expert</div>
             <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Easy Essay Writing Service"/>Free Edits</div>
+         </div>
+         <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
+            <div class="col-sm-4 d-flex flex-column align-items-center font"></div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"></div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"></div>
          </div>
       </div>
    </div>
@@ -481,7 +486,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                      <div class="expertise-covers-v2__btn">
-                        <a href="order-now" class="btn-sm btn-warning" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                        <button  class="btn-sm btn-warning"><a href="order-now"  class="btn-warning " onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a></button>
                      </div>
                      </div>
                   </div>
@@ -597,7 +602,7 @@ In any case, if you find the whole task inappropriate, which is impossible, you 
     
         </div>
 
-        <a class="text-center moreless-button btn-sm btn-warning expertise-covers-v2__btn">Read more</a>
+        <button class="text-center moreless-button btn-sm btn-warning expertise-covers-v2__btn">Read more</button>
         </div>
       
            </div>

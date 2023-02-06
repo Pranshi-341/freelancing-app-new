@@ -13,12 +13,13 @@
 
 @section('content')
 <div class="row">
-<div class="col-md-12 bg-image"  >
+   <div class="col-md-12 my-3">
+   <img class="bg-image">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          <h1 class="h1_tag_style">{{$title}}</h1>
-     <p class="w-50 text-center">{{$topline}}</p>         
-         <p style="color: #ffc107;">{{$bottomline}}</p>
+     <p class="w-50 font fw-bold text-center">{{$topline}}</p>         
+         <p class="font fw-bold" style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
             <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="History Assignment"/>Hassle-Free Order Process</div>
             <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="History Assignment"/>Qualified Writing Experts</div>
@@ -52,8 +53,8 @@
                               <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" />
                            </div>
                            <div class="col-md-8">
-                              <h5 class="card-title">{{ $writers->name }}</h5>
-                              <p class="card-text">{{ $writers->skills }}</p>
+                              <h5 class="card-title font">{{ $writers->name }}</h5>
+                              <p class="card-text font">{{ $writers->skills }}</p>
                            </div>
                         </div>
                      </div>
@@ -351,7 +352,7 @@
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                      <div class="expertise-covers-v2__btn">
-                        <a href="order-now" class="btn-sm btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                        <a href="order-now" class="btn-sm btn-warning" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
                      </div>
                      </div>
                   </div>
@@ -362,13 +363,13 @@
    </div>
 </div>
 <!-- Our team members portfolio -->
-<div class="row v2">
+<div class="row v2" style="width:70%;">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class=" mx-auto">
          <h2 class="text-center mt-3 p-3">
          Get History Assignment Help With Qualified Writers
          </h2>
-         <p>Have you stuck on your history assignment? Get History Assignment Help from our top-notch writers at Essay Sages. We understand that the concepts of history are sometimes difficult to understand and take too much time. Especially, when you have a deadline to submit the assignment and you haven’t started yet, we are available to help you.
+         <p class="font">Have you stuck on your history assignment? Get History Assignment Help from our top-notch writers at Essay Sages. We understand that the concepts of history are sometimes difficult to understand and take too much time. Especially, when you have a deadline to submit the assignment and you haven’t started yet, we are available to help you.
          </p>
 
 
@@ -444,9 +445,10 @@ So, hire writers at Essay Sages for History Assignment Help and enjoy good grade
        
         </div>
         </div>
-        <a class="text-center moreless-button btn-sm btn-warningexpertise-covers-v2__btn" href="">Read more</a>        
+        <div class="text-center" style="padding-bottom:20px;">
+        <a class="text-center moreless-button btn-sm btn-warning expertise-covers-v2__btn" href="">Read more</a>        
  </div>
-
+ </div>
         
 
 <!-- MDB -->

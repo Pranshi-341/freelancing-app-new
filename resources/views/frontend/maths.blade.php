@@ -19,8 +19,8 @@ me with my maths homework today!">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          <h1 class="h1_tag_style">{{$title}}</h1>
-     <p class="w-50 font text-center">{{$topline}}</p>         
-         <p class="font" style="color: #ffc107;">{{$bottomline}}</p>
+     <p class="w-50 font fw-bold text-center">{{$topline}}</p>         
+         <p class="font fw-bold" style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
             <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Do Math Homework"/>Hassle-Free Order Process</div>
             <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Essay Writing Service"/>Qualified Writing Experts</div>
