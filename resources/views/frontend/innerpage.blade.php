@@ -86,21 +86,21 @@
          
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />24/7 on Demand</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Timesaver</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />24/7 on Demand</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Timesaver</div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" />Certified Service</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" />Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" />100% Original Assignment</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" />Certified Service</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" />Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" />100% Original Assignment</div>
          </div>
       </div>
    </div>
 </div>
 <div class="row">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
             Testimonials
          </h2>
@@ -112,9 +112,9 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Emma</h5>
+                  <h5 class="mb-3 font">Emma</h5>
                   <p>Photographer</p>
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      The efficiency and professionalism with which the service was given pleasantly pleased me. The paper satisfied all of the criteria. It was really well-written, with no grammatical mistakes. More than a day was added to my deadline! Excellent service was offered to me.
                   </p>
@@ -132,9 +132,9 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Charlotte </h5>
+                  <h5 class="mb-3 font">Charlotte</h5>
                   <p>Web Developer</p>
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      My expectations for the final result were exceeded. The site chats were really responsive and courteous, they delivered the paper ahead of schedule and followed all of my specifications. Thank you very much!
                   </p>
@@ -152,9 +152,9 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Brian Bakes</h5>
+                  <h5 class="mb-3 font">Brian Bakes</h5>
                   <p>UX Designer</p>
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      - I needed to take a statistics class, so I made an order based on the site portfolio. It was excellent; I became fascinated and understood the statistics mentioned. The site is quite cool, and I will certainly suggest it to everyone who needs some technical academic work completed.
                   </p>
@@ -201,7 +201,7 @@
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Analytical</li>
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn-sm btn-primary text-uppercase">Button</a>
+              <a href="#" class="btn-sm btn-warningtext-uppercase">Button</a>
             </div>
           </div>
         </div>
@@ -223,7 +223,7 @@
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Analytical</li>
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn-sm btn-primary text-uppercase">Button</a>
+              <a href="#" class="btn-sm btn-warningtext-uppercase">Button</a>
             </div>
           </div>
         </div>
@@ -245,7 +245,7 @@
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Analytical</li>
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn-sm btn-primary text-uppercase">Button</a>
+              <a href="#" class="btn-sm btn-warningtext-uppercase">Button</a>
             </div>
           </div>
         </div>
@@ -258,7 +258,7 @@
 
 <div class="row p-5 ">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
             Professional Writing Services Essay Sages Provides
          </h2>
@@ -319,7 +319,7 @@
 <!-- Our team members portfolio -->
 <div class="row p-5">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
             Our team members portfolio
          </h2>

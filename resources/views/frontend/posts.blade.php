@@ -25,9 +25,9 @@
             <h2 class="h1_tag_style">Welcome to Essay Sages</h2>
             <p class="w-50 text-center">Where Our Acclaimed Client’s Assignments And Ttasks Are Meticulously Done We Have a Great Deal To Offer So Please Take Your Time To Browse Our Website To Discover More About Us And What We Offer</p>
             <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-                <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
-                <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />24/7 on Demand</div>
-                <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Timesaver</div>
+                <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
+                <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />24/7 on Demand</div>
+                <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Timesaver</div>
             </div>
         </div>
     </div>
@@ -87,7 +87,7 @@
                                     @endif
                                     @endif
                                     {{-- add button view order --}}
-                                    <a  class="btn-sm btn-primary btn-sm ">Delete</a>
+                                    <a  class="btn-sm btn-warningbtn-sm ">Delete</a>
                                 </td>
                                 <td>
                                     @if(!$post['bidPost'])

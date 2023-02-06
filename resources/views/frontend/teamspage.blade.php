@@ -92,10 +92,10 @@
         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="col-md-8 mt-5 mb-5 row d-flex justify-content-between ">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Quick Service</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Professional Writing Expert</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Quick Service</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Professional Writing Expert</div>
             
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Free Edits</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Free Edits</div>
          </div>
       </div>
    </div>
@@ -103,7 +103,7 @@
 <!-- Our team members portfolio -->
 <div class="row">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center pd_feature">
          Hire Professional Essay Writers Online At Essay Sages
          </h2> <p class="pd_feature">Get your academic papers done by expert Academic Essay Writers and save

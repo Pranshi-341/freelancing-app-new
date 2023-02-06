@@ -1,11 +1,11 @@
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-light" style="background-image: linear-gradient(to right, #bad9b0, #84aea4, #368483, #228384, #4e6f83); color:white;">
+<footer class="text-center text-lg-start bg-light cs2" style="">
   <!-- Section: Social media -->
   <section
     class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
   >
     <!-- Left -->
-    <div class="me-5 d-none d-lg-block" style="padding-left:450px; font-size:20px;">
+    <div class="me-5 d-none d-lg-block" style="font-size:20px;">
       <span>Get connected with us on social networks:</span>
     </div>
     <!-- Left -->

@@ -89,28 +89,29 @@
 
 @section('content')
 <div class="row">
-<div class="col-md-12 bg-image"  >
+   <div class="col-md-12 my-3">
+   <img class="bg-image">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          <h1 class="h1_tag_style">{{$title}}</h1>
-     <p class="w-50 text-center">{{$topline}}</p>         
-         <p style="color: #ffc107;">{{$bottomline}}</p>
+     <p class="w-50 font text-center">{{$topline}}</p>         
+         <p  class="font" style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Writing a Literature Review"/>Hassle-Free Order Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Literature Review Writing"/>Qualified Writing Experts</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Help With Literature Review"/>On-Time Delivery</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Writing a Literature Review"/>Hassle-Free Order Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Literature Review Writing"/>Qualified Writing Experts</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Help With Literature Review"/>On-Time Delivery</div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Writing A Literature Review"/>24*7 Service Available</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Review Writing"/>Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Writing A Literature Review"/>Plagiarism-Free Content </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Writing A Literature Review"/>24*7 Service Available</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Review Writing"/>Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Writing A Literature Review"/>Plagiarism-Free Content </div>
          </div>
       </div>
    </div>
 </div>
 <div class="row">
 <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          Meet Our Team Of Literature Review Writing Experts
 
@@ -145,7 +146,7 @@
          </div>
    </div>
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          What Do Our Customers Think About Our Reviews Research Paper Writing Service?
 
@@ -158,10 +159,10 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="Literature Review Writer" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Emma</h5>
+                  <h5 class="mb-3 font">Emma</h5>
                  
 
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      I am really very grateful that I came to know about  Essay Sages Essay Writing Service</strong>. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
                   </p>
@@ -179,9 +180,9 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="Writing Literature Review" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Charlotte </h5>
+                  <h5 class="mb-3 font">Charlotte</h5>
                  
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great  Essay Writing Service</strong>.
                   </p>
@@ -199,9 +200,9 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Writing A Literature Review" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Brian Bakes</h5>
+                  <h5 class="mb-3 font">Brian Bakes</h5>
                  
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      The writing expert submitted the project very quickly. The quality he provided in my<b> Literature Review </b>Writing is just outstanding. I am really impressed. Thank you Essay Sages.
                   </p>
@@ -231,7 +232,7 @@
 </div>
 <div class="row p-3" style="background-color: #fff ;">
    <div class="col-md-12">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          Get Your Literature Review Writing Done In 4 Easy Steps
 
@@ -253,7 +254,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Enter all the project-related details in the form for a better understanding of our Essay Writers.
                      </span>
@@ -282,7 +283,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Go through the list of our professional writers and select the one that suits your expectations.                     </span>
                   </p>
@@ -304,7 +305,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Before depositing the amount, make sure you are satisfied with our Online Essay Writing Services and then proceed.
                      </span>
@@ -333,7 +334,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Read the paper carefully and then release the payment to the writer. If you want, you can also ask the writer to make any edits.
 
@@ -348,7 +349,7 @@
 
 <div class="row ">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          Professional Writing Services Essay Sages Provides
 
@@ -365,7 +366,7 @@
                      
                         <h5 class="card-title pd_ul" style="text-align:center; font-size:32px;">Types of Essay</h5>
                         <div class="col-md-6">
-                           <ul class="sz_ul">
+                           <ul class="sz_ul font">
                                        <li class="pd_ul">Essay Writing</li>
                                        <li class="pd_ul">Homework Writing</li>
                                        <li class="pd_ul">Dissertation writing</li>
@@ -374,7 +375,7 @@
                            </ul>
                         </div>
                         <div class="col-md-6">
-                           <ul class="sz_ul">
+                           <ul class="sz_ul font">
                                        <li class="pd_ul">Mathematics help</li>
                                        <li class="pd_ul">Computer science-related assignments</li>
                                        <li class="pd_ul">Physics helps</li>
@@ -393,7 +394,7 @@
                <div class="card-body">
                   <div class="row">
                      
-                     <div class="expertise-covers-v2__card-inner">
+                     <div class="expertise-covers-v2__card-inner font">
                         <h4 class="card-title"> Free</b> Features</h4>
                         <ul class="expertise-covers-v2__card-list">
                                             <li class="expertise-covers-v2__card-list-item">
@@ -429,7 +430,7 @@
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                      <div class="expertise-covers-v2__btn">
-                        <a href="order-now" class="btn-sm btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                        <a href="order-now" class="btn-sm btn-warning" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
                      </div>
                      </div>
                   </div>
@@ -440,20 +441,18 @@
    </div>
 </div>
 <!-- Our team members portfolio -->
-<div class="row v2">
+<div class="row v2"  style="width:70%;">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="mx-auto">
          <h2 class="text-center mt-3 p-3">
          Writing A Literature Review Is Now Hassle-Free With Essay Sages
-
-
          </h2>
-         <p>One of the most important aspects that every student pays attention to when writing a higher education project is to gather the right information for   Writing a Literature Review </strong>. A literature review is designed to help readers understand the extent of information available about the thesis topic. Review the journal articles and books related to the thesis topic. 
+         <p class="font">One of the most important aspects that every student pays attention to when writing a higher education project is to gather the right information for   Writing a Literature Review </strong>. A literature review is designed to help readers understand the extent of information available about the thesis topic. Review the journal articles and books related to the thesis topic. 
          </p>
 
 </div>
 </div>
-   <div class="col-md-12  moretext section ">
+   <div class="col-md-12 font moretext section">
       <div class="row">
          <p class="pd_feature">Those journals will provide the opinions of academic experts on the topic. The Internet is a great search opportunity when considering sources that provide important ideas and literature. A number of opinions on the web may be incorrect. Hence, students are not always advised to use articles on the Internet unless they are from reliable and relevant sources. Almost all universities require sources of information especially when it is about literature review.</p>
          <p class="pd_feature">
@@ -540,8 +539,9 @@ You don’t need to be bothered about the ordering process at Essay Sages. Follo
    
         </div>
          </div>
-
-         <a class="text-center moreless-button btn-sm btn-primary expertise-covers-v2__btn" href="">Read more</a>     
+         <div class="text-center" style="padding-bottom:20px;">
+         <a class="text-center moreless-button btn-sm btn-warning expertise-covers-v2__btn" href="">Read more</a>     
+   </div>
    </div>
    
 

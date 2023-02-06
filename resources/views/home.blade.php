@@ -173,20 +173,22 @@
 
 @section('content')
 <div class="row">
-   <div class="col-md-12 bg-image">
+   <div class="col-md-12 my-3">
+   <img class="bg-image">
+
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white ">
          
             <h1 class="h1_tag_style">Welcome To Essay Sages</h1>
          
-         <p class="w-50 text-center">Where Our Acclaimed Client’s Assignments And Tasks Are
+         <p class="w-50 font text-center">Where Our Acclaimed Client’s Assignments And Tasks Are
 Meticulously Done. Our Competence Is Unmatched. Once You Submit An Order, You Will Receive
 High-Quality, Customized, and Unique Work Done. We Have a Great Deal To Offer So Please Take
 Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
          <div class="col-md-8 mt-5 mb-5 row d-flex justify-content-between ">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Essay Writing Service"/>Quick Service</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Writing Essay Company"/> Professional Writing Expert</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Easy Essay Writing Service"/>Free Edits</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon font" src="{{ asset('icons/24-hours.png') }}" alt="Essay Writing Service"/>Quick Service</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon " src="{{ asset('icons/convenient.png') }}" alt="Writing Essay Company"/> Professional Writing Expert</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Easy Essay Writing Service"/>Free Edits</div>
          </div>
       </div>
    </div>
@@ -194,14 +196,14 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
 
 
 
-<div class="row">
-   <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+
+   
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          What Do Our Customers Think About Our Essay Writing Service?
          </h2>
       </div>
-   </div>
+
 
    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4 cs" data-mdb-ride="carousel" >
       <div class="carousel-inner">
@@ -209,10 +211,10 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
             <img class="rounded-circle shadow-1-strong mb-4" src="{{ asset('images/essay_writer_services.webp') }}" alt="Literature Review Writing" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Emma</h5>
+                  <h5 class="mb-3 font">Emma</h5>
                  
 
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      I Am Really Very Grateful That I Came To Know About  Essay Sages Essay Writing Service</strong>. The Writers Are Amazing That I Can’t Even Define. They Made My Work So Easy And The Perfection Of My Writing Is Undefinable. Really Good Work. 
                   </p>
@@ -230,9 +232,9 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="Literature Review Writing" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Charlotte </h5>
+                  <h5 class="mb-3 font">Charlotte </h5>
                  
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      I Had To Deliver The Task On An Urgent Basis And I Didn’t Expect Essay Sages To Do The Work So Quickly. They Submit The Task On Time And The Writing Is Really Appreciable. Great  Essay Writing Service</strong>.
                   </p>
@@ -250,10 +252,10 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Literature Review Writing" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Brian Bakes</h5>
+                  <h5 class="mb-3 font">Brian Bakes</h5>
                  
-                  <p class="text-muted">
-                     <i class="fas fa-quote-left pe-2"></i>
+                  <p class="text-muted font">
+                     <i class="fas font fa-quote-left pe-2"></i>
                      The Writing Expert Submitted The Project Very Quickly. The Quality He Provided In My  Literature Review </b>Writing Is Just Outstanding. I Am Really Impressed. Thank You Essay Sages.
                   </p>
                </div>
@@ -282,7 +284,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
 </div>
 <div class="row p-3" style="background-color: #fff ;">
    <div class="col-md-12">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          4 Steps Of Our Essay Writing Services
 
@@ -304,7 +306,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Enter All The Project-Related Details In The Form For a Better Understanding Of Our Essay Writers.
                      </span>
@@ -333,7 +335,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Go Through The List Of Our Professional Writers And Select The One That Suits Your Expectations.                     </span>
                   </p>
@@ -355,7 +357,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Before Depositing The Amount, Make Sure You Are Satisfied With Our Online Essay Writing Services And Then Proceed.
                      </span>
@@ -384,7 +386,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Read The Paper Carefully And Then Release The Payment To The Writer. If You Want, You Can Also Ask The Writer To Make Any Edits.
 
@@ -399,23 +401,23 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
 
 <div class="row">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
             Professional Writing Services Essay Sages Provides
          </h2>
       </div>
    </div>
-   <div class="col-md-12">
-      <div class="row cs  cs1">
+   <div class="col-md-12 my-3">
+      <div class="row cs cs1">
         
          <div class="col-md-6">
             
                <div class="card-body">
-                  <div class="row">
+                  <div class="row ">
                      
                         <h5 class="card-title pd_ul" style="text-align:center; font-size:32px;">Types of Essay</h5>
                         <div class="col-md-6">
-                           <ul class="sz_ul">
+                           <ul class="sz_ul font">
                                        <li class="pd_ul">Essay Writing</li>
                                        <li class="pd_ul">Homework Writing</li>
                                        <li class="pd_ul">Dissertation Writing</li>
@@ -424,7 +426,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                            </ul>
                         </div>
                         <div class="col-md-6">
-                           <ul class="sz_ul">
+                           <ul class="sz_ul font">
                                        <li class="pd_ul">Mathematics Help</li>
                                        <li class="pd_ul">Computer Science-Related Assignments</li>
                                        <li class="pd_ul">Physics Helps</li>
@@ -443,7 +445,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                <div class="card-body">
                   <div class="row">
                      
-                     <div class="expertise-covers-v2__card-inner">
+                     <div class="expertise-covers-v2__card-inner font">
                         <h4 class="card-title"> Free</b> Features</h4>
                         <ul class="expertise-covers-v2__card-list">
                                             <li class="expertise-covers-v2__card-list-item">
@@ -479,7 +481,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                      <div class="expertise-covers-v2__btn">
-                        <a href="order-now" class="btn-sm btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                        <a href="order-now" class="btn-sm btn-warning" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
                      </div>
                      </div>
                   </div>
@@ -487,23 +489,23 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
             </div>
          </div>
       </div>
-   </div>
+  
 </div>
 <!-- whu choose us -->
-<div class="row v2">
+<div class="row v2" style="width:70%;">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class=" mx-auto" >
          <h2 class="text-center mt-3 p-3">
          Professional Essay Writing Services | Essay Sages
          </h2>
-         <p>
+         <p class="font">
          Custom Essay Writing Service is a safe and smart option for those who spend their nights writing long paragraphs just to impress the professors and learn no new things. Essay Sages won’t waste your crucial hours. Hire our  Professional Essay Writers</b> today and do something that values!
 </p>
       </div>
    </div>
             
-   <div class="col-md-12  moretext section ">
-      <div class="row">
+   <div class="col-md-12  moretext section font">
+      <div class="row w-100">
      
           <h3 class="text-center pd_feature">It Is Easy To Get Writing Essay Online Service!</h3>
          <p class="pd_feature">Get a free quote from our  Essay Writing Services </b>experts at Essay Sages and get an idea of ​​how much an article will cost before it starts. If you found the price satisfactory, accept the offer and watch your worries go away! Our team will ensure that you no longer have to wake up till 4 am.  Essay Sages</b> is known for providing the best writing, editing, and proofreading services available online.</p>
@@ -590,11 +592,12 @@ In any case, if you find the whole task inappropriate, which is impossible, you 
                <li>Proficiency.</li>
             </ul>
          </p> 
-         </p>                                                       
+         </p>                                                        
       </div>
     
         </div>
-        <a class="text-center moreless-button btn-sm btn-primary expertise-covers-v2__btn" href="">Read more</a>
+
+        <a class="text-center moreless-button btn-sm btn-warning expertise-covers-v2__btn">Read more</a>
         </div>
       
            </div>

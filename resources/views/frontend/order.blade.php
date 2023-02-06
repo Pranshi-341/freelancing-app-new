@@ -53,9 +53,9 @@
             <h2 class="h1_tag_style">Welcome to Essay Sages</h2>
             <p class="w-50 text-center">where our acclaimed client’s assignments and tasks are meticulously done We have a great deal to offer so please take your time to browse our website to discover more about us and what we offer</p>
             <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-                <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
-                <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />24/7 on Demand</div>
-                <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Timesaver</div>
+                <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Easy Process</div>
+                <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />24/7 on Demand</div>
+                <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Timesaver</div>
             </div>
         </div>
     </div>
@@ -124,7 +124,7 @@
                                 <label for="instructions">Instructions</label>
                                 <textarea class="form-control" id="writterInstructions" name="writterInstructions" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn-sm btn-primary submit">Submit</button>
+                            <button type="submit" class="btn-sm btn-warningsubmit">Submit</button>
                         </form>
                     </div>
                     <!-- create form of editing with field of subject,topic,pages,deadline,Detailed Instructions and attach file -->
@@ -173,7 +173,7 @@
                                 <label for="instructions">Instructions</label>
                                 <textarea class="form-control" id="editInstructions" name="editInstructions" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn-sm btn-primary submit">Submit</button>
+                            <button type="submit" class="btn-sm btn-warningsubmit">Submit</button>
                         </form>
                     </div>
 

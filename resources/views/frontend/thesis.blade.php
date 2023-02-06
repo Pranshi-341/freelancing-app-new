@@ -89,28 +89,29 @@
 
 @section('content')
 <div class="row">
-<div class="col-md-12 bg-image"  >
+<div class="col-md-12  my-3">
+<img class=" bg-image">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          <h1 class="h1_tag_style">{{$title}}</h1>
      <p class="w-50 text-center">{{$topline}}</p>         
          <p style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Essay Writing Service"/>Hassle-Free Order Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Literature Review Writing"/>Qualified Writing Experts</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Online Essay Writing Services"/>On-Time Delivery</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Essay Writing Service"/>Hassle-Free Order Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Literature Review Writing"/>Qualified Writing Experts</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Online Essay Writing Services"/>On-Time Delivery</div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Professional Thesis Writers"/>24*7 Service Available</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Write My Thesis"/>Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Thesis Writing Service"/>Plagiarism-Free Content </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Professional Thesis Writers"/>24*7 Service Available</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Write My Thesis"/>Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Thesis Writing Service"/>Plagiarism-Free Content </div>
          </div>
       </div>
    </div>
 </div>
 <div class="row">
 <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center pd_feature">
          Meet Our Team Of Professional Thesis Writers
 
@@ -144,7 +145,7 @@
          </div>
    </div>
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center pd_feature">
          What Do Our Customers Think About Our Thesis Writing Service?
 
@@ -157,10 +158,10 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="write my dissertation" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Emma</h5>
+                  <h5 class="mb-3 font">Emma</h5>
                  
 
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      I am really very grateful that I came to know about essay sages essay writing service. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
                   </p>
@@ -178,9 +179,9 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="Professional Thesis Writers" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Charlotte </h5>
+                  <h5 class="mb-3 font">Charlotte</h5>
                  
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great essay writing service.
                   </p>
@@ -198,9 +199,9 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Thesis Writing Service" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Brian Bakes</h5>
+                  <h5 class="mb-3 font">Brian Bakes</h5>
                  
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      The writing expert submitted the project very quickly. The quality he provided in my  literature review writing is just outstanding. I am really impressed. Thank you essay sages.
                   </p>
@@ -230,7 +231,7 @@
 </div>
 <div class="row p-3" style="background-color: #fff ;">
    <div class="col-md-12">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center pd_feature">
          Get Your Thesis Writing Done In 4 Easy Steps
 
@@ -253,7 +254,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Enter all the project-related details in the form for a better understanding of our Essay Writers.
                      </span>
@@ -282,7 +283,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Go through the list of our professional writers and select the one that suits your expectations.                     </span>
                   </p>
@@ -304,7 +305,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Before depositing the amount, make sure you are satisfied with our Online Essay Writing Services and then proceed.
                      </span>
@@ -333,7 +334,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Read the <a href="https://en.wikipedia.org/wiki/Paper">paper</a> carefully and then release the payment to the writer. If you want, you can also ask the writer to make any edits.
 
@@ -348,7 +349,7 @@
 
 <div class="row ">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center pd_feature">
          Thesis Writing Services Essay Sages Provides
 
@@ -365,7 +366,7 @@
                      
                         <h5 class="card-title pd_ul" style="text-align:center; font-size:32px;">Types of Essay</h5>
                         <div class="col-md-6">
-                           <ul class="sz_ul">
+                           <ul class="sz_ul font">
                                        <li class="pd_ul">Essay Writing</li>
                                        <li class="pd_ul">Homework Writing</li>
                                        <li class="pd_ul">Dissertation writing</li>
@@ -374,7 +375,7 @@
                            </ul>
                         </div>
                         <div class="col-md-6">
-                           <ul class="sz_ul">
+                           <ul class="sz_ul font">
                                        <li class="pd_ul">Mathematics help</li>
                                        <li class="pd_ul">Computer science-related assignments</li>
                                        <li class="pd_ul">Physics helps</li>
@@ -393,7 +394,7 @@
                <div class="card-body">
                   <div class="row">
                      
-                     <div class="expertise-covers-v2__card-inner">
+                     <div class="expertise-covers-v2__card-inner font">
                         <h4 class="card-title"> Free</b> Features</h4>
                         <ul class="expertise-covers-v2__card-list">
                                             <li class="expertise-covers-v2__card-list-item">
@@ -429,7 +430,7 @@
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                      <div class="expertise-covers-v2__btn">
-                        <a href="order-now" class="btn-sm btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                        <a href="order-now" class="btn-sm btn-warning" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
                      </div>
                      </div>
                   </div>
@@ -440,21 +441,21 @@
    </div>
 </div>
 <!-- Our team members portfolio -->
-<div class="row v2">
+<div class="row v2" style="width:70%;">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+     
          <h2 class="text-center pd_feature">
          Professional Thesis Writers For Hire Online
 
 
          </h2>
-         <p class="pd_feature">Essay Sages is an Online Essay Writing Service that provides services for several academic tasks, including thesis writing. There are students who, for one reason or another, are unable to complete their research writing. Sometimes, it’s fair to take help from experts like Essay Sages as no one wants to repeat the same year again just for one writing task. 
+         <p class="pd_feature" >Essay Sages is an Online Essay Writing Service that provides services for several academic tasks, including thesis writing. There are students who, for one reason or another, are unable to complete their research writing. Sometimes, it’s fair to take help from experts like Essay Sages as no one wants to repeat the same year again just for one writing task. 
 
 
 </p>
+
 </div>
-</div>
-   <div class="col-md-12  moretext section ">
+   <div class="col-md-12 font moretext section">
       <div class="row">
 
          <p class="pd_feature">When you will have professional thesis writers </strong>as Essay Sages, they will also let you know about the subject well. You can then read the whole research work for a better understanding. Our professionals are available 24*7 at your service.</p>
@@ -492,7 +493,9 @@ At the end of the day, we make life easier for students and want everyone to hav
 </p>
         </div>
         </div>
-        <a class="text-center moreless-button btn-sm btn-primary expertise-covers-v2__btn" href="">Read more</a>
+        <div class="text-center" style="padding-bottom:20px;">
+        <a class="text-center moreless-button btn-sm btn-warning expertise-covers-v2__btn pd-ul">Read more</a>
+         </div>
          </div>
          
 
