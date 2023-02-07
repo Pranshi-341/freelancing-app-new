@@ -69,10 +69,8 @@
 
       .h1_tag_style {
         padding-top: 3rem;
-    padding-bottom: 2rem;
-    
-    font:3.25rem Roboto,sans-serif;
-    
+        padding-bottom: 2rem;
+        font:3.25rem Roboto,sans-serif;
       }
 
       .free {
