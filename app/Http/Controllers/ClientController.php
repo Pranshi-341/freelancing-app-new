@@ -127,7 +127,6 @@ class ClientController extends Controller
         // // covert data suiteable for foreach loop
         $posts = json_decode(json_encode($posts), true);
         
-
          // dd($posts);
         return view('frontend.posts', compact('posts'));
     }
@@ -149,7 +148,8 @@ class ClientController extends Controller
                 $values = array('payment_id' => $id, 'user_id' => $user_id, 'name' => $name, 'email' => $email, 'status' => $status, 'amount' => $amount);
                 DB::table('payments')->insert($values);
                 
-                DB::table('table_total_bids')->where('id' , '=' , $order_id)->update(['status' => '1']);
+                DB::table('table_total_bids')->where('job_id' , '=' , $order_id)->update(['status' => '1']);
+                DB::table('publishjobs')->where('id' , '=' , $order_id)->update(['status' => '1']);
                 $message = array('success' => '1', 'message' => 'Payment Done');
                 return response()->json($message);
 
