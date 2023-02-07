@@ -31,7 +31,7 @@ class FreeLancerController extends Controller
 
     public function index()
     {
-        $posts = Publishjobs::get();
+        $posts = Publishjobs::where('status', '=', '0')->get();
         return view('freelancer-panel.layouts.home', compact('posts'));
     }
 

@@ -92,7 +92,7 @@
                                         @endif
                                     @else
                                     @if($post['bidPost'][0]['status'] == 0)
-                                        <button type="button" data-toggle="modal" data-target="#payment_popup" id="popup" name="id" value="{{$post['bidPost'][0]['id']}}" class="btn-success btn-sm price_get" style="width:115px;">Accept Order</button>
+                                        <button type="button" data-toggle="modal" data-target="#payment_popup" id="popup" name="id" value="{{$post['id']}}" class="btn-success btn-sm price_get" style="width:115px;">Accept Order</button>
                                         
                                     @else
                                         <button disabled class="btn-sm  btn-success btn-sm " >Order Accepted</button>
