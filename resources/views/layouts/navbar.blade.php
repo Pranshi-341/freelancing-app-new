@@ -217,7 +217,7 @@ window.onscroll = function() {myFunction()};
 				</div>
 				
 			</div>
-			<form method="post" class="font" enctype="multipart/form-data" id="popup_block" action="{{ route('login.custom') }}">
+			<form method="post" class="font" enctype="multipart/form-data" id="login_page" action="{{ route('login.custom') }}">
       <input type="hidden" name="_token" value="{{ csrf_token() }}">
           <div style="text-align: left;">
             <div class="col-md-12" style="padding-top:10px; ">
@@ -358,6 +358,7 @@ window.onscroll = function() {myFunction()};
         $('#price').hide();
 	});
 });
+
 $('#login_page').submit(function(e) {
   e.preventDefault();
   let formData = new FormData(this);

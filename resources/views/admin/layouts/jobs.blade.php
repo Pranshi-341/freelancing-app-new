@@ -53,21 +53,21 @@
                                             <td>
                                                 @if(!$post['bidPost'])
                                                     @if($post['status'] == 0)
-                                                        <span class="bg-primary">no bid yet</span>
+                                                        <span class="bg-primary">No Bid Yet</span>
                                                     @endif
                                                 @else
                                                 @if($post['bidPost'][0]['status'] == 0)
                                                     <span class="bg-primary">Waiting for Accepted</span>
                                                 @elseif($post['bidPost'][0]['status'] == 1)
-                                                    <span class="bg-success">accepted</span>
+                                                    <span class="bg-success">Accepted</span>
                                                 @elseif($post['bidPost'][0]['status'] == 2)
-                                                    <span class="bg-danger">rejected</span>
+                                                    <span class="bg-danger">Rejected</span>
                                                 @elseif($post['bidPost'][0]['status'] == 3)
-                                                    <span class="bg-warning">in progress</span>
+                                                    <span class="bg-warning">In Progress</span>
                                                 @elseif($post['bidPost'][0]['status'] == 4)
-                                                    <span class="bg-success">completed</span>
+                                                    <span class="bg-success">Completed</span>
                                                 @elseif($post['bidPost'][0]['status'] == 5)
-                                                    <span class="bg-danger">cancelled</span>
+                                                    <span class="bg-danger">Cancelled</span>
                                                 @endif
                                                 @endif
                                             </td>

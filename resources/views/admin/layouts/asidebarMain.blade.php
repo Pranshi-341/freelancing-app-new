@@ -7,7 +7,10 @@
                         <img src="{{asset('/admin/images/avatar/avatar-13.png')}}" class="avatar avatar-lg bg-primary-light rounded100" alt="User Image">
                     </div>
                     <div class="info">
-                        <a class="px-20" href="#">Johen Doe</a>
+                        <?php use Illuminate\Support\Facades\Auth;
+                    	$name = Auth::user()->name;
+                    	?>
+                        <a class="px-20" href="#">{{ $name }}</a>
                     </div>
                 </div>
                 <ul class="list-inline profile-setting mt-20 mb-0 d-flex justify-content-between">
