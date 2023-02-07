@@ -1,3 +1,4 @@
+.
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -177,11 +178,12 @@
    <img class="bg-image">
 
       @include('layouts.navbar')
+      <div class="col-md-12">
       <div class="col-md-12 mt-5 head-part text-white">
          
             <h1 class="h1_tag_style">Welcome To Essay Sages</h1>
          
-         <p class="w-50 font  text-center">Where Our Acclaimed Client’s Assignments And Tasks Are
+         <p class="w-50 font text-center">Where Our Acclaimed Client’s Assignments And Tasks Are
 Meticulously Done. Our Competence Is Unmatched. Once You Submit An Order, You Will Receive
 High-Quality, Customized, and Unique Work Done. We Have a Great Deal To Offer So Please Take
 Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
