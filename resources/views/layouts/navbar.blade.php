@@ -197,11 +197,11 @@ window.onscroll = function() {myFunction()};
       @else
       {{-- check auth --}}
       @if(Auth::user()->registerType == 1)
-        <a class="btn-sm btn-dark my-2 " type="submit" href="/posts" >Your Publish Jobs</a>
-        <a class="btn-sm btn-dark my-2 mx-2" type="submit" href="/order-now" >Order Now</a>
-        <a class="btn-sm btn-dark my-2 my-sm-0" type="submit" href="{{ route('signout') }}" >Signout</a>
+        <a class="btn-sm btn-warning my-2 " type="submit" href="/posts" >Your Publish Jobs</a>
+        <a class="btn-sm btn-warning my-2 mx-2" type="submit" href="/order-now" >Order Now</a>
+        <a class="btn-sm btn-warning my-2 my-sm-0" type="submit" href="{{ route('signout') }}" >Signout</a>
       @elseif(Auth::user()->registerType == 2)
-        <a class="btn-sm btn-dark my-2 " type="submit" href="/freelancer-panel" >Go into Dashboard</a>
+        <a class="btn-sm btn-warning my-2 " type="submit" href="/freelancer-panel" >Go into Dashboard</a>
       @endif
       @endguest
     </div>
@@ -358,6 +358,7 @@ window.onscroll = function() {myFunction()};
         $('#price').hide();
 	});
 });
+
 $('#login_page').submit(function(e) {
   e.preventDefault();
   let formData = new FormData(this);

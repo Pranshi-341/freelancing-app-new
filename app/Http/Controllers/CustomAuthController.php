@@ -80,11 +80,11 @@ class CustomAuthController extends Controller
             $check->price = $data['price'];
             $check->save();
         }
-        $send_mail = $data['email'];
+        //$send_mail = $data['email'];
        
-        $rere = "Test";
+        //$rere = "Test";
 
-        $rere1=  Mail::to($send_mail)->send(new WelcomeMail($rere));
+        //Mail::to($send_mail)->send(new WelcomeMail($rere));
        
         $check = $this->create($data);
         
