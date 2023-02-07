@@ -35,15 +35,15 @@
                                             <td>{{ $application['job']['topic'] }}</td>
                                             <td>
                                                 @if($application['status'] == 0)
-                                                    <span class="text-warning">pending</span>
+                                                    <span class="text-warning">Pending</span>
                                                 @elseif($application['status'] == 1)
-                                                    <span class="text-primary">accepted</span>
+                                                    <span class="text-primary">Waiting For Funding</span>
                                                 @elseif($application['status'] == 2)
-                                                    <span class="text-danger">rejected</span>
+                                                    <span class="text-danger">Rejected</span>
                                                 @elseif($application['status'] == 3)
-                                                    <span class="text-success">completed</span>
+                                                    <span class="text-success">Completed</span>
                                                 @elseif($application['status'] == 4)
-                                                    <span class="text-danger">cancelled</span>
+                                                    <span class="text-danger">Cancelled</span>
                                                 @endif
                                             </td>
                                             {{-- <td><span class="badge badge-secondary-light">Completed</span></td> --}}

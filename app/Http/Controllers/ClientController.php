@@ -148,7 +148,8 @@ class ClientController extends Controller
             if($status == "COMPLETED"){
                 $values = array('payment_id' => $id, 'user_id' => $user_id, 'name' => $name, 'email' => $email, 'status' => $status, 'amount' => $amount);
                 DB::table('payments')->insert($values);
-                DB::table('table_total_bids')->where('id',$order_id)->update(array('status' => '1'));
+                
+                DB::table('table_total_bids')->where('id' , '=' , $order_id)->update(['status' => '1']);
                 $message = array('success' => '1', 'message' => 'Payment Done');
                 return response()->json($message);
 

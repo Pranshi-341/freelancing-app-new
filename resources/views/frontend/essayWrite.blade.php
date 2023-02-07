@@ -132,8 +132,8 @@
          <div class="row">
             
             
-            @foreach($writers as $writers)
             
+         @foreach($name as $name)
             <div class="col-md-4 cs" >
                   <div class="card shadow-md">
                      <div class="card-body">
@@ -142,8 +142,16 @@
                               <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" />
                            </div>
                            <div class="col-md-8">
-                              <h5 class="card-title font">{{ $writers->name }}</h5>
-                              <p class="card-text font">{{ $writers->skills }}</p>
+                              
+                                 <h5 class="card-title font">{{ $name }}</h5>
+                                 
+                                 <div class="" style="font: 15px Roboto,sans-serif; display:flex;">
+                                 @foreach($skills as $skill)
+                                    <p class="card-text font">{{ $skill }},</p>
+                                    @endforeach
+                              </div>
+                              
+                              
                            </div>
                               <p class="card-text font" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
                               <p class="card-text font" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
@@ -152,9 +160,9 @@
                      </div>
                   </div>
             </div>
-            
-            
             @endforeach
+            
+            
             
             
          </div>

@@ -53,7 +53,8 @@
                                         @if($post->budget == 0 || $post->budget == null)
                                             <span class="text-success">Negotiable</span>
                                         @else
-                                        {{ $post->budget }}
+                                        
+                                        {{ $post->budget - ($post->budget * 0.25) }}
                                         @endif
                                     </p>
                                 </div>

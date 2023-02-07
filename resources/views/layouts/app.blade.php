@@ -22,6 +22,9 @@
     
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     
 
@@ -142,6 +145,10 @@
 
   .ip_box {
     width:inherit;
+  }
+
+  .select2-search__field{
+    width: 10.75em!important;
   }
   .cs2{
   background-image: linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522); 

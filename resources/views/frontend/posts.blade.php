@@ -80,7 +80,8 @@
                                     @if(!$post['bidPost'])
                                         <input type="text" value="{{$post['budget']}}" class="pay_price">
                                     @else
-                                        <input type="text" value="{{$post['bidPost'][0]['bid_amount']}}" class="pay_price">
+                                    
+                                        <input type="text" value="{{ $post['bidPost'][0]['bid_amount'] + ($post['bidPost'][0]['bid_amount'] * 0.25) }}" class="pay_price">
                                     @endif
                                 </td>
                                 <td>
@@ -178,7 +179,7 @@
         $(".pay_price").attr('disabled', 'disabled');
         $(".price_get").on('click', function(){
             var price = $(this).closest('tr').find('.pay_price').val();
-            var order_id = $(".price_get").val();            
+            var order_id = $(this).closest('tr').find('.price_get').val();
             
             paypal.Buttons({
                 // optional styling for buttons

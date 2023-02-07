@@ -111,32 +111,44 @@
                   Your time and efforts. No plagiarism, only high-quality content!
                 </p>
       </div>
-      <div class="row">
-            
-            
-            @foreach($writers as $writers)
-            
-            <div class="col-md-4 cs" >
-                  <div class="card shadow-md">
-                     <div class="card-body">
-                        <div class="row">
-                           <div class="col-md-4">
-                              <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" />
-                           </div>
-                           <div class="col-md-8">
-                              <h5 class="card-title font">{{ $writers->name }}</h5>
-                              <p class="card-text font">{{ $writers->skills }}</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+      <div class="row" style="width:90%; border:1px solid black; margin-left: 5%;">
+              <div class="box">
+                <div class="box-body">
+                  <div class="table-responsive">
+                    <table id="example1" class="table mb-0 w-p100">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Skills</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                            @foreach($writers as $writer)
+                                <tr>
+                                    <td>{{ $writer->name }}</td>
+                                    <td>
+                                    @foreach($skills as $skill)
+                                      {{ $skill }},
+                                    @endforeach
+                                    </td>
+                                    
+                                    <td>{{ $writer->price }}</td>
+                                    <td>
+                                      <a class="btn-sm btn-primary" href="order-now" style="background-color:#343a40;">Hire</a>
+                                    </td>
+                                    
+                                </tr>
+                                @endforeach
+                    </tbody>              
+                  </table>
+                  </div>              
+                </div>
+                <!-- /.box-body -->
+                </div>
             </div>
-            
-            
-            @endforeach
-            
-            
-         </div>
+      
    </div>
 </div>
 <div class="row v2"  style="width:50%;">
