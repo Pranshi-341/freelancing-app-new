@@ -1,11 +1,11 @@
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-light" style="background-image: linear-gradient(to right, #bad9b0, #84aea4, #368483, #228384, #4e6f83); color:white;">
+<footer class="text-center text-lg-start bg-light cs2" style="">
   <!-- Section: Social media -->
   <section
     class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
   >
     <!-- Left -->
-    <div class="me-5 d-none d-lg-block" style="padding-left:450px; font-size:20px;">
+    <div class="me-5 d-none d-lg-block font" style="font-size:20px;">
       <span>Get connected with us on social networks:</span>
     </div>
     <!-- Left -->
@@ -43,10 +43,10 @@
         <!-- Grid column -->
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
+          <h6 class="text-uppercase fw-bold mb-4 font">
             <i class="fas fa-gem me-3"></i>Essay Sages
           </h6>
-          <p>
+          <p class="font">
           Essay Sages is a united states education technology site company based in San Fransisco, California which operates an online learning platform for students and tutors founded in 2009.
           </p>
         </div>
@@ -59,16 +59,16 @@
             Services
           </h6>
           <p>
-            <a href="/help/technical" class="text-reset">Technical</a>
+            <a href="/help/technical" class="text-reset font">Technical</a>
           </p>
           <p>
-            <a href="/help/mathematics" class="text-reset">Mathematics</a>
+            <a href="/help/mathematics" class="text-reset font">Mathematics</a>
           </p>
           <p>
-            <a href="/help/physics" class="text-reset">Physics</a>
+            <a href="/help/physics" class="text-reset font">Physics</a>
           </p>
           <p>
-            <a href="/help/dissertation" class="text-reset">Dissertation</a>
+            <a href="/help/dissertation" class="text-reset font">Dissertation</a>
           </p>
         </div>
         <!-- Grid column -->

@@ -36,9 +36,18 @@
       }
       .cs1 
       {
-     padding-left:70px;
+     padding-left:100px;
+     width:100%;
       }
-
+.width
+{
+  width:70%;
+ 
+}
+.font{
+  font:16px Roboto,sans-serif ; 
+  
+}
       .pd_ul{
         padding-bottom:20px;
       }
@@ -59,11 +68,10 @@
       }
 
       .h1_tag_style {
-        padding-top: 3rem;
-    padding-bottom: 2rem;
-    
-    font:3.25rem Roboto,sans-serif;
-    
+        padding-top: 30px;
+        padding-bottom:35px; 
+        font-size: 50px;
+        font:  50px Roboto,sans-serif;
       }
 
       .free {
@@ -92,6 +100,16 @@
   .bg-image
 {
    background-image: url({{ asset('images/essaywriting.png') }});
+  
+    /* -webkit-filter: blur(10px); */
+    /* -moz-filter: blur(10px); */
+    /* -o-filter: blur(10px); */
+    /* -ms-filter: blur(10px); */
+    filter: blur(7px);
+    position:absolute;
+    width:100%;
+    height:100%;
+    margin-left: -16px;
   
   
 }
@@ -131,21 +149,21 @@
   .select2-search__field{
     width: 10.75em!important;
   }
-
+  .cs2{
+  background-image: linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522); 
+  color:white; margin-left: -31px; margin-right: -31px ;
+  }
     </style>
 </head>
 
 <body class="body container-fluid">
-    <!-- TODO remove from here latter -->
-    <!-- <div style="background-image: url(https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v4/intro-bg@2x.webp);"> -->
-        <!-- <div class="row"> -->
+   
             @yield('content')
-        <!-- </div> -->
-    <!-- </div> -->
-    @include('layouts.footer')
+    
+   
 
 </body>
-
+@include('layouts.footer')
 <script
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"

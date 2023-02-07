@@ -11,28 +11,29 @@
 @extends('layouts.app')
 @section('content')
 <div class="row">
-<div class="col-md-12 bg-image">
+<div class="col-md-12 my-3">
+   <img class="bg-image">
       @include('layouts.navbar')
       <div class="col-md-12 mt-5 head-part text-white">
          <h1 class="h1_tag_style">{{$title}}</h1>
-     <p class="w-50 text-center">{{$topline}}</p>         
-         <p style="color: #2e2221;">{{$bottomline}}</p>
+     <p class="w-50 font fw-bold text-center">{{$topline}}</p>         
+    <p class="font fw-bold" style="color: #2e2221;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Essay Writing Service"/>Hassle-Free Order Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Literature Review Writing"/>Qualified Writing Experts</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Online Essay Writing Services"/>On-Time Delivery</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Essay Writing Service"/>Hassle-Free Order Process</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Literature Review Writing"/>Qualified Writing Experts</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Online Essay Writing Services"/>On-Time Delivery</div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Dissertation Writing"/>24*7 Service Available</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Dissertation Writing Service"/>Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Custom Dissertation Services"/>Plagiarism-Free Content </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Dissertation Writing"/>24*7 Service Available</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Dissertation Writing Service"/>Full Privacy</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Custom Dissertation Services"/>Plagiarism-Free Content </div>
          </div>
       </div>
    </div>
 </div>
 <div class="row">
 <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          Meet Our Team Of Dissertation Writing Experts
 
@@ -50,16 +51,8 @@
                               <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" />
                            </div>
                            <div class="col-md-8">
-                              
-                                 <h5 class="card-title">{{ $name }}</h5>
-                                 
-                                 <div class="" style="font: 15px Roboto,sans-serif; display:flex;">
-                                 @foreach($skills as $skill)
-                                    <p class="card-text">{{ $skill }},</p>
-                                    @endforeach
-                              </div>
-                              
-                              
+                              <h5 class="card-title">{{ $writers->name }}</h5>
+                              <p class="card-text">{{ $writers->skills }}</p>
                            </div>
                               <p class="card-text" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
                               <p class="card-text" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
@@ -74,7 +67,7 @@
          </div>
    </div>
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          What Do Our Customers Think About Our Dissertation Writing Service?
          </h2>
@@ -86,10 +79,10 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="Online Dissertation Writing Services" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Emma</h5>
+                  <h5 class="mb-3 font">Emma</h5>
                  
 
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      I am really very grateful that I came to know about Essay Sages Essay Writing Service. The writers are amazing that I can’t even define. They made my work so easy and the perfection of my writing is undefinable. Really good work. 
                   </p>
@@ -107,9 +100,9 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="Professional Dissertation Writing Services" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Charlotte </h5>
+                  <h5 class="mb-3 font">Charlotte</h5>
                  
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      I had to deliver the task on an urgent basis and I didn’t expect Essay Sages to do the work so quickly. They submit the task on time and the writing is really appreciable. Great <strong>Essay Writing Service</strong>.
                   </p>
@@ -127,9 +120,9 @@
             <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Custom Dissertation Writing" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
                <div class="col-lg-8">
-                  <h5 class="mb-3">Brian Bakes</h5>
+                  <h5 class="mb-3 font">Brian Bakes</h5>
                  
-                  <p class="text-muted">
+                  <p class="text-muted font">
                      <i class="fas fa-quote-left pe-2"></i>
                      The writing expert submitted the project very quickly. The quality he provided in my Literature Review Writing is just outstanding. I am really impressed. Thank you Essay Sages.
                   </p>
@@ -159,7 +152,7 @@
 </div>
 <div class="row p-3" style="background-color: #fff ;">
    <div class="col-md-12">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          Get Your Dissertation Writing Done In 4 Easy Steps
 
@@ -181,7 +174,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Enter all the project-related details in the form for a better understanding of our Essay Writers.
                      </span>
@@ -210,7 +203,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Go through the list of our professional writers and select the one that suits your expectations.                     </span>
                   </p>
@@ -232,7 +225,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Before depositing the amount, make sure you are satisfied with our Online Essay Writing Services and then proceed.
                      </span>
@@ -261,7 +254,7 @@
                         </span>
                      </strong>
                   </h5>
-                  <p class="text-dark">
+                  <p class="text-dark font">
                      <span class="text-dark">
                      Read the paper carefully and then release the payment to the writer. If you want, you can also ask the writer to make any edits.
 
@@ -276,7 +269,7 @@
 
 <div class="row ">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="mx-auto">
          <h2 class="text-center mt-3 p-3">
             Professional Writing Services Essay Sages Provides
          </h2>
@@ -292,7 +285,7 @@
                      
                   <h5 class="card-title pd_ul" style="text-align:center; font-size:32px;">Types of Essay</h5>
                         <div class="col-md-6">
-                           <ul class="sz_ul">
+                           <ul class="sz_ul font">
                                        <li class="pd_ul">Essay Writing</li>
                                        <li class="pd_ul">Homework Writing</li>
                                        <li class="pd_ul">Dissertation writing</li>
@@ -301,7 +294,7 @@
                            </ul>
                         </div>
                         <div class="col-md-6">
-                           <ul class="sz_ul">
+                           <ul class="sz_ul font">
                                        <li class="pd_ul">Mathematics help</li>
                                        <li class="pd_ul">Computer science-related assignments</li>
                                        <li class="pd_ul">Physics helps</li>
@@ -318,7 +311,7 @@
             <div class="card shadow-md">
                <div class="card-body">
                   <div class="row">
-                  <div class="expertise-covers-v2__card-inner">
+                  <div class="expertise-covers-v2__card-inner font">
                         <h4 class="card-title"> Free</b> Features</h4>
                         <ul class="expertise-covers-v2__card-list">
                                             <li class="expertise-covers-v2__card-list-item">
@@ -354,7 +347,7 @@
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                         <div class="expertise-covers-v2__btn">
-                           <a href="order-now" class="btn-sm btn-primary" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                           <a href="order-now" class="btn-sm btn-warning" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
                         </div>
                      </div>
                   </div>
@@ -365,21 +358,21 @@
    </div>
 </div>
 <!-- Our team members portfolio -->
-<div class="row v2 ">
+<div class="row v2"  style="width:70%;">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto" style="border-bottom:4px solid #00cf8a">
+      <div class="mx-auto">
          <h2 class="text-center mt-3 p-3">
          Best Dissertation Writing Service
 
          </h2>
-         <p>The ones who are getting a Ph.D. degree know its importance in their life. All students understand that applying for a Ph.D. program is not an easy decision at all. They quickly realize how difficult dissertation writing is when they make their first attempt. It takes years to study the subject, collect good material and organize the research paper. 
+         <p class="font">The ones who are getting a Ph.D. degree know its importance in their life. All students understand that applying for a Ph.D. program is not an easy decision at all. They quickly realize how difficult dissertation writing is when they make their first attempt. It takes years to study the subject, collect good material and organize the research paper. 
          </p>
 
 
 
 </div>
 </div>
-   <div class="col-md-12  moretext section ">
+   <div class="col-md-12 font moretext section">
       <div class="row">
 
          <p class="pd_feature">Unlike any other writing assignment, Dissertation Writing is one of the most difficult academic papers, and its grades can affect your future career! The submission date is near and you are still in the middle of your research paper. There are a lot of students who failed to submit the research work on time and look for Dissertation Writing Service.
@@ -465,8 +458,9 @@ You should not miss your chance to get a flawless paper without any effort on yo
 </p>
     </div>
     </div>
-
-    <a class="text-center moreless-button btn-sm btn-primary expertise-covers-v2__btn" href="">Read more</a>     
+    <div class="text-center" style="padding-bottom:20px;">
+    <a class="text-center moreless-button btn-sm btn-warning expertise-covers-v2__btn" href="">Read more</a>     
+   </div>
    </div>
    
 
