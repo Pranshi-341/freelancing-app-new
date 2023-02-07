@@ -17,6 +17,10 @@
     height: 3em;
     width: 3em;
    }
+   .bg-dark 
+   {
+      color:black !important;
+   }
 </style>
 @section('content')
 <div class="row">
@@ -33,7 +37,7 @@
 <!-- create contact us form -->
 <div class="row v2"   style="width:70%;">
    <div class="col-sm-12 p-5">
-      <div class="card">
+      <div class="card text-white bg-dark mb-3">
          <div class="card-body font">
             <h4 class="card-title fw-bold text-center">Contact Us</h4>
             <form class="form-material m-t-40" action="" method="post">
