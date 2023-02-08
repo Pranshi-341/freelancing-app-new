@@ -62,9 +62,7 @@ class ClientController extends Controller
         $check = Publishjobs::create($data);
         if ($check) {
             $writers = DB::table('freelancers_writers')->get();
-        
-            Session::flash('success', 'Your post has been published successfully');
-            return $this->Posts();
+            return redirect()->route('posts');
         } else {
             Session::flash('error', 'Something went wrong');
             return redirect()->back();

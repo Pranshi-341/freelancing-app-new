@@ -14,10 +14,10 @@ return new class extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('token');
-            $table->integer('connection_id');
+            $table->string('token')->nullable();
+            $table->integer('connection_id')->nullable();
             $table->enum('user_status', ['Offline', 'Online']);
-            $table->string('user_image');
+            $table->string('user_image')->nullable();
         });
     }
 

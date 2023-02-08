@@ -261,10 +261,11 @@ window.onscroll = function() {myFunction()};
 				</div>
 				
 			</div>
-			<form method="post" enctype="multipart/form-data" id="popup_block" action="{{ route('register.custom') }}">
+			<form method="post" enctype="multipart/form-data" id="registration_page" action="{{ route('register.custom') }}">
     			@csrf
           <div class="col-md-12" style="text-align:left;">
             <div class="col-md-12" style="padding-top:10px;">
+            <span id="reg_error" class="text-danger">{{ $errors->first('skills') }}</span>
                 <label for="name" style="display: flex; flex-direction: column;">Name</label>
                 <input type="text" placeholder="Name" id="name" class="ip_box" name="name" required autofocus>
                 @if ($errors->has('name'))
@@ -305,6 +306,7 @@ window.onscroll = function() {myFunction()};
             </div>
             <div class="col-md-12" style="text-align:left;">
             <div class="col-md-12" id="skills" style="display:none;">
+                <label for="skills" style="display: flex; flex-direction: column;">Skills</label>
                 <select class="multi_select" name="skills[]" multiple="multiple">
                   <option value="English">English</option>
                   <option value="Physics">Physics</option>
@@ -317,11 +319,15 @@ window.onscroll = function() {myFunction()};
                   <option value="Law And Legal Issues">Law And Legal Issues</option>
                   <option value="Buissness and Entrepreneurship">Buissness and Entrepreneurship</option>
                   <option value="Psychology">Psychology</option>
-                </select>
+                </select><br>
+                
+                
+                
             </div>
 
-            <div class="col-md-12" style="padding-top:10px;">
-                <input type="text"  name="price" id="price" placeholder="Price" style="display:none;">                                
+            <div class="col-md-12" style="padding-top:10px; display:none;" id="price">
+                <label for="price" style="display: flex; flex-direction: column;">Price</label>
+                <input type="text"  name="price" placeholder="Price" >
             </div>
             
             <div class="col-md-12" style="padding-top:10px;">
@@ -386,6 +392,38 @@ $('#login_page').submit(function(e) {
     error: function (error) {
       let errors = error.responseJSON.message;
       $("#error_div").html(errors);
+      
+    }
+  });
+});
+
+$('#registration_page').submit(function(e) {
+  e.preventDefault();
+  let formData = new FormData(this);
+
+  $.ajax({
+    type: 'POST',
+    url: "{{ route('register.custom') }}",
+    data: formData,
+    processData: false,
+    contentType: false,
+    success: function (response) {
+      
+      if(response.success == 0) {
+        var error = response.message;
+        $("#error_div").html(error);  
+      } else if (response.success == 2) {
+        window.location.href = '/freelancer-panel';
+      } else if (response.success == 3) {
+        window.location.href = '/admin-panel';
+      } else {
+        window.location.href = '/';
+      }
+      //
+    },
+    error: function (error) {
+      let errors = error.responseJSON.message;
+      $("#reg_error").html(errors);
       
     }
   });
