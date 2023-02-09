@@ -12,18 +12,9 @@
 @section('content')
 <head>
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.js"></script>  
-	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css">
-	
+    
 	<style type="text/css">
-	   .toast-success {
-            background-color: #51a351 !important;
-        }
-
-        .toast-error {
-            background-color: #bd362f !important;
-        }
+	   
 	</style>  
 
 </head>
@@ -139,7 +130,7 @@
 </section>
     </div>
 
-<div class="modal" id="payment_popup" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal" id="payment_popup" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centred" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -147,7 +138,7 @@
 					<h5>Hire Writer</h5>
 				</div>
 				<div class="col-md-2">
-    				<button type="button" class="close" data-dismiss="modal" aria-label="close">
+    				<button type="button" class="close" id="close_button" data-dismiss="modal" aria-label="close">
     					<span aria-hidden="true">&times;</span>
     				</button>
 				</div>
@@ -174,10 +165,17 @@
     <script src="{{asset('/admin/assets/vendor_components/datatable/datatables.min.js')}}"></script>
 
 <script>
+    
+$("#close_button").on('click', function(){
+    location.reload();
+});
+
     $(document).ready(function(){
 
         $(".pay_price").attr('disabled', 'disabled');
         $(".price_get").on('click', function(){
+            
+    
             var price = $(this).closest('tr').find('.pay_price').val();
             var order_id = $(this).closest('tr').find('.price_get').val();
             
@@ -219,6 +217,7 @@
                             type: "POST",
                             success: function(data){
                                 toastr.success(data.message);
+                                location.reload();
                             }
 
                         })
