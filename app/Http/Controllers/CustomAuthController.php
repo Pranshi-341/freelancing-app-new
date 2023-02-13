@@ -83,11 +83,7 @@ class CustomAuthController extends Controller
             $check->price = $data['price'];
             $check->save();
         }
-        //$send_mail = $data['email'];
-       
-        //$rere = "Test";
-
-        //Mail::to($send_mail)->send(new WelcomeMail($rere));
+        
        
         $check = $this->create($data);
         
@@ -95,6 +91,10 @@ class CustomAuthController extends Controller
         Auth::loginUsingId($id);
         
         if( $check['registerType'] == 1 ){
+            $send_mail = $data['email'];
+            $rere = "Test";
+
+            Mail::to($send_mail)->send(new WelcomeMail($rere));
             $message = array('success' => '1', 'message' => 'Logged In');
             return response()->json($message);
             //return redirect("/")->withSuccess('You have signed-in');
