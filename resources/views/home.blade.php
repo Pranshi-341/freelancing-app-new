@@ -288,7 +288,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
 </div>
 
 
-</div>
+  
 <div class="row p-3" style="background-color: #fff ;">
    <div class="col-md-12">
       <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
@@ -616,4 +616,39 @@ In any case, if you find the whole task inappropriate, which is impossible, you 
          </div>
 </div>
 
+<!-- Coupon Modal -->
+
+<div class="modal fade top" id="modalCoupon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true" data-backdrop="true">
+    <div class=" modal-frame  modal-dialog modal-success" role="document">
+      <!--Content-->
+      <div class="modal-content bg-modal" >
+         
+            
+        <!--Body-->
+        <div class="modal-body">
+          <div class="align-items-center" style="text-align:center">
+            <div class="">
+               
+               <button type="button" class="close" id="close_button" data-dismiss="modal" aria-label="close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+               <h1 class="font" style="font-size :30px;">Welcome To Essay Sages!</h1>
+            </div>
+            <p class="pt-3 font" style="color:green;">Avail Your 50% Off Discount Code Now!</p>
+            <p class="font" style="font-size:25px; color:red;">Code: jh27f1</p>
+            <p class="font" style="font-size:12px;">(For New Users Only)</p>
+         </div>
+              
+        </div>
+      </div>
+      <!--/.Content-->
+    </div>
+  </div>
+<script>
+   $(window).on('load', function() {
+        $('#modalCoupon').modal('show');
+    });
+   
+</script>
 @endsection
