@@ -43,19 +43,17 @@ class GoogleLoginController extends Controller
                 }else if($finduser->registerType == 3){
                     return redirect("/admin-panel")->withSuccess('You have signed-in');
                 }
-      
-                return redirect()->intended('/');
        
             } else {
+                
                 $newUser = User::create([
                     'name' => $user->name,
                     'email' => $user->email,
                     'google_id'=> $user->id,
-                    'password' => 'dummypass'// you can change auto generate password here and send it via email but you need to add checking that the user need to change the password for security reasons
+                    'password' => 'dummypass',// you can change auto generate password here and send it via email but you need to add checking that the user need to change the password for security reasons
+                    'registerType' => '1',
                 ]);
-      
-                Auth::login($newUser);
-      
+                
                 return redirect()->intended('/');
             }
       

@@ -343,11 +343,11 @@
    <div class="col-md-12 font moretext section ">
       <div class="row">
 
-      <p class="pd_feature">Isn’t it a good way? You can now enjoy everything else you wanted without compromising on your homework. Ask our professionals for Homework Help Online and let them be your helping hands for all of your assignment work.
+      <p class="pd_feature font-large">Isn’t it a good way? You can now enjoy everything else you wanted without compromising on your homework. Ask our professionals for Homework Help Online and let them be your helping hands for all of your assignment work.
 They can handle any complex task. All of our Professional Paper Writers are experienced enough to provide you with quality work. Although we can also complete the task within 24 hours it would be better if you can allow us some free time to research the project.
-</p><p>Essay Sages is helping students do assignments for many years. In these recent years, we are also working on our weaknesses and on a mission to make us better each day. We are not the one who compromises the quality in any manner. Visit our website and choose the best suitable writer for your homework task. We are 24*7 available to answer your queries. It is very easy to place an order. Don’t worry, your payment will be safe with us and it will only be credited to the writer once you will approve the submitted work.</p>   
+</p><p class="font-large">Essay Sages is helping students do assignments for many years. In these recent years, we are also working on our weaknesses and on a mission to make us better each day. We are not the one who compromises the quality in any manner. Visit our website and choose the best suitable writer for your homework task. We are 24*7 available to answer your queries. It is very easy to place an order. Don’t worry, your payment will be safe with us and it will only be credited to the writer once you will approve the submitted work.</p>   
       <h2 > Homework Help Online From Professional Paper Writers</h2>
-         <p class="pd_feature">You will find a number of  Homework Help</strong> services online but it is not an easy task to find the most reliable and trusted one like Essay Sages. Make sure you are hiring an online writing service who have professional writers and years of expertise. Plagiarized or poor-quality homework writing will be of no use. At Essay Sages, we guarantee to provide unique quality content. Check out the below-given benefits of hiring <a href="https://en.wikipedia.org/wiki/Paper">Paper</a> Writers for your homework:
+         <p class="pd_feature font-large">You will find a number of  Homework Help</strong> services online but it is not an easy task to find the most reliable and trusted one like Essay Sages. Make sure you are hiring an online writing service who have professional writers and years of expertise. Plagiarized or poor-quality homework writing will be of no use. At Essay Sages, we guarantee to provide unique quality content. Check out the below-given benefits of hiring <a href="https://en.wikipedia.org/wiki/Paper">Paper</a> Writers for your homework:
 <ul style="margin-left:20px;">
 <li><h5>  24*7 Support</h5>
 The primary goal of Essay Sages is to provide the proper convenience and support to our customers. This is why we are 24*7 available to serve you.
@@ -370,7 +370,7 @@ Our support team is available 24*7 to help you. If you have any queries, ask the
 </p>
 <h2>Ask Writing Experts For Your Homework Help
 </h2>
-         <p class="pd_feature">A group of professional writers is the main competitive advantage of many  Homework Help</strong> websites, but few do the job of complexity. Some Online Homework Help services may only do homework in certain disciplines. Our online writing services can help you complete assignments of any complexity which also includes high school and college assignments.
+         <p class="pd_feature font-large">A group of professional writers is the main competitive advantage of many  Homework Help</strong> websites, but few do the job of complexity. Some Online Homework Help services may only do homework in certain disciplines. Our online writing services can help you complete assignments of any complexity which also includes high school and college assignments.
  Our professional writers will complete your work quickly without grammatical errors. They have expertise in the following:
 
         <ul style="margin-left:20px;">
@@ -385,7 +385,7 @@ Our support team is available 24*7 to help you. If you have any queries, ask the
  <li>Law</li>
  <li>Medical Science</li>
         </ul>
-        <p>If you have any other writing task apart from the above-mentioned, don’t hesitate to ask our experts. We are 24*7 available to answer your queries and provide you with the best resolution. Our writers are never afraid of complex tasks.
+        <p class="font-large">If you have any other writing task apart from the above-mentioned, don’t hesitate to ask our experts. We are 24*7 available to answer your queries and provide you with the best resolution. Our writers are never afraid of complex tasks.
 Here is the list of papers our writers can help you with:
 <ul style="margin-left:20px;">
         <li>Essays</li>
@@ -400,7 +400,7 @@ A Master’s degree is the least qualification we ask writers for before hiring 
  </p>
         <h2>Boost Your Grades By Hiring Homework Help Writers At Essay Sages
 </h2>
-        <p>
+        <p class="font-large">
         If you have made up your mind and are ready to take help with your homework, you just need to do the following:
         <ul style="margin-left:20px;">
         <li>On our website, choose the paper writing service you are looking for, let’s say  Homework Help</strong>.

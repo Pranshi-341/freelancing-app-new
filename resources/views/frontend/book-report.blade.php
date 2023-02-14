@@ -380,7 +380,7 @@
          Custom Book Report Writing Service From Essay Sages Expert
 
          </h2>
-         <p class="font">Have you recently been assigned to write a book report but due to some reasons you can’t make it happen? Actually, it's a matter of interest and time availability. There are students who love to write reports but don’t have time. On the other hand, some students don’t have any interest in writing at all. In both cases, Essay Sages is providing  Book Report Writing Service </strong>to overcome both situations.
+         <p class="font font-large">Have you recently been assigned to write a book report but due to some reasons you can’t make it happen? Actually, it's a matter of interest and time availability. There are students who love to write reports but don’t have time. On the other hand, some students don’t have any interest in writing at all. In both cases, Essay Sages is providing  Book Report Writing Service </strong>to overcome both situations.
          </p>
         
          
@@ -389,41 +389,41 @@
 </p>
    <div class="col-md-12 font moretext section">
       <div class="row">
-<p>The process to hire   Custom Book Report experts is quite simple at Essay Sages. Visit the website, choose the course and submit your requirements. You can also select your desired writer to complete your book report writing. No matter which report writer you choose, all of them have a skilled academic background.
+<p class="font-large">The process to hire   Custom Book Report experts is quite simple at Essay Sages. Visit the website, choose the course and submit your requirements. You can also select your desired writer to complete your book report writing. No matter which report writer you choose, all of them have a skilled academic background.
 </p>
 <h3 class="text-center pd_feature">
 Why You Should Trust Us From Book Report Writing Service?
  </h3>
-         <p class="pd_feature">Why should you try Essay Sages for Book Report Writing? The task of submitting a college or school assignment is something that one can’t compromise with. These assignments might affect your academic grades. At Essay Sages, we believe in quality work. You will get a well-researched, proper order and unique content work each time you ask us to help you. Our services are built on five major elements:
+         <p class="pd_feature font-large">Why should you try Essay Sages for Book Report Writing? The task of submitting a college or school assignment is something that one can’t compromise with. These assignments might affect your academic grades. At Essay Sages, we believe in quality work. You will get a well-researched, proper order and unique content work each time you ask us to help you. Our services are built on five major elements:
 
             <h4 class="pd_feature">Top-Notch Quality</h4>
-        <p class="pd_feature">With the writer's selection method, you can personally choose the book report writer to write the report for you. We provide the Book Report Writing Service that will provide you with complete solutions. Our writers will shape the book writing task based on your requirements.
+        <p class="pd_feature font-large">With the writer's selection method, you can personally choose the book report writer to write the report for you. We provide the Book Report Writing Service that will provide you with complete solutions. Our writers will shape the book writing task based on your requirements.
         </p>
         <h4 class="pd_feature">Full Confidentiality</h4>
-        <p class="pd_feature">We understand that you might have a fear of privacy while using online writing services. At Essay Sages, we are completely responsible for the privacy of your personal information. We will not share your personal information with any third-party services in any manner. Each of your personal details will be safe with us.
+        <p class="pd_feature font-large">We understand that you might have a fear of privacy while using online writing services. At Essay Sages, we are completely responsible for the privacy of your personal information. We will not share your personal information with any third-party services in any manner. Each of your personal details will be safe with us.
 
 </p> 
 <h4 class="pd_feature"> On-Time Delivery</h4>
-        <p class="pd_feature">Using Essay Sages Assignment Writing Service means your project will be delivered to you on or before the deadline. We understand the importance of submitting assignments on delivery dates. You will receive your report writing at the time you mentioned while hiring our book report writers.
+        <p class="pd_feature font-large">Using Essay Sages Assignment Writing Service means your project will be delivered to you on or before the deadline. We understand the importance of submitting assignments on delivery dates. You will receive your report writing at the time you mentioned while hiring our book report writers.
         </p>
         <h4 class="pd_feature"> 100% Unique Content</h4>
-        <p class="pd_feature">When we say, “the work has been completed successfully”, it means you can directly submit it to your school or college without cross-checking anything. At Essay Sages, we have provided software to our writers to check for plagiarism before the final submission. Along with quality content, you will get content that is completely unique.
+        <p class="pd_feature font-large">When we say, “the work has been completed successfully”, it means you can directly submit it to your school or college without cross-checking anything. At Essay Sages, we have provided software to our writers to check for plagiarism before the final submission. Along with quality content, you will get content that is completely unique.
 
 </p> 
 <h4 class="pd_feature">24*7 Support Services</h4>
-        <p class="pd_feature">Essay Sages is available for their customers 24*7. If you ever feel like asking something, reach out to our customer executives. They will be happy to answer your queries. Connect with the executives today!
+        <p class="pd_feature font-large">Essay Sages is available for their customers 24*7. If you ever feel like asking something, reach out to our customer executives. They will be happy to answer your queries. Connect with the executives today!
         </p>
         <h3 class="text-center pd_feature">
         Essay Sages Only Hires Well- Experienced Book Report Writers
  </h3>
-         <p class="pd_feature">Hiring Custom Book Report writers at Essay Sages is one of the smartest decisions you have ever made. All of our writers are qualified and experienced in their designated fields. It simply means, they have a level of understanding of the task and deliver quality content. Hire one of our writers today for the best <a href="https://en.wikipedia.org/wiki/Book">Book</a> Review Writing Service.
+         <p class="pd_feature font-large">Hiring Custom Book Report writers at Essay Sages is one of the smartest decisions you have ever made. All of our writers are qualified and experienced in their designated fields. It simply means, they have a level of understanding of the task and deliver quality content. Hire one of our writers today for the best <a href="https://en.wikipedia.org/wiki/Book">Book</a> Review Writing Service.
 If you have completed the book report writing but need someone to check and fix everything, feel free to connect with us. Our writers will check the whole report and make changes wherever required. You will receive error-free, quality report writing work. Don’t worry, we are affordable and available 24*7 to help you.
 
 </p> 
 <h3 class="text-center pd_feature">
 How To Hire A Writer For Book Report Writing Service At Essay Sages?
  </h3>
-         <p class="pd_feature">The hiring process for book report writers at Essay Sages is as simple as posting your favorite pic on social media. You simply need to visit our official website and complete the form with the title of the book report along with the subject. Enter the deadline and choose the writer you want to hire for Book Report Writing Service. You can then sit relaxed and start focusing on other necessary things. In the given time, your task will be completed and you will get good grades.
+         <p class="pd_feature font-large">The hiring process for book report writers at Essay Sages is as simple as posting your favorite pic on social media. You simply need to visit our official website and complete the form with the title of the book report along with the subject. Enter the deadline and choose the writer you want to hire for Book Report Writing Service. You can then sit relaxed and start focusing on other necessary things. In the given time, your task will be completed and you will get good grades.
 </p> 
 
         </div>
