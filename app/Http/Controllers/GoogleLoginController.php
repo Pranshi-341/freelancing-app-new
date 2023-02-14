@@ -30,11 +30,19 @@ class GoogleLoginController extends Controller
       
             $user = Socialite::driver('google')->user();
        
-            $finduser = User::where('google_id', $user->id)->first();
+            $finduser = User::where('email', $user->email)->first();
        
-            if ( $finduser ) {
+            if (!empty($finduser->id)) {
        
-                Auth::login($finduser);
+                Auth::loginUsingId($finduser->id);
+
+                if($finduser->registerType == 1){
+                    return redirect("/")->withSuccess('You have signed-in');
+                }else if($finduser->registerType == 2){
+                    return redirect("/freelancer-panel")->withSucess('You have signed-in');
+                }else if($finduser->registerType == 3){
+                    return redirect("/admin-panel")->withSuccess('You have signed-in');
+                }
       
                 return redirect()->intended('/');
        
