@@ -207,17 +207,20 @@ window.onscroll = function() {myFunction()};
     </div>
   </div>
 </nav>
-<div class="modal font" id="contact_modal" tabindex="-1" role="dialog" style="padding-top:70px;" aria-hidden="true">
-	<div class="modal-dialog modal-sm " role="document">
+<div class="modal fade" id="contact_modal" tabindex="-1" role="dialog" style="padding-top:70px;" aria-hidden="true">
+	<div class="modal-dialog modal-sm" role="document">
 		<div class="modal-content">
-			<div class="modal-header" style=" background-color: rgb(0, 0, 0);
+			<div class="modal-header col-md-12 font" style=" background-color: rgb(0, 0, 0);
          background-image: linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
-				<div class="col-md-12 font">
-					<h5 style="text-align:center; color:white;">Sign In</h5>
-				</div>
+			
+					<h5 class="modal-title" style="text-align:center; color:white;">Sign In</h5>
+          <button type="button" style="padding-top:1rem;" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+	
 				
 			</div>
-			<form method="post" class="font" enctype="multipart/form-data" id="login_page" action="{{ route('login.custom') }}">
+      <div class="modal-body">
+      <form method="post" class="font" enctype="multipart/form-data" id="login_page" action="{{ route('login.custom') }}">
       <input type="hidden" name="_token" value="{{ csrf_token() }}">
           <div style="text-align: left;">
             <div class="col-md-12" style="padding-top:10px; ">
@@ -241,8 +244,16 @@ window.onscroll = function() {myFunction()};
                         <input type="checkbox" name="remember"> Remember Me
                     </label>
                 </div>
+      </div>
+      <div class="modal-footer col-md-6">
             
                 <button type="submit" class="btn-sm btn-warning" style="color:black;">Sign In</button>
+                <div class=" col-md">
+            <a href="{{ url('login/google') }}">
+                <img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png">
+            </a>
+        </div>
+                </div>
             </div>
           </div>
 			</form>
@@ -251,16 +262,19 @@ window.onscroll = function() {myFunction()};
 	</div>
 </div>
 <!-- Registration page -->
-<div class="modal" id="register_modal" tabindex="-1" role="dialog" style="padding-top:70px;" aria-hidden="true">
+<div class="modal fade" id="register_modal" tabindex="-1" role="dialog" style="padding-top:70px;" aria-hidden="true">
 	<div class="modal-dialog modal-sm" role="document">
 		<div class="modal-content">
-			<div class="modal-header" style=" background-color: rgb(0, 0, 0);
+			<div class="modal-header col-md-12 font" style=" background-color: rgb(0, 0, 0);
          background-image: linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
-				<div class="col-md-12 font">
+			
 					<h5 style="text-align:center; color:white;">Sign Up</h5>
-				</div>
-				
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        
 			</div>
+      <div class="modal-body">
 			<form method="post" enctype="multipart/form-data" id="popup_block" action="{{ route('register.custom') }}">
     			@csrf
           <div class="col-md-12" style="text-align:left;">
@@ -329,9 +343,17 @@ window.onscroll = function() {myFunction()};
                     <label><input type="checkbox" name="remember"> Remember Me</label>
                 </div>
             </div>
-            <div class="col-md-12" style="padding-top:10px;">
-                <button type="submit" class="btn-sm btn-warning" style=" color:black;">Sign up</button>
             </div>
+            <div class="col-md-6 modal-footer" style="padding-top:10px;">
+                <button type="submit" class="btn-sm btn-warning" style=" color:black;">Sign up</button>
+                <div class=" col-md">
+            <a href="{{ url('login/google') }}">
+                <img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png">
+            </a>
+        </div>
+        
+            </div>
+
           </div>
 			</form>
 			

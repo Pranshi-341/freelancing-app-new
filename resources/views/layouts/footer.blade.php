@@ -5,7 +5,7 @@
     class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
   >
     <!-- Left -->
-    <div class="me-5 d-none d-lg-block font" style="font-size:20px;">
+    <div class="me-5 d-none d-lg-block font" style="font-size:20px; margin-left:3rem">
       <span>Get connected with us on social networks:</span>
     </div>
     <!-- Left -->
@@ -37,7 +37,7 @@
 
   <!-- Section: Links  -->
   <section class="">
-    <div class="container text-center text-md-start mt-5">
+    <div class="container text-md-start mt-5">
       <!-- Grid row -->
       <div class="row mt-3">
         <!-- Grid column -->

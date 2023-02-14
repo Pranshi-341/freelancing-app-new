@@ -25,7 +25,8 @@ class User extends Authenticatable
         'token',
         'connection_id',
         'user_status',
-        'user_image'
+        'user_image',
+        'google-id'
     ];
 
     /**
@@ -46,4 +47,8 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+    public function setPasswordAttribute($value)
+    {
+        $this->attributes['password'] = bcrypt($value);
+    }
 }

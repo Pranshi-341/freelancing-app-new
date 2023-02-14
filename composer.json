@@ -7,9 +7,11 @@
     "require": {
         "php": "^8.0.2|^8.1",
         "cboden/ratchet": "^0.4.4",
+        "doctrine/dbal": "^3.6",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.11",
         "laravel/sanctum": "^2.14.1",
+        "laravel/socialite": "^5.6",
         "laravel/tinker": "^2.7",
         "paypal/rest-api-sdk-php": "^1.6",
         "symfony/http-client": "^6.0",

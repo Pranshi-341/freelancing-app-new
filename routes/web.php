@@ -10,7 +10,7 @@ use App\Http\Controllers\ClientController;
 // add controller AdminController
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\FreeLancerController;
-
+use App\Http\Controllers\GoogleLoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -135,3 +135,9 @@ Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name(
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom'); 
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
+
+
+
+/* Google Social Login */
+Route::get('/login/google',[GoogleLoginController::class, 'redirect'])->name('login.google-redirect');
+Route::get('/login/google/callback', [GoogleLoginController::class, 'callback'])->name('login.google-callback');
