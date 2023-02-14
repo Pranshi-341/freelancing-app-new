@@ -35,6 +35,25 @@
    </div>
 </div>
 <!-- create contact us form -->
+<div style="display:flex">
+<div class="row v2 w-50" >
+
+<div class="col-sm-12 p-5">
+
+      <div class="card mb-3">
+      
+      
+         <div class="card-body font">
+         <h4 class="card-title fw-bold text-center">Contact At</h4>
+        
+            <p class=" text-center">New York, NY 10012, US</p>
+            <p  class=" text-center">info@example.com</p>
+            <p  class=" text-center">+ 01 234 567 88</p>
+            <p  class=" text-center">+ 01 234 567 89</p>
+</div>
+</div>
+</div>
+</div>
 <div class="row v2"   style="width:70%;">
    <div class="col-sm-12 p-5">
       <div class="card text-white bg-dark mb-3">
@@ -65,6 +84,7 @@
          </div>
       </div>
    </div>
+</div>
 </div>
 
 
