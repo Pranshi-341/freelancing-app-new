@@ -121,7 +121,7 @@ Route::get('/order-now',[frontendController::class,'OrderNow'])->name("order-now
 Route::post('/publish/writterpost',[ClientController::class,'PublishWritterPost'])->name("publish_post");
 Route::post('/publish/editpost',[ClientController::class,'PublishEditPost']);
 
-Route::get('/posts',[ClientController::class,'Posts']);
+Route::get('/posts',[ClientController::class,'Posts'])->name("posts");
 Route::post('payment_save',[ClientController::class,'payment_save']);
 
 Route::post('/acceptorder',[ClientController::class,'Acceptorder']);

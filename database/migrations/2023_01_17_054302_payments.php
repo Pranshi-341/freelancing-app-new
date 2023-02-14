@@ -15,11 +15,12 @@ return new class extends Migration
     {
         Schema::create('payments', function (Blueprint $table) {
             $table->id();
-            $table->string('payment_id');
-            $table->string('name');
-            $table->string('email');
-            $table->string('status');
-            $table->string('amount');
+            $table->string('payment_id')->nullable();
+            $table->string('user_id')->nullable();
+            $table->string('name')->nullable();
+            $table->string('email')->nullable();
+            $table->string('status')->nullable();
+            $table->string('amount')->nullable();
             $table->timestamps();
         });
     }
@@ -31,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('payments');
     }
 };

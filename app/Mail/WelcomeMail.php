@@ -32,11 +32,12 @@ class WelcomeMail extends Mailable
      */
     public function envelope()
     {
-      
-        return new Envelope(
+     
+       return new Envelope(
             from: new Address('laksh.kodegurus@gmail.com', 'Laksh'),
             subject: 'Welcome Aboard',
         );
+      
     }
 
     /**

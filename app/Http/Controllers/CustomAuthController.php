@@ -72,6 +72,9 @@ class CustomAuthController extends Controller
         $data = $request->all();
         
         if($data['registerType'] == 2){
+            $request->validate([
+                'skills' => 'required',
+            ]);
             $check = new freelancers_writers();
             $check->name = $data['name'];
             $check->email = $data['email'];
@@ -80,11 +83,7 @@ class CustomAuthController extends Controller
             $check->price = $data['price'];
             $check->save();
         }
-        //$send_mail = $data['email'];
-       
-        //$rere = "Test";
-
-        //Mail::to($send_mail)->send(new WelcomeMail($rere));
+        
        
         $check = $this->create($data);
         
@@ -92,13 +91,23 @@ class CustomAuthController extends Controller
         Auth::loginUsingId($id);
         
         if( $check['registerType'] == 1 ){
-            return redirect("/")->withSuccess('You have signed-in');
+            $send_mail = $data['email'];
+            $rere = "Test";
+
+            Mail::to($send_mail)->send(new WelcomeMail($rere));
+            $message = array('success' => '1', 'message' => 'Logged In');
+            return response()->json($message);
+            //return redirect("/")->withSuccess('You have signed-in');
         }
         else if( $check['registerType'] == 2 ){
-            return redirect("/freelancer-panel")->withSuccess('You have signed-in');
+            $message = array('success' => '2', 'message' => 'Logged In');
+            return response()->json($message);
+            //return redirect("/freelancer-panel")->withSucess('You have signed-in');
         }
         else if( $check['registerType'] == 3 ){
-            return redirect("/admin-panel")->withSuccess('You have signed-in');
+            $message = array('success' => '3', 'message' => 'Logged In');
+            return response()->json($message);
+            //return redirect("/admin-panel")->withSuccess('You have signed-in');
         }
     }
 

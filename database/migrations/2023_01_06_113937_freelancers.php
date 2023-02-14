@@ -15,11 +15,11 @@ return new class extends Migration
     {
         Schema::create('freelancers_writers', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('name')->nullable();
             $table->string('email')->unique();
-            $table->string('password');
-            $table->string('skills');
-            $table->string('price');
+            $table->string('password')->nullable();
+            $table->string('skills')->nullable();
+            $table->string('price')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
@@ -32,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('freelancers_writers');
     }
 };
