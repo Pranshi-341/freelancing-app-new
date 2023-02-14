@@ -457,27 +457,24 @@
 
 
          </h2>
-         <p class="pd_feature" >Essay Sages is an Online Essay Writing Service that provides services for several academic tasks, including thesis writing. There are students who, for one reason or another, are unable to complete their research writing. Sometimes, it’s fair to take help from experts like Essay Sages as no one wants to repeat the same year again just for one writing task. 
-
-
-</p>
+         <p class="pd_feature font-large" >Essay Sages is an Online Essay Writing Service that provides services for several academic tasks, including thesis writing. There are students who, for one reason or another, are unable to complete their research writing. Sometimes, it’s fair to take help from experts like Essay Sages as no one wants to repeat the same year again just for one writing task. </p>
 
 </div>
    <div class="col-md-12 font moretext section">
       <div class="row">
 
-         <p class="pd_feature">When you will have professional thesis writers </strong>as Essay Sages, they will also let you know about the subject well. You can then read the whole research work for a better understanding. Our professionals are available 24*7 at your service.</p>
+         <p class="pd_feature font-large">When you will have professional thesis writers </strong>as Essay Sages, they will also let you know about the subject well. You can then read the whole research work for a better understanding. Our professionals are available 24*7 at your service.</p>
          <h3 class="text-center pd_feature">Thesis Writing Service By Experts At Essay Sages
 
 </h3>
-         <p class="pd_feature">We understand that writing a thesis is not an easy task and it takes years of knowledge and experience in the same field. The writers must be qualified to complete the thesis writing and Essay Sages understand it. Hence, we will assign you a writer who has handled thesis writing before and has qualifications higher than you. So, ask our professional thesis writers to “Write My Thesis”. Our dedicated writers worked hard for years to get qualified for this position. We promise to provide you with quality work.
+         <p class="pd_feature font-large">We understand that writing a thesis is not an easy task and it takes years of knowledge and experience in the same field. The writers must be qualified to complete the thesis writing and Essay Sages understand it. Hence, we will assign you a writer who has handled thesis writing before and has qualifications higher than you. So, ask our professional thesis writers to “Write My Thesis”. Our dedicated writers worked hard for years to get qualified for this position. We promise to provide you with quality work.
 No matter what the questions or the topic of your research writing, our dedicated professionals will complete the task in the given time. Before the deadline, the completed task will be sent to your registered mail address after reviewing it properly. In the whole market, Essay Sages is popular for its writing services. You do need to look further when our writers are 24*7 available to provide you with the best thesis writing services.
 </p>
 <h3 class="text-center pd_feature"> Choose A Reliable Thesis Writing Service For Professional Work
 
 
 </h3>
-         <p class="pd_feature">The Internet is the ocean where you will find the solution to any problem but deep down, you may also find some danger and in this case, it could be some fake writing services. We completely understand your fear. It is really not easy to rely upon someone for the work you have completely dependent on. At Essay Sages, we have been serving our customers for 15 years and all the writers working with us are experienced. You will get the work done at an affordable price. Here are some of the benefits of hiring experts at Essay Sages for thesis writing.
+         <p class="pd_feature font-large">The Internet is the ocean where you will find the solution to any problem but deep down, you may also find some danger and in this case, it could be some fake writing services. We completely understand your fear. It is really not easy to rely upon someone for the work you have completely dependent on. At Essay Sages, we have been serving our customers for 15 years and all the writers working with us are experienced. You will get the work done at an affordable price. Here are some of the benefits of hiring experts at Essay Sages for thesis writing.
 
 <ul style="margin-left:20px;">
 <li><b>We Can Handle Any Paper Writing:</b> All of our Professional Thesis Writers </strong>are qualified enough to handle any task no matter how difficult it is for you.
@@ -494,8 +491,8 @@ No matter what the questions or the topic of your research writing, our dedicate
 <h3 class="text-center pd_feature"> How To Make Thesis Writing Service Order With Essay Sages?
 
 </h3>
-         <p class="pd_feature">Ordering our master's thesis writing service requires little effort for any custom request. You must first enter all the necessary information in the online form and confirm it. Next, you must specify all the requirements for your document, including length, type, quality level, and other special features. Next, pay for your personal account and choose an author to fulfill your request. You can contact the author and review their work during the process. The ordering process takes less than 3 minutes and saves you hours or days compared to writing the report yourself.
-Don't worry about paperwork and you may get bored or frustrated by doing it without inspiration or with a busy schedule. People in this situation challenge us by asking us to "write my dissertation". </p><p>They are convinced that they don't want to waste their precious time and that their health is stressed by overtime and hard work. Just let our bachelor's Thesis Writing Service team help you. Place an order today and enjoy your free time, knowing that soon you will get something that will definitely gonna impress your professionals and academic staff. Most importantly, we are always available for customers and help those who need help and happiness.
+         <p class="pd_feature font-large">Ordering our master's thesis writing service requires little effort for any custom request. You must first enter all the necessary information in the online form and confirm it. Next, you must specify all the requirements for your document, including length, type, quality level, and other special features. Next, pay for your personal account and choose an author to fulfill your request. You can contact the author and review their work during the process. The ordering process takes less than 3 minutes and saves you hours or days compared to writing the report yourself.
+Don't worry about paperwork and you may get bored or frustrated by doing it without inspiration or with a busy schedule. People in this situation challenge us by asking us to "write my dissertation". </p><p class="font-large">They are convinced that they don't want to waste their precious time and that their health is stressed by overtime and hard work. Just let our bachelor's Thesis Writing Service team help you. Place an order today and enjoy your free time, knowing that soon you will get something that will definitely gonna impress your professionals and academic staff. Most importantly, we are always available for customers and help those who need help and happiness.
 At the end of the day, we make life easier for students and want everyone to have a successful education. Those with experience ordering Ph.D. any book or services know this well. Everyone needs professional help in any academic subject and there is nothing special if you are looking for qualified professional thesis writers to help you manage your process. Essay Sages is the right place to find the support you need! Leave all the hard work of learning on your shoulders and see how amazing and relaxing your learning life will be.
 
 </p>

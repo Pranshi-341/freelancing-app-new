@@ -471,13 +471,8 @@ In any case, if you find the whole task inappropriate, which is impossible, you 
         <!--Body-->
         <div class="modal-body">
           <div class="align-items-center" style="text-align:center">
-            <div class="">
-               
-               <button type="button" class="close" id="close_button" data-dismiss="modal" aria-label="close">
-                  <span aria-hidden="true">&times;</span>
-               </button>
                <h1 class="font" style="font-size :30px;">Welcome To Essay Sages!</h1>
-            </div>
+           
             <p class="pt-3 font" style="color:green;">Avail Your 50% Off Discount Code Now!</p>
             <p class="font" style="font-size:25px; color:red;">Code: jh27f1</p>
             <p class="font" style="font-size:12px;">(For New Users Only)</p>

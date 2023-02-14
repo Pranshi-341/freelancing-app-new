@@ -379,7 +379,7 @@
          Need Physics Homework Help? Ask Experts At Essay Sages
 
          </h2>
-         <p class="font">Unlike the old times, you no longer need to wake up for the whole night to complete a Physics assignment. Are you asking who will do that for you? At Essay Sages, we have physics experts who will handle the task for you. Our writers are enriched with years of academic experience and will help you to get good grades. Physics is an integral part of science and you can’t take that for granted.
+         <p class="font font-large">Unlike the old times, you no longer need to wake up for the whole night to complete a Physics assignment. Are you asking who will do that for you? At Essay Sages, we have physics experts who will handle the task for you. Our writers are enriched with years of academic experience and will help you to get good grades. Physics is an integral part of science and you can’t take that for granted.
 
 </p>
 </div>
@@ -388,7 +388,7 @@
 <div class="col-md-12 font moretext section">
       <div class="row">
 
-         <p class="pd_feature">If you want to do the whole assignment yourself but need some expert guidance then we are also open to that. The experts will help you with Physics Assignment and they are 24*7 available to help you. Hire Essay Sages online for Physics Homework Help and get outstanding results:
+         <p class="pd_feature font-large">If you want to do the whole assignment yourself but need some expert guidance then we are also open to that. The experts will help you with Physics Assignment and they are 24*7 available to help you. Hire Essay Sages online for Physics Homework Help and get outstanding results:
          </p>
 
         <ul >
@@ -414,7 +414,7 @@
 </p>
         <h3 class="text-center pd_feature">Why Do You Need Help With Physics Homework Help?</h3>
 
-<p class="pd_feature">There are a lot of students who are looking for Physics Problem Solver online. We have noticed numerous reasons why students are seeking help with their physics homework, here are some of them:
+<p class="pd_feature font-large">There are a lot of students who are looking for Physics Problem Solver online. We have noticed numerous reasons why students are seeking help with their physics homework, here are some of them:
 
     <ul style="margin-left:20px;"><li>Bad work ethics</li>
     <li>Narrow deadlines</li>
@@ -425,10 +425,10 @@
     <li>Poor teaching and bad guidance</li>
     <li>Lack of affinity toward Physics</li>
  </ul>
- It doesn’t matter to us why you need help with your Physics homework, Essay Sages is 24*7 available at your service. For any help, get in touch with our customer executives. Connect directly with our physics experts and start your first assignment with Essay Sages!
+ <p class="font-large">It doesn’t matter to us why you need help with your Physics homework, Essay Sages is 24*7 available at your service. For any help, get in touch with our customer executives. Connect directly with our physics experts and start your first assignment with Essay Sages!</p>
  </p>
  <h3 class="text-center pd_feature">Why Should You Avail Online Physics Homework Help With Essay Sages?</h3>
- <p class="pd_feature">The skilled and experienced Physics experts at Essay Sages work with the intent to provide acute assistance for everything.
+ <p class="pd_feature font-large">The skilled and experienced Physics experts at Essay Sages work with the intent to provide acute assistance for everything.
 Once you will choose the Physics writer of your choice and send the requirements, they will:
 <ul style="margin-left:20px;"><li>Start conducting exhaustive research</li>
     <li>Carry out a comprehensive analysis</li></ul>
@@ -447,11 +447,11 @@ All of our Physics experts are completely aware of concepts like techniques, law
     <li>Electromagnetism, Electrostatics, and current electricity</li>
     </ul>
 
- For any type of Physics assignment, you will get top-notch solutions at Essay Sages. Let’s move further and find out how our experts craft homework solutions.
+<p class="font-large"> For any type of Physics assignment, you will get top-notch solutions at Essay Sages. Let’s move further and find out how our experts craft homework solutions.</p>
  </p>
  
         <h3 class="text-center pd_feature">How Experts At Essay Sages Craft Physics Homework Solutions?</h3>
- <p class="pd_feature">Essay Sages works with the most prominent and outstanding academicians around the globe to deliver the best solutions to you. All of our Physics experts are either graduates or post-graduates. The whole team of Essay Sages works close-knit and follows a joint roadmap while working on your assignments:
+ <p class="pd_feature font-large">Essay Sages works with the most prominent and outstanding academicians around the globe to deliver the best solutions to you. All of our Physics experts are either graduates or post-graduates. The whole team of Essay Sages works close-knit and follows a joint roadmap while working on your assignments:
  <ol style="margin-left:20px;"><li>Once the experts receive all of your requirements, they put their utmost focus on intricacies & nuances. They will start their research, rephrase the question and identify the concepts in order to Help On Physics Homework.
 </li>
  <li>Our experts will further investigate the physics problem and define the problem statement once the research is done. Other important aspects of this are drawing diagrams, establishing accurate relationships, and defining fundamental quantities & variables. </li>
@@ -465,7 +465,7 @@ All of our Physics experts are completely aware of concepts like techniques, law
  </ol>
 </p>
 <h3 class="text-center pd_feature"> What Benefits You To Take Help From Essay Sages For Physics Homework?</h3>
- <p class="pd_feature">You may find out a number of online writing services but there are one online Essay Sages. We are dedicated to perfection, quality, and on-time delivery. Here is why you should rely upon Essay Sages:
+ <p class="pd_feature font-large">You may find out a number of online writing services but there are one online Essay Sages. We are dedicated to perfection, quality, and on-time delivery. Here is why you should rely upon Essay Sages:
  <ol style="margin-left:20px;"><li>Scientific computing assignment help.
 </li>
  <li> Flat offs </li>
