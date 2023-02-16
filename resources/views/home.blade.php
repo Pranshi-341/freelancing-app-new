@@ -461,9 +461,10 @@ In any case, if you find the whole task inappropriate, which is impossible, you 
 
 <!-- Coupon Modal -->
 
-<div class="modal fade top" id="modalCoupon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+
+<div class="modal fade" id="modalCoupon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
     aria-hidden="true" data-backdrop="true">
-    <div class=" modal-frame  modal-dialog modal-success" role="document">
+    <div class=" modal-dialog modal-success" role="document">
       <!--Content-->
       <div class="modal-content bg-modal" >
          
@@ -471,8 +472,14 @@ In any case, if you find the whole task inappropriate, which is impossible, you 
         <!--Body-->
         <div class="modal-body">
           <div class="align-items-center" style="text-align:center">
-               <h1 class="font" style="font-size :30px;">Welcome To Essay Sages!</h1>
-           
+            <div class="">
+            <!-- <button type="button" class="close" data-dismiss="modal fade" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button> -->
+            <h1 class="font" style="font-size :30px;">Welcome To Essay Sages!</h1>
+              
+              
+            </div>
             <p class="pt-3 font" style="color:green;">Avail Your 50% Off Discount Code Now!</p>
             <p class="font" style="font-size:25px; color:red;">Code: jh27f1</p>
             <p class="font" style="font-size:12px;">(For New Users Only)</p>
