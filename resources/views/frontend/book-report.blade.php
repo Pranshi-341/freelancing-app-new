@@ -378,7 +378,6 @@
       <div class="mx-auto">
          <h2 class="text-center mt-3 p-3">
          Custom Book Report Writing Service From Essay Sages Expert
-
          </h2>
          <p class="font font-large">Have you recently been assigned to write a book report but due to some reasons you can’t make it happen? Actually, it's a matter of interest and time availability. There are students who love to write reports but don’t have time. On the other hand, some students don’t have any interest in writing at all. In both cases, Essay Sages is providing  Book Report Writing Service </strong>to overcome both situations.
          </p>
