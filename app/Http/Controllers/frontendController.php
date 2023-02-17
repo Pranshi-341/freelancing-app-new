@@ -118,12 +118,13 @@ class frontendController extends Controller
         $bottomline = "Get your academic papers done by expert Academic Essay Writers and save
         Your time and efforts. No plagiarism, only high-quality content!";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
+        
         $writers = DB::table('freelancers_writers')->get();
         foreach($writers as $writer){
             $skills = json_decode($writer->skills);
-            
+            $name[] = $writer->name;    
         }
-        return view('frontend.teamspage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'skills' => $skills])->with('writers',$writers);
+        return view('frontend.teamspage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'skills' => $skills, 'name' => $name])->with('writers',$writers);
     }
 
     function ProfessionalWriters(){

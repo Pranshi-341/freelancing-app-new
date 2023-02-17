@@ -4,6 +4,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title> Essay Writers | Hire Essay Writers | Write My Essay Online</title>
     <meta name="description" content=" Hire professional Essay Writers at Essay Sages! 500+ MA and Ph.D. academic experienced writers for any subject ready to work!">
+    
+    
+    
 </head>
 @extends('layouts.app')
 <style>
@@ -102,60 +105,102 @@
    </div>
 </div>
 <!-- Our team members portfolio -->
+<div id="carousel_bar">
 <div class="row v2" style="width:70%;">
    <div class="col-md-12 my-3">
-      <div class=" w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class=" w-100 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          Hire Professional Essay Writers Online At Essay Sages
          </h2> 
          </div><p class="pd_feature font font-large">Get your academic papers done by expert Academic Essay Writers and save
                   Your time and efforts. No plagiarism, only high-quality content!
                 </p>
-     
-      <div class="row" style="width:90%; border:1px solid black; margin-left: 5%;">
-              <div class="box">
-                <div class="box-body">
-                  <div class="table-responsive">
-                    <table id="example1" class="table mb-0 w-p100">
-                    <thead>
-                      <tr>
-                        <th>Name</th>
-                        <th>Skills</th>
-                        <th>Price</th>
-                        <th>Action</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                            @foreach($writers as $writer)
-                                <tr>
-                                    <td>{{ $writer->name }}</td>
-                                    <td>
-                                    @foreach($skills as $skill)
-                                      {{ $skill }},
-                                    @endforeach
-                                    </td>
-                                    
-                                    <td>{{ $writer->price }}</td>
-                                    <td>
-                                      <a class="btn-sm btn-primary" href="order-now" style="background-color:#343a40;">Hire</a>
-                                    </td>
-                                    
-                                </tr>
-                                @endforeach
-                    </tbody>              
-                  </table>
-                  </div>              
-                </div>
-                <!-- /.box-body -->
-                </div>
-            </div>
-      
+</div>
+
+<div class="row" >
+   <div class="col-md-12 my-3">
+      <div class="w-100 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+         <h2 class="text-center mt-3 p-3">
+         Our Professional Writers
+         </h2>
+      </div>
    </div>
+   <div id="carouselExampleControls" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel" style="padding-top:75px;">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+          <div class="row bx_carousel">
+              <div class="col-md-4 carousel_design" >
+                  <div class="card shadow-md">
+                    <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-4">
+                              <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" >
+                          </div>
+                          <div class="col-md-8">
+                              <h5 class="card-title font">{{ $name[0] }}</h5>
+                                <div class="" style="font: 15px Roboto,sans-serif; display:flex;">
+                                    @foreach($skills as $skill)
+                                    <p class="card-text font">{{ $skill }},</p>
+                                    @endforeach
+                                </div>
+                          </div>
+                              <p class="card-text font" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
+                              <p class="card-text font" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+        @foreach($name as $key => $name)
+          @if($key > 0)
+            <div class="carousel-item">  
+              <div class="col-md-4 carousel_design" >
+                <div class="card shadow-md">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-4">
+                          <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" >
+                      </div>
+                      <div class="col-md-8">
+                          <h5 class="card-title font">{{ $name }}</h5>
+                            <div class="" style="font: 15px Roboto,sans-serif; display:flex;">
+                                @foreach($skills as $skill)
+                                <p class="card-text font">{{ $skill }},</p>
+                                @endforeach
+                            </div>
+                      </div>
+                          <p class="card-text font" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
+                          <p class="card-text font" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+            @endif
+          @endforeach           
+        </div>
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+      </button>
+</div>
+<div class="parent_team">
+  <button class="btn-sm btn-primary" id="list_carousel" style="max-width: fit-content;">See All Professionals</button>
+</div>
+</div>
+
+
+      
 </div>
 <div class="row v2"  style="width:70%;">
 
    <div class="col-md-12 my-3">
-   <div class=" w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+   <div class=" w-100 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
          <h2 class="text-center mt-3 p-3">
          Hire Essay Writers
          </h2> 
@@ -224,10 +269,80 @@
    </div>
 </div>
 </div>
-  
+<!--
+@foreach($writers as $writer)
+<div class="container d-flex mt-4 p-4">
+        <div class="card mb-3" >
+            <div class="row g-0">
+                
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            {{ $writer->name }}
+                        </h5>
+                        <p class="card-text">
+                            @foreach($skills as $skill)
+                              {{ $skill }},
+                            @endforeach
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                {{ $writer->price }}
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endforeach
+  <div class="row" id="list_bar" style="display:none; width:90%; border:1px solid black; margin-left: 5%;">
+              <div class="box">
+                <div class="box-body">
+                  <div class="table-responsive">
+                    <table id="example1" class="table mb-0 w-p100">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Skills</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                            @foreach($writers as $writer)
+                                <tr>
+                                    <td>{{ $writer->name }}</td>
+                                    <td>
+                                    @foreach($skills as $skill)
+                                      {{ $skill }},
+                                    @endforeach
+                                    </td>
+                                    
+                                    <td>{{ $writer->price }}</td>
+                                    <td>
+                                      <a class="btn-sm btn-primary" href="order-now" style="background-color:#343a40;">Hire</a>
+                                    </td>
+                                    
+                                </tr>
+                                @endforeach
+                    </tbody>              
+                  </table>
+                  </div>              
+                </div>
+                
+                </div>
+            </div>
+-->
+   </div>
+</div>
 <!-- MDB -->
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
-></script>
+<script>
+ $(document).ready(function(){
+  $("#list_carousel").on('click', function(){
+    $("#carousel_bar").hide();
+    $("#list_bar").show();
+  })
+ })
+</script>
 @endsection

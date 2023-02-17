@@ -33,6 +33,15 @@
 
     <!-- Styles -->
     <style>
+      .parent_team{
+        display: grid;
+        place-items: center;
+      }
+
+      .carousel_design{
+        margin-left: 285px;
+      }
+
       .toast-success {
             background-color: #51a351 !important;
         }
