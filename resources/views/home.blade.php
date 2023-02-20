@@ -25,7 +25,7 @@
          
             <h1 class="h1_tag_style">Welcome To Essay Sages</h1>
          
-         <p class="w-50 font text-center" style="line-height:inherit;">Where Our Acclaimed Client’s Assignments And Tasks Are
+         <p class="w-50 font bold text-center" style="line-height:inherit; font-size:20px;">Where Our Acclaimed Client’s Assignments And Tasks Are
 Meticulously Done. Our Competence Is Unmatched. Once You Submit An Order, You Will Receive
 High-Quality, Customized, and Unique Work Done. We Have a Great Deal To Offer So Please Take
 Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
@@ -35,9 +35,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
             <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Easy Essay Writing Service"/>Free Edits</div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center font"></div>
-            <div class="col-sm-4 d-flex flex-column align-items-center font"></div>
-            <div class="col-sm-4 d-flex flex-column align-items-center font"></div>
+           
          </div>
       </div>
    </div>
@@ -179,7 +177,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
                       
-                        <span class="text-dark">
+                        <span class="text-dark font font-large fw-bold">
                         Select The Writer
                         </span>
                      </strong>
@@ -347,7 +345,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
          <h2 class="text-center mt-3 p-3">
          Professional Essay Writing Services | Essay Sages
          </h2>
-         <p class="font font-large">
+         <p class="font  font-large font">
          Custom Essay Writing Service is a safe and smart option for those who spend their nights writing long paragraphs just to impress the professors and learn no new things. Essay Sages won’t waste your crucial hours. Hire our  Professional Essay Writers</b> today and do something that values!
 </p>
       </div>
@@ -357,30 +355,30 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
       <div class="row w-100">
      
           <h3 class="text-center  mt-3 p-3 pd_feature">It Is Easy To Get Writing Essay Online Service!</h3>
-         <p class="pd_feature font-large">Get a free quote from our  Essay Writing Services </b>experts at Essay Sages and get an idea of ​​how much an article will cost before it starts. If you found the price satisfactory, accept the offer and watch your worries go away! Our team will ensure that you no longer have to wake up till 4 am.  Essay Sages</b> is known for providing the best writing, editing, and proofreading services available online.</p>
+         <p class="pd_feature font  font-large font">Get a free quote from our  Essay Writing Services </b>experts at Essay Sages and get an idea of ​​how much an article will cost before it starts. If you found the price satisfactory, accept the offer and watch your worries go away! Our team will ensure that you no longer have to wake up till 4 am.  Essay Sages</b> is known for providing the best writing, editing, and proofreading services available online.</p>
           <h3 class="text-center  mt-3 p-3 pd_feature"> Why Do Customers Keep Choosing Essay Sages? </h3>
-         <p class="pd_feature font-large" >We carefully select all of our writers to ensure that each one of them demonstrates the highest level of professionalism, skill, and dedication. Such an approach allows us to provide the highest quality articles to anyone who turns to us to Write My Essay. Our experienced team of professionals produces all types of documents, in all areas and at all levels of complexity. From simple one-page essays to in-depth and complex essays -  Essay Sages</b> has it covered. With our extensive experience, we create customized documents for the unique needs of each client. We are also ready to take on any educational challenge you can think of. When you come to us for help, you get the best Essay Writing service at the right time!</p>
+         <p class="pd_feature  font-large font" >We carefully select all of our writers to ensure that each one of them demonstrates the highest level of professionalism, skill, and dedication. Such an approach allows us to provide the highest quality articles to anyone who turns to us to Write My Essay. Our experienced team of professionals produces all types of documents, in all areas and at all levels of complexity. From simple one-page essays to in-depth and complex essays -  Essay Sages</b> has it covered. With our extensive experience, we create customized documents for the unique needs of each client. We are also ready to take on any educational challenge you can think of. When you come to us for help, you get the best Essay Writing service at the right time!</p>
           <h3 class="text-center pd_feature">Quick Work Delivery</h3>
-         <p class="pd_feature font-large">Our writing team knows that a student's life often involves juggling multiple tasks and pursuing multiple important goals at the same time. But what if you are always drained? Do you feel like it's impossible to keep up with your seemingly successful peers no matter how hard you try?
+         <p class="pd_feature  font-large font">Our writing team knows that a student's life often involves juggling multiple tasks and pursuing multiple important goals at the same time. But what if you are always drained? Do you feel like it's impossible to keep up with your seemingly successful peers no matter how hard you try?
  We've been there - it's not your fault. The thing is that it almost always takes less time to manage all your tasks properly. It can put a lot of pressure on you, making it difficult for you to check all the boxes on your list. And, often, pushing yourself to achieve negative goals leads to even more problems, including fatigue and even depression.
 </p>
-<p class="font-large">
+<p class=" font-large font">
  Our  Write Essay For Me</b> service is designed to help you avoid this. With us, every learner can entrust their work to professionals who will complete them on time and at the best quality. We empower you to save your efforts for important things without compromising your work. And even that's not all!
  We understand that you may be in a difficult situation when you do not have time to complete a return within a few days. The good news is that you can overcome this challenge with a copywriter. Even if you are in a hurry, we can deliver your book as quickly as possible without compromising on quality!</p>
           <h3 class="text-center pd_feature">Get Essay Help From Top Rated Writers</h3>
-         <p class="pd_feature font-large">
+         <p class="pd_feature  font-large font">
          Whether it's a last-minute essay or an in-depth research project, you won't have to worry about it when Essay Sages is by your side. Our  Essay Writing Services</b> always come to sign, guaranteeing high professionalism. At Essay Sages, we use the best writers.
 Our experts have bachelor's degrees, master's degrees, and even doctorate degrees and each of them has at least a few years of experience writing articles in their field. Before allowing a new employee to work on my writing orders, we put them through a series of checks and tests to see if they are high enough to provide high-quality help to your book.
 We also ask them to study and follow our quality control system carefully to get the best results. What else allows us to achieve 100% satisfaction?
 Apart from selecting the best writers, we also employ experienced staff who will take care of their work.
 </p>
-<p class="font-large">
+<p class=" font-large font">
 We believe that effective maintenance is the key to consistently high quality for everything we deliver. So when you pay for a trial with us, you always have a quality guarantee. To take advantage of all these benefits, you only need to apply for our  Essay Writing services</b> and choose your best specialist.
 Our service works 24/7, so you can come to us if needed. Once your order is placed and assigned to a selected professional, they will complete it following your instructions. Our experienced writers will tailor each article to your unique needs. But, once the order is ready, you can download and check it before you approve the bill.
 So, don't delay and get your professional help now!
 </p>      
           <h3 class="text-center pd_feature">A Professional Online Paper Writing Service You Can Afford</h3>
-         <p class="pd_feature font-large">No matter whether you need an essay, research paper, Casual Essay, Narrative Paper, or some other kind of assistance, with Essay Sages, you can easily afford it. On placing Online Essays Order with us, this is what you will get:
+         <p class="pd_feature  font-large font">No matter whether you need an essay, research paper, Casual Essay, Narrative Paper, or some other kind of assistance, with Essay Sages, you can easily afford it. On placing Online Essays Order with us, this is what you will get:
                <ul style="margin-left:20px;">
                   <li>Professional Custom Paper Writers to hire;</li>
                   <li>Professional assistance for all paper types;</li>
@@ -388,54 +386,54 @@ So, don't delay and get your professional help now!
                   <li>On-time delivery service;</li>
                   <li>Content modification until you consider your paper flawless;</li>
                </ul>
-              <p class="font-large"> We provide the best and most affordable prices to our customers for Writing Essays Service. The lowest per-page price is just $10. Apart from saving you time and effort, we are also giving generous discounts to save you money. You give us time to complete the project, we will give you a discount accordingly. What’s more, you require!
+              <p class=" font-large font"> We provide the best and most affordable prices to our customers for Writing Essays Service. The lowest per-page price is just $10. Apart from saving you time and effort, we are also giving generous discounts to save you money. You give us time to complete the project, we will give you a discount accordingly. What’s more, you require!
                Additionally, the more assignment pages you will order for our writer, the more cost-effective it will be.
                Hence, you can get good results while focusing on other necessary activities and save your efforts too. With Essay Sages, now anyone can afford to hire an expert from a Writing Essay Company.
                So, don’t think much and hire an expert today!
          </p>
          </p>
           <h3 class="text-center pd_feature">We Are The Best Essay Writing Company</h3>
-         <p class="pd_feature font-large">We are considered one of the best Essay writing Service companies that delivered high-quality essay writing work to customers at a given time.
+         <p class="pd_feature  font-large font">We are considered one of the best Essay writing Service companies that delivered high-quality essay writing work to customers at a given time.
          When new customers hire our writers, the first thing they mention is plagiarism. They say it, again and again, to provide unique content and that’s what we do at Essay Sages.
 We have our top-notch writers, who will write the content from scratch based on the guidelines provided by you. There is zero chance that you will get copied content from us. Our writer first researches the topic and gathers relevant information. Then, following the best writing structure, they will start writing the content.
 All of our writing experts hold advanced degrees and have experience of more than 15 years. So, don’t be surprised when our existing users will praise the writers of Essay Sages.
 </p>
           <h3 class="text-center pd_feature">How Can Hire an Expert Essay Writer Help You?</h3>
-         <p class="pd_feature font-large">There must be so much going on in your life like your studies, sports, or some other extracurricular activities. In this busy schedule, hiring a trusted assistant is not bad. You can take care of other important tasks as Essay Sages are there to help you with Essays Writing Help.
+         <p class="pd_feature  font-large font">There must be so much going on in your life like your studies, sports, or some other extracurricular activities. In this busy schedule, hiring a trusted assistant is not bad. You can take care of other important tasks as Essay Sages are there to help you with Essays Writing Help.
 When you will hire an experienced and professional Essay Writer For You, you can be more focused on other tasks. All you have to say is, “Help With My Essay” or else “Write My Annotated Bibliography For Me Free”. In the minimum possible time, your work will get done with the hands of professionals.
 To satisfy your request for “Write My Paper”, we have everything ready for you. No matter if you need help with Custom Writing, Dissertation Writing, Research Paper Writing, or Physics Help, we are ready to take the challenge.
 Hire an Essay Sages writing expert today!
 </p>
           <h3 class="text-center pd_feature">What If I'm Not Satisfied With Your Profesional Custom Essays?</h3>
-         <p class="pd_feature font-large">When it comes to Essay Sages, you will never be dissatisfied with our Online Writing Service. We have experts who are experienced in the respective field and submit the work after proper checking.
+         <p class="pd_feature  font-large font">When it comes to Essay Sages, you will never be dissatisfied with our Online Writing Service. We have experts who are experienced in the respective field and submit the work after proper checking.
 Sometimes, complex projects come with a broad range of requirements and need some extra edits and this is completely okay. Our writing professionals will make edits and we are completely open to it.
 After submitting the final assignment, you have 7 days to check the draft and ask for corrections. You just need to contact the author of that particular task and explain your requirements. Until you will be completely satisfied, our expert Assignment Writer will be at your service!
 In any case, if you find the whole task inappropriate, which is impossible, you can ask for a refund within 7 days of submitting the task.
 </p>
           <h3 class="text-center pd_feature"> What Are The Types Of Custom Writings Provided By Essay Sages?</h3>
-         <p class="pd_feature font-large">At Essay Sages, we offer a variety of services that includes Essay Writing, Books Reviews, Case-Studies, and Dissertation. Curious to know more about our services? You can consult with our customer support executives.</p>
+         <p class="pd_feature  font-large font">At Essay Sages, we offer a variety of services that includes Essay Writing, Books Reviews, Case-Studies, and Dissertation. Curious to know more about our services? You can consult with our customer support executives.</p>
           <h3 class="text-center pd_feature"> How To Reach Out To Essay Writer Online Hassle-Free?</h3>
-         <p class="pd_feature font-large">Need someone professionals who can finish the pending assignment task for you? You can end your search with our expert essay writers. Simply, visit Essay Sages and say “Write My Paper” and your task will be completed in the given time frame.
+         <p class="pd_feature  font-large font">Need someone professionals who can finish the pending assignment task for you? You can end your search with our expert essay writers. Simply, visit Essay Sages and say “Write My Paper” and your task will be completed in the given time frame.
          Here is how you can avail of our Easy Essay Writing Service:
          </p>
          <ul style="margin-left:20px;">
             <li><h5>Create a Personal Account</h5></li>
-            <p class="font-large">It is very easy to join Essay Sages. You just need to submit some of your information with us like your email id or phone number. Once verified, you are all set to enjoy our Essay Services Online.</p>
+            <p class=" font-large font">It is very easy to join Essay Sages. You just need to submit some of your information with us like your email id or phone number. Once verified, you are all set to enjoy our Essay Services Online.</p>
             <li><h5>Tell Us Your Requirements</h5></li>
-            <p class="font-large">If you have set up the account successfully, you can place the order right from the dashboard. It may take a few seconds to fill up the form. Submit the form and then tell us about your requirements.</p>
+            <p class=" font-large font">If you have set up the account successfully, you can place the order right from the dashboard. It may take a few seconds to fill up the form. Submit the form and then tell us about your requirements.</p>
             <li><h5>Writer Essay For Me</h5></li>
-            <p class="font-large">You can then check out the database of all of our professionals and select the one that fits your requirement. Before hiring a writing expert, don’t forget to check their ratings, success rate, and customer feedback. You can also write “Paying Someone To Write Papers” to the customer support of Essay Sages and we will assign one of our experts to you.</p>
+            <p class=" font-large font">You can then check out the database of all of our professionals and select the one that fits your requirement. Before hiring a writing expert, don’t forget to check their ratings, success rate, and customer feedback. You can also write “Paying Someone To Write Papers” to the customer support of Essay Sages and we will assign one of our experts to you.</p>
             <li><h5>What’s Your Last Minute Requirement?</h5></li>
-            <p class="font-large">Don’t need to be worried if you have forgotten to mention something necessary. Use our chat feature to contact our chosen writing expert and then pass on your requirements. Our expert will go through your comments and complete the task based on them.</p>
+            <p class=" font-large font">Don’t need to be worried if you have forgotten to mention something necessary. Use our chat feature to contact our chosen writing expert and then pass on your requirements. Our expert will go through your comments and complete the task based on them.</p>
             <li><h5>Keep in Touch With Our Professional Paper Writers</h5></li>
-            <p class="font-large">If you are a bit worried about whether your project is going well or not, you can keep in touch with the expert through our chat feature. In this way, you can easily keep an eye on every stage of the project and ask for necessary changes.</p>
+            <p class=" font-large font">If you are a bit worried about whether your project is going well or not, you can keep in touch with the expert through our chat feature. In this way, you can easily keep an eye on every stage of the project and ask for necessary changes.</p>
             <li><h5> Professional Work Done</h5></li>
-            <p class="font-large">Once the work is done, you will receive a notification in your mail. You can then download the final draft and go through it. Ensure that our writer has followed your instructions. If you are completely satisfied, you can complete the order and Pay For Essay Orders.</p>   
+            <p class=" font-large font">Once the work is done, you will receive a notification in your mail. You can then download the final draft and go through it. Ensure that our writer has followed your instructions. If you are completely satisfied, you can complete the order and Pay For Essay Orders.</p>   
          </ul>
          <h2  class="text-center pd_feature">Are You a Professional Writer?</h2>
-         <p class="pd_feature font-large">We are always in search of an Essay Writing Service expert to join the team of Essay Sages.</p>   
+         <p class="pd_feature  font-large font">We are always in search of an Essay Writing Service expert to join the team of Essay Sages.</p>   
           <h5>Requirements to Become Essay Sages Member</h5>
-         <p class="font-large">
+         <p class=" font-large font">
             <ul style="margin-left:20px;">
                <li>Bachelor's degree from a reputed and trusted institution.</li>
                <li>Excellent communication skills.</li>

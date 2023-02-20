@@ -392,10 +392,10 @@
 
    <div class="col-md-12 font w-50 moretext section ">
       <div class="row">
-         <p class="pd_feature font-large">   It's a reminder for everyone who is struggling with essay writing that Essay Sages is there to provide you with Writing Services. Unlike any other Essay Writing Services, we have a team of professionals with academic backgrounds.
+         <p class="pd_feature  font-large font">   It's a reminder for everyone who is struggling with essay writing that Essay Sages is there to provide you with Writing Services. Unlike any other Essay Writing Services, we have a team of professionals with academic backgrounds.
             So, if you are tired of searching for the “Write My Essay Online” service, we are there for you 24*7. In a short time, you can place your order and choose from our best writers.</p>
          <h3 class="text-center pd_feature">Ask Essay Sages Writers For “ Write My Essay For Me”</h3>
-         <p class="pd_feature font-large">Our parents spend a lot of money in schools or colleges just to make us successful in our lives. They can bear anything but not our failure, isn’t it? We understand that there comes a time when a student has to go through several tough phases and get bad grades. The reason could be personal or there might be a family issue going on because of which you are not able to perform well. We can understand it but not your college. Hence, there is no bad to hire someone whom you can say “Help Me  Write My Essay”.
+         <p class="pd_feature  font-large font">Our parents spend a lot of money in schools or colleges just to make us successful in our lives. They can bear anything but not our failure, isn’t it? We understand that there comes a time when a student has to go through several tough phases and get bad grades. The reason could be personal or there might be a family issue going on because of which you are not able to perform well. We can understand it but not your college. Hence, there is no bad to hire someone whom you can say “Help Me  Write My Essay”.
                When you will search for the best Writing Service Online, you will get confused by a lot of options. Not all the service providers for writing essays are good for you. Hence, find reliable service providers like Essay Sages who have certified writers to provide you with high-quality content every time.
                Here is why you should Hire Essay Writers at Essay Sages:
          </p>
@@ -419,7 +419,7 @@
                </ul>
          
          <h3 class="text-center pd_feature">Get Someone To Write Your Essay</h3>
-         <p class="pd_feature font-large">We pride ourselves on hiring the best professionals at Essay Sages. Their high level of professionalism and many years of experience in writing academic papers make them sought after by many students around the world. The following advantages of our writers are our main competitive advantage:</p>
+         <p class="pd_feature  font-large font">We pride ourselves on hiring the best professionals at Essay Sages. Their high level of professionalism and many years of experience in writing academic papers make them sought after by many students around the world. The following advantages of our writers are our main competitive advantage:</p>
         <ul style="margin-left:20px;">
             <li><h5>Top-Rated Writers</h5>
             We have hired top-rated writers only as we care for our clients and value our company's reputation.
@@ -437,11 +437,11 @@
             <li><h5> Highest Experience.</h5>We have been working in this market for many years, and we know the importance of our customers and we never make them disappointed.
             </li>
         </ul>
-         <p class="pd_feature font-large">We also offer Online Essay Writing Help if you have written your essay well but are not sure whether the style, format, or format meets the requirements. Just enter this request,  Write My Essay online</strong> to find Essay Sages, and order. We can type an article for you within hours. 
+         <p class="pd_feature  font-large font">We also offer Online Essay Writing Help if you have written your essay well but are not sure whether the style, format, or format meets the requirements. Just enter this request,  Write My Essay online</strong> to find Essay Sages, and order. We can type an article for you within hours. 
             However, it is better if you have enough time before the deadline because the final essay costs more. Also, by applying early, you will have plenty of time to proofread your essay before submitting it.
          </p>
         <h3 class="text-center pd_feature">Ask Experts To  Write My Essay At Essay Sages</h3>
-        <p class="pd_feature font-large">
+        <p class="pd_feature  font-large font">
             Are you still looking to Hire A Writer For An Essay? With Essay Sages, you can stop worrying about anything. It's easy to order essays online from our essay writing service:  
             <ul style="margin-left:20px;">
             <li>Complete the form from the website; </li>

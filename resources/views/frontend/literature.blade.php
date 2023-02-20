@@ -455,15 +455,15 @@
          <h2 class="text-center mt-3 p-3">
          Writing A Literature Review Is Now Hassle-Free With Essay Sages
          </h2>
-         <p class="font font-large">One of the most important aspects that every student pays attention to when writing a higher education project is to gather the right information for   Writing a Literature Review </strong>. A literature review is designed to help readers understand the extent of information available about the thesis topic. Review the journal articles and books related to the thesis topic. 
+         <p class="font  font-large font">One of the most important aspects that every student pays attention to when writing a higher education project is to gather the right information for   Writing a Literature Review </strong>. A literature review is designed to help readers understand the extent of information available about the thesis topic. Review the journal articles and books related to the thesis topic. 
          </p>
 
 </div>
 </div>
    <div class="col-md-12 font moretext section">
       <div class="row">
-         <p class="pd_feature font-large">Those journals will provide the opinions of academic experts on the topic. The Internet is a great search opportunity when considering sources that provide important ideas and literature. A number of opinions on the web may be incorrect. Hence, students are not always advised to use articles on the Internet unless they are from reliable and relevant sources. Almost all universities require sources of information especially when it is about literature review.</p>
-         <p class="pd_feature font-large">
+         <p class="pd_feature  font-large font">Those journals will provide the opinions of academic experts on the topic. The Internet is a great search opportunity when considering sources that provide important ideas and literature. A number of opinions on the web may be incorrect. Hence, students are not always advised to use articles on the Internet unless they are from reliable and relevant sources. Almost all universities require sources of information especially when it is about literature review.</p>
+         <p class="pd_feature  font-large font">
             What happens when you don't have any documents to help you create a comprehensive literature review for your thesis? There are many students who spend hours researching for Literature Review Writing. But, only a few of them get good results in the end and the rest gets nothing?
             We understand that it is sometimes quite stressful but to get good grades, it is required to submit your literature review.
             At Essay Sages, we can provide you with the best list of sources that will Help   Writing a Literature Review </strong>. Hence, you can now focus on other necessary aspects too. Focus on your exams, attend a family function or enjoy the trip hassle-free. Essay Sages is 24*7 available to help you.
@@ -472,7 +472,7 @@
          <h3 class="text-center pd_feature">Why Should You Consider Essay Sages Review Writing Company?
 
 </h3>
-         <p class="pd_feature font-large">Writing A Literature Review is not that simple and we understand that! You may question why you should consider Essay Sages for Writing Literature Review and we have briefed the answer in the following points:
+         <p class="pd_feature  font-large font">Writing A Literature Review is not that simple and we understand that! You may question why you should consider Essay Sages for Writing Literature Review and we have briefed the answer in the following points:
 
 
 <ul style="margin-left:20px;">
@@ -512,11 +512,11 @@
 <h3 class="text-center pd_feature">Writing A Literature Review Online From Essay Sages Experts
 
 </h3>
-         <p class="pd_feature font-large">Our top writers are a team of experts for   Writing a Literature Review </strong>. A strict selection process allows us to access the best writers and copywriters. We are looking for graduates with at least a master's degree and significant experience in writing advanced technical papers. We care about your success. By bringing together all the experts, we guarantee the quality and success of your Literature Review Writing. Those studying for a doctorate degree sometimes need help with <a href="https://en.wikipedia.org/wiki/Paper">paper</a> writing work. For the same, our dedicated professional writers are available to help you. Isn't it an attractive opportunity to have someone online that you trust? Essay Sages is the name whom you can trust upon.
+         <p class="pd_feature  font-large font">Our top writers are a team of experts for   Writing a Literature Review </strong>. A strict selection process allows us to access the best writers and copywriters. We are looking for graduates with at least a master's degree and significant experience in writing advanced technical papers. We care about your success. By bringing together all the experts, we guarantee the quality and success of your Literature Review Writing. Those studying for a doctorate degree sometimes need help with <a href="https://en.wikipedia.org/wiki/Paper">paper</a> writing work. For the same, our dedicated professional writers are available to help you. Isn't it an attractive opportunity to have someone online that you trust? Essay Sages is the name whom you can trust upon.
 </p>
 
 <h3 class="text-center pd_feature">Buy Literature Review Help To Get An A Grade </h3>
-<p class="pd_feature font-large">Are you still worried about where to get Help With Literature Review? Essay Sages is one of the best and most reliable platforms you can get help for your literature review writing. In short, you can trust us with all of your school, college, or higher degree assignments. We have a team of educated and experienced writers with us. They will complete the review writing so that you can submit the assignment on time.
+<p class="pd_feature  font-large font">Are you still worried about where to get Help With Literature Review? Essay Sages is one of the best and most reliable platforms you can get help for your literature review writing. In short, you can trust us with all of your school, college, or higher degree assignments. We have a team of educated and experienced writers with us. They will complete the review writing so that you can submit the assignment on time.
 You don’t need to be bothered about the ordering process at Essay Sages. Follow these below-given steps to order the project:
 
 
@@ -541,7 +541,7 @@ You don’t need to be bothered about the ordering process at Essay Sages. Follo
 </li>
  
         </ul>
-        <p class="font-large">Now, you don’t need to be worried about   Writing a Literature Review </strong>. At Essay Sages, you will be assigned, professional writers! Once the work is done, you will have a complete week to ask the writer to make any changes. Try Essay Sages!</p>
+        <p class=" font-large font">Now, you don’t need to be worried about   Writing a Literature Review </strong>. At Essay Sages, you will be assigned, professional writers! Once the work is done, you will have a complete week to ask the writer to make any changes. Try Essay Sages!</p>
 
 </p>
    

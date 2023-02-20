@@ -377,7 +377,7 @@
          <h2 class="text-center mt-3 p-3">
          Get History Assignment Help With Qualified Writers
          </h2>
-         <p class="font font-large">Have you stuck on your history assignment? Get History Assignment Help from our top-notch writers at Essay Sages. We understand that the concepts of history are sometimes difficult to understand and take too much time. Especially, when you have a deadline to submit the assignment and you haven’t started yet, we are available to help you.
+         <p class="font  font-large font">Have you stuck on your history assignment? Get History Assignment Help from our top-notch writers at Essay Sages. We understand that the concepts of history are sometimes difficult to understand and take too much time. Especially, when you have a deadline to submit the assignment and you haven’t started yet, we are available to help you.
          </p>
 
 
@@ -386,18 +386,18 @@
 </div>
    <div class="col-md-12 font moretext section">
       <div class="row">
-      <p class="pd_feature font-large">A lot of schools, colleges, and university students loved our history assignment and homework help service. We even help the students to complete the history research work. In case you have completed the assignment yourself but need someone to recheck it, ask our writers to help you.
+      <p class="pd_feature  font-large font">A lot of schools, colleges, and university students loved our history assignment and homework help service. We even help the students to complete the history research work. In case you have completed the assignment yourself but need someone to recheck it, ask our writers to help you.
 So, if you ever wonder, "Where do I get quality history assignment help?”, get in touch with Essay Sages today!</p>         
 <h3 class="text-center pd_feature">
 Quality Assignment of History Help Is Just A Click Away
          </h3>
-         <p class="pd_feature font-large">While writing a history assignment, one has to do a lot of research work. Hence, there might be a chance of error that will take you in the direction of bad grades. If you are not much interested to learn about World Wars or different ages like the stone age, the iron age, the fire age, etc then ask the writers at Essay Sages for History Assignment Help.
+         <p class="pd_feature  font-large font">While writing a history assignment, one has to do a lot of research work. Hence, there might be a chance of error that will take you in the direction of bad grades. If you are not much interested to learn about World Wars or different ages like the stone age, the iron age, the fire age, etc then ask the writers at Essay Sages for History Assignment Help.
 All the quality History Assignment writers are just a call away!
 </p>
 <h3 class="text-center pd_feature">
   What Are The Types Of History Assignment We Cover At Essay Sages?  
  </h3>
-         <p class="pd_feature font-large">Unlike any other assignment writing, you need to spend a lot of time writing Assignment of History. While doing the history assignment, you need to do the below-given activities:
+         <p class="pd_feature  font-large font">Unlike any other assignment writing, you need to spend a lot of time writing Assignment of History. While doing the history assignment, you need to do the below-given activities:
          <ul style="margin-left:20px;">
     <li>In-depth research on your topic</li>
     <li>In detail writing the history answers</li>
@@ -405,7 +405,7 @@ All the quality History Assignment writers are just a call away!
     <li>Use of references wherever required</li>
     <li>Check the history assignment for plagiarism</li>
  </ul>
- <p class="font-large">If you keep all the mentioned points in mind, you will get good grades in history. You can also rely upon the writers of Essay Sages for History Assignment Help. 
+ <p class=" font-large font">If you keep all the mentioned points in mind, you will get good grades in history. You can also rely upon the writers of Essay Sages for History Assignment Help. 
 Here we mentioned some common history assignment types covered by our writers:</p>
 <ul style="margin-left:20px;">
     <li>History essays</li>
@@ -414,23 +414,23 @@ Here we mentioned some common history assignment types covered by our writers:</
     <li>Use of references wherever required</li>
     <li>History thesis</li>
  </ul>
- <p class="font-large">Along with the types mentioned, if you have something you need help with, feel free to reach out to us anytime.</p>
+ <p class=" font-large font">Along with the types mentioned, if you have something you need help with, feel free to reach out to us anytime.</p>
 
 </p> 
 <h3 class="text-center pd_feature">
 Why You Should Try Essay Sages For History Assignment?
  </h3>
-         <p class="pd_feature font-large">You can get the best grades and appreciation from your teachers or professors by getting History Assignment Help from us. Here are some benefits of choosing Essay Sages for assignment writing help in history subject:
+         <p class="pd_feature  font-large font">You can get the best grades and appreciation from your teachers or professors by getting History Assignment Help from us. Here are some benefits of choosing Essay Sages for assignment writing help in history subject:
             <h4 class="pd_feature">Pocket-Friendly Rates</h4>
-        <p class="pd_feature font-large">Our quality satisfactory work and affordable rates are one of the main reasons why we are one of the top choices of students. If you will be lucky enough, you can avail great offers or other benefits.
+        <p class="pd_feature  font-large font">Our quality satisfactory work and affordable rates are one of the main reasons why we are one of the top choices of students. If you will be lucky enough, you can avail great offers or other benefits.
         </p>
         <h4 class="pd_feature"> Revision Policy</h4>
-        <p class="pd_feature font-large">Our Essay Writers will submit the project on or before the deadline. In the next 7 days, you can ask our writers for as many revisions as you want. Although you won’t need it the writers will provide you with the best quality assignment writing but it’s for your satisfaction. You can also ask for a complete refund within 7 days of submitting the final draft.
+        <p class="pd_feature  font-large font">Our Essay Writers will submit the project on or before the deadline. In the next 7 days, you can ask our writers for as many revisions as you want. Although you won’t need it the writers will provide you with the best quality assignment writing but it’s for your satisfaction. You can also ask for a complete refund within 7 days of submitting the final draft.
 </p> 
 <h3 class="text-center pd_feature">
 How Essay Sages Will Provide Help With Online History Assignments?
  </h3>
-         <p class="pd_feature font-large">At Essay Sages, we have a unique process of selecting the writers yourself. All the writers you will be suggested have some background in history and are experienced enough for History Assignment Help.
+         <p class="pd_feature  font-large font">At Essay Sages, we have a unique process of selecting the writers yourself. All the writers you will be suggested have some background in history and are experienced enough for History Assignment Help.
 Hiring the History Assignment, you can expect the following:
 <ul style="margin-left:20px;">
     <li>Top-notch, on-point, and quality assignments</li>
@@ -438,13 +438,13 @@ Hiring the History Assignment, you can expect the following:
     <li>On-time assignment submission</li>
     <li>“Plagiarism-free” certificate along with your history assignment</li>
  </ul>
- <p class="font-large">So, if you are feeling low because of your assignment on history, ask the writers at Essay Sages to help you!</p>
+ <p class=" font-large font">So, if you are feeling low because of your assignment on history, ask the writers at Essay Sages to help you!</p>
 
          </p>
          <h3 class="text-center pd_feature">
          Can Anyone Help Me With My History Assignment Online?
  </h3>
-         <p class="pd_feature font-large">While writing the assignment on history, one has to spend hours researching topics. This will not only include your time but many times you will get confused between different sources. The one who doesn’t have any interstate in history assignment will definitely get frustrated easily.
+         <p class="pd_feature  font-large font">While writing the assignment on history, one has to spend hours researching topics. This will not only include your time but many times you will get confused between different sources. The one who doesn’t have any interstate in history assignment will definitely get frustrated easily.
 At Essay Sages, our writers are available to do all the research work on your behalf. With their years of expertise and academic background, the history assignment will be completed on or before the due date.
 So, hire writers at Essay Sages for History Assignment Help and enjoy good grades.
 

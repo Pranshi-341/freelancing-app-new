@@ -373,7 +373,7 @@
          Best Dissertation Writing Service
 
          </h2>
-         <p class="font font-large">The ones who are getting a Ph.D. degree know its importance in their life. All students understand that applying for a Ph.D. program is not an easy decision at all. They quickly realize how difficult dissertation writing is when they make their first attempt. It takes years to study the subject, collect good material and organize the research paper. 
+         <p class="font  font-large font">The ones who are getting a Ph.D. degree know its importance in their life. All students understand that applying for a Ph.D. program is not an easy decision at all. They quickly realize how difficult dissertation writing is when they make their first attempt. It takes years to study the subject, collect good material and organize the research paper. 
          </p>
 
 
@@ -383,11 +383,11 @@
    <div class="col-md-12 font moretext section">
       <div class="row">
 
-         <p class="pd_feature font-large">Unlike any other writing assignment, Dissertation Writing is one of the most difficult academic papers, and its grades can affect your future career! The submission date is near and you are still in the middle of your research paper. There are a lot of students who failed to submit the research work on time and look for Dissertation Writing Service.
+         <p class="pd_feature  font-large font">Unlike any other writing assignment, Dissertation Writing is one of the most difficult academic papers, and its grades can affect your future career! The submission date is near and you are still in the middle of your research paper. There are a lot of students who failed to submit the research work on time and look for Dissertation Writing Service.
 At Essay Sages, we provide online dissertation writing help services that will help you get good grades and save you from failure.</p>
          <h3 class="text-center pd_feature">Make An Order At Essay Sages Dissertation Writing Help Service
 </h3>
-         <p class="pd_feature font-large">Are you a bit nervous about using Custom Dissertation Services? Don’t worry, at Essay Sages, we have made it completely easy for you. In just a few steps, you will have your own paper writer who will help you in your research writing.
+         <p class="pd_feature  font-large font">Are you a bit nervous about using Custom Dissertation Services? Don’t worry, at Essay Sages, we have made it completely easy for you. In just a few steps, you will have your own paper writer who will help you in your research writing.
 Let’s understand the complete process step by step:
 
 <ul style="margin-left:20px;">
@@ -412,7 +412,7 @@ Complete the payment process and enjoy good grades.
 <h3 class="text-center pd_feature">Custom Dissertation Writing Help Service From Our Experts At Essay Sages
 
 </h3>
-         <p class="pd_feature font-large">So, you finally made up your mind to try our Online Dissertation Writing Services. We can assure you of quality work and complete satisfaction. For years, Essay Sages has been delivering promising work to our customers and fulfilling their needs. Our academic writers give attention to each little detail and follow each guideline provided by the clients.
+         <p class="pd_feature  font-large font">So, you finally made up your mind to try our Online Dissertation Writing Services. We can assure you of quality work and complete satisfaction. For years, Essay Sages has been delivering promising work to our customers and fulfilling their needs. Our academic writers give attention to each little detail and follow each guideline provided by the clients.
 Why should you rely upon Essay Sages when there are other Professional Dissertation Writing Services? At Essay Sages, we simply believe in client satisfaction and our academic writers do the work keeping that one thing in mind. We listen to our clients and never argue with them. When it comes to Custom Dissertation Writing, sometimes the client demands to do some changes and we are open to doing that too.
 We are completely satisfied with our team. They will complete the task in the given time and you will return with a happy face. All the writers in our company are native English speakers with experience and degrees in their names.
 
@@ -440,30 +440,30 @@ We provide a range of experienced Ph.D. thesis support writers
 On-time delivery has priority even if the due date is less than one day away
 </li>
         </ul>
-      <p class="font-large">
+      <p class=" font-large font">
         This is only a glimpse of why you should choose Essay Sages. There are many other advantages that make Essay Sages the best Dissertation <a href="https://en.wikipedia.org/wiki/Paper">Paper</a> Writing Service today. If you are looking to get the best Dissertation Help Service, we are 24*7 available to help you!
       </p>
 </p>
         <h3 class="text-center pd_feature">15 Years Of Experience In Online Dissertation Writing</h3>
 
-<p class="pd_feature font-large">Unlike any other paper writing, dissertation writing is quite hard. The effort put into its preparation will reflect the level of your diploma. At Essay Sages, we understand the importance of dissertation papers. We have been providing Dissertation Help Service to students for over 15 years, with exceptional writing skills and constant attention to detail.
+<p class="pd_feature  font-large font">Unlike any other paper writing, dissertation writing is quite hard. The effort put into its preparation will reflect the level of your diploma. At Essay Sages, we understand the importance of dissertation papers. We have been providing Dissertation Help Service to students for over 15 years, with exceptional writing skills and constant attention to detail.
 Many students find it difficult to write their essays and often look for online essay writing service companies. Our online services have helped students from many areas for many years. So, when it comes to great writing services, experienced writers, and 100% originality, Essay Sages comes at the top of the list.
 
  </p>
         <h3 class="text-center pd_feature"> Get Good Grades With Professional Dissertation Writing
 </h3> 
-        <p class="pd_feature font-large">
+        <p class="pd_feature  font-large font">
         Imagine handing in a flawless paper written by a Ph.D. writer. It will not only help you get the degree you want but also impress your teachers. It is only possible in Essay Sages! Don't delay in submitting your order to our Essay Writing Company as our writers are willing to work for you.
 You should not miss your chance to get a flawless paper without any effort on your part. Choose Essay Sages and benefit from the best writing services! Hundreds of students have graduated with our help, and you won't miss your chance to succeed!
         </p>
        <h4 class="text-center pd_feature">Who Are Dissertation Writers?
-</h4><p class="pd_feature font-large">When it comes to producing the best writing results, Essay Sages is several steps ahead of other writing companies. We have been providing professional Dissertation Writing Services to our students for years, and this is only possible because of the professional writers we have on board. Our professional writers are one of the best native- English language writers. They have doctorate degrees and many years of experience in writing essays on various topics for students all over the world.
+</h4><p class="pd_feature  font-large font">When it comes to producing the best writing results, Essay Sages is several steps ahead of other writing companies. We have been providing professional Dissertation Writing Services to our students for years, and this is only possible because of the professional writers we have on board. Our professional writers are one of the best native- English language writers. They have doctorate degrees and many years of experience in writing essays on various topics for students all over the world.
 </p>
        <h4 class="text-center pd_feature">Is Essay Sages Dissertation Writing Service Free?
-</h4><p class="pd_feature font-large">Our dissertation writing services are not free, but they are affordable! Our service plan includes payment after getting approval from your side. In any case, if the writing standards of our writer do not match, the amount will be returned to you.
+</h4><p class="pd_feature  font-large font">Our dissertation writing services are not free, but they are affordable! Our service plan includes payment after getting approval from your side. In any case, if the writing standards of our writer do not match, the amount will be returned to you.
 </p>
        <h4 class="text-center pd_feature"> Can the Essay Sages Writers Complete My Dissertation Writing On Time?
-</h4><p class="pd_feature font-large">Meeting the deadline is one of our top-most priorities. We understand the value of submitting the dissertation papers on time. Unlike any other Dissertation Writing Service, we won’t extend the date of submission. We are also open to making the required changes in the papers.
+</h4><p class="pd_feature  font-large font">Meeting the deadline is one of our top-most priorities. We understand the value of submitting the dissertation papers on time. Unlike any other Dissertation Writing Service, we won’t extend the date of submission. We are also open to making the required changes in the papers.
 
 </p>
     </div>

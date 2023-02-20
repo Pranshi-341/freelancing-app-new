@@ -379,7 +379,7 @@ me with my maths homework today!">
          Math Homework Help By Professionals At Essay Sages
 
          </h2>
-         <p class="font font-large">School is one of the most important parts of everyone’s life. We get to know all the important aspects of life along with knowledge. Some of us love to study science while others might be interested in art or biology. Of all subjects, math is the one that has the least votes in the race of favorite subjects, isn’t it? And sometimes, we wish to have someone for Math Homework help.
+         <p class="font  font-large font">School is one of the most important parts of everyone’s life. We get to know all the important aspects of life along with knowledge. Some of us love to study science while others might be interested in art or biology. Of all subjects, math is the one that has the least votes in the race of favorite subjects, isn’t it? And sometimes, we wish to have someone for Math Homework help.
 
 
 
@@ -389,10 +389,10 @@ me with my maths homework today!">
    <div class="col-md-12 font moretext section">
       <div class="row">
 
-      <p class="pd_feature font-large">At Essay Sages, you will find plenty of professionals who are around the clock available for you. Connect with the expert of your choice and say “Do My Math Homework”. You can now enjoy your holidays or take proper rest if you are not well. The math professionals at Essay Sages will handle even the most complicated task for you.</p>   
+      <p class="pd_feature  font-large font">At Essay Sages, you will find plenty of professionals who are around the clock available for you. Connect with the expert of your choice and say “Do My Math Homework”. You can now enjoy your holidays or take proper rest if you are not well. The math professionals at Essay Sages will handle even the most complicated task for you.</p>   
       <h3 class="text-center ">Why You Must Rely Upon Essay Sages For Math Homework Online?
 </h3>
-         <p class="pd_feature font-large">While doing the Math HW, we get sometimes puzzled between complicated calculations or numbers. Doesn’t matter how difficult the task is, you have to complete it to get good marks and to save yourself from punishment. At Essay Sages, you will get the solution for Math Homework problems.
+         <p class="pd_feature  font-large font">While doing the Math HW, we get sometimes puzzled between complicated calculations or numbers. Doesn’t matter how difficult the task is, you have to complete it to get good marks and to save yourself from punishment. At Essay Sages, you will get the solution for Math Homework problems.
 
 
 <ul style="margin-left:20px;">
@@ -424,7 +424,7 @@ you will not be completely satisfied.
 </p>
 <h3 class="text-center pd_feature">Math Homework Areas That Essay Sages Cover
 </h3>
-         <p class="pd_feature font-large">For the best quality Math Homework, experts at Essay Sages are 24*7 available to help you.
+         <p class="pd_feature  font-large font">For the best quality Math Homework, experts at Essay Sages are 24*7 available to help you.
 Have a look at the areas of the school or College Math Homework Help provided by our
 professionals:
 
@@ -518,7 +518,7 @@ wherever you go, Essay Sages is there to help!</p>
 </p>
         <h3 class="text-center pd_feature">Essay Sages, Can You Help Me With My Math Homework Now</h3>
 
-<p class="pd_feature font-large">Your submission date is tomorrow but you are on a trip and forget to do your Math Homework,
+<p class="pd_feature  font-large font">Your submission date is tomorrow but you are on a trip and forget to do your Math Homework,
 what will you do in that case? Essay Sages is 24*7 available to handle any math project from
 you.
 It doesn’t even matter to our professionals if the project is simple or complex, your work will be
@@ -528,7 +528,7 @@ Homework For Me”.
 
  </p>
  <h3 class="text-center pd_feature">Why Should I Seek Math Homework Help?</h3>
- <p class="pd_feature font-large">You might have asked why you need an expert’s help to do math homework or assignment.
+ <p class="pd_feature  font-large font">You might have asked why you need an expert’s help to do math homework or assignment.
 Some students think that this is cheating or this will degrade their skills. The one who accepts
 that they need help, it&#39;s a sign of truth and strength. We want you to pause for a while and read
 the points mentioned below:
