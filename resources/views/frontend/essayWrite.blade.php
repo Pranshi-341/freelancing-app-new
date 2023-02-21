@@ -203,7 +203,7 @@
 </div>
 <div class="row " style="background-color: #fff ;">
    <div class="col-md-12 cs">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
+      <div class="w-50 mx-auto steps_of_essay_services">
          <h2 class="text-center mt-3 p-3">
          4 Steps Of Our Essay Writing Services
 

@@ -33,6 +33,10 @@
 
     <!-- Styles -->
     <style>
+      .steps_of_essay_services{
+        border-bottom:4px solid; 
+        border-bottom-color:#00cf8a;
+      }
       .other_page_carousel{
         margin-left: 340px;
       }
