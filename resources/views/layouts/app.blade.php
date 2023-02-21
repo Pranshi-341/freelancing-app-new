@@ -76,10 +76,7 @@
   font:16px Roboto,sans-serif ; 
   
 }
-.font-large
-{
-  font-size:large;
-}
+
       .pd_ul{
         padding-bottom:20px;
       }
@@ -146,6 +143,10 @@
   
   
 }
+.bg-image1{
+  background-color: rgb(0, 0, 0);
+         background-image:  linear-gradient(225deg,#00cf8a,#0084d6);
+}
   .expertise-covers-v2__card-list-item {
     align-items: center;
    
@@ -206,13 +207,6 @@
   background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
 }
-
-.border-bottom
-{
-  border-bottom:4px solid #00cf8a;
-   border-bottom-color:#00cf8a;
-}
-  
 .pricing .card {
   border: none;
   border-radius: 1rem;
