@@ -33,6 +33,24 @@
 
     <!-- Styles -->
     <style>
+      .other_page_carousel{
+        margin-left: 340px;
+      }
+      
+      .writers_card{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+      }
+      .parent_team{
+        display: grid;
+        place-items: center;
+      }
+
+      .carousel_design{
+        margin-left: 145px;
+      }
+
       .toast-success {
             background-color: #51a351 !important;
         }
