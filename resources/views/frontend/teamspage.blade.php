@@ -104,7 +104,7 @@
 <!-- Our team members portfolio -->
 <div class="row v2" style="width:70%;">
    <div class="col-md-12 my-3">
-      <div class=" w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class=" w-50 mx-auto"  style="border-bottom:4px solid; color: linear-gradient(225deg,#00cf8a,#0084d6);">
          <h2 class="text-center mt-3 p-3">
          Hire Professional Essay Writers Online At Essay Sages
          </h2> 
@@ -155,7 +155,7 @@
 <div class="row v2"  style="width:70%;">
 
    <div class="col-md-12 my-3">
-   <div class=" w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+   <div class=" w-50 mx-auto"  style="border-bottom:4px solid; color: linear-gradient(225deg,#00cf8a,#0084d6);">
          <h2 class="text-center mt-3 p-3">
          Hire Essay Writers
          </h2> 

@@ -35,7 +35,7 @@
 </div>
 <div class="row">
 <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
          <h2 class="text-center mt-3 p-3">
          Meet Our Team Of Physics Homework Help
          </h2>
@@ -76,7 +76,7 @@
          </div>
    </div>
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
          <h2 class="text-center mt-3 p-3">
          What Do Our Customers Think About Help In Physics Homework?
 
@@ -163,7 +163,7 @@
 </div>
 <div class="row p-3" style="background-color: #fff ;">
    <div class="col-md-12">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
          <h2 class="text-center mt-3 p-3">
          Get Your Physics Homework Done In 4 Easy Steps
 
@@ -280,7 +280,7 @@
 
 <div class="row ">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
          <h2 class="text-center mt-3 p-3">
          Professional Writing Services Essay Sages Provides
 
