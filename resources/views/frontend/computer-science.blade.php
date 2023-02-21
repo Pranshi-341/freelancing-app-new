@@ -41,40 +41,80 @@
 
          </h2>
       </div>
-      <div class="row">
-            
-            
-      @foreach($name as $name)
-            <div class="col-md-4 cs" >
-                  <div class="card shadow-md">
-                     <div class="card-body">
-                        <div class="row">
-                           <div class="col-md-4">
-                              <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" />
-                           </div>
-                           <div class="col-md-8">
-                              
-                                 <h5 class="card-title">{{ $name }}</h5>
-                                 
-                                 <div class="" style="font: 15px Roboto,sans-serif; display:flex;">
-                                 @foreach($skills as $skill)
-                                    <p class="card-text">{{ $skill }},</p>
-                                    @endforeach
+      <div class="row" style="background-color: #fff ;">
+   
+      <div id="professional_Writers" class="carousel slide text-center carousel-dark shadow-md mb-4" data-mdb-ride="carousel" style="padding-top:75px;">
+      <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="row bx_carousel">
+                  <div class="col-md-6 other_page_carousel" >
+                     <div class="card shadow-md">
+                        <div class="card-body">
+                              <div class="row">
+                              <div class="col-md-4">
+                                    <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" >
                               </div>
-                              
-                              
-                           </div>
-                              <p class="card-text" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
-                              <p class="card-text" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
-                           
+                              <div class="col-md-4">
+                                    <h5 class="card-title font">{{ $name[0] }}</h5>
+                                    <div style="font: 15px Roboto,sans-serif; display:flex; width: 100px;">
+                                          @foreach($skills as $skill)
+                                          <p class="card-text font" style="width: 100%;">{{ $skill }},</p>
+                                          @endforeach
+                                    </div>
+                                 <div class="row">
+                                    <p class="card-text font" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
+                                    <p class="card-text font" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
+                                 </div>
+                                    
+                              </div>
                         </div>
                      </div>
                   </div>
+               </div>
             </div>
-            @endforeach
-            
-            
-         </div>
+            </div>
+           @foreach($main_data as $key => $value)
+             @if($key != $name[0])
+               <div class="carousel-item">  
+                  <div class="col-md-6 other_page_carousel" >
+                     <div class="card shadow-md">
+                        <div class="card-body">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" >
+                           </div>
+                           <div class="col-md-4">
+                              <h5 class="card-title font">{{ $key }}</h5>
+                                 <div class="" style="font: 15px Roboto,sans-serif; display:flex; width: 100px;">
+                                    @foreach($value as $values)
+                                    <p class="card-text font" style="width: 100%;">{{ $values }},</p>
+                                    @endforeach
+                                 </div>
+                              <div class="row">
+                                 <p class="card-text font" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
+                                 <p class="card-text font" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
+                              </div>
+                              
+                           </div>
+                        </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            @endif
+          @endforeach           
+        </div>
+      <button class="carousel-control-prev" type="button" data-mdb-target="#professional_Writers" data-mdb-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-mdb-target="#professional_Writers" data-mdb-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+      </button>
+
+  
+</div>
    </div>
    <div class="col-md-12 my-3">
       <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">

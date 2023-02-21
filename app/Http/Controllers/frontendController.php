@@ -24,11 +24,17 @@ class frontendController extends Controller
         $bottomline = "Ask the Professionals At Essay Sages “Help Me With My Maths Homework”!        ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
         $writers = DB::table('freelancers_writers')->get();
-        foreach($writers as $writers){
-            $skills = json_decode($writers->skills);
-            $name[] = $writers->name;    
+        foreach($writers as $writer){
+            $skills_data[] = json_decode($writer->skills);
+            $name_data[] = $writer->name;    
         }
-        return view('frontend.maths',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills]);
+
+        foreach($writers as $writers){
+            $skills = json_decode($writer->skills);
+            $name[] = $writer->name;    
+        }
+        $main_data = array_combine($name_data, $skills_data);
+        return view('frontend.maths',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills,'main_data' => $main_data]);
     }
 
     function Physics(){
@@ -37,11 +43,17 @@ class frontendController extends Controller
         $bottomline = "Need Help With Physics Homework? Experts At Essay Sages Are Waiting For You!";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
         $writers = DB::table('freelancers_writers')->get();
-        foreach($writers as $writers){
-            $skills = json_decode($writers->skills);
-            $name[] = $writers->name;    
+        foreach($writers as $writer){
+            $skills_data[] = json_decode($writer->skills);
+            $name_data[] = $writer->name;    
         }
-        return view('frontend.physics',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills]);
+
+        foreach($writers as $writers){
+            $skills = json_decode($writer->skills);
+            $name[] = $writer->name;    
+        }
+        $main_data = array_combine($name_data, $skills_data);
+        return view('frontend.physics',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills,'main_data' => $main_data]);
     }
 
     function Dissertation(){
@@ -50,12 +62,20 @@ class frontendController extends Controller
         $bottomline = "Our Ph.D. writers will take care of your dissertations ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
         $writers = DB::table('freelancers_writers')->get();
-        foreach($writers as $writers){
-            $skills = json_decode($writers->skills);
-            $name[] = $writers->name;    
+        foreach($writers as $writer){
+            $skills_data[] = json_decode($writer->skills);
+            $name_data[] = $writer->name;    
         }
+
+        foreach($writers as $writers){
+            $skills = json_decode($writer->skills);
+            $name[] = $writer->name;    
+        }
+
         
-        return view('frontend.dissertation',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ]);
+        $main_data = array_combine($name_data, $skills_data);
+        
+        return view('frontend.dissertation',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ,'main_data' => $main_data]);
     }
 
     function Coursework(){
@@ -64,11 +84,17 @@ class frontendController extends Controller
         $bottomline = "Ask Our Team Of  Experts To Help You With Custom Coursework Writing Services! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
         $writers = DB::table('freelancers_writers')->get();
-        foreach($writers as $writers){
-            $skills = json_decode($writers->skills);
-            $name[] = $writers->name;    
+        foreach($writers as $writer){
+            $skills_data[] = json_decode($writer->skills);
+            $name_data[] = $writer->name;    
         }
-        return view('frontend.coursework',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ]);
+
+        foreach($writers as $writers){
+            $skills = json_decode($writer->skills);
+            $name[] = $writer->name;    
+        }
+        $main_data = array_combine($name_data, $skills_data);
+        return view('frontend.coursework',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ,'main_data' => $main_data]);
     }
 
     function Presentations(){
@@ -85,11 +111,17 @@ class frontendController extends Controller
         $bottomline = "Ask the Professionals At Essay Sages for Computer Science Assignment Help”!        ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
         $writers = DB::table('freelancers_writers')->get();
-        foreach($writers as $writers){
-            $skills = json_decode($writers->skills);
-            $name[] = $writers->name;    
+        foreach($writers as $writer){
+            $skills_data[] = json_decode($writer->skills);
+            $name_data[] = $writer->name;    
         }
-        return view('frontend.computer-science',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ]);
+
+        foreach($writers as $writers){
+            $skills = json_decode($writer->skills);
+            $name[] = $writer->name;    
+        }
+        $main_data = array_combine($name_data, $skills_data);
+        return view('frontend.computer-science',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ,'main_data' => $main_data]);
     }
 
     function AccountingEconomicsBusiness(){
@@ -105,11 +137,17 @@ class frontendController extends Controller
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
         $writers = DB::table('freelancers_writers')->get();
-        foreach($writers as $writers){
-            $skills = json_decode($writers->skills);
-            $name[] = $writers->name;    
+        foreach($writers as $writer){
+            $skills_data[] = json_decode($writer->skills);
+            $name_data[] = $writer->name;    
         }
-        return view('frontend.history',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ]);
+
+        foreach($writers as $writers){
+            $skills = json_decode($writer->skills);
+            $name[] = $writer->name;    
+        }
+        $main_data = array_combine($name_data, $skills_data);
+        return view('frontend.history',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ,'main_data' => $main_data]);
     }
 
     function Team(){
@@ -180,12 +218,20 @@ function AboutUs(){
         $bottomline = "Make your order and get our assistance now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
         $writers = DB::table('freelancers_writers')->get();
-        foreach($writers as $writers){
-            $skills = json_decode($writers->skills);
-            $name[] = $writers->name;    
-        }
         
-        return view('frontend.essayWrite',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ]);
+        foreach($writers as $writer){
+            $skills_data[] = json_decode($writer->skills);
+            $name_data[] = $writer->name;    
+        }
+
+        foreach($writers as $writers){
+            $skills = json_decode($writer->skills);
+            $name[] = $writer->name;    
+        }
+
+        
+        $main_data = array_combine($name_data, $skills_data);
+        return view('frontend.essayWrite',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ,'main_data' => $main_data]);
     } 
 
     function ResearchPaper(){
@@ -202,11 +248,17 @@ function AboutUs(){
         $bottomline = "Ask our writers to “Write My Thesis”        ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
         $writers = DB::table('freelancers_writers')->get();
-        foreach($writers as $writers){
-            $skills = json_decode($writers->skills);
-            $name[] = $writers->name;    
+        foreach($writers as $writer){
+            $skills_data[] = json_decode($writer->skills);
+            $name_data[] = $writer->name;    
         }
-        return view('frontend.thesis',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ]);
+
+        foreach($writers as $writers){
+            $skills = json_decode($writer->skills);
+            $name[] = $writer->name;    
+        }
+        $main_data = array_combine($name_data, $skills_data);
+        return view('frontend.thesis',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ,'main_data' => $main_data]);
     }
 
     function Assigment() {
@@ -231,11 +283,17 @@ function AboutUs(){
         $topline = " ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
         $writers = DB::table('freelancers_writers')->get();
-        foreach($writers as $writers){
-            $skills = json_decode($writers->skills);
-            $name[] = $writers->name;    
+        foreach($writers as $writer){
+            $skills_data[] = json_decode($writer->skills);
+            $name_data[] = $writer->name;    
         }
-        return view('frontend.book-report',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ]);
+
+        foreach($writers as $writers){
+            $skills = json_decode($writer->skills);
+            $name[] = $writer->name;    
+        }
+        $main_data = array_combine($name_data, $skills_data);
+        return view('frontend.book-report',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ,'main_data' => $main_data]);
     }
 
     function Speach(){
@@ -284,11 +342,17 @@ function AboutUs(){
         $bottomline = "Our Experts Are There To Help You With Your Literature Review Writing!        ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
         $writers = DB::table('freelancers_writers')->get();
-        foreach($writers as $writers){
-            $skills = json_decode($writers->skills);
-            $name[] = $writers->name;    
+        foreach($writers as $writer){
+            $skills_data[] = json_decode($writer->skills);
+            $name_data[] = $writer->name;    
         }
-        return view('frontend.literature',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ]);
+
+        foreach($writers as $writers){
+            $skills = json_decode($writer->skills);
+            $name[] = $writer->name;    
+        }
+        $main_data = array_combine($name_data, $skills_data);
+        return view('frontend.literature',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'name' => $name, 'skills' => $skills ,'main_data' => $main_data]);
     }
 
     function OrderNow(Request $request) {

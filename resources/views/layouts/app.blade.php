@@ -33,6 +33,10 @@
 
     <!-- Styles -->
     <style>
+      .other_page_carousel{
+        margin-left: 340px;
+      }
+      
       .writers_card{
         display:flex;
         align-items:center;
