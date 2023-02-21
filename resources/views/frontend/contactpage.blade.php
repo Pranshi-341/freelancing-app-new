@@ -43,7 +43,7 @@
       <div class="card mb-3">
       
       
-         <div class="card-body font">
+         <div class="card-body bg-image1 font">
          <h4 class="card-title fw-bold text-center">Contact At</h4>
         
             <p class=" text-center">New York, NY 10012, US</p>
