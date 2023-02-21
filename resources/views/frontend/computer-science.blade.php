@@ -35,7 +35,7 @@
 </div>
 <div class="row">
 <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
          <h2 class="text-center mt-3 p-3">
          Meet Our Team Of  Computer Science Homework Help</strong>
 
@@ -117,7 +117,7 @@
 </div>
    </div>
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
          <h2 class="text-center mt-3 p-3">
          What Do Our Customers Think About Computer Science Assignments Help Service?
 
@@ -203,7 +203,7 @@
 </div>
 <div class="row p-3" style="background-color: #fff ;">
    <div class="col-md-12">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
          <h2 class="text-center mt-3 p-3">
          Get Your Computer Science Assignment Done In 4 Easy Steps
 
@@ -320,7 +320,7 @@
 
 <div class="row ">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
          <h2 class="text-center mt-3 p-3">
          Professional Writing Services Essay Sages Provides
 
@@ -419,7 +419,7 @@
          Computer Science Homework Help From Essay Sages
 
          </h2>
-         <p class="font font-large">Computer science is very exciting for some students and they do the assignment with all their hearts. But, you also can’t deny that  Computer Science Assignments
+         <p class="font  font-large font">Computer science is very exciting for some students and they do the assignment with all their hearts. But, you also can’t deny that  Computer Science Assignments
 </strong> are not that easy. Students have to put in their hours and sleepless nights to complete  Computer Science Assignments
 </strong>. At Essay Sages, our professionals are 24*7 available to provide Computer Science Homework Help. 
          </p>
@@ -427,7 +427,7 @@
 </div>
 <div class="col-md-12 font moretext section">
       <div class="row">
-         <p class="pd_feature font-large">We have been helping students with their homework, college assignment, and research paper for the last 15 years. If you are someone who is afraid of computer science-related assignments then Essay Sages is at your side. We have experts who are very reliable and experienced in the field of computer science. You no more need to be worried about your computer science homework anymore. Enjoy your holidays, weekends, or party with your friends, our writers will take care of your projects.
+         <p class="pd_feature  font-large font">We have been helping students with their homework, college assignment, and research paper for the last 15 years. If you are someone who is afraid of computer science-related assignments then Essay Sages is at your side. We have experts who are very reliable and experienced in the field of computer science. You no more need to be worried about your computer science homework anymore. Enjoy your holidays, weekends, or party with your friends, our writers will take care of your projects.
 
 
          </p>
@@ -436,7 +436,7 @@
          <h3 class="text-center pd_feature">Need Help With Computer Science Assignment? Hire Experts At Essay Sages!
 
 </h3>
-         <p class="pd_feature font-large">Today, students are involved in a number of extracurricular activities. Hence, it is sometimes difficult to manage all the assignments together. In order to overcome this hectic schedule, Essay Sages is providing Computer Science Homework Service. You can now focus on other necessary activities as our professionals will handle your task for you. All of our experts are experienced and educated in their respective fields. Your assignment is in good and safe hands. Check out the reasons why you must rely upon Essay Sages for Computer Science Homework Help:
+         <p class="pd_feature  font-large font">Today, students are involved in a number of extracurricular activities. Hence, it is sometimes difficult to manage all the assignments together. In order to overcome this hectic schedule, Essay Sages is providing Computer Science Homework Service. You can now focus on other necessary activities as our professionals will handle your task for you. All of our experts are experienced and educated in their respective fields. Your assignment is in good and safe hands. Check out the reasons why you must rely upon Essay Sages for Computer Science Homework Help:
 
         <ul style="margin-left:20px;">
         <li>
@@ -458,7 +458,7 @@
 </p>
         <h3 class="text-center pd_feature">Got Computer Science Assignment, Ask Qualified Experts To Help You</h3>
 
-<p class="pd_feature font-large">Every time you request to get help with a computer assignment, it will be attended by an expert Computer Science Homework Helper. From a list of experts available, you can choose anyone based on their reviews or past experience. All of them are qualified and can handle any computer science project. Here are some of the qualities of our Computer Science Homework Help experts:
+<p class="pd_feature  font-large font">Every time you request to get help with a computer assignment, it will be attended by an expert Computer Science Homework Helper. From a list of experts available, you can choose anyone based on their reviews or past experience. All of them are qualified and can handle any computer science project. Here are some of the qualities of our Computer Science Homework Help experts:
     <ul style="margin-left:20px;">
         <li>
         <h5>Have a Degree In Computer Science</h5>
@@ -477,7 +477,7 @@
 
  </p>
  <h3 class="text-center pd_feature">Need Help With The CS Homework Assignments? Come To Essay Sages!</h3>
- <p class="pd_feature font-large">All the students who are pursuing their degrees in the field of computer science know the importance of assignment submission. Essay Sages understand that it is not an easy task to complete all subject assignments all along together. This is why we need a helping hand sometimes like Essay Sages. There is no use in submitting an assignment that will get you bad grades and red ink all over it. For such cases, wiring experts at Essay Sages are 24*7 available at your service. There is no one better than them who understands the academic requirements.
+ <p class="pd_feature  font-large font">All the students who are pursuing their degrees in the field of computer science know the importance of assignment submission. Essay Sages understand that it is not an easy task to complete all subject assignments all along together. This is why we need a helping hand sometimes like Essay Sages. There is no use in submitting an assignment that will get you bad grades and red ink all over it. For such cases, wiring experts at Essay Sages are 24*7 available at your service. There is no one better than them who understands the academic requirements.
 
  <ul style="margin-left:20px;">
         <li>
@@ -496,7 +496,7 @@
         </ul>
         
         <h3 class="text-center pd_feature"> Get Computer Science Homework Help Assistance From Writers At Essay Sages</h3>
- <p class="pd_feature font-large">Do you need some assistance with your  Computer Science Assignments
+ <p class="pd_feature  font-large font">Do you need some assistance with your  Computer Science Assignments
 </strong>? Ask our experts to guide you throughout the computer science assignment and get outstanding grades. We will guide you step by step so that you can handle even the tough tasks easily. Check out the given steps to follow:
  <ul style="margin-left:20px;"><li>Students are guided to choose appropriate and relevant topics for Computer Science subjects.
 </li>
@@ -513,7 +513,7 @@
  Our computer science experts write plagiarized free quality articles for students. To write a good computer science project, it is important to have a good knowledge of the concepts. We have a team of experienced writers with Ph.D. and master's degrees from renowned universities around the world. They are familiar with the subject, its components, applications, and uses. Our writers promise high-quality, unique, and unparalleled homework writing services. This will help the students excel in their grades. So stop dreading homework and take Computer Science Homework Help.
 </p>
 <h3 class="text-center pd_feature"> We Are Open To Help You With All Types Of Computer Science Assignments</h3>
- <p class="pd_feature font-large">The Computer Science Homework Help provided by our professionals is popular among students all over the world. We have a team of authors who have been hired through a rigorous recruitment process. We ensure that students are always assisted with the best computer science services.
+ <p class="pd_feature  font-large font">The Computer Science Homework Help provided by our professionals is popular among students all over the world. We have a team of authors who have been hired through a rigorous recruitment process. We ensure that students are always assisted with the best computer science services.
 Can't figure out how to start working on  <a href="https://en.wikipedia.org/wiki/Computer_science" >Computer Science</a> Assignments
 </strong>? Ask for help with Computer Science Homework Solutions from us. We take care of all the writing problems. Our experts are always ready to help you with computer-related assignments. Below are popular and complicated computer information system topics that our experts have helped with.
 
@@ -539,11 +539,11 @@ Can't figure out how to start working on  <a href="https://en.wikipedia.org/wiki
 
 
  </ul>
-<p class="font-large"> It’s just a common topic that students often ask for help with. Apart from all these, if you need help with any other computer science-related topic then feel free to ask us. You will get solutions for all of your academic problems at Essay Sages.</p>
+<p class=" font-large font"> It’s just a common topic that students often ask for help with. Apart from all these, if you need help with any other computer science-related topic then feel free to ask us. You will get solutions for all of your academic problems at Essay Sages.</p>
 
 </p>
 <h3 class="text-center pd_feature">Essay Sages Provides Endless Features To Pursue Your Academic Goals.</h3>
- <p class="pd_feature font-large">All the students who are pursuing their degrees in the field of computer science know the importance of assignment submission. Essay Sages understand that it is not an easy task to complete all subject assignments all along together. This is why we need a helping hand sometimes like Essay Sages. There is no use in submitting an assignment that will get you bad grades and red ink all over it. For such cases, wiring experts at Essay Sages are 24*7 available at your service. There is no one better than them who understands the academic requirements.
+ <p class="pd_feature  font-large font">All the students who are pursuing their degrees in the field of computer science know the importance of assignment submission. Essay Sages understand that it is not an easy task to complete all subject assignments all along together. This is why we need a helping hand sometimes like Essay Sages. There is no use in submitting an assignment that will get you bad grades and red ink all over it. For such cases, wiring experts at Essay Sages are 24*7 available at your service. There is no one better than them who understands the academic requirements.
 
  <ul style="margin-left:20px;">
         <li>

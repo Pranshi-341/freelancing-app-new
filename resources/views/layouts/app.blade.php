@@ -130,13 +130,15 @@
   }
   .bg-image
 {
-   background-image: url({{ asset('images/essaywriting.png') }});
   
+   background-color: rgb(0, 0, 0);
+         background-image:  linear-gradient(225deg,#00cf8a,#002552);
+        transition: 0.5s;
     /* -webkit-filter: blur(10px); */
     /* -moz-filter: blur(10px); */
     /* -o-filter: blur(10px); */
     /* -ms-filter: blur(10px); */
-    filter: blur(7px);
+   
     position:absolute;
     width:100%;
     height:100%;
@@ -181,7 +183,9 @@
     width: 10.75em!important;
   }
   .cs2{
-  background-image: linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522); 
+    background-color: rgb(0, 0, 0);
+    background-image:  linear-gradient(225deg,#002552,#002552);
+        
   color:white; margin-left: -31px; margin-right: -31px ;
   }
     </style>
@@ -203,6 +207,12 @@
   background: linear-gradient(to right, #0062E6, #33AEFF);
 }
 
+.border-bottom
+{
+  border-bottom:4px solid #00cf8a;
+   border-bottom-color:#00cf8a;
+}
+  
 .pricing .card {
   border: none;
   border-radius: 1rem;
@@ -316,7 +326,6 @@
   opacity: 0.7;
   transition: all 0.2s;
 }
-
 /* Hover Effects on Card */
 
 @media (min-width: 992px) {

@@ -36,7 +36,7 @@
 </div>
 <div class="row">
 <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
          <h2 class="text-center mt-3 p-3">
          Meet Our Team Of Custom Coursework Writing Service
          </h2>
@@ -118,7 +118,7 @@
    </div>
    </div>
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
          <h2 class="text-center mt-3 p-3">
          What Do Our Customers Think About Coursework Writing Help?
 
@@ -205,7 +205,7 @@
 </div>
 <div class="row p-3" style="background-color: #fff ;">
    <div class="col-md-12">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
          <h2 class="text-center mt-3 p-3">
          Get Your Coursework Writing Done In 4 Easy Steps
 
@@ -322,7 +322,7 @@
 
 <div class="row ">
    <div class="col-md-12 my-3">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
          <h2 class="text-center mt-3 p-3">
          Professional Writing Services Essay Sages Provides
 
@@ -421,7 +421,7 @@
          Coursework Writing Help From Experts At Essay Sages
 
          </h2>
-         <p class="font font-large">When it's time for exams, there are a lot of schools, colleges, or university students who start feeling overwhelmed. In order to avoid that pressure, we at Essay Sages are putting our best efforts to help you with Coursework Writing Service.
+         <p class="font  font-large font">When it's time for exams, there are a lot of schools, colleges, or university students who start feeling overwhelmed. In order to avoid that pressure, we at Essay Sages are putting our best efforts to help you with Coursework Writing Service.
 We understand how difficult it is to study all the subjects at the same time and prepare assignments as well. </p>
          </div>
 </div> 
@@ -429,7 +429,7 @@ We understand how difficult it is to study all the subjects at the same time and
    <div class="col-md-12 font moretext section">
       <div class="row">
          
-<p class="pd_feature font-large">At that point in time, it feels so pressurized. There will be nothing better than hiring a writing expert at Essay Sages who will handle all the Custom Coursework Writing for you.
+<p class="pd_feature  font-large font">At that point in time, it feels so pressurized. There will be nothing better than hiring a writing expert at Essay Sages who will handle all the Custom Coursework Writing for you.
 
  Our job will include the improvement of your essays and papers and help you to get good grades. The academic experts at Essay Sages work round the clock so that you can sleep with peace of mind.
 
@@ -437,16 +437,16 @@ We understand how difficult it is to study all the subjects at the same time and
 <h3 class="text-center pd_feature">
 Benefits Of Our Coursework Writing Help
          </h3>
-         <p class="pd_feature font-large">You need outstanding communication skills and clarity to draft any academic <a href="https://en.wikipedia.org/wiki/Paper">paper</a>. At Essay Sages, our team first researches and gathers every single piece of information required to mention in your coursework. You do not need to put your efforts into choosing the best writer as all of them are gems in their fields. We will be happy to take responsibility for your Custom Coursework Writing and provide you with outstanding results.
+         <p class="pd_feature  font-large font">You need outstanding communication skills and clarity to draft any academic <a href="https://en.wikipedia.org/wiki/Paper">paper</a>. At Essay Sages, our team first researches and gathers every single piece of information required to mention in your coursework. You do not need to put your efforts into choosing the best writer as all of them are gems in their fields. We will be happy to take responsibility for your Custom Coursework Writing and provide you with outstanding results.
 Our academic writers are just not limited to writing services. They will scrutinize details, check the papers for plagiarism, and resolve all sorts of grammatical errors too. Our diligent process delivers the best writing results, boosts your confidence, and increases your grades. We will only receive the payment after you will be fully satisfied with our work.
 </p>
 
 <h3 class="text-center pd_feature">
 We Provide the Best Coursework Writing Service Help
          </h3>
-         <p class="pd_feature font-large">The satisfaction of students is the only thing that matters to us. We are a trusted Coursework Writing Service that is providing remarkable writing solutions for the last 15 years. It is all about helping you with good grades and our writers are the jewel in the crown.
+         <p class="pd_feature  font-large font">The satisfaction of students is the only thing that matters to us. We are a trusted Coursework Writing Service that is providing remarkable writing solutions for the last 15 years. It is all about helping you with good grades and our writers are the jewel in the crown.
 </p>
-<p class="pd_feature font-large">
+<p class="pd_feature  font-large font">
 Our customer essay writers have expertise in different coursework writings:
    <ul style="margin-left:20px;"><li>Geography</li>
     <li>History</li>
@@ -456,20 +456,20 @@ Our customer essay writers have expertise in different coursework writings:
     <li>Nursing</li>
     <li>Chemistry amid others</li>
  </ul>
- <p class="font-large">We have the specialization to cater to the needs of writers for all academic levels. We are available to complete the projects for high school, college, university undergraduate, graduate, master's, Ph.D., etc.</p>
+ <p class=" font-large font">We have the specialization to cater to the needs of writers for all academic levels. We are available to complete the projects for high school, college, university undergraduate, graduate, master's, Ph.D., etc.</p>
 
    </p>
    <h3 class="text-center pd_feature">
    Specialized Law Coursework Writing Service
          </h3>
-         <p class="pd_feature font-large">The hiring process at Essay Sages is quite simple and hassle-free. To complete the order for Coursework Writing Service, visit our user-friendly Essay Sages website. Complete your requirements, tell us your deadline and the rest is upon us.
+         <p class="pd_feature  font-large font">The hiring process at Essay Sages is quite simple and hassle-free. To complete the order for Coursework Writing Service, visit our user-friendly Essay Sages website. Complete your requirements, tell us your deadline and the rest is upon us.
 We will also provide you the option of choosing the writer of your choice. Check their experiences, past work, and reviews before hiring anyone.
 Once you have selected everything, chat with your specified writer via Essay Sages and stay in touch with each other.
 </p>
 <h3 class="text-center pd_feature">
 Improvise Your GPA With Online Coursework Writing Help
          </h3>
-         <p class="pd_feature font-large">It doesn’t matter to us how challenging or researchable your coursework writing is, the assigned Coursework Writing Service writer will handle the task and start working on it immediately. Essay Sages delivers quality results only. Grab the opportunity to get high grades and appreciation from your teachers. Connect with the team of Essay Sages now if you are facing complications complete high-quality coursework writing.
+         <p class="pd_feature  font-large font">It doesn’t matter to us how challenging or researchable your coursework writing is, the assigned Coursework Writing Service writer will handle the task and start working on it immediately. Essay Sages delivers quality results only. Grab the opportunity to get high grades and appreciation from your teachers. Connect with the team of Essay Sages now if you are facing complications complete high-quality coursework writing.
 
 </p>
 <h3 class="text-center pd_feature">
@@ -480,22 +480,22 @@ Some FAQs About Coursework Writing Service
         
       
         <h4 class="pd_feature"> Why You Should Hire Essay Sages Writers For Coursework Writing?</h4>
-        <p class="pd_feature font-large">The main motivation behind the Coursework Service is to bring some peace and relaxation in the life of students, especially during exams. Submitting all subject assignments on the same date is really a matter of great concern. So, you no more need to deal with the anxiety of assignments, hire our experts today!
+        <p class="pd_feature  font-large font">The main motivation behind the Coursework Service is to bring some peace and relaxation in the life of students, especially during exams. Submitting all subject assignments on the same date is really a matter of great concern. So, you no more need to deal with the anxiety of assignments, hire our experts today!
         The smile on your face and good grades are the two most important things you will get with the help of our academic custom essay writers. All the writers working with Essay Sages have years of experience and strong knowledge & skills of the subject.
 Good results are guaranteed!
 
         </p>
         
         <h4 class="pd_feature"> How Essay Sages Will Help You?</h4>
-        <p class="pd_feature font-large">There is no doubt that coursework writing is quite difficult but not for our writers at Essay Sages. They can handle any project of coursework writing to bring the best results. If you also want to submit flawless and outstanding projects every time, hire Coursework Writing Service experts at Essay Sages today!
+        <p class="pd_feature  font-large font">There is no doubt that coursework writing is quite difficult but not for our writers at Essay Sages. They can handle any project of coursework writing to bring the best results. If you also want to submit flawless and outstanding projects every time, hire Coursework Writing Service experts at Essay Sages today!
 The writing experts at Essay Sages are known to create perfect and comprehensive content. Gathering the right information from different sources for all subjects is not an easy task at all. Our skilled writers have the access to various resources that will shape your coursework writing into an outstanding assignment.
 We will be happy to provide Custom Essay Papers Writing Services to our clients. Once you start availing of our services, there is no going back.
 
 </p>
         <h4 class="pd_feature">Will My Teacher Find Out, I’ve Taken Coursework Writing Help?</h4>
-        <p class="pd_feature font-large">A bit worried thinking your teacher or professor will find out that you have used Essay Sages Coursework Writing Service? Before delivering the final draft, we scrutinize everything so as to submit the quality draft. The writers' at Essay Sages are undoubtedly outstanding in mimicking the writing tone. Based on the level of your academics, the writers will frame the assignment according to that only.
+        <p class="pd_feature  font-large font">A bit worried thinking your teacher or professor will find out that you have used Essay Sages Coursework Writing Service? Before delivering the final draft, we scrutinize everything so as to submit the quality draft. The writers' at Essay Sages are undoubtedly outstanding in mimicking the writing tone. Based on the level of your academics, the writers will frame the assignment according to that only.
 </p>
-<p class="pd_feature font-large">     
+<p class="pd_feature  font-large font">     
 Hence, your professors will never get to know about it.
 When you will hire the coursework services at Essay Sages, we can guarantee:
 <ul style="margin-left:20px;"><li>High-quality coursework writing content</li>
@@ -503,7 +503,7 @@ When you will hire the coursework services at Essay Sages, we can guarantee:
     <li>100% plagiarism-free assignments</li>
     <li>Guidance in all kinds of coursework</li>
  </ul>
- <p class="font-large">Whenever you or any of your friends find it tough to complete coursework writing, remember that Essay Sages is available for Coursework Writing Services.</p>
+ <p class=" font-large font">Whenever you or any of your friends find it tough to complete coursework writing, remember that Essay Sages is available for Coursework Writing Services.</p>
   
 </p>
        

@@ -73,7 +73,7 @@
 </div>
 <div class="row">
     <div class="col-md-12 my-3">
-        <div class="w-50 font mx-auto"  style="border-bottom:4px solid; color:linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);" >
+        <div class="w-50 font mx-auto"  style="border-bottom:4px solid; color: linear-gradient(225deg,#00cf8a,#0084d6);" >
             <h2 class="text-center fw-bold mt-3 p-3">
                 Publish Order
             </h2>

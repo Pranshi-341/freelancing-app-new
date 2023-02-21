@@ -28,10 +28,10 @@
         left: 0;
         top: 0;
         background-color: rgb(0, 0, 0);
-         background-image: linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);
+         background-image:  linear-gradient(225deg,#00cf8a,#0084d6);
         transition: 0.5s;
     }
-  
+   
     .overlay-content {
         position: relative;
         z-index: 1;
@@ -211,7 +211,7 @@ window.onscroll = function() {myFunction()};
 	<div class="modal-dialog modal-sm" role="document">
 		<div class="modal-content">
 			<div class="modal-header col-md-12 font" style=" background-color: rgb(0, 0, 0);
-         background-image: linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+         background-image:  linear-gradient(225deg,#00cf8a,#0084d6);">
 			
 					<h5 class="modal-title" style="text-align:center; color:white;">Sign In</h5>
           <button type="button" style="padding-top:1rem;" class="close" data-dismiss="modal" aria-label="Close">
@@ -266,7 +266,7 @@ window.onscroll = function() {myFunction()};
 	<div class="modal-dialog modal-sm" role="document">
 		<div class="modal-content">
 			<div class="modal-header col-md-12 font" style=" background-color: rgb(0, 0, 0);
-         background-image: linear-gradient(to right, #2E2221, #6A4522,#9B743E, #AA8762,#6A4522);">
+         background-image:  linear-gradient(225deg,#00cf8a,#0084d6);">
 			
 					<h5 style="text-align:center; color:white;">Sign Up</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
