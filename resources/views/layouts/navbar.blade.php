@@ -370,7 +370,7 @@ window.onscroll = function() {myFunction()};
 <script>
   $('.multi_select').select2({
         dropdownAutoWidth: 'true',
-        maximumSelectionLength: 5,
+        maximumSelectionLength: 4,
         multiple: true
     });
   

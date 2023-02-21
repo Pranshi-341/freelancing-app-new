@@ -33,13 +33,18 @@
 
     <!-- Styles -->
     <style>
+      .writers_card{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+      }
       .parent_team{
         display: grid;
         place-items: center;
       }
 
       .carousel_design{
-        margin-left: 285px;
+        margin-left: 145px;
       }
 
       .toast-success {

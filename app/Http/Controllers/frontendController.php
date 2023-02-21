@@ -121,10 +121,16 @@ class frontendController extends Controller
         
         $writers = DB::table('freelancers_writers')->get();
         foreach($writers as $writer){
-            $skills = json_decode($writer->skills);
-            $name[] = $writer->name;    
+            $skills_data[] = json_decode($writer->skills);
+            $name_data[] = $writer->name;    
         }
-        return view('frontend.teamspage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'skills' => $skills, 'name' => $name])->with('writers',$writers);
+        foreach($writers as $writerss){
+            $skills = json_decode($writer->skills);
+            $name[] = $writer->name; 
+        }
+        $main_data = array_combine($name_data, $skills_data);
+        
+        return view('frontend.teamspage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage, 'skills' => $skills, 'name' => $name, 'main_data' => $main_data])->with('writers',$writers);
     }
 
     function ProfessionalWriters(){

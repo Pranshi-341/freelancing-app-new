@@ -129,7 +129,7 @@
       <div class="carousel-inner">
          <div class="carousel-item active">
           <div class="row bx_carousel">
-              <div class="col-md-4 carousel_design" >
+              <div class="col-md-8 carousel_design" >
                   <div class="card shadow-md">
                     <div class="card-body">
                         <div class="row">
@@ -138,24 +138,27 @@
                           </div>
                           <div class="col-md-8">
                               <h5 class="card-title font">{{ $name[0] }}</h5>
-                                <div class="" style="font: 15px Roboto,sans-serif; display:flex;">
+                                <div style="font: 15px Roboto,sans-serif; display:flex; width: 100px;">
                                     @foreach($skills as $skill)
-                                    <p class="card-text font">{{ $skill }},</p>
+                                    <p class="card-text font" style="width: 100%;">{{ $skill }},</p>
                                     @endforeach
                                 </div>
-                          </div>
+                            <div class="row">
                               <p class="card-text font" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
                               <p class="card-text font" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
+                            </div>
+                              
+                          </div>
                         </div>
                     </div>
                   </div>
                 </div>
           </div>
         </div>
-        @foreach($name as $key => $name)
-          @if($key > 0)
+        @foreach($main_data as $key => $value)
+          @if($key != $name[0])
             <div class="carousel-item">  
-              <div class="col-md-4 carousel_design" >
+              <div class="col-md-8 carousel_design" >
                 <div class="card shadow-md">
                   <div class="card-body">
                     <div class="row">
@@ -163,15 +166,18 @@
                           <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" >
                       </div>
                       <div class="col-md-8">
-                          <h5 class="card-title font">{{ $name }}</h5>
-                            <div class="" style="font: 15px Roboto,sans-serif; display:flex;">
-                                @foreach($skills as $skill)
-                                <p class="card-text font">{{ $skill }},</p>
+                          <h5 class="card-title font">{{ $key }}</h5>
+                            <div class="" style="font: 15px Roboto,sans-serif; display:flex; width: 100px;">
+                                @foreach($value as $values)
+                                <p class="card-text font" style="width: 100%;">{{ $values }},</p>
                                 @endforeach
                             </div>
+                          <div class="row">
+                            <p class="card-text font" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
+                            <p class="card-text font" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
+                          </div>
+                          
                       </div>
-                          <p class="card-text font" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
-                          <p class="card-text font" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
                     </div>
                   </div>
                 </div>
@@ -190,7 +196,7 @@
       </button>
 </div>
 <div class="parent_team">
-  <button class="btn-sm btn-primary" id="list_carousel" style="max-width: fit-content;">See All Professionals</button>
+  <button class="btn-sm btn-warning" id="list_carousel" style="max-width: fit-content;">See All Professionals</button>
 </div>
 </div>
 
@@ -248,7 +254,7 @@
           </p><p class="pd_feature font-large">We have a number of experienced writers available to work for you. No matter whichever Online Paper Writer you choose, all of them are professionals.
               Based on your work requirements, our system will show you a list of the writers. Based on your preferences, you can proceed to work with them.
               Before Hiring Essay Writers, you can check their past experience, reviews, and their qualifications as well. In this way, you will get to know who is going to write for you and this will give you satisfaction as well.
-              All of our writers are qualified and have college degrees as well. Also, there are some writers who have doctorate degrees in their respective fields. 
+              All of our writers   are qualified and have college degrees as well. Also, there are some writers who have doctorate degrees in their respective fields. 
           </p><p class="pd_feature font-large">So, when you need extremely detailed work, those writers are the best option to hire.
               In simple words, before you hire any Professional Essay Writers Online, you must check their qualifications, experience, and reviews. With Essay Sages, all of these details are transparent to our customers.
               So, when it comes to academic grades, one can never compromise with writing papers. Hence, you must check each detail of the writer before asking them to “Write My Essay”.
@@ -269,71 +275,42 @@
    </div>
 </div>
 </div>
-<!--
-@foreach($writers as $writer)
-<div class="container d-flex mt-4 p-4">
-        <div class="card mb-3" >
-            <div class="row g-0">
-                
-                <div class="col-md-6">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            {{ $writer->name }}
-                        </h5>
-                        <p class="card-text">
-                            @foreach($skills as $skill)
-                              {{ $skill }},
-                            @endforeach
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">
-                                {{ $writer->price }}
-                            </small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-@endforeach
-  <div class="row" id="list_bar" style="display:none; width:90%; border:1px solid black; margin-left: 5%;">
-              <div class="box">
-                <div class="box-body">
-                  <div class="table-responsive">
-                    <table id="example1" class="table mb-0 w-p100">
-                    <thead>
-                      <tr>
-                        <th>Name</th>
-                        <th>Skills</th>
-                        <th>Price</th>
-                        <th>Action</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                            @foreach($writers as $writer)
-                                <tr>
-                                    <td>{{ $writer->name }}</td>
-                                    <td>
-                                    @foreach($skills as $skill)
-                                      {{ $skill }},
-                                    @endforeach
-                                    </td>
-                                    
-                                    <td>{{ $writer->price }}</td>
-                                    <td>
-                                      <a class="btn-sm btn-primary" href="order-now" style="background-color:#343a40;">Hire</a>
-                                    </td>
-                                    
-                                </tr>
-                                @endforeach
-                    </tbody>              
-                  </table>
-                  </div>              
-                </div>
-                
-                </div>
-            </div>
--->
+
+<div id="list_bar" style="display:none;">
+  @foreach($main_data as $key => $value)
+  <div class="container d-flex" style="max-width: 900px;">
+          <div class="card mb-3" style="width: 200%;">
+              <div class="row g-0">
+                  
+                  <div class="col-md-12">
+                      <div class="card-body writers_card">
+                          <div class="col-sm-2">
+                              <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" >
+                          </div>
+                          <div class="card-title" style="width:50px;">
+                              {{ $key }}
+                          </div>
+                          <div class="card-text" style="width:100px;">
+                              @foreach($value as $values)
+                                {{ $values }},
+                              @endforeach
+                          </div>
+                          <div class="card-text">
+                            <a href="/order-now" class="btn-sm btn-warning">Hire Writer</a>
+                          </div>
+                          <div class="card-text">
+                            <a href="javascript:void(0)" class="btn-sm btn-warning">Chat</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  @endforeach
+</div>
+
+
+      
    </div>
 </div>
 <!-- MDB -->

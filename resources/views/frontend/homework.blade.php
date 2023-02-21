@@ -343,7 +343,7 @@
    <div class="col-md-12 font moretext section ">
       <div class="row">
 
-      <p class="pd_feature font-large">Isn’t it a good way? You can now enjoy everything else you wanted without compromising on your homework. Ask our professionals for Homework Help Online and let them be your helping hands for all of your assignment work.
+      <p class="pd_feature font font-large">Isn’t it a good way? You can now enjoy everything else you wanted without compromising on your homework. Ask our professionals for Homework Help Online and let them be your helping hands for all of your assignment work.
 They can handle any complex task. All of our Professional Paper Writers are experienced enough to provide you with quality work. Although we can also complete the task within 24 hours it would be better if you can allow us some free time to research the project.
 </p><p class="font-large">Essay Sages is helping students do assignments for many years. In these recent years, we are also working on our weaknesses and on a mission to make us better each day. We are not the one who compromises the quality in any manner. Visit our website and choose the best suitable writer for your homework task. We are 24*7 available to answer your queries. It is very easy to place an order. Don’t worry, your payment will be safe with us and it will only be credited to the writer once you will approve the submitted work.</p>   
       <h2 > Homework Help Online From Professional Paper Writers</h2>
