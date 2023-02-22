@@ -51,10 +51,10 @@ me with my maths homework today!">
                      <div class="card shadow-md">
                         <div class="card-body">
                               <div class="row">
-                              <div class="col-md-4">
+                              <div class="col-md-3">
                                     <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" >
                               </div>
-                              <div class="col-md-4">
+                              <div class="col-md-7">
                                     <h5 class="card-title font">{{ $name[0] }}</h5>
                                     <div style="font: 15px Roboto,sans-serif; display:flex; width: 100px;">
                                           @foreach($skills as $skill)
@@ -80,10 +80,10 @@ me with my maths homework today!">
                      <div class="card shadow-md">
                         <div class="card-body">
                         <div class="row">
-                           <div class="col-md-4">
+                           <div class="col-md-3">
                               <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" >
                            </div>
-                           <div class="col-md-4">
+                           <div class="col-md-7">
                               <h5 class="card-title font">{{ $key }}</h5>
                                  <div class="" style="font: 15px Roboto,sans-serif; display:flex; width: 100px;">
                                     @foreach($value as $values)
