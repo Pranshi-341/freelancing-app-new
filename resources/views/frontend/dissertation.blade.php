@@ -55,11 +55,11 @@
                               </div>
                               <div class="col-md-7">
                                     <h5 class="card-title font">{{ $name[0] }}</h5>
-                                    <div style="font: 15px Roboto,sans-serif; display:flex; width: 100px;">
+                                    <ul class="ul_style_carousel">
                                           @foreach($skills as $skill)
-                                          <p class="card-text font" style="width: 100%;">{{ $skill }},</p>
+                                          <li class="li_style_carousel font">{{ $skill }}</li>
                                           @endforeach
-                                    </div>
+                                    </ul>
                                  <div class="row">
                                     <p class="card-text font" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
                                     <p class="card-text font" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
@@ -84,11 +84,11 @@
                            </div>
                            <div class="col-md-7">
                               <h5 class="card-title font">{{ $key }}</h5>
-                                 <div class="" style="font: 15px Roboto,sans-serif; display:flex; width: 100px;">
+                                 <ul class="ul_style_carousel" style="font: 15px Roboto,sans-serif; display:flex; width: 100px;">
                                     @foreach($value as $values)
-                                    <p class="card-text font" style="width: 100%;">{{ $values }},</p>
+                                    <li class="li_style_carousel font">{{ $values }}</li>
                                     @endforeach
-                                 </div>
+                                 </ul>
                               <div class="row">
                                  <p class="card-text font" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
                                  <p class="card-text font" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
