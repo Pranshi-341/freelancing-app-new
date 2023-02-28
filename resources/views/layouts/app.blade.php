@@ -167,6 +167,11 @@
 .bg-image1{
   background-color: rgb(0, 0, 0);
          background-image:  linear-gradient(225deg,#00cf8a,#0084d6);
+        
+    width:100%;
+    align:center;
+    transition: 0.5s;
+   
 }
   .expertise-covers-v2__card-list-item {
     align-items: center;

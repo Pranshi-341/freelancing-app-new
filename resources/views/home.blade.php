@@ -328,7 +328,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                      <div class="expertise-covers-v2__btn">
-                        <button  class="btn-sm btn-warning"><a href="order-now"  class="btn-warning " onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a></button>
+                        <button class="btn-sm btn-warning expertise-covers-v2__btn " onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</button>
                      </div>
                      </div>
                   </div>
