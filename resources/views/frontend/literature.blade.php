@@ -128,16 +128,16 @@
                      <div class="card shadow-md">
                         <div class="card-body">
                               <div class="row">
-                              <div class="col-md-4">
+                              <div class="col-md-3">
                                     <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" >
                               </div>
-                              <div class="col-md-4">
+                              <div class="col-md-7">
                                     <h5 class="card-title font">{{ $name[0] }}</h5>
-                                    <div style="font: 15px Roboto,sans-serif; display:flex; width: 100px;">
+                                    <ul class="ul_style_carousel">
                                           @foreach($skills as $skill)
-                                          <p class="card-text font" style="width: 100%;">{{ $skill }},</p>
+                                          <li class="li_style_carousel font">{{ $skill }}</li>
                                           @endforeach
-                                    </div>
+                                    </ul>
                                  <div class="row">
                                     <p class="card-text font" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
                                     <p class="card-text font" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
@@ -157,16 +157,16 @@
                      <div class="card shadow-md">
                         <div class="card-body">
                         <div class="row">
-                           <div class="col-md-4">
+                           <div class="col-md-3">
                               <img class="card-img-top" src="{{ asset('icons/profile.png') }}" alt="Card image cap" >
                            </div>
-                           <div class="col-md-4">
+                           <div class="col-md-7">
                               <h5 class="card-title font">{{ $key }}</h5>
-                                 <div class="" style="font: 15px Roboto,sans-serif; display:flex; width: 100px;">
+                                 <ul class="ul_style_carousel">
                                     @foreach($value as $values)
-                                    <p class="card-text font" style="width: 100%;">{{ $values }},</p>
+                                    <li class="li_style_carousel font">{{ $values }}</li>
                                     @endforeach
-                                 </div>
+                                 </ul>
                               <div class="row">
                                  <p class="card-text font" style="display:flex; max-width:120px; margin-left:100px;width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Completed Order</p>
                                  <p class="card-text font" style="display:flex; max-width:120px; width:100%; flex-direction: column; font-size:12px;"><span style="font-size:20px;">0</span>Reviews</p>
@@ -280,7 +280,7 @@
 </div>
 <div class="row p-3" style="background-color: #fff ;">
    <div class="col-md-12">
-      <div class="w-50 mx-auto"  style="border-bottom:4px solid; border-bottom-color:#00cf8a;">
+      <div class="w-50 mx-auto steps_of_essay_services">
          <h2 class="text-center mt-3 p-3">
          Get Your Literature Review Writing Done In 4 Easy Steps
 

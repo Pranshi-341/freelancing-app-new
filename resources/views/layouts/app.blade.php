@@ -33,6 +33,27 @@
 
     <!-- Styles -->
     <style>
+      .ul_style_carousel{
+        font: 15px Roboto,sans-serif; 
+        display:flex; 
+        margin-left:-55px; 
+        width: 100px;
+      }
+      .li_style_carousel{
+        background-color:hsla(0,0%,69.8%,.15); 
+        flex-wrap:wrap; 
+        display:flex; 
+        line-height:1.5; 
+        padding:3px 8px; 
+        margin:4px; 
+        list-style:none; 
+        width: fit-content;
+      }
+      
+      .steps_of_essay_services{
+        border-bottom:4px solid; 
+        border-bottom-color:#00cf8a;
+      }
       .other_page_carousel{
         margin-left: 340px;
       }
