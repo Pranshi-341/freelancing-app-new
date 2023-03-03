@@ -8,6 +8,7 @@
 		<!-- Main content -->
 		<section class="content">
 			<div class="row">
+			
 				@foreach ($posts as $item)
 					<div class="col-lg-4 col-12">
 						<div class="box">

@@ -8,6 +8,7 @@ use App\Models\User;
 use Illuminate\Support\Facades\DB;
 use App\Models\Publishjobs;
 use App\Models\Tabletotalbids;
+use App\Notifications\Notify;
 use Hash;
 use Session;
 
@@ -149,12 +150,27 @@ class ClientController extends Controller
                 DB::table('table_total_bids')->where('job_id' , '=' , $order_id)->update(['status' => '1']);
                 DB::table('publishjobs')->where('id' , '=' , $order_id)->update(['status' => '1']);
                 $message = array('success' => '1', 'message' => 'Payment Done');
+                
+                $user_notify = DB::table('table_total_bids')->select('user_id')->where('job_id', '=', $order_id)->first();
+                
+                $user_name = Auth::user()->name;
+                $user = $user_name . " " . "Accepted Your Bid";
+
+                $notify_data = array("notifiying_id" => $user_notify->user_id, "message" => $user);
+
+                auth()->user()->notify(new Notify($notify_data));
                 return response()->json($message);
 
             }
             
         }
         
+    }
+
+    public function notify(){
+        $user_name = Auth::user()->name;
+        $user = $user_name." " . "Accepted Your Bid";
+        auth()->user()->notify(new Notify($user));
     }
 
     public function Acceptorder(Request $request)

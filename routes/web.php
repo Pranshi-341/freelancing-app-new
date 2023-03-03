@@ -136,8 +136,13 @@ Route::get('registration', [CustomAuthController::class, 'registration'])->name(
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom'); 
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
 
-
+Route::get('/notify', [ClientController::class, 'notify']);
 
 /* Google Social Login */
 Route::get('/login/google',[GoogleLoginController::class, 'redirect'])->name('login.google-redirect');
 Route::get('/login/google/callback', [GoogleLoginController::class, 'callback'])->name('login.google-callback');
+
+Route::get('/proficiency_test', function () {
+    return View('test_form.Demo');
+});
+Route::post('proficiency_test', [Freelancer_Test::class, 'proficiency_response'])->name('proficiency_test');

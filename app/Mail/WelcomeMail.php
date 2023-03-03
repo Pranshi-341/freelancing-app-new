@@ -34,7 +34,7 @@ class WelcomeMail extends Mailable
     {
      
        return new Envelope(
-            from: new Address('laksh.kodegurus@gmail.com', 'Laksh'),
+            from: new Address('support@essaysages.com', 'Misheck Kibunja'),
             subject: 'Welcome Aboard',
         );
       

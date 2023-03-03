@@ -133,8 +133,8 @@ class frontendController extends Controller
     }
     function History(){
         $title = "History Assignment Help";
-        $topline = "We will provide affordable and high-quality Accounting, economics, and Business-Related Assignments from our qualified experts. We will also provide additional tips linked to economics and accounting concepts to provide great value for your money. ";
-        $bottomline = "Make your order and get our assistance now! ";
+        $topline = "We Will Provide Affordable and High-Quality Accounting, Economics, and Business-Related Assignments From Our Qualified Experts. We Will Also Provide Additional Tips Linked To Economics And Accounting Concepts To Provide Great Value For Your Money. ";
+        $bottomline = "Make Your Order And Get Our Assistance Now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_0@2x.webp';
         $writers = DB::table('freelancers_writers')->get();
         foreach($writers as $writer){
@@ -153,8 +153,8 @@ class frontendController extends Controller
     function Team(){
         $title = " Essay Writers Teams Page";
         $topline = "Hire Professional Essay Writers Online At Essay Sages";
-        $bottomline = "Get your academic papers done by expert Academic Essay Writers and save
-        Your time and efforts. No plagiarism, only high-quality content!";
+        $bottomline = "Get Your Academic Papers Done By Expert Academic Essay Writers And Save
+        Your Time And Efforts. No Plagiarism, Only High-quality Content!";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
         
         $writers = DB::table('freelancers_writers')->get();
@@ -174,7 +174,7 @@ class frontendController extends Controller
     function ProfessionalWriters(){
         $title = "Professional Writers";
         $topline = "";
-        $bottomline = "Make your order and get our assistance now! ";
+        $bottomline = "Make Your Order And Get Our Assistance Now! ";
         $backgroundImage =  'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
         return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
@@ -182,7 +182,7 @@ class frontendController extends Controller
     function CompetentTutors(){
         $title = "Competent Tutors";
         $topline = "";
-        $bottomline = "Make your order and get our assistance now! ";
+        $bottomline = "Make Your Order And Get Our Assistance Now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
         return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
@@ -190,7 +190,7 @@ class frontendController extends Controller
     function LicensedResearchers(){
         $title = "Licensed Researchers";
         $topline = "";
-        $bottomline = "Make your order and get our assistance now! ";
+        $bottomline = "Make Your Order And Get Our Assistance Now! ";
         $backgroundImage = 'https://asset.edusson.com/bundles/asterfreelance/_layout/images/EdussonCom/intro-v3/intro-v3_bg_desktop_3@2x.webp';
         return view('frontend.innerpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
@@ -198,7 +198,7 @@ class frontendController extends Controller
     function ContactUs(){
         $title = "Contact Us";
         $topline = "";
-        $bottomline = "contact with our team to get more information ! ";
+        $bottomline = "Contact With Our Team To Get More Information ! ";
         $backgroundImage = 'linear-gradient(225deg,#00cf8a,#0084d6)';
         return view('frontend.contactpage',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
@@ -206,7 +206,7 @@ class frontendController extends Controller
 function AboutUs(){
         $title = "About Us";
         $topline = "";
-        $bottomline = "Creating an environment where our services empower our clients to live better lives.";
+        $bottomline = "Creating An Environment Where Our Services Empower Our Clients To Live Better Lives.";
         $backgroundImage = 'linear-gradient(225deg,#00cf8a,#0084d6)';
         return view('frontend.aboutus',['title'=> $title, 'topline'=> $topline, 'bottomline'=> $bottomline, 'backgroundImage'=> $backgroundImage ]);
     }
