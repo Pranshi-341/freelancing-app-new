@@ -9,6 +9,7 @@ use Illuminate\Http\Response;
 use App\Models\freelancers_writers;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\WelcomeMail;
+use App\Mail\TestMail;
 
 class CustomAuthController extends Controller
 {
@@ -89,17 +90,17 @@ class CustomAuthController extends Controller
         
         $id = $check['id'];
         Auth::loginUsingId($id);
-        
-        if( $check['registerType'] == 1 ){
-            $send_mail = $data['email'];
-            $rere = "Test";
+        $send_mail = $data['email'];
 
+        if( $check['registerType'] == 1 ){
+            $rere = "Essay Sages";
             Mail::to($send_mail)->send(new WelcomeMail($rere));
             $message = array('success' => '1', 'message' => 'Logged In');
             return response()->json($message);
             //return redirect("/")->withSuccess('You have signed-in');
         }
         else if( $check['registerType'] == 2 ){
+            Mail::to($send_mail)->send(new TestMail($id));
             $message = array('success' => '2', 'message' => 'Logged In');
             return response()->json($message);
             //return redirect("/freelancer-panel")->withSucess('You have signed-in');

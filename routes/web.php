@@ -21,6 +21,10 @@ use App\Http\Controllers\GoogleLoginController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/proficiency_test', function () {
+    return View('test_form.Demo');
+});
+Route::post('/proficiency_submit', [\App\Http\Controllers\Freelancer_Test::class, 'proficiency_response'])->name('proficiency_submit');
 
 Route::get('/', function () {
     return View('home');
@@ -142,7 +146,3 @@ Route::get('/notify', [ClientController::class, 'notify']);
 Route::get('/login/google',[GoogleLoginController::class, 'redirect'])->name('login.google-redirect');
 Route::get('/login/google/callback', [GoogleLoginController::class, 'callback'])->name('login.google-callback');
 
-Route::get('/proficiency_test', function () {
-    return View('test_form.Demo');
-});
-Route::post('proficiency_test', [Freelancer_Test::class, 'proficiency_response'])->name('proficiency_test');
