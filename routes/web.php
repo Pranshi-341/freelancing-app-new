@@ -28,7 +28,7 @@ Route::post('/proficiency_submit', [\App\Http\Controllers\Freelancer_Test::class
 
 Route::get('/', function () {
     return View('home');
-});
+})->name('home');
 
 Route::get('/admin-panel', function () {
     return View('admin.layouts.home');
@@ -38,9 +38,12 @@ Route::get('/admin-panel/commission', function () {
     return View('admin.layouts.invoice');
 });
 
-Route::get('/admin-panel/applications', function () {
+/**Route::get('/admin-panel/applications', function () {
     return View('admin.layouts.applications');
-});
+});**/
+Route::get('/admin-panel/applications',[AdminController::class,'TestStatus']);
+Route::get('admin-panel/approve/{id}',[AdminController::class,'Approve']);
+
 Route::get('/admin-panel/orders',[AdminController::class,'AllApplications']);
 
 // Route::get('/admin-panel/orders', function () {

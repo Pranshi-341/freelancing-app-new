@@ -15,135 +15,27 @@
 							  <table id="example5" class="table mb-0 w-p100">
 								<thead>
 									<tr>
-										<th>Srno</th>
+										<th>Id No</th>
 										<th>Name</th>
 										<th>Applied Date</th>
 										<th>Type</th>
-										<th>Expertice</th>
-										<th>Status</th>
+										<th>Score</th>
+                                        <th>Actions</th>
+                                    </tr>
 									</tr>
 								</thead>
 								<tbody>
+                                    @foreach($data as $data)
 									<tr>
-										<td>001457</td>
-										<td>Johen Doe</td>
-										<td>14 Nov 2020</td>
+										<td>{{ $data->freelancer_id }}</td>
+										<td>{{ $data->name }}</td>
+										<td>{{ $data->created_at }}</td>
 										<td>Full Time</td>
-										<td>Project Manager</td>
-										<td><span class="badge badge-secondary-light">Pending</span></td>
+										<td>{{ $data->score }}</td>
+                                        <td><a href="/admin-panel/approve/{{$data->freelancer_id}}" value="{{ $data->freelancer_id }}">Approve</a></td>
 									</tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-success-light">Schedule</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-warning-light">On Hold</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-success-light">Schedule</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-warning-light">On Hold</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-warning-light">On Hold</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-warning-light">On Hold</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-success-light">Schedule</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>001457</td>
-                                        <td>Johen Doe</td>
-                                        <td>14 Nov 2020</td>
-                                        <td>Full Time</td>
-                                        <td>Project Manager</td>
-                                        <td><span class="badge badge-secondary-light">Pending</span></td>
-                                    </tr>
+                                    @endforeach
+                                    
 								</tbody>			  
 								
 							</table>

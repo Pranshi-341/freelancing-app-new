@@ -28,6 +28,7 @@ return new class extends Migration
             'remember_token' => '',
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
+            'approved' => '1',
         ];
 
         DB::table('users')->insert($data);

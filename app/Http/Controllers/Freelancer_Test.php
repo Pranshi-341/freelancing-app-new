@@ -9,7 +9,7 @@ class Freelancer_Test extends Controller
 {
     function proficiency_response(Request $request){
         $request->validate([
-            'user_mail' => required,
+            'user_mail' => 'required',
         ]);
         
         $score = 0;
@@ -58,6 +58,6 @@ class Freelancer_Test extends Controller
             $values = array('freelancer_id' => $user_id->id, 'score' => $score);
             DB::table('freelancer_results')->insert($values);
         }
-        
+        return redirect()->route('home');
     }
 }

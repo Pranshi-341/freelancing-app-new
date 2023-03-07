@@ -435,7 +435,8 @@ $('#registration_page').submit(function(e) {
         var error = response.message;
         $("#error_div").html(error);  
       } else if (response.success == 2) {
-        window.location.href = '/freelancer-panel';
+        //window.location.href = '/freelancer-panel';
+        location.reload();
       } else if (response.success == 3) {
         window.location.href = '/admin-panel';
       } else {

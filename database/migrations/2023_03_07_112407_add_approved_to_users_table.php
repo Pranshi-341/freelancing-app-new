@@ -13,10 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('freelancer_results', function (Blueprint $table) {
-            $table->id();
-            $table->string('freelancer_id');
-            $table->string('score');
+        Schema::table('users', function (Blueprint $table) {
+            $table->boolean('approved')->default(false);
         });
     }
 
@@ -27,6 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        Schema::table('users', function (Blueprint $table) {
+            //
+        });
     }
 };

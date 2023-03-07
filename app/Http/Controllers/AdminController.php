@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\Publishjobs;
 use App\Models\User;
 use App\Models\Tabletotalbids;
+use Illuminate\Support\Facades\DB;
 
 class AdminController extends Controller
 {
@@ -48,6 +49,20 @@ class AdminController extends Controller
         $posts = json_decode(json_encode($posts), true);
         
         return view('admin.layouts.jobs', compact('posts'));
+    }
+
+    public function TestStatus(){
+        $data = DB::table('users')
+                    ->join('freelancer_results', 'users.id', '=', 'freelancer_results.freelancer_id')
+                    ->select('freelancer_results.freelancer_id', 'freelancer_results.score', 'users.name', 'users.email', 'users.created_at')
+                    ->get();
+        //dd($data);
+        return View('admin.layouts.applications', compact('data'));
+    }
+
+    public function Approve(Request $request, $id){
+        DB::table('users')->where('id', '=', $id)->update(['approved' => '1']);
+        return redirect()->back();
     }
 
 }

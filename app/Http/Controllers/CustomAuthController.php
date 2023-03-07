@@ -1,5 +1,6 @@
 <?php
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
 use Hash;
 use Session;
@@ -10,6 +11,7 @@ use App\Models\freelancers_writers;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\WelcomeMail;
 use App\Mail\TestMail;
+use Illuminate\Support\Facades\DB;
 
 class CustomAuthController extends Controller
 {
@@ -36,8 +38,13 @@ class CustomAuthController extends Controller
             }
             elseif( Auth::user()->registerType == 2 )
             {
-                $message = array('success' => '2', 'message' => 'Logged In');
-                return response()->json($message);
+                if(! Auth::user()->approved){
+                    Auth::logout();
+                }else{
+                    $message = array('success' => '2', 'message' => 'Logged In');
+                    return response()->json($message);
+                }
+                
                 //return redirect()->intended('freelancer-panel')
                 //->withSuccess('Signed in');
             }
@@ -93,6 +100,7 @@ class CustomAuthController extends Controller
         $send_mail = $data['email'];
 
         if( $check['registerType'] == 1 ){
+            DB::table('users')->where('id', '=', $id)->update(['approved' => '1']);
             $rere = "Essay Sages";
             Mail::to($send_mail)->send(new WelcomeMail($rere));
             $message = array('success' => '1', 'message' => 'Logged In');
@@ -106,6 +114,7 @@ class CustomAuthController extends Controller
             //return redirect("/freelancer-panel")->withSucess('You have signed-in');
         }
         else if( $check['registerType'] == 3 ){
+            DB::table('users')->where('id', '=', $id)->update(['approved' => '1']);
             $message = array('success' => '3', 'message' => 'Logged In');
             return response()->json($message);
             //return redirect("/admin-panel")->withSuccess('You have signed-in');
