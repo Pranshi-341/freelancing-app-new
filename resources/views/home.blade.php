@@ -1,4 +1,3 @@
-.
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -177,7 +176,8 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                <div class="d-flex flex-column w-75 p-3">
                   <h5 class="text-primary w-75">
                       
-                        <span class="text-dark font font-large fw-bold">
+                        <span class="text-dark font 
+                        fw-bold">
                         Select The Writer
                         </span>
                      </strong>
@@ -254,8 +254,8 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
          </h2>
       </div>
    </div>
-   <div class="col-md-12 my-3">
-      <div class="row cs cs1">
+   <div class="col-md-12 bg-image1 my-3">
+      <div class="row cs  cs1">
         
          <div class="col-md-6">
             
@@ -328,7 +328,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                      <div class="expertise-covers-v2__btn">
-                        <button  class="btn-sm btn-warning"><a href="order-now"  class="btn-warning " onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a></button>
+                        <button class="btn-sm btn-warning expertise-covers-v2__btn " onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</button>
                      </div>
                      </div>
                   </div>
@@ -345,7 +345,7 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
          <h2 class="text-center mt-3 p-3">
          Professional Essay Writing Services | Essay Sages
          </h2>
-         <p class="font  font-large font">
+         <p class="font">
          Custom Essay Writing Service is a safe and smart option for those who spend their nights writing long paragraphs just to impress the professors and learn no new things. Essay Sages won’t waste your crucial hours. Hire our  Professional Essay Writers</b> today and do something that values!
 </p>
       </div>
@@ -355,11 +355,11 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
       <div class="row w-100">
      
           <h3 class="text-center  mt-3 p-3 pd_feature">It Is Easy To Get Writing Essay Online Service!</h3>
-         <p class="pd_feature font  font-large font">Get a free quote from our  Essay Writing Services </b>experts at Essay Sages and get an idea of ​​how much an article will cost before it starts. If you found the price satisfactory, accept the offer and watch your worries go away! Our team will ensure that you no longer have to wake up till 4 am.  Essay Sages</b> is known for providing the best writing, editing, and proofreading services available online.</p>
+         <p class="pd_feature font">Get a free quote from our  Essay Writing Services </b>experts at Essay Sages and get an idea of ​​how much an article will cost before it starts. If you found the price satisfactory, accept the offer and watch your worries go away! Our team will ensure that you no longer have to wake up till 4 am.  Essay Sages</b> is known for providing the best writing, editing, and proofreading services available online.</p>
           <h3 class="text-center  mt-3 p-3 pd_feature"> Why Do Customers Keep Choosing Essay Sages? </h3>
-         <p class="pd_feature  font-large font" >We carefully select all of our writers to ensure that each one of them demonstrates the highest level of professionalism, skill, and dedication. Such an approach allows us to provide the highest quality articles to anyone who turns to us to Write My Essay. Our experienced team of professionals produces all types of documents, in all areas and at all levels of complexity. From simple one-page essays to in-depth and complex essays -  Essay Sages</b> has it covered. With our extensive experience, we create customized documents for the unique needs of each client. We are also ready to take on any educational challenge you can think of. When you come to us for help, you get the best Essay Writing service at the right time!</p>
+         <p class="pd_feature font" >We carefully select all of our writers to ensure that each one of them demonstrates the highest level of professionalism, skill, and dedication. Such an approach allows us to provide the highest quality articles to anyone who turns to us to Write My Essay. Our experienced team of professionals produces all types of documents, in all areas and at all levels of complexity. From simple one-page essays to in-depth and complex essays -  Essay Sages</b> has it covered. With our extensive experience, we create customized documents for the unique needs of each client. We are also ready to take on any educational challenge you can think of. When you come to us for help, you get the best Essay Writing service at the right time!</p>
           <h3 class="text-center pd_feature">Quick Work Delivery</h3>
-         <p class="pd_feature  font-large font">Our writing team knows that a student's life often involves juggling multiple tasks and pursuing multiple important goals at the same time. But what if you are always drained? Do you feel like it's impossible to keep up with your seemingly successful peers no matter how hard you try?
+         <p class="pd_feature font">Our writing team knows that a student's life often involves juggling multiple tasks and pursuing multiple important goals at the same time. But what if you are always drained? Do you feel like it's impossible to keep up with your seemingly successful peers no matter how hard you try?
  We've been there - it's not your fault. The thing is that it almost always takes less time to manage all your tasks properly. It can put a lot of pressure on you, making it difficult for you to check all the boxes on your list. And, often, pushing yourself to achieve negative goals leads to even more problems, including fatigue and even depression.
 </p>
 <p class=" font-large font">

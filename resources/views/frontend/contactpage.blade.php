@@ -43,7 +43,7 @@
       <div class="card mb-3">
       
       
-         <div class="card-body font">
+         <div class="card-body bg-image1 font">
          <h4 class="card-title fw-bold text-center">Contact At</h4>
         
             <p class=" text-center">New York, NY 10012, US</p>
@@ -78,7 +78,7 @@
                   <textarea class="form-control" rows="5" name="message" required></textarea>
                </div>
                <div class="text-center" style="padding-bottom:20px;">
-               <button type="submit" class="btn-sm btn-warning my-2">Submit</button>
+               <button type="submit" class="text-center btn-sm btn-warning expertise-covers-v2__btn">Submit</button>
                </div>
             </form>
          </div>

@@ -326,7 +326,7 @@
          </h2>
       </div>
    </div>
-   <div class="col-md-12">
+   <div class="col-md-12 bg-image1 my-3">
       <div class="row cs  cs1">
         
          <div class="col-md-6">
@@ -400,7 +400,7 @@
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                      <div class="expertise-covers-v2__btn">
-                        <a href="order-now" class="btn-sm btn-warning" onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</a>
+                     <button class="btn-sm btn-warning expertise-covers-v2__btn " onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</button>
                      </div>
                      </div>
                   </div>
@@ -494,7 +494,7 @@ So, hire writers at Essay Sages for History Assignment Help and enjoy good grade
         </div>
         </div>
         <div class="text-center" style="padding-bottom:20px;">
-        <a class="text-center moreless-button btn-sm btn-warning expertise-covers-v2__btn" href="">Read more</a>        
+        <button class="text-center moreless-button btn-sm btn-warning expertise-covers-v2__btn">Read more</button>        
  </div>
  </div>
         
