@@ -116,6 +116,7 @@ window.onscroll = function() {myFunction()};
 }
 
    </script>
+  
    <header class="page-header page-header_writer js_header__wrapper  ">
 <nav class="h5 shadow-lg sticky navbar navbar-expand-lg navbar-dark overlay  font-weight-bold">
   <div class="container-fluid overlay-content">
@@ -197,9 +198,9 @@ window.onscroll = function() {myFunction()};
       @else
       {{-- check auth --}}
       @if(Auth::user()->registerType == 1)
-        <a class="btn-sm btn-warning my-2 " type="submit" href="/posts" >Your Publish Jobs</a>
-        <a class="btn-sm btn-warning my-2 mx-2" type="submit" href="/order-now" >Order Now</a>
-        <a class="btn-sm btn-warning my-2 my-sm-0" type="submit" href="{{ route('signout') }}" >Signout</a>
+        <a class="btn-sm btn-warning my-2 " style="text-decoration:none;" type="submit" href="/posts" >Your Publish Jobs</a>
+        <a class="btn-sm btn-warning my-2 mx-2"  style="text-decoration:none;" type="submit" href="/order-now" >Order Now</a>
+        <a class="btn-sm btn-warning my-2 my-sm-0"  style="text-decoration:none;" type="submit" href="{{ route('signout') }}" >Signout</a>
       @elseif(Auth::user()->registerType == 2)
         <a class="btn-sm btn-warning my-2 " type="submit" href="/freelancer-panel" >Go into Dashboard</a>
       @endif

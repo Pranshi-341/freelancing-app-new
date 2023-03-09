@@ -96,10 +96,10 @@
         
          <p  class="font fw-bold " style="color: #ffc107;">{{$bottomline}}</p>
          <div class="col-md-8 mt-5 mb-5 row d-flex justify-content-between ">
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" />Quick Service</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> Professional Writing Expert</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" /><span class="font pad">Quick Service</span></div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" /> <span class="font pad"> Professional Writing Expert</span></div>
             
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" />Free Edits</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" /><span class="font pad"> Free Edits</span></div>
          </div>
       </div>
    </div>

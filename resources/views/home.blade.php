@@ -29,9 +29,10 @@ Meticulously Done. Our Competence Is Unmatched. Once You Submit An Order, You Wi
 High-Quality, Customized, and Unique Work Done. We Have a Great Deal To Offer So Please Take
 Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
          <div class="col-md-8 mt-5 mb-5 row d-flex justify-content-between ">
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon font" src="{{ asset('icons/24-hours.png') }}" alt="Essay Writing Service"/>Quick Service</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon " src="{{ asset('icons/convenient.png') }}" alt="Writing Essay Company"/> Professional Writing Expert</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Easy Essay Writing Service"/>Free Edits</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon font" src="{{ asset('icons/24-hours.png') }}" alt="Essay Writing Service"/>
+            <span class="font pad"><span class="font pad">Quick Service</span></span></div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon " src="{{ asset('icons/convenient.png') }}" alt="Writing Essay Company"/> <span class="font pad"> Professional Writing Expert</span></div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Easy Essay Writing Service"/><span class="font pad"> Free Edits</span></div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
            
@@ -328,7 +329,15 @@ Your Time To Browse Our Website To Discover More About Us and What We Offer.</p>
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                      <div class="expertise-covers-v2__btn">
-                        <button class="btn-sm btn-warning expertise-covers-v2__btn " onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</button>
+                     @guest
+                      <button class="btn-sm btn-warning expertise-covers-v2__btn " data-toggle="modal" data-target="#register_modal" id="popup"  >Order Paper</button>
+                      @else
+                      {{-- check auth --}}
+                      @if(Auth::user()->registerType == 1)
+                      <a class="btn-sm btn-warning my-2 mx-2"  style="text-decoration:none;" type="submit" href="/order-now" >Order Now</a>
+                      @endif
+                      @endguest
+                  
                      </div>
                      </div>
                   </div>
@@ -492,6 +501,71 @@ In any case, if you find the whole task inappropriate, which is impossible, you 
    $(window).on('load', function() {
         $('#modalCoupon').modal('show');
     });
+
+    $('#login_page').submit(function(e) {
+  e.preventDefault();
+  let formData = new FormData(this);
+
+  $.ajax({
+    type: 'POST',
+    url: "{{ route('login.custom') }}",
+    data: formData,
+    processData: false,
+    contentType: false,
+    success: function (response) {
+      
+      if(response.success == 0) {
+        var error = response.message;
+        $("#error_div").html(error);  
+      } else if (response.success == 2) {
+        window.location.href = '/freelancer-panel';
+      } else if (response.success == 3) {
+        window.location.href = '/admin-panel';
+      } else {
+        window.location.href = '/';
+      }
+      //
+    },
+    error: function (error) {
+      let errors = error.responseJSON.message;
+      $("#error_div").html(errors);
+      
+    }
+  });
+});
+
+$('#registration_page').submit(function(e) {
+  e.preventDefault();
+  let formData = new FormData(this);
+
+  $.ajax({
+    type: 'POST',
+    url: "{{ route('register.custom') }}",
+    data: formData,
+    processData: false,
+    contentType: false,
+    success: function (response) {
+      
+      if(response.success == 0) {
+        var error = response.message;
+        $("#error_div").html(error);  
+      } else if (response.success == 2) {
+        //window.location.href = '/freelancer-panel';
+        location.reload();
+      } else if (response.success == 3) {
+        window.location.href = '/admin-panel';
+      } else {
+        window.location.href = '/';
+      }
+      //
+    },
+    error: function (error) {
+      let errors = error.responseJSON.message;
+      $("#reg_error").html(errors);
+      
+    }
+  });
+});
    
 </script>
 @endsection

@@ -49,6 +49,7 @@ Route::get('/admin-panel/orders',[AdminController::class,'AllApplications']);
 // Route::get('/admin-panel/orders', function () {
 //     return View('admin.layouts.jobs');
 // });
+Route::get('/order_nowbtn',[CustomAuthController::class,'order_nowbtn']);
 
 Route::get('/admin-panel/chat', function () {
     return View('admin.layouts.chat');
