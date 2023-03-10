@@ -32,7 +32,11 @@
 										<td>{{ $data->created_at }}</td>
 										<td>Full Time</td>
 										<td>{{ $data->score }}</td>
-                                        <td><a href="/admin-panel/approve/{{$data->freelancer_id}}" value="{{ $data->freelancer_id }}">Approve</a></td>
+										@if($data->approved == 0)
+                                        	<td><a class="badge badge-warning" href="/admin-panel/approve/{{$data->freelancer_id}}" value="{{ $data->freelancer_id }}">Approve</a></td>
+										@else
+											<td><span class="badge badge-success">Approved</span></td>
+										@endif
 									</tr>
                                     @endforeach
                                     

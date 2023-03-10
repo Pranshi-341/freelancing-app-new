@@ -39,7 +39,9 @@ class CustomAuthController extends Controller
             elseif( Auth::user()->registerType == 2 )
             {
                 if(! Auth::user()->approved){
+                    $message = array('success' => '0', 'message' => 'Your Account Not Approved Yet');
                     Auth::logout();
+                    return response()->json($message);
                 }else{
                     $message = array('success' => '2', 'message' => 'Logged In');
                     return response()->json($message);
