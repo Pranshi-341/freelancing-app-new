@@ -97,14 +97,14 @@
      <p class="w-50 font fw-bold text-center">{{$topline}}</p>         
          <p  class="font fw-bold" style="color: #ffc107;">{{$bottomline}}</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Writing a Literature Review"/>Hassle-Free Order Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Literature Review Writing"/>Qualified Writing Experts</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Help With Literature Review"/>On-Time Delivery</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Writing a Literature Review"/><span class="font pad"> Hassle-Free Order Process</span></div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Literature Review Writing"/><span class="font pad">Qualified Writing Experts</span></div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Help With Literature Review"/><span class="font pad">On-Time Delivery</span></div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Writing A Literature Review"/>24*7 Service Available</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Review Writing"/>Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Writing A Literature Review"/>Plagiarism-Free Content </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="Writing A Literature Review"/><span class="font pad">24*7 Service Available</span></div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Review Writing"/><span class="font pad">Full Privacy</span></div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Writing A Literature Review"/><span class="font pad">Plagiarism-Free Content</span> </div>
          </div>
       </div>
    </div>
@@ -478,7 +478,14 @@
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For   FREE</b></p>
                      <div class="expertise-covers-v2__btn">
-                     <button class="btn-sm btn-warning expertise-covers-v2__btn " onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</button>
+                      @guest
+                      <button class="btn-sm btn-warning expertise-covers-v2__btn " data-toggle="modal" data-target="#register_modal" id="popup"  >Order Paper</button>
+                      @else
+                      {{-- check auth --}}
+                      @if(Auth::user()->registerType == 1)
+                      <a class="btn-sm btn-warning my-2 mx-2"  style="text-decoration:none;" type="submit" href="/order-now" >Order Now</a>
+                      @endif
+                      @endguest
                      </div>
                      </div>
                   </div>

@@ -23,14 +23,14 @@
          
          <p class="font fw-bold" style="color: #ffc107;">Make your order and get our assistance now!</p>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Academic Essay Writers"/>Hassle-Free Order Process</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Hire Essay Writers"/>Qualified Writing Experts</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Professional Essay Writer"/>On-Time Delivery</div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/convenient.png') }}" alt="Academic Essay Writers"/><span class="font pad"> Hassle-Free Order Process</span></div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/24-hours.png') }}" alt="Hire Essay Writers"/><span class="font pad">Qualified Writing Experts</span></div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/saving.png') }}" alt="Professional Essay Writer"/><span class="font pad">On-Time Delivery</span></div>
          </div>
          <div class="mt-5 mb-5 row d-flex w-50 justify-content-between">
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="est Writing Service"/>24*7 Service Available</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Pay Someone To Do Your Essay"/>Full Privacy</div>
-            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Online Help With Essay Writing"/>Plagiarism-Free Content </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/certificate.png') }}" alt="est Writing Service"/><span class="font pad">24*7 Service Available</span></div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/shield.png') }}" alt="Pay Someone To Do Your Essay"/><span class="font pad">Full Privacy</span></div>
+            <div class="col-sm-4 d-flex flex-column align-items-center font"><img class="home-search-icon" src="{{ asset('icons/original.png') }}" alt="Online Help With Essay Writing"/><span class="font pad">Plagiarism-Free Content</span> </div>
             
          </div>
       </div>
@@ -401,7 +401,14 @@
                         </ul>
                                     <p class="expertise-covers-v2__summary">Get All Those Features For  <b>FREE</b></p>
                 <div class="expertise-covers-v2__btn">
-                <button class="btn-sm btn-warning expertise-covers-v2__btn " onclick="gta('send','event','CTA','click','get_essay_help');">Order Paper</button>
+                 @guest
+                      <button class="btn-sm btn-warning expertise-covers-v2__btn " data-toggle="modal" data-target="#register_modal" id="popup"  >Order Paper</button>
+                      @else
+                      {{-- check auth --}}
+                      @if(Auth::user()->registerType == 1)
+                      <a class="btn-sm btn-warning my-2 mx-2"  style="text-decoration:none;" type="submit" href="/order-now" >Order Now</a>
+                      @endif
+                      @endguest
                 </div>                     </div>
                   </div>
                </div>
