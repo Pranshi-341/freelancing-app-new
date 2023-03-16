@@ -87,6 +87,7 @@
                                         
                                     @else
                                         <button disabled class="btn-sm  btn-success btn-sm " >Order Accepted</button>
+                                        <a class="btn-sm btn-success my-2 " style="text-decoration:none;" type="submit" href="{{ url('userchat/'.$post['owner_id']) }}" >Chat</a>
                                     @endif
                                     @endif
                                     {{-- add button view order --}}

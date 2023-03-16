@@ -16,7 +16,7 @@ use App\Models\Chat_request;
 
 use Auth;
 
-class SocketController extends Controller implements MessageComponentInterface
+class SocketController extends CustomAuthController implements MessageComponentInterface
 {
     protected $clients;
 
@@ -523,13 +523,13 @@ class SocketController extends Controller implements MessageComponentInterface
 
         if(isset($queryarray['token']))
         {
-            User::where('token', $queryarray['token'])->update([ 'connection_id' => 0, 'user_status' => 'Offline' ]);
+            User::where('token', $queryarray['token'])->update([ 'connection_id' => 0, 'user_status' => 'Online' ]);
 
             $user_id = User::select('id', 'updated_at')->where('token', $queryarray['token'])->get();
 
             $data['id'] = $user_id[0]->id;
 
-            $data['status'] = 'Offline';
+            $data['status'] = 'Online';
 
             $updated_at = $user_id[0]->updated_at;
 

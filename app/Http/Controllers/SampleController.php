@@ -48,7 +48,7 @@ class SampleController extends Controller
         ]);
 
         $credentials = $request->only('email', 'password');
-
+ print_r($credentials); die();
         if(Auth::attempt($credentials))
         {
             $token = md5(uniqid());

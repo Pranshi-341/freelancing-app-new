@@ -33,13 +33,14 @@ class ClientController extends Controller
 
     function PublishWritterPost(Request $request)
     {
+       
         $request->validate([
             'writterSubject' => 'required',
             'writterTopic' => 'required',
             'writterPages' => 'required',
             'writterBudget' => 'required',
             'writterDeadline' => 'required',
-            'writterInstructions' => 'required',
+            // 'writterInstructions' => 'required',
         ]);
 
         $data['owner_id'] = Auth::user()->id;
@@ -50,7 +51,7 @@ class ClientController extends Controller
         $data['budget'] = $request->writterBudget;
         $data['deadline'] = $request->writterDeadline;
         $data['instructions'] = $request->writterInstructions;
-        
+        //dd($data);
         if ($request->hasFile('writterFile')) {
             $file = $request->file('writterFile');
             $fileName = $file->getClientOriginalName();
@@ -79,7 +80,7 @@ class ClientController extends Controller
             'writterPages' => 'required',
             'writterBudget' => 'required',
             'writterDeadline' => 'required',
-            'writterInstructions' => 'required',
+            // 'writterInstructions' => 'required',
         ]);
 
         $data['owner_id'] = Auth::user()->id;

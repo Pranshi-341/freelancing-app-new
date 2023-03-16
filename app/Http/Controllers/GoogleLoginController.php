@@ -31,11 +31,14 @@ class GoogleLoginController extends Controller
             $user = Socialite::driver('google')->user();
        
             $finduser = User::where('email', $user->email)->first();
-       
+            //print_r($finduser); die();
+            
             if (!empty($finduser->id)) {
        
                 Auth::loginUsingId($finduser->id);
-
+                
+                $token = md5(uniqid());
+                User::where('id', Auth::id())->update([ 'token' => $token ]);
                 if($finduser->registerType == 1){
                     return redirect("/")->withSuccess('You have signed-in');
                 }else if($finduser->registerType == 2){
@@ -45,11 +48,12 @@ class GoogleLoginController extends Controller
                 }
        
             } else {
-                
+                $token = md5(uniqid());
                 $newUser = User::create([
                     'name' => $user->name,
                     'email' => $user->email,
                     'google_id'=> $user->id,
+                    'token' => $token,
                     'password' => 'dummypass',// you can change auto generate password here and send it via email but you need to add checking that the user need to change the password for security reasons
                     'registerType' => '1',
                 ]);

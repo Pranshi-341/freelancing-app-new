@@ -79,7 +79,9 @@ Route::get('/freelancer-panel/orders', function () {
 Route::get('/freelancer-panel/chat', function () {
     return View('freelancer-panel.layouts.chat');
 });
-
+Route::get('/userchat/{id}', function () {
+    return View('layouts.chatuser');
+});
 // Route::get('/freelancer/jobs-details', function () {
 //     return View('freelancer-panel.layouts.job-detail');
 // });

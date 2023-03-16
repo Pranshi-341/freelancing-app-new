@@ -28,6 +28,7 @@ class CustomAuthController extends Controller
         ]);
    
         $credentials = $request->only('email', 'password');
+        //print_r($credentials); die();
         if (Auth::attempt($credentials)) {
             if( Auth::user()->registerType == 1 )
             {
@@ -100,6 +101,7 @@ class CustomAuthController extends Controller
         $send_mail = $data['email'];
 
         if( $check['registerType'] == 1 ){
+           
             DB::table('users')->where('id', '=', $id)->update(['approved' => '1']);
             $rere = "Essay Sages";
             Mail::to($send_mail)->send(new WelcomeMail($rere));

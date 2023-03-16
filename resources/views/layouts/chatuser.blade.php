@@ -2,7 +2,7 @@
 @section('content')
 
 
-   @include('freelancer-panel/layouts/asidebarMain')
+   
    <div class="content-wrapper">
 	  <div class="container-full">
 		<!-- Main content -->
@@ -88,7 +88,7 @@
 </style>
 <script>
 
-var conn = new WebSocket('ws://127.0.0.1:8090/?token={{ Auth::user()->token }}');
+var conn = new WebSocket('ws://127.0.0.1:8090/?token={{ auth()->user()->token }}');
 var tokens= "{{ Auth::user()->token }}";
 
 var from_user_id = "{{ Auth::user()->id }}";
@@ -277,6 +277,8 @@ conn.onmessage = function(e){
 		{
 			for(var count = 0; count < data.data.length; count++)
 			{
+                var userid="{{ request()->id }}";
+                if(data.data[count].id==userid){
 				html += `
 				<a href="#" class="list-group-item d-flex justify-content-between align-items-start" onclick="make_chat_area(`+data.data[count].id+`, '`+data.data[count].name+`'); load_chat_data(`+from_user_id+`, `+data.data[count].id+`); ">
 					<div class="ms-2 me-auto">
@@ -317,6 +319,7 @@ conn.onmessage = function(e){
 					<span class="user_unread_message" data-id="`+data.data[count].id+`" id="user_unread_message_`+data.data[count].id+`"></span>
 				</a>
 				`;
+            }
 			}
 		}
 		else
