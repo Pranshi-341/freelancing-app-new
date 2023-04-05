@@ -13,13 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('freelancer_results', function (Blueprint $table) {
-            $table->id();
-            $table->string('freelancer_id');
-            $table->string('score');
+        Schema::table('publishjobs', function (Blueprint $table) {
+            $table->string('bidder_id')->nullable();
         });
     }
-
+ 
     /**
      * Reverse the migrations.
      *
@@ -27,6 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        Schema::table('publishjobs', function (Blueprint $table) {
+            $table->dropColumn('bidder_id');
+        });
     }
 };

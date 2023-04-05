@@ -87,13 +87,13 @@
 }
 </style>
 <script>
-
 var conn = new WebSocket('ws://127.0.0.1:8090/?token={{ auth()->user()->token }}');
 var tokens= "{{ Auth::user()->token }}";
 
 var from_user_id = "{{ Auth::user()->id }}";
+var from_bidder_id = "{{request()->route()->id }}";
 
-
+console.log(from_bidder_id);
 var to_user_id = "";
 
 console.log(tokens);
@@ -277,8 +277,7 @@ conn.onmessage = function(e){
 		{
 			for(var count = 0; count < data.data.length; count++)
 			{
-                var userid="{{ request()->id }}";
-                if(data.data[count].id==userid){
+                if(data.data[count].id==from_bidder_id){
 				html += `
 				<a href="#" class="list-group-item d-flex justify-content-between align-items-start" onclick="make_chat_area(`+data.data[count].id+`, '`+data.data[count].name+`'); load_chat_data(`+from_user_id+`, `+data.data[count].id+`); ">
 					<div class="ms-2 me-auto">

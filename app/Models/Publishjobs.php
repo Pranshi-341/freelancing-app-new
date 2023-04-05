@@ -18,5 +18,5 @@ class Publishjobs extends Model
         'instructions',
         'status',
         'budget',
-    ];
+        'bidder_id'    ];
 }

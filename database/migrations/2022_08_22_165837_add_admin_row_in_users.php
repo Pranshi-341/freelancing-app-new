@@ -42,7 +42,17 @@ return new class extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            //
-        });
+            $data = [
+                'name' => 'Admin',
+                'email' => 'admin1@gmail.com',
+                'password' => bcrypt('Admin1@1234'),
+                'registerType' => 3,
+                'remember_token' => '',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
+                'approved' => '1',
+            ];
+    
+            DB::table('users')->insert($data);        });
     }
 };

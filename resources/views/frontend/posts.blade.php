@@ -87,11 +87,11 @@
                                         
                                     @else
                                         <button disabled class="btn-sm  btn-success btn-sm " >Order Accepted</button>
-                                        <a class="btn-sm btn-success my-2 " style="text-decoration:none;" type="submit" href="{{ url('userchat/'.$post['owner_id']) }}" >Chat</a>
+                                        <a class="btn-sm btn-success my-2 " style="text-decoration:none;" type="submit" href="{{ url('userchat/'.$post['bidPost'][0]['user_id']) }}" >Chat</a>
                                     @endif
                                     @endif
                                     {{-- add button view order --}}
-                                    <a  class="btn-sm btn-warningbtn-sm ">Delete</a>
+                                    <a  class="btn-sm btn-warning btn-sm ">Delete</a>
                                 </td>
                                 <td>
                                     @if(!$post['bidPost'])

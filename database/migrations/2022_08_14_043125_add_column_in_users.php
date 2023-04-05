@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::table('users', function (Blueprint $table) {
             //
             $table->string('registerType')->nullable();
+            $table->boolean('approved')->default(false);
         });
     }
 
@@ -28,7 +29,8 @@ return new class extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             //
-            $table->dropColumn('registerType');
+           // $table->dropColumn('registerType');
+           // $table->dropColumn('approved');
         });
     }
 };

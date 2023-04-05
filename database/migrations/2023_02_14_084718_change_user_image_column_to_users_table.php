@@ -27,8 +27,7 @@ return new class extends Migration
     {
         
         Schema::table('users', function (Blueprint $table) {
-            $table->string('user_image
-            ')->unique();
+            $table->string('user_image')->nullable()->change();
         });
     }
 };

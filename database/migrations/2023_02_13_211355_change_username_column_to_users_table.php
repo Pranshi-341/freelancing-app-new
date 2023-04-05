@@ -26,7 +26,8 @@ return new class extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('name')->unique();
+            $table->string('name')->nullable()->change();
+
         });
     }
 };
