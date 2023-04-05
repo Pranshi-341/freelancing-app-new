@@ -174,7 +174,7 @@ conn.onmessage = function(e){
 				html += `
 				<li class="list-group-item">
 					<div class="row">
-						<div class="col col-9">`+user_image+`&nbsp;`+data.data[count].name+`</div>
+						<div class="col col-9">`+user_image+`<b style="color:white;"> &nbsp;`+data.data[count].name+`</b> </div>
 						<div class="col col-3">
 							<button type="button" name="send_request" class="btn btn-primary btn-sm float-end" onclick="send_request(this, `+from_user_id+`, `+data.data[count].id+`)"><i class="fas fa-paper-plane"></i></button>
 						</div>
@@ -441,7 +441,7 @@ conn.onmessage = function(e){
 				html +=`
 				<div class="row">
 					<div class="col col-3">&nbsp;</div>
-					<div class="col col-9 alert alert-success text-dark shadow-sm">
+					<div class="col col-9 alert alert-success font-large shadow-sm">
 					`+data.chat_history[count].chat_message+ icon_style + `
 					</div>
 				</div>
@@ -458,7 +458,7 @@ conn.onmessage = function(e){
 
 				html += `
 				<div class="row">
-					<div class="col col-9 alert alert-light text-dark shadow-sm">
+					<div class="col col-9 alert alert-light font-large shadow-sm">
 					`+data.chat_history[count].chat_message+`
 					</div>
 				</div>
@@ -606,7 +606,7 @@ function make_chat_area(user_id, to_user_name)
 		<label class="btn btn-dark" style="line-height:125px;">
 			<i class="fas fa-upload"></i> <input type="file" id="browse_image" onchange="upload_image()" hidden />
 		</label>
-		<button type="button" class="btn btn-success" id="send_button" onclick="send_chat_message()"><i class="fas fa-paper-plane"></i></button>
+		<button type="button" class="btn-sm btn-success font-large my-2 mx-2" id="send_button" onclick="send_chat_message()"><i class="fas fa-paper-plane"></i></button>
 	</div>
 	`;
 
