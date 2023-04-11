@@ -54,9 +54,9 @@ class AdminController extends Controller
     public function TestStatus(){
         $data = DB::table('users')
                     ->join('freelancer_results', 'users.id', '=', 'freelancer_results.freelancer_id')
-                    ->select('freelancer_results.freelancer_id', 'freelancer_results.score', 'users.name', 'users.email', 'users.created_at')
+                    ->select('freelancer_results.freelancer_id', 'freelancer_results.score', 'users.approved', 'users.name', 'users.email', 'users.created_at')
                     ->get();
-        //dd($data);
+        // dd($data);
         return View('admin.layouts.applications', compact('data'));
     }
 
